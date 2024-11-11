@@ -1,0 +1,985 @@
+{
+    "items": [
+        {
+            "prizeID": 8,
+            "playerID": "*****6422",
+            "bet": 1045.0,
+            "effectiveBetForBetMultiplier": 1045.0,
+            "effectiveBetForFreeRounds": 1045.0,
+            "memberCurrency": "KRW",
+            "countryID": "KR"
+        },
+        {
+            "prizeID": 6,
+            "playerID": "*****3460",
+            "bet": 7500.0,
+            "effectiveBetForBetMultiplier": 7500.0,
+            "effectiveBetForFreeRounds": 7500.0,
+            "memberCurrency": "IDR",
+            "countryID": "ID"
+        },
+        {
+            "prizeID": 6,
+            "playerID": "*****8993",
+            "bet": 30.0,
+            "effectiveBetForBetMultiplier": 30.0,
+            "effectiveBetForFreeRounds": 30.0,
+            "memberCurrency": "THB",
+            "countryID": "TH"
+        },
+        {
+            "prizeID": 8,
+            "playerID": "*****7912",
+            "bet": 3160.0,
+            "effectiveBetForBetMultiplier": 3160.0,
+            "effectiveBetForFreeRounds": 3160.0,
+            "memberCurrency": "IDR",
+            "countryID": "ID"
+        },
+        {
+            "prizeID": 7,
+            "playerID": "*****9461",
+            "bet": 400.0,
+            "effectiveBetForBetMultiplier": 400.0,
+            "effectiveBetForFreeRounds": 400.0,
+            "memberCurrency": "KRW",
+            "countryID": "KR"
+        },
+        {
+            "prizeID": 3,
+            "playerID": "*****8961",
+            "bet": 2500.0,
+            "effectiveBetForBetMultiplier": 2500.0,
+            "effectiveBetForFreeRounds": 2500.0,
+            "memberCurrency": "IDR",
+            "countryID": "ID"
+        },
+        {
+            "prizeID": 6,
+            "playerID": "*****9824",
+            "bet": 2400.0,
+            "effectiveBetForBetMultiplier": 2400.0,
+            "effectiveBetForFreeRounds": 2400.0,
+            "memberCurrency": "IDR",
+            "countryID": "ID"
+        },
+        {
+            "prizeID": 8,
+            "playerID": "*****2357",
+            "bet": 600.0,
+            "effectiveBetForBetMultiplier": 600.0,
+            "effectiveBetForFreeRounds": 600.0,
+            "memberCurrency": "KRW",
+            "countryID": "KR"
+        },
+        {
+            "prizeID": 6,
+            "playerID": "*****2020",
+            "bet": 2.0,
+            "effectiveBetForBetMultiplier": 2.0,
+            "effectiveBetForFreeRounds": 2.0,
+            "memberCurrency": "IDR2",
+            "countryID": "ID"
+        },
+        {
+            "prizeID": 8,
+            "playerID": "*****7374",
+            "bet": 1800.0,
+            "effectiveBetForBetMultiplier": 1800.0,
+            "effectiveBetForFreeRounds": 1800.0,
+            "memberCurrency": "KRW",
+            "countryID": "KR"
+        },
+        {
+            "prizeID": 6,
+            "playerID": "*****4818",
+            "bet": 2500.0,
+            "effectiveBetForBetMultiplier": 2500.0,
+            "effectiveBetForFreeRounds": 2500.0,
+            "memberCurrency": "IDR",
+            "countryID": "ID"
+        },
+        {
+            "prizeID": 6,
+            "playerID": "*****3501",
+            "bet": 680.0,
+            "effectiveBetForBetMultiplier": 680.0,
+            "effectiveBetForFreeRounds": 680.0,
+            "memberCurrency": "KRW",
+            "countryID": "KR"
+        },
+        {
+            "prizeID": 7,
+            "playerID": "*****1483",
+            "bet": 2000.0,
+            "effectiveBetForBetMultiplier": 2000.0,
+            "effectiveBetForFreeRounds": 2000.0,
+            "memberCurrency": "IDR",
+            "countryID": "ID"
+        },
+        {
+            "prizeID": 6,
+            "playerID": "*****7278",
+            "bet": 5100.0,
+            "effectiveBetForBetMultiplier": 5100.0,
+            "effectiveBetForFreeRounds": 5100.0,
+            "memberCurrency": "KRW",
+            "countryID": "KR"
+        },
+        {
+            "prizeID": 6,
+            "playerID": "*****6928",
+            "bet": 450.0,
+            "effectiveBetForBetMultiplier": 450.0,
+            "effectiveBetForFreeRounds": 450.0,
+            "memberCurrency": "KRW",
+            "countryID": "KR"
+        },
+        {
+            "prizeID": 2,
+            "playerID": "*****0109",
+            "bet": 6250.0,
+            "effectiveBetForBetMultiplier": 6250.0,
+            "effectiveBetForFreeRounds": 6250.0,
+            "memberCurrency": "IDR",
+            "countryID": "ID"
+        },
+        {
+            "prizeID": 6,
+            "playerID": "*****1770",
+            "bet": 2500.0,
+            "effectiveBetForBetMultiplier": 2500.0,
+            "effectiveBetForFreeRounds": 2500.0,
+            "memberCurrency": "IDR",
+            "countryID": "ID"
+        },
+        {
+            "prizeID": 7,
+            "playerID": "*****7832",
+            "bet": 5175.0,
+            "effectiveBetForBetMultiplier": 5175.0,
+            "effectiveBetForFreeRounds": 5175.0,
+            "memberCurrency": "IDR",
+            "countryID": "ID"
+        },
+        {
+            "prizeID": 6,
+            "playerID": "*****5198",
+            "bet": 2100.0,
+            "effectiveBetForBetMultiplier": 2100.0,
+            "effectiveBetForFreeRounds": 2100.0,
+            "memberCurrency": "IDR",
+            "countryID": "ID"
+        },
+        {
+            "prizeID": 8,
+            "playerID": "*****5050",
+            "bet": 5000.0,
+            "effectiveBetForBetMultiplier": 5000.0,
+            "effectiveBetForFreeRounds": 5000.0,
+            "memberCurrency": "IDR",
+            "countryID": "ID"
+        },
+        {
+            "prizeID": 8,
+            "playerID": "*****9938",
+            "bet": 2500.0,
+            "effectiveBetForBetMultiplier": 2500.0,
+            "effectiveBetForFreeRounds": 2500.0,
+            "memberCurrency": "IDR",
+            "countryID": "ID"
+        },
+        {
+            "prizeID": 8,
+            "playerID": "*****6240",
+            "bet": 3750.0,
+            "effectiveBetForBetMultiplier": 3750.0,
+            "effectiveBetForFreeRounds": 3750.0,
+            "memberCurrency": "IDR",
+            "countryID": "ID"
+        },
+        {
+            "prizeID": 7,
+            "playerID": "*****3072",
+            "bet": 20000.0,
+            "effectiveBetForBetMultiplier": 20000.0,
+            "effectiveBetForFreeRounds": 20000.0,
+            "memberCurrency": "IDR",
+            "countryID": "ID"
+        },
+        {
+            "prizeID": 6,
+            "playerID": "*****2127",
+            "bet": 4350.0,
+            "effectiveBetForBetMultiplier": 4350.0,
+            "effectiveBetForFreeRounds": 4350.0,
+            "memberCurrency": "KRW",
+            "countryID": "KR"
+        },
+        {
+            "prizeID": 6,
+            "playerID": "*****3536",
+            "bet": 7850.0,
+            "effectiveBetForBetMultiplier": 7850.0,
+            "effectiveBetForFreeRounds": 7850.0,
+            "memberCurrency": "IDR",
+            "countryID": "ID"
+        },
+        {
+            "prizeID": 7,
+            "playerID": "*****6195",
+            "bet": 2000.0,
+            "effectiveBetForBetMultiplier": 2000.0,
+            "effectiveBetForFreeRounds": 2000.0,
+            "memberCurrency": "IDR",
+            "countryID": "ID"
+        },
+        {
+            "prizeID": 7,
+            "playerID": "*****7551",
+            "bet": 2000.0,
+            "effectiveBetForBetMultiplier": 2000.0,
+            "effectiveBetForFreeRounds": 2000.0,
+            "memberCurrency": "IDR",
+            "countryID": "ID"
+        },
+        {
+            "prizeID": 7,
+            "playerID": "*****9916",
+            "bet": 2000.0,
+            "effectiveBetForBetMultiplier": 2000.0,
+            "effectiveBetForFreeRounds": 2000.0,
+            "memberCurrency": "IDR",
+            "countryID": "ID"
+        },
+        {
+            "prizeID": 5,
+            "playerID": "*****7172",
+            "bet": 2000.0,
+            "effectiveBetForBetMultiplier": 2000.0,
+            "effectiveBetForFreeRounds": 2000.0,
+            "memberCurrency": "IDR",
+            "countryID": "ID"
+        },
+        {
+            "prizeID": 8,
+            "playerID": "*****6015",
+            "bet": 2000.0,
+            "effectiveBetForBetMultiplier": 2000.0,
+            "effectiveBetForFreeRounds": 2000.0,
+            "memberCurrency": "IDR",
+            "countryID": "ID"
+        },
+        {
+            "prizeID": 6,
+            "playerID": "*****1934",
+            "bet": 20000.0,
+            "effectiveBetForBetMultiplier": 20000.0,
+            "effectiveBetForFreeRounds": 20000.0,
+            "memberCurrency": "IDR",
+            "countryID": "ID"
+        },
+        {
+            "prizeID": 6,
+            "playerID": "*****3103",
+            "bet": 2000.0,
+            "effectiveBetForBetMultiplier": 2000.0,
+            "effectiveBetForFreeRounds": 2000.0,
+            "memberCurrency": "IDR",
+            "countryID": "ID"
+        },
+        {
+            "prizeID": 5,
+            "playerID": "*****6945",
+            "bet": 500.0,
+            "effectiveBetForBetMultiplier": 500.0,
+            "effectiveBetForFreeRounds": 500.0,
+            "memberCurrency": "KRW",
+            "countryID": "KR"
+        },
+        {
+            "prizeID": 6,
+            "playerID": "*****3341",
+            "bet": 750.0,
+            "effectiveBetForBetMultiplier": 750.0,
+            "effectiveBetForFreeRounds": 750.0,
+            "memberCurrency": "KRW",
+            "countryID": "KR"
+        },
+        {
+            "prizeID": 6,
+            "playerID": "*****4395",
+            "bet": 9480.0,
+            "effectiveBetForBetMultiplier": 9480.0,
+            "effectiveBetForFreeRounds": 9480.0,
+            "memberCurrency": "IDR",
+            "countryID": "ID"
+        },
+        {
+            "prizeID": 6,
+            "playerID": "*****4265",
+            "bet": 2500.0,
+            "effectiveBetForBetMultiplier": 2500.0,
+            "effectiveBetForFreeRounds": 2500.0,
+            "memberCurrency": "IDR",
+            "countryID": "ID"
+        },
+        {
+            "prizeID": 7,
+            "playerID": "*****2990",
+            "bet": 2990.0,
+            "effectiveBetForBetMultiplier": 2990.0,
+            "effectiveBetForFreeRounds": 2990.0,
+            "memberCurrency": "IDR",
+            "countryID": "ID"
+        },
+        {
+            "prizeID": 2,
+            "playerID": "*****2915",
+            "bet": 20000.0,
+            "effectiveBetForBetMultiplier": 20000.0,
+            "effectiveBetForFreeRounds": 20000.0,
+            "memberCurrency": "IDR",
+            "countryID": "ID"
+        },
+        {
+            "prizeID": 8,
+            "playerID": "*****3193",
+            "bet": 2000.0,
+            "effectiveBetForBetMultiplier": 2000.0,
+            "effectiveBetForFreeRounds": 2000.0,
+            "memberCurrency": "IDR",
+            "countryID": "ID"
+        },
+        {
+            "prizeID": 7,
+            "playerID": "*****2187",
+            "bet": 2500.0,
+            "effectiveBetForBetMultiplier": 2500.0,
+            "effectiveBetForFreeRounds": 2500.0,
+            "memberCurrency": "IDR",
+            "countryID": "ID"
+        },
+        {
+            "prizeID": 6,
+            "playerID": "*****7336",
+            "bet": 10.0,
+            "effectiveBetForBetMultiplier": 10.0,
+            "effectiveBetForFreeRounds": 10.0,
+            "memberCurrency": "THB",
+            "countryID": "TH"
+        },
+        {
+            "prizeID": 8,
+            "playerID": "*****1304",
+            "bet": 5520.0,
+            "effectiveBetForBetMultiplier": 5520.0,
+            "effectiveBetForFreeRounds": 5520.0,
+            "memberCurrency": "IDR",
+            "countryID": "ID"
+        },
+        {
+            "prizeID": 7,
+            "playerID": "*****1654",
+            "bet": 2000.0,
+            "effectiveBetForBetMultiplier": 2000.0,
+            "effectiveBetForFreeRounds": 2000.0,
+            "memberCurrency": "IDR",
+            "countryID": "ID"
+        },
+        {
+            "prizeID": 7,
+            "playerID": "*****6034",
+            "bet": 2800.0,
+            "effectiveBetForBetMultiplier": 2800.0,
+            "effectiveBetForFreeRounds": 2800.0,
+            "memberCurrency": "IDR",
+            "countryID": "ID"
+        },
+        {
+            "prizeID": 6,
+            "playerID": "*****2200",
+            "bet": 400.0,
+            "effectiveBetForBetMultiplier": 400.0,
+            "effectiveBetForFreeRounds": 400.0,
+            "memberCurrency": "KRW",
+            "countryID": "KR"
+        },
+        {
+            "prizeID": 7,
+            "playerID": "*****7320",
+            "bet": 600.0,
+            "effectiveBetForBetMultiplier": 600.0,
+            "effectiveBetForFreeRounds": 600.0,
+            "memberCurrency": "KRW",
+            "countryID": "KR"
+        },
+        {
+            "prizeID": 7,
+            "playerID": "*****4524",
+            "bet": 600.0,
+            "effectiveBetForBetMultiplier": 600.0,
+            "effectiveBetForFreeRounds": 600.0,
+            "memberCurrency": "KRW",
+            "countryID": "KR"
+        },
+        {
+            "prizeID": 6,
+            "playerID": "*****2076",
+            "bet": 2760.0,
+            "effectiveBetForBetMultiplier": 2760.0,
+            "effectiveBetForFreeRounds": 2760.0,
+            "memberCurrency": "IDR",
+            "countryID": "ID"
+        },
+        {
+            "prizeID": 8,
+            "playerID": "*****1787",
+            "bet": 6.0,
+            "effectiveBetForBetMultiplier": 5.0,
+            "effectiveBetForFreeRounds": 6.0,
+            "memberCurrency": "USD",
+            "countryID": "TH"
+        },
+        {
+            "prizeID": 6,
+            "playerID": "*****7153",
+            "bet": 2.5,
+            "effectiveBetForBetMultiplier": 2.5,
+            "effectiveBetForFreeRounds": 2.5,
+            "memberCurrency": "IDR2",
+            "countryID": "ID"
+        },
+        {
+            "prizeID": 7,
+            "playerID": "*****5243",
+            "bet": 680.0,
+            "effectiveBetForBetMultiplier": 680.0,
+            "effectiveBetForFreeRounds": 680.0,
+            "memberCurrency": "KRW",
+            "countryID": "KR"
+        },
+        {
+            "prizeID": 6,
+            "playerID": "*****9270",
+            "bet": 400.0,
+            "effectiveBetForBetMultiplier": 400.0,
+            "effectiveBetForFreeRounds": 400.0,
+            "memberCurrency": "KRW",
+            "countryID": "KR"
+        },
+        {
+            "prizeID": 6,
+            "playerID": "*****1070",
+            "bet": 2160.0,
+            "effectiveBetForBetMultiplier": 2160.0,
+            "effectiveBetForFreeRounds": 2160.0,
+            "memberCurrency": "IDR",
+            "countryID": "ID"
+        },
+        {
+            "prizeID": 4,
+            "playerID": "*****9131",
+            "bet": 1000.0,
+            "effectiveBetForBetMultiplier": 1000.0,
+            "effectiveBetForFreeRounds": 1000.0,
+            "memberCurrency": "KRW",
+            "countryID": "KR"
+        },
+        {
+            "prizeID": 7,
+            "playerID": "*****0599",
+            "bet": 2400.0,
+            "effectiveBetForBetMultiplier": 2400.0,
+            "effectiveBetForFreeRounds": 2400.0,
+            "memberCurrency": "IDR",
+            "countryID": "ID"
+        },
+        {
+            "prizeID": 8,
+            "playerID": "*****9152",
+            "bet": 10.0,
+            "effectiveBetForBetMultiplier": 10.0,
+            "effectiveBetForFreeRounds": 10.0,
+            "memberCurrency": "IDR2",
+            "countryID": "ID"
+        },
+        {
+            "prizeID": 6,
+            "playerID": "*****8059",
+            "bet": 1770.0,
+            "effectiveBetForBetMultiplier": 1770.0,
+            "effectiveBetForFreeRounds": 1770.0,
+            "memberCurrency": "KRW",
+            "countryID": "KR"
+        },
+        {
+            "prizeID": 8,
+            "playerID": "*****9871",
+            "bet": 2400.0,
+            "effectiveBetForBetMultiplier": 2400.0,
+            "effectiveBetForFreeRounds": 2400.0,
+            "memberCurrency": "IDR",
+            "countryID": "ID"
+        },
+        {
+            "prizeID": 7,
+            "playerID": "*****4496",
+            "bet": 1000.0,
+            "effectiveBetForBetMultiplier": 1000.0,
+            "effectiveBetForFreeRounds": 1000.0,
+            "memberCurrency": "KRW",
+            "countryID": "KR"
+        },
+        {
+            "prizeID": 7,
+            "playerID": "*****0377",
+            "bet": 2000.0,
+            "effectiveBetForBetMultiplier": 2000.0,
+            "effectiveBetForFreeRounds": 2000.0,
+            "memberCurrency": "IDR",
+            "countryID": "ID"
+        },
+        {
+            "prizeID": 7,
+            "playerID": "*****7699",
+            "bet": 2500.0,
+            "effectiveBetForBetMultiplier": 2500.0,
+            "effectiveBetForFreeRounds": 2500.0,
+            "memberCurrency": "IDR",
+            "countryID": "ID"
+        },
+        {
+            "prizeID": 8,
+            "playerID": "*****0377",
+            "bet": 20000.0,
+            "effectiveBetForBetMultiplier": 20000.0,
+            "effectiveBetForFreeRounds": 20000.0,
+            "memberCurrency": "IDR",
+            "countryID": "ID"
+        },
+        {
+            "prizeID": 6,
+            "playerID": "*****6747",
+            "bet": 2500.0,
+            "effectiveBetForBetMultiplier": 2500.0,
+            "effectiveBetForFreeRounds": 2500.0,
+            "memberCurrency": "IDR",
+            "countryID": "ID"
+        },
+        {
+            "prizeID": 8,
+            "playerID": "*****5267",
+            "bet": 3450.0,
+            "effectiveBetForBetMultiplier": 3450.0,
+            "effectiveBetForFreeRounds": 3450.0,
+            "memberCurrency": "IDR",
+            "countryID": "ID"
+        },
+        {
+            "prizeID": 6,
+            "playerID": "*****3593",
+            "bet": 2000.0,
+            "effectiveBetForBetMultiplier": 2000.0,
+            "effectiveBetForFreeRounds": 2000.0,
+            "memberCurrency": "IDR",
+            "countryID": "ID"
+        },
+        {
+            "prizeID": 5,
+            "playerID": "*****2643",
+            "bet": 20.0,
+            "effectiveBetForBetMultiplier": 20.0,
+            "effectiveBetForFreeRounds": 20.0,
+            "memberCurrency": "CNY",
+            "countryID": "CN"
+        },
+        {
+            "prizeID": 8,
+            "playerID": "*****2423",
+            "bet": 2500.0,
+            "effectiveBetForBetMultiplier": 2500.0,
+            "effectiveBetForFreeRounds": 2500.0,
+            "memberCurrency": "KRW",
+            "countryID": "KR"
+        },
+        {
+            "prizeID": 6,
+            "playerID": "*****7539",
+            "bet": 2500.0,
+            "effectiveBetForBetMultiplier": 2500.0,
+            "effectiveBetForFreeRounds": 2500.0,
+            "memberCurrency": "IDR",
+            "countryID": "ID"
+        },
+        {
+            "prizeID": 5,
+            "playerID": "*****8504",
+            "bet": 1000.0,
+            "effectiveBetForBetMultiplier": 1000.0,
+            "effectiveBetForFreeRounds": 1000.0,
+            "memberCurrency": "KRW",
+            "countryID": "KR"
+        },
+        {
+            "prizeID": 4,
+            "playerID": "*****7300",
+            "bet": 2000.0,
+            "effectiveBetForBetMultiplier": 2000.0,
+            "effectiveBetForFreeRounds": 2000.0,
+            "memberCurrency": "IDR",
+            "countryID": "ID"
+        },
+        {
+            "prizeID": 6,
+            "playerID": "*****1156",
+            "bet": 5040.0,
+            "effectiveBetForBetMultiplier": 5040.0,
+            "effectiveBetForFreeRounds": 5040.0,
+            "memberCurrency": "IDR",
+            "countryID": "ID"
+        },
+        {
+            "prizeID": 5,
+            "playerID": "*****1284",
+            "bet": 1015.0,
+            "effectiveBetForBetMultiplier": 1015.0,
+            "effectiveBetForFreeRounds": 1015.0,
+            "memberCurrency": "KRW",
+            "countryID": "KR"
+        },
+        {
+            "prizeID": 8,
+            "playerID": "*****8449",
+            "bet": 3.0,
+            "effectiveBetForBetMultiplier": 3.0,
+            "effectiveBetForFreeRounds": 3.0,
+            "memberCurrency": "CNY",
+            "countryID": "CN"
+        },
+        {
+            "prizeID": 7,
+            "playerID": "*****9078",
+            "bet": 6250.0,
+            "effectiveBetForBetMultiplier": 6250.0,
+            "effectiveBetForFreeRounds": 6250.0,
+            "memberCurrency": "IDR",
+            "countryID": "ID"
+        },
+        {
+            "prizeID": 6,
+            "playerID": "*****4793",
+            "bet": 5925.0,
+            "effectiveBetForBetMultiplier": 5925.0,
+            "effectiveBetForFreeRounds": 5925.0,
+            "memberCurrency": "IDR",
+            "countryID": "ID"
+        },
+        {
+            "prizeID": 4,
+            "playerID": "*****7530",
+            "bet": 2800.0,
+            "effectiveBetForBetMultiplier": 2800.0,
+            "effectiveBetForFreeRounds": 2800.0,
+            "memberCurrency": "IDR",
+            "countryID": "ID"
+        },
+        {
+            "prizeID": 5,
+            "playerID": "*****2856",
+            "bet": 0.75,
+            "effectiveBetForBetMultiplier": 0.75,
+            "effectiveBetForFreeRounds": 0.75,
+            "memberCurrency": "USD",
+            "countryID": "JP"
+        },
+        {
+            "prizeID": 7,
+            "playerID": "*****9149",
+            "bet": 500.0,
+            "effectiveBetForBetMultiplier": 500.0,
+            "effectiveBetForFreeRounds": 500.0,
+            "memberCurrency": "KRW",
+            "countryID": "KR"
+        },
+        {
+            "prizeID": 7,
+            "playerID": "*****7386",
+            "bet": 15.2,
+            "effectiveBetForBetMultiplier": 15.2,
+            "effectiveBetForFreeRounds": 15.2,
+            "memberCurrency": "THB",
+            "countryID": "TH"
+        },
+        {
+            "prizeID": 7,
+            "playerID": "*****2394",
+            "bet": 2700.0,
+            "effectiveBetForBetMultiplier": 2700.0,
+            "effectiveBetForFreeRounds": 2700.0,
+            "memberCurrency": "IDR",
+            "countryID": "ID"
+        },
+        {
+            "prizeID": 7,
+            "playerID": "*****7444",
+            "bet": 2500.0,
+            "effectiveBetForBetMultiplier": 2500.0,
+            "effectiveBetForFreeRounds": 2500.0,
+            "memberCurrency": "IDR",
+            "countryID": "ID"
+        },
+        {
+            "prizeID": 7,
+            "playerID": "*****3940",
+            "bet": 2.4,
+            "effectiveBetForBetMultiplier": 2.4,
+            "effectiveBetForFreeRounds": 2.4,
+            "memberCurrency": "IDR2",
+            "countryID": "ID"
+        },
+        {
+            "prizeID": 5,
+            "playerID": "*****5191",
+            "bet": 50000.0,
+            "effectiveBetForBetMultiplier": 50000.0,
+            "effectiveBetForFreeRounds": 50000.0,
+            "memberCurrency": "IDR",
+            "countryID": "ID"
+        },
+        {
+            "prizeID": 7,
+            "playerID": "*****3290",
+            "bet": 400.0,
+            "effectiveBetForBetMultiplier": 400.0,
+            "effectiveBetForFreeRounds": 400.0,
+            "memberCurrency": "KRW",
+            "countryID": "KR"
+        },
+        {
+            "prizeID": 6,
+            "playerID": "*****2566",
+            "bet": 1.0,
+            "effectiveBetForBetMultiplier": 1.0,
+            "effectiveBetForFreeRounds": 1.0,
+            "memberCurrency": "USD",
+            "countryID": "JP"
+        },
+        {
+            "prizeID": 8,
+            "playerID": "*****6475",
+            "bet": 800.0,
+            "effectiveBetForBetMultiplier": 800.0,
+            "effectiveBetForFreeRounds": 800.0,
+            "memberCurrency": "KRW",
+            "countryID": "KR"
+        },
+        {
+            "prizeID": 5,
+            "playerID": "*****8042",
+            "bet": 12.0,
+            "effectiveBetForBetMultiplier": 12.0,
+            "effectiveBetForFreeRounds": 12.0,
+            "memberCurrency": "CNY",
+            "countryID": "CN"
+        },
+        {
+            "prizeID": 6,
+            "playerID": "*****3193",
+            "bet": 40000.0,
+            "effectiveBetForBetMultiplier": 40000.0,
+            "effectiveBetForFreeRounds": 40000.0,
+            "memberCurrency": "IDR",
+            "countryID": "ID"
+        },
+        {
+            "prizeID": 6,
+            "playerID": "*****6027",
+            "bet": 600.0,
+            "effectiveBetForBetMultiplier": 600.0,
+            "effectiveBetForFreeRounds": 600.0,
+            "memberCurrency": "KRW",
+            "countryID": "KR"
+        },
+        {
+            "prizeID": 8,
+            "playerID": "*****5714",
+            "bet": 20000.0,
+            "effectiveBetForBetMultiplier": 20000.0,
+            "effectiveBetForFreeRounds": 20000.0,
+            "memberCurrency": "IDR",
+            "countryID": "ID"
+        },
+        {
+            "prizeID": 6,
+            "playerID": "*****1995",
+            "bet": 6485.0,
+            "effectiveBetForBetMultiplier": 6485.0,
+            "effectiveBetForFreeRounds": 6485.0,
+            "memberCurrency": "IDR",
+            "countryID": "ID"
+        },
+        {
+            "prizeID": 6,
+            "playerID": "*****9073",
+            "bet": 2000.0,
+            "effectiveBetForBetMultiplier": 2000.0,
+            "effectiveBetForFreeRounds": 2000.0,
+            "memberCurrency": "IDR",
+            "countryID": "ID"
+        },
+        {
+            "prizeID": 7,
+            "playerID": "*****0987",
+            "bet": 6000.0,
+            "effectiveBetForBetMultiplier": 6000.0,
+            "effectiveBetForFreeRounds": 6000.0,
+            "memberCurrency": "IDR",
+            "countryID": "ID"
+        },
+        {
+            "prizeID": 7,
+            "playerID": "*****6094",
+            "bet": 2000.0,
+            "effectiveBetForBetMultiplier": 2000.0,
+            "effectiveBetForFreeRounds": 2000.0,
+            "memberCurrency": "IDR",
+            "countryID": "ID"
+        },
+        {
+            "prizeID": 8,
+            "playerID": "*****4500",
+            "bet": 20000.0,
+            "effectiveBetForBetMultiplier": 20000.0,
+            "effectiveBetForFreeRounds": 20000.0,
+            "memberCurrency": "IDR",
+            "countryID": "ID"
+        },
+        {
+            "prizeID": 6,
+            "playerID": "*****9126",
+            "bet": 10000.0,
+            "effectiveBetForBetMultiplier": 10000.0,
+            "effectiveBetForFreeRounds": 10000.0,
+            "memberCurrency": "IDR",
+            "countryID": "ID"
+        },
+        {
+            "prizeID": 8,
+            "playerID": "*****4552",
+            "bet": 500.0,
+            "effectiveBetForBetMultiplier": 500.0,
+            "effectiveBetForFreeRounds": 500.0,
+            "memberCurrency": "KRW",
+            "countryID": "KR"
+        },
+        {
+            "prizeID": 7,
+            "playerID": "*****8386",
+            "bet": 100000.0,
+            "effectiveBetForBetMultiplier": 75000.0,
+            "effectiveBetForFreeRounds": 100000.0,
+            "memberCurrency": "IDR",
+            "countryID": "ID"
+        },
+        {
+            "prizeID": 6,
+            "playerID": "*****5160",
+            "bet": 2000.0,
+            "effectiveBetForBetMultiplier": 2000.0,
+            "effectiveBetForFreeRounds": 2000.0,
+            "memberCurrency": "IDR",
+            "countryID": "ID"
+        },
+        {
+            "prizeID": 3,
+            "playerID": "*****6163",
+            "bet": 6485.0,
+            "effectiveBetForBetMultiplier": 6485.0,
+            "effectiveBetForFreeRounds": 6485.0,
+            "memberCurrency": "IDR",
+            "countryID": "ID"
+        },
+        {
+            "prizeID": 5,
+            "playerID": "*****8198",
+            "bet": 2500.0,
+            "effectiveBetForBetMultiplier": 2500.0,
+            "effectiveBetForFreeRounds": 2500.0,
+            "memberCurrency": "IDR",
+            "countryID": "ID"
+        },
+        {
+            "prizeID": 5,
+            "playerID": "*****6575",
+            "bet": 500.0,
+            "effectiveBetForBetMultiplier": 500.0,
+            "effectiveBetForFreeRounds": 500.0,
+            "memberCurrency": "KRW",
+            "countryID": "KR"
+        },
+        {
+            "prizeID": 7,
+            "playerID": "*****8528",
+            "bet": 600.0,
+            "effectiveBetForBetMultiplier": 600.0,
+            "effectiveBetForFreeRounds": 600.0,
+            "memberCurrency": "KRW",
+            "countryID": "KR"
+        },
+        {
+            "prizeID": 8,
+            "playerID": "*****8855",
+            "bet": 3000.0,
+            "effectiveBetForBetMultiplier": 3000.0,
+            "effectiveBetForFreeRounds": 3000.0,
+            "memberCurrency": "IDR",
+            "countryID": "ID"
+        },
+        {
+            "prizeID": 6,
+            "playerID": "*****0994",
+            "bet": 600.0,
+            "effectiveBetForBetMultiplier": 600.0,
+            "effectiveBetForFreeRounds": 600.0,
+            "memberCurrency": "KRW",
+            "countryID": "KR"
+        },
+        {
+            "prizeID": 8,
+            "playerID": "*****8811",
+            "bet": 400.0,
+            "effectiveBetForBetMultiplier": 400.0,
+            "effectiveBetForFreeRounds": 400.0,
+            "memberCurrency": "KRW",
+            "countryID": "KR"
+        },
+        {
+            "prizeID": 8,
+            "playerID": "*****8399",
+            "bet": 2000.0,
+            "effectiveBetForBetMultiplier": 2000.0,
+            "effectiveBetForFreeRounds": 2000.0,
+            "memberCurrency": "IDR",
+            "countryID": "ID"
+        },
+        {
+            "prizeID": 6,
+            "playerID": "*****8762",
+            "bet": 10465.0,
+            "effectiveBetForBetMultiplier": 10465.0,
+            "effectiveBetForFreeRounds": 10465.0,
+            "memberCurrency": "IDR",
+            "countryID": "ID"
+        },
+        {
+            "prizeID": 6,
+            "playerID": "*****8210",
+            "bet": 20000.0,
+            "effectiveBetForBetMultiplier": 20000.0,
+            "effectiveBetForFreeRounds": 20000.0,
+            "memberCurrency": "IDR",
+            "countryID": "ID"
+        }
+    ]
+}

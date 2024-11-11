@@ -1,0 +1,609 @@
+#PaytableContent
+{
+	background: -webkit-linear-gradient(left, #964600, #964600 40%, #964600 60%, #964600 100%);
+	background: -o-linear-gradient(left, #964600, #964600 20%, #964600 80%);
+	background: -moz-linear-gradient(left, #964600, #964600 20%, #964600 80%);
+	background: linear-gradient(left, #964600, #964600 20%, #964600 80%);
+
+	padding: 0 112px 0 112px;
+	overflow: overlay;
+}
+
+#PaytableContent .title
+{
+	background-image: url("BaseSlotEngine/games/DORJSlot/paytable/title.png");
+	width: 421px;
+	height: 79px;
+	margin: 0 auto;
+}
+
+#PaytableContent .panel
+{
+	background: #000000;
+	border: 6px solid #e9b905;
+	border-radius: 11px;
+	margin-bottom: 14px;
+	padding: 5px 5px 5px 5px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	float: left;
+}
+
+#PaytableContent .smallBlackPanel
+{
+	background: #000000;
+	border-top: 6px solid #e9b905;
+	border-left: 6px solid #e9b905;
+	border-radius: -1px;
+	width: 359px;
+	height: 62px;
+	float: right;
+}
+#PaytableContent .panel.black
+{
+	padding: 0px 0px;
+	width: 780px;
+	height: 100%;
+	background: #000000;
+}
+#PaytableContent .panel.red
+{
+	padding: 0px 0px;
+	width: 286px;
+	height: 100%;
+	background: #6a0c0d;
+	margin-left: -10px;
+	border-bottom-left-radius: 0px;
+	border-top-left-radius: 0px;
+}
+
+#PaytableContent .redAndBlackHolder
+{
+	width: 100%;
+	height: 200px;
+	float: left;
+	margin-bottom: 15px;
+
+}
+#PaytableContent .panel.seven
+{
+	width: 520px;
+	height: 200px;
+	margin-right: 16px;
+}
+
+#PaytableContent .panel.grapes
+{
+	width: 520px;
+	height: 200px;
+}
+
+#PaytableContent .panel.watermelon
+{
+	width: 520px;
+	height: 200px;
+	margin-right: 16px;
+}
+
+#PaytableContent .panel.bell
+{
+	width: 520px;
+	height: 200px;
+}
+
+#PaytableContent .panel.cherry
+{
+	width: 100%;
+	height: 200px;
+}
+#PaytableContent .panel.wild
+{
+	width: 513px;
+	height: 482px;
+	margin-bottom: 10px;
+}
+#PaytableContent .panel.scatter
+{
+	width: 523px;
+	height: 482px;
+	background: #1d4b08;
+	padding: 0px 0px 0px 0px;
+	margin-left: 20px;
+	margin-bottom: 10px;
+}
+
+#PaytableContent .panel.freespinsMultiplier
+{
+	width: 100%;
+	height: 200px;
+	background: #143305;
+}
+#PaytableContent  .redPaytableContainer
+{
+	width: 76%;
+	float: left;
+	height: 100%;
+}
+
+#PaytableContent .panel.star
+{
+	width: 520px;
+	height: 258px;
+}
+
+#PaytableContent .panel.jackpot
+{
+	width: 100%;
+	overflow: hidden;
+}
+#PaytableContent .panel.freespins
+{
+	width: 100%;
+	overflow: hidden;
+}
+#PaytableContent .panel.wildText
+{
+	width: 100%;
+	overflow: hidden;
+}
+
+#PaytableContent .panel.gamble
+{
+	width: 100%;
+	overflow: hidden;
+}
+
+#PaytableContent .panel.linesAndRules
+{
+	width: 100%;
+	overflow: hidden;
+}
+
+#PaytableContent .singleImage
+{
+	background-image: url("BaseSlotEngine/games/DORJSlot/paytable/sprite.jpg");
+	float: left;
+	margin-top: 2px;
+	width: 175px;
+	height: 175px;
+}
+#PaytableContent .arrowImage
+{
+	background-image: url("BaseSlotEngine/games/DORJSlot/paytable/rr_arrow.png");
+	width: 296px;
+	height: 101px;
+	position: absolute;
+	top: 554px;
+	left: 620px;
+}
+
+#PaytableContent .singleImage.scatter
+{
+ 	background-position: -350px -494px;
+}
+#PaytableContent .singleImage.scatter.free
+{
+	position: absolute;
+	top: 2062px;
+	left: 178px;
+}
+#PaytableContent .singleImage.scatter.free.mk
+{
+	margin-left: -30px;
+  margin-top: 32px;
+}
+#PaytableContent .singleImage.scatter.free1
+{
+	position: absolute;
+	top: 2392px;
+	left: 944px;
+	margin-top: 26px;
+}
+#PaytableContent .singleImage.scatter.free1.bg
+{
+	top: 2423px;
+	left: 884px;
+	margin-top: 33px;
+}
+#PaytableContent .singleImage.scatter.free1.ru
+{
+	top: 2423px;
+	left: 906px;
+	margin-top: 29px;
+}
+#PaytableContent .singleImage.scatter.free1.nl
+{
+	top: 2393px;
+	left: 936px;
+	margin-top: 36px;
+}
+#PaytableContent .singleImage.scatter.free1.fr
+{
+	top: 2392px;
+	left: 944px;
+	margin-top: 26px;
+}
+
+#PaytableContent .singleImage.pharon
+{
+ 	background-position: -0px -494px;
+	margin-top: 6px;
+	margin-left: 134px;
+	margin-right: 6px;
+}
+#PaytableContent .singleImage.queen
+{
+	background-position: -700px -319px;
+	margin-top: 6px;
+	margin-right: 34px;
+}
+#PaytableContent .singleImage.smallWild
+{
+ 	background-position: -893px -100px;
+	width: 76px;
+	height: 73px;
+	margin-left: -14px;
+	margin-top: 64px;
+}
+#PaytableContent .singleImage.sphinx
+{
+	background-position: -350px -319px;
+	margin-top: 6px;
+	margin-left: 134px;
+	margin-right: 6px;
+}
+#PaytableContent .singleImage.eye
+{
+	background-position: -175px -319px;
+	margin-top: 6px;
+	margin-right: 34px;
+}
+#PaytableContent .singleImage.fresco
+{
+ 	background-position: -525px -319px;
+	margin-top: 6px;
+	margin-left: 239px;
+	margin-right: 111px;
+}
+#PaytableContent .singleImage.chest
+{
+ 	background-position: -0px -144px;
+	margin-top: 6px;
+	margin-left: 239px;
+	margin-right: 111px;
+}
+#PaytableContent .singleImage.flail
+{
+	background-position: -700px -144px;
+	margin-top: 6px;
+	margin-right: 34px;
+}
+#PaytableContent .singleImage.cross
+{
+	background-position: -350px -144px;
+}
+#PaytableContent .singleImage.amphora
+{
+	background-position: -175px -144px;
+}
+#PaytableContent .singleImage.eagle
+{
+	background-position: -525px -144px;
+}
+#PaytableContent .singleImage.anubis
+{
+	background-position: -0px -319px;
+	margin-top: 6px;
+	margin-left: 134px;
+	margin-right: 6px;
+}
+#PaytableContent .singleImage.reelSet
+{
+	background-position: -700px -494px;
+	width: 281px;
+	height: 154px;
+	margin-top: 10px;
+	margin-left: 50px;
+}
+#PaytableContent .singleImage.star
+{
+	margin-left: 13px;
+	background-position: -585px -178px;
+}
+#PaytableContent .singleImage.wild
+{
+	background-position: -175px -494px;
+	margin: 20px 10px 29px 10px;
+}
+#PaytableContent .singleImage.wild.free
+{
+
+	background-position: -175px -494px;
+	margin: 0px,0px;
+	position: absolute;
+	top: 2398px;
+	left: 171px;
+}
+#PaytableContent .singleImage.wild.free.bg
+{
+
+	top: 2435px;
+	left: 208px;
+}
+#PaytableContent .singleImage.wild.free.ru
+{
+	top: 2431px;
+	left: 196px;
+}
+#PaytableContent .singleImage.wild.free.nl
+{
+	top: 2412px;
+	left: 170px;
+}
+#PaytableContent .singleImage.scatter
+{
+	float: none;
+ 	margin: 0px auto;
+	margin-top: 38px;
+}
+
+#PaytableContent .singleImage.smallImage
+{
+	margin-top: 0px;
+	display: inline-block;
+	float: none;
+}
+
+#PaytableContent .singleImage.lineSection1
+{
+	float:none;
+	background-position: -0px -0px;
+	width: 977px;
+	height: 80px;
+	margin: 10px auto;
+}
+
+#PaytableContent .singleImage.smallImage.scatter
+{
+	background-position: -104px -147px;
+	width: 52.5px;
+	height: 52.5px;
+	background-size: 293px,207px;
+	margin-left: 20px;
+}
+#PaytableContent .singleImage.smallImage.star
+{
+	background-position: -353px -107px;
+	width: 110px;
+	height: 105px;
+	margin-left: 18px;
+}
+
+#PaytableContent .singleImage.jackpotTitle
+{
+	background-position: -262px -80px;
+	width: 608px;
+	height: 64px;
+	float: none;
+	margin: 10px auto 20px auto;
+}
+
+#PaytableContent .linesContainer
+{
+	float: left;
+	width: 257px;
+	height: 100%;
+}
+
+#PaytableContent .paytableLine
+{
+	overflow: hidden;
+	height: 40px;
+	margin-bottom: 0px;
+}
+#PaytableContent .paytableLine.scatter
+{
+	width: 359px;
+	float: right;
+	margin-bottom: 16px;
+}
+#PaytableContent .paytableLine.scatter.blackRect
+{
+	margin-bottom: 0px;
+	margin-top: 12px;
+}
+#PaytableContent .paytableLine.iOS
+{
+	height: 46px;
+	margin-bottom: -2px;
+}
+
+#PaytableContent .paytableLine.firstLine { margin-top: 25px; }
+#PaytableContent .paytableLine.firstLine.sphinx { margin-top: 32px; }
+#PaytableContent .paytableLine.firstLine.pharon { margin-top: 16px; }
+#PaytableContent .paytableLine.firstLine.scatter { margin-top: 22px;}
+#PaytableContent .paytableLine.firstLine.star { margin-top: 0px; }
+
+#PaytableContent .textLine
+{
+	line-height: 32px;
+	font: bold 32px arial,sans-serif;
+	color: #17edee;
+	text-align: center;
+	text-shadow: 0px 1px 5px #000000;
+}
+
+
+#PaytableContent .textLine.lineBullet
+{
+	color: #eecd00;
+	float: left;
+	margin-left: 10px;
+}
+#PaytableContent .textLine.lineBullet.scatter
+{
+	margin-left: 16px;
+
+}
+#PaytableContent .textLine.lineBullet.scatter.blackRect
+{
+	margin-left: 16px;
+}
+#PaytableContent .textLine.lineContent
+{
+	margin-top: 3px;
+	overflow: hidden;
+	text-shadow: 0px 2px 5px #000000;
+}
+#PaytableContent .textLine.lineContent.wild
+{
+	color: #f9a810;
+}
+#PaytableContent .currency
+{
+	font-size: 16px;
+}
+#PaytableContent .textLine.lineContent.iOS
+{
+	margin-top: 5px;
+}
+#PaytableContent .textLine.lineJackpot
+{
+	font-size: 22px;
+	margin-left: 10px;
+
+}
+#PaytableContent .jackpotGambleCurrency
+{
+
+	font-size: 15px;
+	margin-left: 0px;
+	top: 0px;
+
+}
+
+#PaytableContent .textLine.lineGamble
+{
+	font-size: 22px;
+	margin-left: 10px;
+
+}
+#PaytableContent .textLine.scatterText
+{
+	font-size: 46px;
+	width: 100%;
+	text-shadow: 3px 3px 1px #000000;
+}
+#PaytableContent .textLine.scatterText.dollar { color: #ffc333}
+#PaytableContent .textLine.scatterText.star { color: #c224de}
+
+#PaytableContent .paytableText
+{
+	font: bold 31px arial,sans-serif;
+	color: #f9a810;
+	text-align: center;
+	line-height: 47px;
+	text-shadow: 0px 2px 5px #000000;
+}
+
+#PaytableContent .paytableText.clover
+{
+	float :left;
+	width: 100%;
+	margin-top: -13px;
+
+}
+#PaytableContent .paytableText.freespinsMultiplier
+{
+	float: left;
+	color: #f9a810;
+	margin-top: 86px;
+	margin-left: 42px;
+	font: bold 32px arial,sans-serif;
+
+}
+#PaytableContent .paytableText.freespinsMultiplier.fr {
+	font-size: 27px;
+}
+#PaytableContent .paytableText.exceptText
+{
+	display: inline-block;
+	position: relative;
+	top: -12px;
+}
+
+#PaytableContent .specialCloverContainer
+{
+	display: table;
+	margin: 0 auto;
+}
+#PaytableContent .paytableText.jackpot
+{
+	width: 100%;
+	font-size: 20px;
+	line-height: 31px;
+	padding: 0px 26px;
+	box-sizing: border-box;
+	margin-bottom: 6px;
+}
+
+#PaytableContent .paytableText.freespins
+{
+	width: 856px;
+	font-size: 30px;
+	line-height: 47px;
+	box-sizing: border-box;
+	margin-bottom: 6px;
+	margin-left: 101px;
+}
+#PaytableContent .paytableText.jackpot.blue
+{
+	color: #17edee;
+	margin-left: 0px;
+	padding: 0 0;
+}
+}
+
+#PaytableContent .paytableText.wild
+{
+	width: 928px;
+	font-size: 30px;
+	line-height: 47px;
+	box-sizing: border-box;
+	margin-bottom: 6px;
+	margin-left: 56px;
+}
+#PaytableContent .paytableText.wild.blue
+{
+	color: #17edee;
+	margin-left: 0px;
+}
+
+#PaytableContent .jackpotLabel { color: #f0de2e; }
+#PaytableContent .cardsLabel { color: #cf3838; }
+#PaytableContent .qBets
+{
+	position: relative;
+	left: -70px;
+}
+#PaytableContent .gambleFirstLine
+{
+	position: relative;
+	left: -40px;
+}
+
+#PaytableContent .sectionTitle
+{
+	font: bold 40px arial,sans-serif;
+	color: #deaf0f;
+	text-align: center;
+	text-shadow: 0px 0px 2px #001903, 0px 0px 2px #001903, 0px 0px 2px #001903, 0px 0px 2px #001903, 0px 0px 2px #001903, 0px 0px 2px #001903, 0px 0px 2px #001903, 0px 0px 2px #001903;
+	margin: 7px auto;
+}
+#PaytableContent .sectionTitle.wild
+{
+
+	margin-bottom: 11px;
+	margin-top: 23px;
+}

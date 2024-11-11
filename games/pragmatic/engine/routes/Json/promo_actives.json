@@ -1,0 +1,67 @@
+{
+	"error": 0,
+	"description": "OK",
+	"serverTime": 1635399590,
+	"tournaments": [
+		{
+			"id": 9814,
+			"status": "O",
+			"name": "Piggy Bank Fortune             #110##DDW#",
+			"clientMode": "V",
+			"startDate": 1634813280,
+			"endDate": 1635415140,
+			"optJurisdiction": [
+				"SE",
+				"UK"
+			],
+			"optin": true
+		},
+		{
+			"id": 9862,
+			"status": "S",
+			"name": "Piggy Bank Fortune             #110##DDW#",
+			"clientMode": "V",
+			"startDate": 1635415200,
+			"endDate": 1636019940,
+			"optJurisdiction": [
+				"SE",
+				"UK"
+			],
+			"campaignId": 2124,
+			"optin": true
+		}
+	],
+	"races": [
+		{
+			"id": 6533,
+			"status": "O",
+			"name": "Piggy Bank Fortune             #110##DDW#",
+			"clientMode": "V",
+			"startDate": 1634813340,
+			"endDate": 1635415140,
+			"optJurisdiction": [
+				"SE",
+				"UK"
+			],
+			"clientStyle": "EU",
+			"showWinnersList": true,
+			"optin": true
+		},
+		{
+			"id": 6602,
+			"status": "S",
+			"name": "Piggy Bank Fortune             #110##DDW#",
+			"clientMode": "V",
+			"startDate": 1635415200,
+			"endDate": 1636019940,
+			"optJurisdiction": [
+				"SE",
+				"UK"
+			],
+			"clientStyle": "EU",
+			"showWinnersList": true,
+			"campaignId": 2124,
+			"optin": true
+		}
+	]
+}

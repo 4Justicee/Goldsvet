@@ -1,0 +1,104 @@
+<?php 
+
+
+  $sql="SELECT id,date_time,sumwin, if(balls='', (select ifnull(sum(bet_sum),0) from loto_bets where draw_id=loto_draw.id), sumbet ) as sumbet from loto_draw ";
+
+$from_date=isset($_POST['fromdate'])?$_POST['fromdate']: REPORT_START_DATE;
+$to_date=isset($_POST['todate'])?$_POST['todate']: REPORT_CURR_DATE;
+
+$from_time=isset($_POST['fromtime'])?$_POST['fromtime']: REPORT_START_TIME;
+$to_time=isset($_POST['totime'])?$_POST['totime']: REPORT_END_TIME;
+
+if($from_date)
+ $where[]='`date_time` >= "'.$from_date.' '.$from_time.'"';
+
+if($to_date)
+ $where[]='`date_time`<= "'.$to_date.' '.$to_time.'"'; 
+ 
+if(isset($where)&& isset ($sql))
+  $sql.=' where '.implode(' and ',$where);
+
+ $sql.= ' order by id desc';
+
+ //echo $sql;
+if(isset($sql))
+  {
+  $res=pager($sql,$paginator);
+  if ($res)
+    {
+    if(mysql_num_rows($res)>0)
+      {
+            print '
+                        <div class="row">                            
+                            <div class="col-md-12">
+                                <div class="block">
+                                    <div class="head"> 
+									<h2>'.$lang['reportmenu'][1].'</h2>                                       
+                                    </div>
+                                    <div class="content np">
+
+                                        <table cellpadding="0" cellspacing="0" width="100%" id="addRowExample" class="editable oc_disable">
+										
+                                            <thead>
+                                                <tr>                                                                                                        
+                                                    <th width="25%" >'.$lang['adm_report_lotodraw'].'</th>
+                                                    <th width="25%">'.$lang['adm_report_date'].'</th>
+													                          <th width="25%" >'.$lang['adm_report_sumbet'].'</th>
+                                                    <th width="25%">'.$lang['adm_report_sumwin'].'</th> 
+                                                </tr>
+                                            </thead>
+                                            <tbody> 			
+            ';
+      
+     
+      while($row=mysql_fetch_array($res))
+        {
+        print "<tr align='center'>                
+                <td>".$row['id']."</td>
+				        <td>".$row['date_time']."</td>
+                <td>".$row['sumbet']."</td>
+                <td>".$row['sumwin']."</td>
+              </tr>";
+  
+        }
+
+     print "
+                                            </tbody>
+											
+                                        </table>                                         
+                                        
+                                    </div>";
+     if($paginator)
+      echo "
+          <div class='footer'>
+            <div class=\"side fr\">$paginator</div>
+          </div>";
+     print                   "
+                                </div> 
+                            </div>                                
+                        </div>	 
+	 ";         
+            
+      }
+    else
+      echo "                           
+<div class='col-md-12'>
+<div class='alert alert-danger'>
+<center><strong>{$lang['adm_report_no_data']}</strong></center>
+<button class='close' data-dismiss='alert' type='button'>×</button>
+</div>
+</div>	  
+	  ";  
+    }
+  else
+    echo "                           
+<div class='col-md-12'>
+<div class='alert alert-danger'>
+<center><strong>ошибка MySql: ".$sql."\r\n".mysql_error()."</strong></center>
+<button class='close' data-dismiss='alert' type='button'>×</button>
+</div>
+</div>	
+	";  
+  }  
+  
+?>

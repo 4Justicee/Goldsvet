@@ -1,0 +1,89 @@
+.table td {
+  padding: 5px 6px !important;
+  border-color: #333;
+}
+.btn {
+  padding: 2px 5px;
+}
+.main_panel {
+  margin: 20px;
+}
+body {
+  background: #222;
+  color: white;
+}
+.form-control {
+  color: #bbb;
+  background-color: #222;
+}
+#main_table_processing {
+  background-color: #222;
+  border-color: white;
+}
+
+.page-item.disabled .page-link {
+  color: #eee;
+  pointer-events: none;
+  cursor: auto;
+  background-color: #222;
+  border-color: #dee2e6;
+}
+.page-link {
+  color: #eee;
+  pointer-events: none;
+  cursor: auto;
+  background-color: #222;
+  border-color: #dee2e6;
+}
+.btnrun {
+  color: #bbb;
+  background-color: #222;
+}
+.btn-small {
+  height: 17px;
+  padding: 0px 10px;
+  font-size: 11px;
+  font-weight: 800;
+}
+
+.zoom {
+  transition: transform 0.1s;
+  /* Animation */
+  border-radius: 50%;
+  /* background: white; */
+}
+
+.zoom:hover {
+  transform: scale(4);
+  /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  border: 1px solid #0087e0;
+  box-shadow: 1px 1px 1px 0px rgba(0, 0, 0, 0.5);
+}
+.title {
+  color: #ffc251;
+}
+
+.container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+
+@media (min-width: 1500px) {
+  .container {
+    max-width: 1400px;
+  }
+}
+
+
+a{
+  color:rgb(213, 205, 255);
+}
+
+
+a:hover{
+  color:rgb(153, 146, 255);
+}

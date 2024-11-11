@@ -1,0 +1,23 @@
+{
+  "verify-title": "Verify game authenticity",
+  "howtocheck-steps-text": "To verify that this game is an authentic Pragmatic Play game, please follow the 2 steps below:",
+  "step1-title": "Step 1",
+  "step1-text": "Verify that the URL of this page starts with \"domain\".",
+  "step2-title": "Step 2",
+  "important-title": "Important",
+  "important-text-1": "If you have verified both step 1 and step 2, then the game you are playing is authentic. Congratulations!",
+  "important-text-2": "If you cannot verify either step 1 or step 2, you are not playing an authentic Pragmatic Play game and your money is at risk!",
+  "rounds-absent": "You have not played any Pragmatic Play game on this site.",
+  "last-rounds-title": "Verify that your last played game with Pragmatic Play on this site was:",
+  "round": "Round",
+  "game": "Game",
+  "bet": "Bet",
+  "time": "Time",
+  "attention-step1-title": "Attention!",
+  "attention-step1-text": "If the URL does not begin precisely with \"domain/verify\", you are playing a cloned version of the game that is not authorized by Pragmatic Play. Your money is at risk and you should ask for your money back immediately. Only play authentic Pragmatic Play games.",
+  "attention-step2-title": "Attention!",
+  "attention-step2-text": "If you have played any game on this site that was presented as a Pragmatic Play game, it is a cloned version and not authorized by Pragmatic Play. Your money is at risk and you should ask for your money back immediately. Only play authentic Pragmatic Play games.",
+  "abuse-report-text": "Please report non-authentic games to:",
+  "email": "Email: report@pragmaticplay.com",
+  "telegram": "Telegram: @ppverify (Pragmatic Play Verify)"
+}

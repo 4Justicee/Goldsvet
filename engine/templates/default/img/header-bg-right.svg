@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="11px" height="255px" viewBox="0 0 11 255" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 39.1 (31720) - http://www.bohemiancoding.com/sketch -->
+    <title>Index XL - 1440 ( workplace 1420)</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <radialGradient cx="50.3957827%" cy="-5.96046519e-06%" fx="50.3957827%" fy="-5.96046519e-06%" r="40.0913178%" id="radialGradient-1">
+            <stop stop-color="#143356" offset="0%"></stop>
+            <stop stop-color="#08203A" offset="100%"></stop>
+        </radialGradient>
+        <linearGradient x1="87.9928862%" y1="150.146484%" x2="85.4878049%" y2="32.7706473%" id="linearGradient-2">
+            <stop stop-color="#324B69" offset="0%"></stop>
+            <stop stop-color="#132E4D" offset="100%"></stop>
+        </linearGradient>
+        <radialGradient cx="51.9199294%" cy="-18.8836351%" fx="51.9199294%" fy="-18.8836351%" r="66.3703882%" id="radialGradient-3">
+            <stop stop-color="#324C69" offset="0%"></stop>
+            <stop stop-color="#0A203B" stop-opacity="0" offset="100%"></stop>
+        </radialGradient>
+        <linearGradient x1="90.6370681%" y1="100%" x2="87.3964685%" y2="23.1828962%" id="linearGradient-4">
+            <stop stop-color="#FFFFFF" stop-opacity="0.25" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" stop-opacity="0" offset="100%"></stop>
+        </linearGradient>
+        <polygon id="path-5" points="387.51911 54.0433967 1650 54.0433967 1583.12657 177.956603 387.51911 177.956603"></polygon>
+        <mask id="mask-6" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="1262.48089" height="123.913207" fill="white">
+            <use xlink:href="#path-5"></use>
+        </mask>
+        <rect id="path-7" x="266.957609" y="176" width="1382.04004" height="4"></rect>
+        <mask id="mask-8" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="1382.04004" height="4" fill="white">
+            <use xlink:href="#path-7"></use>
+        </mask>
+        <radialGradient cx="55.24894%" cy="100%" fx="55.24894%" fy="100%" r="151.665039%" id="radialGradient-9">
+            <stop stop-color="#203E61" offset="0%"></stop>
+            <stop stop-color="#203E61" stop-opacity="0" offset="100%"></stop>
+        </radialGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Index-XL---1440-(-workplace-1420)" transform="translate(-1509.000000, 0.000000)">
+            <g id="Header-Vulcan'-–-Authorized" transform="translate(-29.000000, 0.000000)">
+                <rect id="Rectangle-2" fill="url(#radialGradient-1)" x="0" y="170" width="1549" height="85"></rect>
+                <g id="Rectangle-5-Copy-2" transform="translate(1018.759555, 116.000000) scale(-1, -1) translate(-1018.759555, -116.000000) ">
+                    <use fill="url(#linearGradient-2)" xlink:href="#path-5"></use>
+                    <use stroke="url(#linearGradient-4)" mask="url(#mask-6)" stroke-width="2" fill="url(#radialGradient-3)" xlink:href="#path-5"></use>
+                </g>
+                <rect id="Rectangle-5" fill="#091420" x="0" y="0" width="1650" height="48"></rect>
+                <use id="Rectangle-10" stroke="#19385B" mask="url(#mask-8)" stroke-width="2" fill="#091420" xlink:href="#path-7"></use>
+                <rect id="Rectangle-11" fill="url(#radialGradient-9)" x="0" y="175" width="1650" height="80"></rect>
+            </g>
+        </g>
+    </g>
+</svg>

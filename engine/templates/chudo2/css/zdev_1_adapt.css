@@ -1,0 +1,1282 @@
+@media screen and (max-width: 1241px) {
+    /* game-page, game-page-unlog */
+    .game-page .game-main .tabs-block .tabs-block-wrap, .game-page.game-page-unlog .game-main .tabs-block .tabs-block-wrap {
+        max-width: none;
+    }
+
+    /* /game-page, game-page-unlog */
+}
+
+@media screen and (max-width: 1239px) {
+    /* spisok-akciy-detail */
+    .spisok-akciy-detail-page .middle-items .middle-items-wrap .akciy-item-detail .top-block-info .middle-items-button {
+        display: none;
+    }
+
+    .spisok-akciy-detail-page .middle-items .middle-items-wrap .akciy-item-detail .top-block-info .middle-items-button.only-for-one-media {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -moz-box;
+        display: -ms-flexbox;
+        display: flex;
+        margin-right: 0;
+    }
+
+    .spisok-akciy-detail-page .middle-items .mbox.has-shadow:after {
+        right: -60px;
+    }
+
+    /* /spisok-akciy-detail */
+}
+
+@media screen and (max-width: 1179px) {
+    /* game-page */
+    .game-page .game-main {
+        height: auto;
+        max-width: 950px;
+    }
+
+    .game-page .game-main .game-tabs {
+        width: -webkit-calc(100% + 46px);
+        width: -moz-calc(100% + 46px);
+        width: calc(100% + 46px);
+        margin-left: -23px;
+    }
+
+    .game-page .game-main .game-tabs .tabs-block {
+        padding-bottom: 0px;
+    }
+
+    .game-page .game-main .game-tabs .tabs-block ul li {
+        padding: 4px 1px;
+    }
+
+    .game-page .game-main .game-content {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -webkit-flex-direction: column;
+        -moz-box-orient: vertical;
+        -moz-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -webkit-box-align: center;
+        -webkit-align-items: center;
+        -moz-box-align: center;
+        -ms-flex-align: center;
+        -ms-grid-row-align: center;
+        align-items: center;
+        -webkit-box-pack: start;
+        -webkit-justify-content: flex-start;
+        -moz-box-pack: start;
+        -ms-flex-pack: start;
+        justify-content: flex-start;
+    }
+
+    .game-page .game-main .game-content .game-left, .game-page .game-main .game-content .game-right {
+        padding-bottom: 4px;
+        -webkit-border-radius: 0;
+        -moz-border-radius: 0;
+        border-radius: 0;
+        min-height: 0;
+        width: 100%;
+        position: relative;
+    }
+
+    .game-page .game-main .game-content .game-left .game-item, .game-page .game-main .game-content .game-right .game-item {
+        -webkit-border-radius: 0;
+        -moz-border-radius: 0;
+        border-radius: 0;
+        min-height: 0;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -moz-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-justify-content: space-around;
+        -ms-flex-pack: distribute;
+        justify-content: space-around;
+        -webkit-box-align: stretch;
+        -webkit-align-items: stretch;
+        -moz-box-align: stretch;
+        -ms-flex-align: stretch;
+        align-items: stretch;
+    }
+
+    .game-page .game-main .game-content .game-left {
+        -webkit-box-ordinal-group: 3;
+        -webkit-order: 2;
+        -moz-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+        order: 2;
+        z-index: 1;
+        margin-top: -2px;
+        -webkit-border-radius: 0 0 25px 25px;
+        -moz-border-radius: 0 0 25px 25px;
+        border-radius: 0 0 25px 25px;
+    }
+
+    .game-page .game-main .game-content .game-left .shadow:after {
+        display: none;
+    }
+
+    .game-page .game-main .game-content .game-left .game-user-info, .game-page .game-main .game-content .game-left .game-user-progress-line {
+        margin-bottom: 20px;
+    }
+
+    .game-page .game-main .game-content .game-left .game-item {
+        -webkit-border-radius: 0 0 25px 25px;
+        -moz-border-radius: 0 0 25px 25px;
+        border-radius: 0 0 25px 25px;
+        padding-top: 2px;
+    }
+
+    .game-page .game-main .game-content .game-left .game-logo {
+        margin-bottom: 25px;
+        padding-top: 5px;
+    }
+
+    .game-page .game-main .game-content .game-left .game-logo img {
+        margin-left: 0;
+    }
+
+    .game-page .game-main .game-content .game-left .game-top-user {
+        padding-bottom: 0px;
+        margin-bottom: 0px;
+    }
+
+    .game-page .game-main .game-content .game-left .game-middle-user {
+        margin-bottom: 0;
+        padding-top: 45px;
+    }
+
+    .game-page .game-main .game-content .game-left .game-middle-user .some-wrap-one {
+        padding-bottom: 0;
+        margin-bottom: 38px;
+    }
+
+    .game-page .game-main .game-content .game-left .game-middle-user .some-wrap-two .game-user-info {
+        padding-right: 30px;
+        padding-left: 3px;
+    }
+
+    .game-page .game-main .game-content .game-left .game-middle-user .some-wrap-two .game-user-info .value {
+        width: -webkit-calc(100% - 60px);
+        width: -moz-calc(100% - 60px);
+        width: calc(100% - 60px);
+    }
+
+    .game-page .game-main .game-content .game-left .game-bottom-user {
+        padding-top: 35px;
+    }
+
+    .game-page .game-main .game-content .game-left .game-bottom-user .button-wrap:first-child {
+        margin-bottom: 7px;
+    }
+
+    .game-page .game-main .game-content .game-left .button-wrap {
+        margin-bottom: 10px;
+    }
+
+    .game-page .game-main .game-content .game-center {
+        -webkit-box-ordinal-group: 2;
+        -webkit-order: 1;
+        -moz-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+        order: 1;
+        width: 100%;
+        margin-bottom: 0px;
+        min-height: 0;
+        padding-bottom: 4px;
+        position: relative;
+        z-index: 2;
+    }
+
+    .game-page .game-main .game-content .game-center .game-center-wrap {
+        min-height: 0;
+        width: -webkit-calc(100% - 4px);
+        width: -moz-calc(100% - 4px);
+        width: calc(100% - 4px);
+        left: 2px;
+        top: 2px;
+    }
+
+    .game-page .game-main .game-content .game-center .game-center-wrap .game-center-index img {
+        min-height: 0;
+    }
+
+    .game-page .game-main .game-content .game-right {
+        -webkit-box-ordinal-group: 4;
+        -webkit-order: 3;
+        -moz-box-ordinal-group: 4;
+        -ms-flex-order: 3;
+        order: 3;
+        z-index: 0;
+        margin-top: -25px;
+        -webkit-border-radius: 0 0 25px 25px;
+        -moz-border-radius: 0 0 25px 25px;
+        border-radius: 0 0 25px 25px;
+    }
+
+    .game-page .game-main .game-content .game-right .game-item {
+        padding-top: 25px;
+        -webkit-border-radius: 0 0 25px 25px;
+        -moz-border-radius: 0 0 25px 25px;
+        border-radius: 0 0 25px 25px;
+    }
+
+    .game-page .game-main .game-content .game-right .torment-info .desktop {
+        display: none;
+    }
+
+    .game-page .game-main .game-content .game-right .torment-info .desktop-smaller {
+        display: block;
+    }
+
+    .game-page .game-main .game-content .game-right .torment-time-left.torment-info {
+        padding-top: 27px;
+    }
+
+    .game-page .game-main .game-content .game-right .torment-time-left.torment-info .torment-title {
+        margin-bottom: 4px;
+    }
+
+    .game-page .game-main .game-content .game-right .torment-time-left.torment-info .torment-value {
+        margin-bottom: 8px;
+    }
+
+    .game-page .game-main .game-content .game-right .torment-time-left.torment-info .torment-name {
+        margin-bottom: 5px;
+    }
+
+    .game-page .game-main .game-content .game-right .torment-time-left .title {
+        margin-bottom: 3px;
+    }
+
+    .game-page .game-main .game-content .game-right .torment-time-left .timer-wrap {
+        margin-bottom: 6px;
+    }
+
+    .game-page .game-main .game-content .game-right .table-wrap {
+        margin: inherit;
+        width: 100%;
+    }
+
+    .game-page .game-main .game-content .game-right .table-wrap .table {
+        height: 215px;
+    }
+
+    .game-page .game-main .game-content .game-right .table-wrap .table .row .item {
+        height: 22px;
+    }
+
+    /* /game-page */
+    /* game-page-unlog */
+    .game-page-unlog.game-page .game-main .game-content .game-left .game-logo {
+        margin-bottom: 0;
+        position: relative;
+        top: -20px;
+    }
+
+    .game-page-unlog.game-page .game-main .game-content .game-left .game-item {
+        padding-top: 42px;
+        padding-bottom: 25px;
+    }
+
+    .game-page-unlog.game-page .game-main .game-content .game-left .game-item .game-middel-unlog .desktop-smaller {
+        display: block;
+        margin-bottom: 15px;
+    }
+
+    .game-page-unlog.game-page .game-main .game-content .game-left .game-item .game-middel-unlog .jeckpot {
+        margin-bottom: 23px;
+    }
+
+    .game-page-unlog.game-page .game-main .game-content .game-left .game-item .game-middel-unlog .jeckpot:after {
+        content: '';
+        display: block;
+        position: absolute;
+        top: -13px;
+        left: -webkit-calc(50% - 112px);
+        left: -moz-calc(50% - 112px);
+        left: calc(50% - 112px);
+        width: 224px;
+        height: 28px;
+        background-image: url(../images/shadow.png);
+        pointer-events: none;
+    }
+
+    .game-page-unlog.game-page .game-main .game-content .game-left .game-item .game-middel-unlog .unlog-buttons-wrap {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -moz-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: justify;
+        -webkit-justify-content: space-between;
+        -moz-box-pack: justify;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+        -webkit-box-align: start;
+        -webkit-align-items: flex-start;
+        -moz-box-align: start;
+        -ms-flex-align: start;
+        align-items: flex-start;
+    }
+
+    .game-page-unlog.game-page .game-main .game-content .game-left .game-item .game-middel-unlog .button-wrap {
+        margin-bottom: 0;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+    .game-page-unlog.game-page .game-main .game-content .game-left .game-item .game-top-user {
+        padding-bottom: 0;
+    }
+
+    .game-page-unlog.game-page .game-main .game-content .game-left .game-item .game-top-user .desktop {
+        display: none;
+    }
+
+    .game-page-unlog.game-page .game-main .game-content .game-left .game-item .game-socials .game-social-links {
+        max-width: 235px;
+    }
+
+    .game-page-unlog.game-page .game-main .game-content .game-right .game-item {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -webkit-flex-direction: column;
+        -moz-box-orient: vertical;
+        -moz-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+
+    .game-page-unlog.game-page .game-main .game-content .game-right .game-item .middle-items {
+        padding: 0 20px;
+    }
+
+    .game-page-unlog.game-page .game-main .game-content .game-right .game-item .middle-items .middle-items-wrap .items {
+        width: 100%;
+    }
+
+    .game-page-unlog.game-page .game-main .game-content .game-right .game-item .middle-items .middle-items-wrap .items .item.desktop-smaller {
+        display: block;
+    }
+
+    /* /game-page-unlog */
+}
+
+@media screen and (max-width: 1079px) {
+    /* game-page, game-page-unlog */
+    .game-page .game-main .tabs-block .tabs-block-wrap, .game-page.game-page-unlog .game-main .tabs-block .tabs-block-wrap {
+        max-width: 605px;
+    }
+
+    /* /game-page, game-page-unlog */
+}
+
+@media screen and (max-width: 1024px) {
+    /* /spisok-akciy-detail */
+    .spisok-akciy-detail-page .middle-items .middle-items-wrap {
+        right: 0;
+    }
+
+    .spisok-akciy-detail-page .middle-items .middle-items-wrap .akciy-item-detail .bottom-block-info .bottom-block-info-wrap .content ul li {
+        margin-bottom: 25px;
+    }
+
+    .spisok-akciy-detail-page .middle-items .middle-items-wrap .akciy-item-detail .bottom-block-info .bottom-block-info-wrap .content ul li:nth-child(5n) {
+        padding-top: 1px;
+    }
+
+    /* /spisok-akciy-detail */
+    .bonus-page .bonus-page-leveling .leveling-icons .leveling-icon {
+        margin-bottom: 20px;
+    }
+
+    .bonus-page .bonus-page-leveling .leveling-icons .leveling-icon .leveling-icon-wrap .info-item-triangle {
+        bottom: -34px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    /* /spisok-akciy-detail */
+    .spisok-akciy-detail-page .middle-items .middle-items-wrap .akciy-item-detail .top-block-info .middle-items-button {
+        padding-bottom: 5px;
+    }
+
+    /* /spisok-akciy-detail */
+    .bonus-page .trading-block .bonuse-page-shadows.bottom {
+        bottom: 7px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    /* register-popup */
+    .register-popup {
+        width: 666px;
+    }
+
+    .register-popup .register-popup-main .register-popup-top .steps-nav {
+        margin-left: 0;
+    }
+
+    .register-popup .register-popup-main .register-popup-content .register-step.step-first .first-step-wrap .first-step-item {
+        padding: 0 5px;
+    }
+
+    .register-popup .register-popup-main .register-popup-content .register-step.step-second .register-form .second-step-col-first {
+        width: 190px;
+    }
+
+    .register-popup .register-popup-main .register-popup-content .register-step.step-second .register-form .second-step-col-second {
+        width: -webkit-calc(100% - 200px);
+        width: -moz-calc(100% - 200px);
+        width: calc(100% - 200px);
+    }
+
+    .register-popup .register-popup-main .register-popup-content .register-step.step-second .register-form .second-step-col-second .bottom-steps-soci-enter .bottom-steps-soci-text {
+        font-size: 12px;
+    }
+
+    /* /register-popup */
+    /* bonus-popup */
+    .bonus-popup .bonus-popup-main .bonus-popup-items .item {
+        padding-bottom: 20px;
+    }
+
+    .bonus-popup .bonus-popup-main .bonus-popup-items .item .item-img {
+        width: 150px;
+        padding-top: 20px;
+    }
+
+    /* /bonus-popup */
+}
+
+@media screen and (max-width: 939px) {
+    /* game-page */
+    .game-page .game-main {
+        max-width: 700px;
+    }
+
+    /* /game-page */
+    /* game-page-unlog */
+    .game-page-unlog.game-page-unlog .game-main .game-content .game-left .game-item p {
+        margin-top: 0;
+    }
+
+    .game-page-unlog.game-page-unlog .game-main .game-content .game-left .game-item .game-middel-unlog .unlog-buttons-wrap {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -webkit-flex-direction: column;
+        -moz-box-orient: vertical;
+        -moz-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -webkit-box-align: center;
+        -webkit-align-items: center;
+        -moz-box-align: center;
+        -ms-flex-align: center;
+        -ms-grid-row-align: center;
+        align-items: center;
+    }
+
+    .game-page-unlog.game-page-unlog .game-main .game-content .game-left .game-item .game-middel-unlog .unlog-buttons-wrap .button-wrap {
+        margin-bottom: 10px;
+    }
+
+    .game-page-unlog.game-page-unlog .game-main .game-content .game-left .game-item .game-middel-unlog .unlog-buttons-wrap .button-wrap:last-child {
+        margin-bottom: 0;
+    }
+
+    /* /game-page-unlog */
+}
+
+@media screen and (max-width: 900px) {
+    /* bonuse-page */
+    .bonus-page .bonus-nav {
+        padding: 35px 10px 70px;
+        margin-bottom: 0;
+    }
+
+    .bonus-page .bonus-nav .bonus-nav-item {
+        padding: 0 35px;
+    }
+
+    /* /bonuse-page */
+}
+
+@media screen and (max-width: 768px) {
+    /* enter-popup */
+    .enter-popup {
+        width: 480px;
+    }
+
+    /* /enter-popup */
+}
+
+@media screen and (max-width: 767px) {
+    /* register-popup */
+    .register-popup {
+        width: 500px;
+    }
+
+    .register-popup .register-popup-main .register-popup-top .title {
+        font-size: 16px;
+    }
+
+    .register-popup .register-popup-main .register-popup-top .steps-nav .step-nav-item .step-nav-text {
+        font-size: 16px;
+    }
+
+    .register-popup .register-popup-main .register-popup-content .title {
+        font-size: 15px;
+    }
+
+    .register-popup .register-popup-main .register-popup-content .register-step.step-first {
+        padding: 0 14px 15px 14px;
+    }
+
+    .register-popup .register-popup-main .register-popup-content .register-step.step-first .first-step-wrap .first-step-item .step-text {
+        font-size: 12px;
+    }
+
+    .register-popup .register-popup-main .register-popup-content .register-step.step-second .register-form {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: reverse;
+        -webkit-flex-direction: column-reverse;
+        -moz-box-orient: vertical;
+        -moz-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+        flex-direction: column-reverse;
+    }
+
+    .register-popup .register-popup-main .register-popup-content .register-step.step-second .register-form .second-step-col-first, .register-popup .register-popup-main .register-popup-content .register-step.step-second .register-form .second-step-col-second {
+        width: 100%;
+    }
+
+    .register-popup .register-popup-main .register-popup-content .register-step.step-second .register-form .second-step-col-first .second-step-img .img {
+        max-width: 150px;
+        left: 50%;
+        -webkit-transform: translate(-50%, 0);
+        -moz-transform: translate(-50%, 0);
+        -ms-transform: translate(-50%, 0);
+        -o-transform: translate(-50%, 0);
+        transform: translate(-50%, 0);
+    }
+
+    .register-popup .register-popup-main .register-popup-content .register-step.step-second .register-form .second-step-col-second {
+        margin-bottom: 15px;
+    }
+
+    .register-popup .register-popup-main .register-popup-bottom .text {
+        font-size: 14px;
+    }
+
+    .register-popup .register-popup-main .register-popup-bottom .link a {
+        font-size: 16px;
+    }
+
+    /* /register-popup */
+    /* bonus-popup */
+    .bonus-popup .bonus-popup-main .bonus-popup-items .item {
+        -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    }
+
+    .bonus-popup .bonus-popup-main .bonus-popup-items .item .item-img {
+        width: 215px;
+        padding-top: 15px;
+    }
+
+    .bonus-popup .bonus-popup-main .bonus-popup-items .item .item-info {
+        -webkit-box-ordinal-group: 2;
+        -webkit-order: 1;
+        -moz-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+        order: 1;
+        width: 100%;
+        max-width: none;
+        text-align: center;
+    }
+
+    /* /bonus-popup */
+}
+
+@media screen and (max-width: 699px) {
+    /* bonuse-page */
+    .bonus-page .bonus-nav {
+        padding: 35px 10px 0 10px;
+    }
+
+    .bonus-page .bonus-nav .bonus-nav-item {
+        width: 100%;
+        text-align: center;
+        padding: 0 25px;
+        margin-bottom: 25px;
+    }
+
+    .bonus-page .bonus-nav .bonus-nav-item .title-inside, .bonus-page .bonus-nav .bonus-nav-item a {
+        display: inline-block;
+    }
+
+    .bonus-page .bonus-wrap {
+        max-width: 340px;
+        margin: 0 auto;
+    }
+
+    .bonus-page .trading-block .bonuse-page-shadows {
+        opacity: 0;
+    }
+
+    .bonus-page .trading-block .trading-block-main .trade-main .trade-form-wrap {
+        position: relative;
+        padding-top: 110px;
+    }
+
+    .bonus-page .trading-block .trading-block-main .trade-main .trade-form-wrap .form-row .form-col:nth-child(2) {
+        position: absolute;
+        top: 0;
+        left: -webkit-calc(50% - 103px);
+        left: -moz-calc(50% - 103px);
+        left: calc(50% - 103px);
+    }
+
+    .bonus-page .trading-block .trading-block-main .trade-main .trade-form-wrap .form-row .form-input input, .bonus-page .trading-block .trading-block-main .trade-main .trade-form-wrap .form-row .form-input .input-imitation {
+        width: 160px;
+        padding: 14px 10px 15px 10px;
+        font-size: 16px;
+    }
+
+    .bonus-page .trading-block .trading-block-main .title-wrap .toltip-icon .toltip-text {
+        left: 50%;
+        -webkit-transform: translate(-50%, 0);
+        -moz-transform: translate(-50%, 0);
+        -ms-transform: translate(-50%, 0);
+        -o-transform: translate(-50%, 0);
+        transform: translate(-50%, 0);
+    }
+
+    .bonus-page .bonus-page-progress {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -moz-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: reverse;
+        -webkit-flex-direction: row-reverse;
+        -moz-box-orient: horizontal;
+        -moz-box-direction: reverse;
+        -ms-flex-direction: row-reverse;
+        flex-direction: row-reverse;
+        -webkit-box-align: center;
+        -webkit-align-items: center;
+        -moz-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -webkit-box-pack: justify;
+        -webkit-justify-content: space-between;
+        -moz-box-pack: justify;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+        padding: 0 15px;
+    }
+
+    .bonus-page .bonus-page-progress .bonus-page-progess-values {
+        width: -webkit-calc(100% - 240px);
+        width: -moz-calc(100% - 240px);
+        width: calc(100% - 240px);
+        text-align: center;
+    }
+
+    .bonus-page .bonus-page-progress .bonus-page-progess-values ul {
+        display: none;
+    }
+
+    .bonus-page .bonus-page-progress .bonus-page-progess-values .mobile-value {
+        display: block;
+    }
+
+    .bonus-page .bonus-page-progress .bonus-page-progress-wrap {
+        width: 232px;
+    }
+
+    .bonus-page .bonus-page-progress .bonus-page-progress-wrap .progress-line-breackers-mobile {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -moz-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: justify;
+        -webkit-justify-content: space-between;
+        -moz-box-pack: justify;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+    }
+
+    .bonus-page .bonus-page-progress .bonus-page-progress-wrap .progress-line-background img {
+        display: none;
+    }
+
+    .bonus-page .bonus-page-progress .bonus-page-progress-wrap .progress-line-background img.mobile {
+        display: block;
+    }
+
+    .bonus-page .bonus-page-progress .bonus-page-progress-wrap .progress-line-value .progress-line-breackers-mobile {
+        width: 226px;
+    }
+
+    .bonus-page .bonus-page-leveling .leveling-icons {
+        -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    }
+
+    .bonus-page .bonus-page-leveling .leveling-icons .leveling-icon {
+        width: 50%;
+        position: relative;
+        margin-bottom: 40px;
+    }
+
+    .bonus-page .bonus-page-leveling .leveling-icons .leveling-icon:nth-child(even) .info-item {
+        left: auto;
+        right: 0;
+    }
+
+    .bonus-page .bonus-page-leveling .leveling-icons .leveling-icon .info-item {
+        width: 200%;
+        top: auto;
+        bottom: -20px;
+    }
+
+    .bonus-page .bonus-page-leveling .leveling-icons .leveling-icon .info-item .info-item-wrap .info-text {
+        -webkit-columns: auto;
+        -moz-columns: auto;
+        columns: auto;
+    }
+
+    /* /bonuse-page */
+    /* spisok-akciy-detail */
+    .spisok-akciy-detail-page .back-arrow-wrap {
+        text-align: center;
+        width: 100%;
+    }
+
+    .spisok-akciy-detail-page .mbox:after {
+        opacity: .3;
+        right: -webkit-calc(100% + 15px);
+        right: -moz-calc(100% + 15px);
+        right: calc(100% + 15px);
+        top: -15px;
+    }
+
+    .spisok-akciy-detail-page .mbox:before {
+        opacity: .3;
+        left: -webkit-calc(100% + 30px);
+        left: -moz-calc(100% + 30px);
+        left: calc(100% + 30px);
+        top: -30px;
+    }
+
+    .spisok-akciy-detail-page .middle-items {
+        padding-top: 20px;
+    }
+
+    .spisok-akciy-detail-page .middle-items .middle-items-wrap .akciy-item-detail .content-wrapper {
+        width: 100%;
+    }
+
+    .spisok-akciy-detail-page .middle-items .middle-items-wrap .akciy-item-detail .top-block-info {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -webkit-flex-direction: column;
+        -moz-box-orient: vertical;
+        -moz-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -webkit-box-pack: start;
+        -webkit-justify-content: flex-start;
+        -moz-box-pack: start;
+        -ms-flex-pack: start;
+        justify-content: flex-start;
+        -webkit-box-align: center;
+        -webkit-align-items: center;
+        -moz-box-align: center;
+        -ms-flex-align: center;
+        -ms-grid-row-align: center;
+        align-items: center;
+    }
+
+    .spisok-akciy-detail-page .middle-items .middle-items-wrap .akciy-item-detail .top-block-info .img {
+        margin-bottom: 20px;
+        position: relative;
+    }
+
+    .spisok-akciy-detail-page .middle-items .middle-items-wrap .akciy-item-detail .top-block-info .img:after {
+        top: 56px;
+        width: 27px;
+        height: 765px;
+        background: transparent url("../images/mbox.hasshadow-left.png") left top no-repeat;
+        content: '';
+        position: absolute;
+        right: -webkit-calc(100% + 8px);
+        right: -moz-calc(100% + 8px);
+        right: calc(100% + 8px);
+        opacity: .7;
+    }
+
+    .spisok-akciy-detail-page .middle-items .middle-items-wrap .akciy-item-detail .top-block-info .img:before {
+        top: 56px;
+        width: 27px;
+        height: 765px;
+        background: transparent url("../images/mbox.hasshadow-right.png") left top no-repeat;
+        content: '';
+        position: absolute;
+        left: -webkit-calc(100% + 8px);
+        left: -moz-calc(100% + 8px);
+        left: calc(100% + 8px);
+        opacity: .7;
+    }
+
+    .spisok-akciy-detail-page .middle-items .middle-items-wrap .akciy-item-detail .top-block-info .content {
+        width: 320px;
+    }
+
+    .spisok-akciy-detail-page .middle-items .middle-items-wrap .akciy-item-detail .top-block-info .content .txt {
+        padding: 0 20px;
+    }
+
+    .spisok-akciy-detail-page .middle-items .middle-items-wrap .akciy-item-detail .top-block-info .middle-items-button {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -moz-box;
+        display: -ms-flexbox;
+        display: flex;
+    }
+
+    .spisok-akciy-detail-page .middle-items .middle-items-wrap .akciy-item-detail .top-block-info .middle-items-button.only-for-one-media {
+        display: none;
+    }
+
+    .spisok-akciy-detail-page .middle-items .middle-items-wrap .akciy-item-detail .bottom-block-info:before {
+        -webkit-background-size: 66% 66%;
+        -moz-background-size: 66%;
+        -o-background-size: 66%;
+        background-size: 66%;
+        background-position: center;
+    }
+
+    .spisok-akciy-detail-page .middle-items .middle-items-wrap .akciy-item-detail .bottom-block-info .bottom-block-info-wrap {
+        max-width: 340px;
+        width: 100%;
+        padding: 0 10px;
+        margin: 0 auto;
+        padding-top: 20px;
+    }
+
+    .spisok-akciy-detail-page .middle-items .middle-items-wrap .akciy-item-detail .bottom-block-info .bottom-block-info-wrap .content ul {
+        -webkit-columns: auto;
+        -moz-columns: auto;
+        columns: auto;
+    }
+
+    /* /spisok-akciy-detail */
+    /* game-page */
+    .game-page .game-main {
+        max-width: 480px;
+    }
+
+    .game-page .game-main .game-content .game-left .game-item, .game-page .game-main .game-content .game-right .game-item {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -webkit-flex-direction: column;
+        -moz-box-orient: vertical;
+        -moz-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -webkit-box-pack: center;
+        -webkit-justify-content: center;
+        -moz-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -webkit-align-items: center;
+        -moz-box-align: center;
+        -ms-flex-align: center;
+        -ms-grid-row-align: center;
+        align-items: center;
+        padding-bottom: 40px;
+    }
+
+    .game-page .game-main .game-content .game-left .shadow:after {
+        display: block;
+    }
+
+    .game-page .game-main .game-content .game-left .game-logo img {
+        position: relative;
+        left: -20px;
+    }
+
+    .game-page .game-main .game-content .game-left .game-top-user {
+        padding-bottom: 20px;
+        margin-bottom: 30px;
+    }
+
+    .game-page .game-main .game-content .game-left .game-middle-user {
+        padding-top: 0;
+        padding-bottom: 20px;
+        margin-bottom: 30px;
+        position: relative;
+    }
+
+    .game-page .game-main .game-content .game-left .game-middle-user:after {
+        content: '';
+        display: block;
+        position: absolute;
+        top: 100%;
+        left: -webkit-calc(50% - 112px);
+        left: -moz-calc(50% - 112px);
+        left: calc(50% - 112px);
+        width: 224px;
+        height: 28px;
+        background-image: url(../images/shadow.png);
+        pointer-events: none;
+    }
+
+    .game-page .game-main .game-content .game-left .button-wrap {
+        margin-bottom: 15px;
+    }
+
+    .game-page .game-main .game-content .game-left .game-bottom-user {
+        padding-top: 0;
+    }
+
+    .game-page .game-main .game-content .game-left .game-bottom-user .button-wrap:first-child {
+        margin-bottom: 12px;
+    }
+
+    .game-page .game-main .game-content .game-center .game-center-wrap .game-center-slider .slider-wrap .slider-item .img-wrap {
+        max-width: 100px;
+        margin: 0 auto;
+    }
+
+    .game-page .game-main .game-content .game-right .torment-info {
+        padding-top: 25px;
+    }
+
+    .game-page .game-main .game-content .game-right .torment-info .desktop {
+        display: block;
+    }
+
+    .game-page .game-main .game-content .game-right .torment-info .desktop-smaller {
+        display: none;
+    }
+
+    .game-page .game-main .game-content .game-right .torment-time-left.torment-info {
+        padding-top: 0;
+    }
+
+    .game-page .game-main .game-content .game-right .torment-time-left .timer-wrap {
+        margin-bottom: 20px;
+    }
+
+    /* /game-page */
+    /* bonus-page-unlog */
+    .game-page-unlog.game-page .game-main .game-content .game-left .game-item .game-middel-unlog {
+        margin-bottom: 25px;
+    }
+
+    /* /bonus-page-unlog */
+}
+
+@media screen and (max-width: 666px) {
+    /* enter-popup, restore-pass */
+    .enter-popup {
+        width: 400px;
+    }
+
+    .enter-popup .enter-popup-main .enter-popup-bottom .enter-popup-bottom-wrap p {
+        font-size: 12px;
+    }
+
+    .enter-popup .enter-popup-main .enter-popup-bottom .enter-popup-bottom-wrap a {
+        font-size: 16px;
+    }
+
+    .enter-popup.restore-pass {
+        width: 390px;
+    }
+
+    .enter-popup.restore-pass .enter-popup-main .enter-popup-center .enter-popup-center-wrap {
+        max-width: 300px;
+    }
+
+    /* /enter-popup, restore-pass */
+    /* bonus-popup */
+    .bonus-popup .bonus-popup-main .bonus-popup-items .item {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -webkit-flex-direction: column;
+        -moz-box-orient: vertical;
+        -moz-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -webkit-box-align: center;
+        -webkit-align-items: center;
+        -moz-box-align: center;
+        -ms-flex-align: center;
+        -ms-grid-row-align: center;
+        align-items: center;
+    }
+
+    /* /bonus-popup */
+}
+
+@media screen and (max-width: 580px) {
+    /* register-popup */
+    .register-popup {
+        width: 380px;
+    }
+
+    .register-popup .register-popup-main .register-popup-top {
+        display: block;
+        padding: 17px 30px 70px 23px;
+    }
+
+    .register-popup .register-popup-main .register-popup-top .register-left {
+        width: 100%;
+    }
+
+    .register-popup .register-popup-main .register-popup-top .close-btn-custom {
+        position: absolute;
+        right: 30px;
+        top: 15px;
+    }
+
+    .register-popup .register-popup-main .register-popup-top .steps-nav {
+        position: absolute;
+        bottom: 10px;
+        left: 50%;
+        margin-left: -115px;
+    }
+
+    .register-popup .register-popup-main .register-popup-content .title {
+        font-size: 14px;
+    }
+
+    .register-popup .register-popup-main .register-popup-content .register-step.step-first .first-step-wrap {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -webkit-flex-direction: column;
+        -moz-box-orient: vertical;
+        -moz-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+
+    .register-popup .register-popup-main .register-popup-content .register-step.step-first .first-step-wrap .first-step-item {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+
+    .register-popup .register-popup-main .register-popup-content .register-step.step-first .first-step-wrap .first-step-item:last-child {
+        margin-bottom: 0;
+    }
+
+    .register-popup .register-popup-main .register-popup-content .register-step.step-first .first-step-wrap .first-step-item .first-step-img img {
+        max-width: 150px;
+    }
+
+    .register-popup .register-popup-main .register-popup-content .register-step.step-second .register-form .second-step-col-second .register-fields-wrap {
+        height: auto;
+    }
+
+    .register-popup .register-popup-main .register-popup-content .register-step.step-second .register-form .second-step-col-second .form-row {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -webkit-flex-direction: column;
+        -moz-box-orient: vertical;
+        -moz-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        margin-bottom: 0;
+    }
+
+    .register-popup .register-popup-main .register-popup-content .register-step.step-second .register-form .second-step-col-second .form-row .form-col {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .register-popup .register-popup-main .register-popup-content .register-step.step-second .register-form .second-step-col-second .form-row .form-col:first-child {
+        padding-right: 0;
+    }
+
+    .register-popup .register-popup-main .register-popup-content .register-step.step-second .register-form .second-step-col-second .form-row .form-col:last-child {
+        padding-left: 0;
+    }
+
+    .register-popup .register-popup-main .register-popup-content .register-step.step-second .register-form .second-step-col-second .form-row.form-submit-row .lisence-checkbox label {
+        -webkit-box-pack: center;
+        -webkit-justify-content: center;
+        -moz-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+    }
+
+    .register-popup .register-popup-main .register-popup-content .register-step.step-second .register-form .second-step-col-second .form-row.form-submit-row .form-col:last-child {
+        -webkit-box-pack: center;
+        -webkit-justify-content: center;
+        -moz-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+    }
+
+    .register-popup .register-popup-main .register-popup-content .register-step.step-second .register-form .second-step-col-second .bottom-steps-soci-enter {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -webkit-flex-direction: column;
+        -moz-box-orient: vertical;
+        -moz-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -webkit-box-align: center;
+        -webkit-align-items: center;
+        -moz-box-align: center;
+        -ms-flex-align: center;
+        -ms-grid-row-align: center;
+        align-items: center;
+    }
+
+    .register-popup .register-popup-main .register-popup-content .register-step.step-second .register-form .second-step-col-second .bottom-steps-soci-enter .bottom-steps-soci-text {
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+
+    /* /register-popup */
+}
+
+@media screen and (max-width: 480px) {
+    /* bonus-page */
+    .bonus-page .trading-block .trading-block-main .trade-main .trade-form-wrap .form-row .form-col {
+        padding: 0 2px;
+    }
+
+    .bonus-page .trading-block .trading-block-main .trade-main .trade-form-wrap .form-row .form-input input, .bonus-page .trading-block .trading-block-main .trade-main .trade-form-wrap .form-row .form-input .input-imitation {
+        width: 155px;
+    }
+
+    /* /bonus-page */
+    /* enter-popup, restore-pass */
+    .enter-popup {
+        width: 285px;
+    }
+
+    .enter-popup .enter-popup-main .enter-popup-center {
+        padding: 25px 15px 0 15px;
+    }
+
+    .enter-popup .enter-popup-main .enter-popup-bottom .enter-popup-bottom-wrap {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -webkit-flex-direction: column;
+        -moz-box-orient: vertical;
+        -moz-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .enter-popup .enter-popup-main .enter-popup-bottom .enter-popup-bottom-wrap p {
+        margin-right: 0;
+        font-size: 13px;
+        margin-bottom: 10px;
+    }
+
+    .enter-popup .enter-popup-main .enter-popup-bottom .enter-popup-bottom-wrap a {
+        margin-left: 0;
+    }
+
+    .enter-popup.restore-pass {
+        width: 285px;
+    }
+
+    .enter-popup.restore-pass .enter-popup-main .enter-popup-top .title {
+        font-size: 16px;
+    }
+
+    .enter-popup.restore-pass .enter-popup-main .enter-popup-top .close-btn-custom {
+        bottom: 3px;
+    }
+
+    .enter-popup.restore-pass .enter-popup-main .enter-popup-center .enter-popup-center-wrap .form-row .form-input .form-title {
+        font-size: 13px;
+    }
+
+    .enter-popup.restore-pass .enter-popup-main .enter-popup-center .enter-popup-center-wrap .forgot-pass a {
+        font-size: 13px;
+    }
+
+    .enter-popup.restore-pass .enter-popup-main .enter-popup-bottom .enter-popup-bottom-wrap p {
+        margin-right: 0;
+    }
+
+    .enter-popup.restore-pass .enter-popup-main .enter-popup-bottom .enter-popup-bottom-wrap a {
+        margin-left: 0;
+    }
+
+    /* /enter-popup, restore-pass */
+    /* register-popup */
+    .register-popup {
+        width: 285px;
+    }
+
+    .register-popup .register-popup-main .register-popup-content .register-step.step-second {
+        padding: 0 15px 0 15px;
+    }
+
+    .register-popup .register-popup-main .register-popup-bottom {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -webkit-flex-direction: column;
+        -moz-box-orient: vertical;
+        -moz-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -webkit-box-pack: center;
+        -webkit-justify-content: center;
+        -moz-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+    }
+
+    .register-popup .register-popup-main .register-popup-bottom .text {
+        margin-bottom: 5px;
+    }
+
+    /* /register-popup */
+    /* bonus-popup */
+    .bonus-popup .bonus-popup-main .bonus-popup-top {
+        padding: 20px 30px 20px 30px;
+    }
+
+    .bonus-popup .bonus-popup-main .bonus-popup-top .title {
+        font-size: 16px;
+    }
+
+    .bonus-popup .bonus-popup-main .bonus-popup-top .title .word-wrap {
+        margin-right: 20px;
+        padding-right: 20px;
+    }
+
+    .bonus-popup .bonus-popup-main .bonus-popup-top .close-btn-custom {
+        right: 10px;
+    }
+
+    .bonus-popup .bonus-popup-main .bonus-popup-items {
+        padding: 30px 10px 30px 10px;
+    }
+
+    /* /bonus-popup */
+}

@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+
+<link href="assets/chart/bootstrap.css" rel="stylesheet" type="text/css">
+<script src="assets/chart/jquery-1.11.3.min.js"></script>
+<script src="assets/chart/bootstrap.js"></script>
+<script src="assets/chart/canvasjs.min.js"></script>
+<style>
+    .table_label {
+        color: blueviolet;
+    }
+
+    #freeSpinCount {
+        color: blue;
+    }
+
+    #bonusSpinCount {
+        color: red;
+    }
+</style>
+
+<div class="container" style="margin-top:10px;">
+
+    <div class="row">
+
+        <div class="col-md-4">
+            <div class="panel panel-default">
+                <div class="panel-heading">                   </div>
+                <div class="panel-body">
+
+                    <table class="table table-bordered">
+
+                        <tbody>
+                            <tr>
+                                <td class="table_label">            </td>
+                                <td><span id="currentMoney"></span></td>
+
+                                <td class="table_label">             </td>
+                                <td><span id="leftBetCnt"></span></td>
+                            </tr>
+                            <tr>
+                                <td class="table_label">            </td>
+                                <td><input type="number" style="width:70px;" id="betPerLine" disabled></input></td>
+                                <td class="table_label">            </td>
+                                <td><span id="bet"></span></td>
+                            </tr>
+                            <tr>
+                                <td class="table_label" colspan="3">FreeSpin             </td>
+                                <td colspan="1"><input type="number" id="freeSpinLimit" value="5" style="width:50px;">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="table_label" colspan="3">Money Bonus             </td>
+                                <td colspan="1"><input type="number" id="moneyBonusLimit" value="5" style="width:50px;">
+                                </td>
+                            </tr>
+
+                        </tbody>
+                    </table>
+
+
+                    <button class="btn btn-success" onclick="OnStart(true)">               </button>
+
+                </div>
+            </div>
+
+        </div>
+        <div class="col-md-4">
+            <div class="panel panel-success">
+                <div class="panel-heading">                              </div>
+                <div class="panel-body">
+
+                    <table class="table table-bordered">
+
+                        <tbody>
+
+                            <tr>
+                                <td class="table_label">            </td>
+                                <td id="betCnt">0</td>
+                                <td class="table_label">      /      </td>
+                                <td><span id="winCnt">0</span> / <span id="lostCnt">0</span></td>
+                            </tr>
+
+                            <tr>
+                                <td class="table_label">             </td>
+                                <td id="totalOutgo">0</td>
+                                <td class="table_label">             </td>
+                                <td id="totalIncome">0</td>
+                            </tr>
+                            <tr>
+                                <td class="table_label">            </td>
+                                <td id="freeSpinCount">0</td>
+
+                                <td class="table_label">               </td>
+                                <td id="bonusSpinCount">0</td>
+
+                            </tr>
+
+
+                            <tr>
+
+                                <td class="table_label">            </td>
+                                <td id="finalMoney">0</td>
+                                <td class="table_label">RTP</td>
+                                <td><span id="rtp">0</span>%</td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="panel panel-danger">
+                <div class="panel-heading">                </div>
+                <div class="panel-body">
+
+                    <table class="table table-bordered">
+
+                        <tbody>
+                            <tr>
+                                <td>          </td>
+                                <td>
+                                    <select onchange="OnCall()" class="form-control" id="callType">
+                                        <option value="FREE">            </option>
+                                        <option value="BONUS">               </option>
+                                    </select>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>                </td>
+                                <td><input type="number" id="callMoney" value="100000"></td>
+                            </tr>
+                            <tr>
+                                <td>          </td>
+                                <td><input type="text" id="callResult" value="0" disabled></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <button class="btn  btn-success " onclick="OnCall()">                   </button>
+                    <button class="btn  btn-danger  " onclick="OnApply()">           </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <div id="chartContainer" style="height: 370px; width: 100%; margin: 10px auto;"></div>
+
+    <select onchange="refreshPredictWin()" id="predictWinChart" style="height: 34px;">
+        <option value="line">line</option>
+        <option value="column">column</option>
+        <option value="spline">spline</option>
+        <option value="area">area</option>
+        <option value="bar">bar</option>
+    </select>
+    <div id="chartContainer1" style="height: 370px; width: 100%; margin: 10px auto;"></div>
+
+</div>
+
+
+<script type="text/javascript">
+
+    var callData = null;
+
+    OnStart(false);
+
+    function OnStart(isRefresh) {
+
+        // var queryData = {
+        //     player_id: "1",
+        //     game_code: "vs243mwarrior",
+        //     refresh: isRefresh ? 1 : 0,
+        // }
+        var queryData = {
+            player_code: "<%=player_code %>",
+            game_code: "<%=game_code %>",
+            refresh: isRefresh ? 1 : 0,
+            freeSpinCount: $("#freeSpinLimit").val(),
+            moneyBonusCount: $("#moneyBonusLimit").val(),
+        }
+
+        console.info(queryData);
+
+        $.get('/predict', queryData, function (res) {
+
+            $data1 = [];
+            $data2 = [];
+
+            var predictData = res.predictData;
+            console.info(predictData);
+
+            $("#currentMoney").html(predictData.money);
+            $("#bet").html(predictData.bet);
+            $("#betPerLine").val(predictData.betPerLine);
+            $("#leftBetCnt").html(predictData.view_stack.length);
+
+            var player = {
+                money: predictData.money,
+                totalIncome: 0,
+                totalOutgo: 0,
+                betCnt: 0,
+                winCnt: 0,
+                lostCnt: 0,
+                freeSpinCount: 0,
+                bonusSpinCount: 0,
+                winMoneys: [],
+                moneyHist: [],
+            }
+
+            const view_stack = predictData.view_stack;
+            const view_history = predictData.view_history;
+
+            const bet = predictData.bet > 0 ? predictData.bet : 2000;
+            const betPerLine = predictData.betPerLine > 0 ? predictData.betPerLine : 100;
+
+            for (var i = 0; view_history && i < view_history.length; i++) {
+                var obj1 = {
+                    label: i,
+                    y: view_history[i].balance,
+                    lineColor: "red",
+                    markerColor: "red",
+                };
+                var obj2 = {
+                    label: i,
+                    y: view_history[i].win,
+                    lineColor: "red",
+                    markerColor: "red",
+                };
+
+                if (view_history[i].type == "FREE") {
+                    obj1.indexLabel = "Free";
+                    obj2.indexLabel = "Free";
+                } else if (view_history[i].type == "BONUS") {
+                    obj1.indexLabel = "Bonus";
+                    obj2.indexLabel = "Bonus";
+                }
+
+                $data1.push(obj1);
+                $data2.push(obj2);
+            }
+
+            if ($data1.length > 0) {
+                $data1[$data1.length - 1].indexLabel = "      ";
+                $data1[$data1.length - 1].indexLabelFontColor = "red";
+                $data1[$data1.length - 1].indexLabelFontSize = 18;
+                $data1[$data1.length - 1].markerColor = "red";
+                $data1[$data1.length - 1].markerType = "triangle";
+            }
+
+            if ($data2.length > 0) {
+                $data2[$data2.length - 1].indexLabel = "      ";
+                $data2[$data2.length - 1].indexLabelFontColor = "red";
+                $data2[$data2.length - 1].markerColor = "red";
+                $data2[$data2.length - 1].markerType = "triangle";
+            }
+
+            for (var i = 0; view_stack && i < view_stack.length; i++) {
+                player.betCnt++;
+                if (view_stack[i].type == "BASE") {
+                    player.money -= bet;
+                    player.totalOutgo += bet;
+                } else if (view_stack[i].type == "FREE") {
+                    player.freeSpinCount++;
+                } else if (view_stack[i].type == "BONUS") {
+                    player.bonusSpinCount++;
+                }
+
+                const win = view_stack[i].win / view_stack[i].bpl * betPerLine;
+                player.money += win;
+                player.totalIncome += win;
+
+                if (win > 0) {
+                    player.winCnt++;
+                } else {
+                    player.lostCnt++;
+                }
+
+                var obj1 = {
+                    label: i,
+                    y: player.money,
+                };
+
+                var obj2 = {
+                    label: i,
+                    y: win
+                };
+
+                if (view_stack[i].type == "FREE") {
+                    obj1.indexLabel = "Free";
+                    obj2.indexLabel = "Free";
+                } else if (view_stack[i].type == "BONUS") {
+                    obj1.indexLabel = "Bonus";
+                    obj2.indexLabel = "Bonus";
+                }
+
+                $data1.push(obj1);
+                $data2.push(obj2);
+
+                if (player.money < bet) {
+                    break;
+                }
+            }
+
+            player.rtp = (player.totalIncome / player.totalOutgo) * 100;
+
+            $("#totalIncome").html(player.totalIncome);
+            $("#totalOutgo").html(player.totalOutgo);
+            $("#finalMoney").html(player.money);
+            $("#betCnt").html(player.betCnt);
+            $("#winCnt").html(player.winCnt);
+            $("#lostCnt").html(player.lostCnt);
+            $("#freeSpinCount").html(player.freeSpinCount);
+            $("#bonusSpinCount").html(player.bonusSpinCount);
+            $("#rtp").html(Math.floor(player.rtp * 100) / 100);
+
+            refreshPredictGraph();
+            refreshPredictWin();
+        });
+    }
+
+    $data1 = [];
+    $data2 = [];
+
+    var canvas;
+    function toggleDataSeries(e) {
+        if (typeof (e.dataSeries.visible) === "undefined" || e.dataSeries.visible) {
+            e.dataSeries.visible = false;
+        }
+        else {
+            e.dataSeries.visible = true;
+        }
+        chart.render();
+    }
+
+    function refreshPredictGraph() {
+        chart = new CanvasJS.Chart("chartContainer", {
+            // animationEnabled: true,
+            zoomEnabled: true,
+            title: {
+                text: "                           "
+            },
+            axisY: {
+                title: "      ",
+                titleFontColor: "#4F81BC",
+                lineColor: "#4F81BC",
+                labelFontColor: "#4F81BC",
+                tickColor: "#4F81BC",
+                crosshair: {
+                    enabled: true,
+                    snapToDataPoint: true
+                }
+            },
+            toolTip: {
+                shared: true
+            },
+            legend: {
+                cursor: "pointer",
+                itemmouseover: function (e) {
+                    e.dataSeries.lineThickness = e.chart.data[e.dataSeriesIndex].lineThickness * 2;
+                    e.dataSeries.markerSize = e.chart.data[e.dataSeriesIndex].markerSize + 2;
+                    e.chart.render();
+                },
+                itemmouseout: function (e) {
+                    e.dataSeries.lineThickness = e.chart.data[e.dataSeriesIndex].lineThickness / 2;
+                    e.dataSeries.markerSize = e.chart.data[e.dataSeriesIndex].markerSize - 2;
+                    e.chart.render();
+                },
+                itemclick: function (e) {
+                    console.log(e);
+                    if (typeof (e.dataSeries.visible) === "undefined" || e.dataSeries.visible) {
+                        e.dataSeries.visible = false;
+                    } else {
+                        e.dataSeries.visible = true;
+                    }
+                    e.chart.render();
+                }
+            },
+            data: [{
+                type: "line",
+                name: "      ",
+                legendText: "      ",
+                click: onClick,
+                showInLegend: true,
+                dataPoints: $data1
+            }]
+        });
+        chart.render();
+    }
+
+    function refreshPredictWin() {
+        chart = new CanvasJS.Chart("chartContainer1", {
+            // animationEnabled: true,
+            zoomEnabled: true,
+            title: {
+                text: "            "
+            },
+            axisY: {
+                title: "         ",
+                titleFontColor: "#4F81BC",
+                lineColor: "#4F81BC",
+                labelFontColor: "#4F81BC",
+                tickColor: "#4F81BC",
+                crosshair: {
+                    enabled: true,
+                    snapToDataPoint: true
+                }
+            },
+            toolTip: {
+                shared: true
+            },
+            legend: {
+                cursor: "pointer",
+                itemclick: toggleDataSeries
+            },
+            data: [{
+                type: $("#predictWinChart").val(),
+                name: "         ",
+                legendText: "         ",
+                click: onClick,
+                showInLegend: true,
+                dataPoints: $data2
+            }]
+        });
+        chart.render();
+    }
+
+    function OnCall() {
+
+        const _bet = Number($("#bet").val());
+        const bet = _bet > 0 ? _bet : 2000;
+        const callLimitMulti = Number($("#callMoney").val()) / bet;
+
+        var queryData = {
+            player_code: "<%=player_code %>",
+            game_code: "<%=game_code %>",
+            callType: $("#callType").val(),
+            callLimitMulti: callLimitMulti,
+        }
+
+        console.info(queryData);
+
+        $.get('/call_pattern', queryData, function (res) {
+            callData = res.callData;
+            console.log("callData");
+            console.info(callData);
+            const _betPerLine = Number($("#betPerLine").val());
+            const betPerLine = _betPerLine > 0 ? _betPerLine : 100;
+            const win = Number(callData.win) / Number(callData.bpl) * betPerLine;
+            $("#callResult").val(win);
+        });
+    }
+
+    function OnApply() {
+
+        if (callData == null) {
+            alert(`                                              .`);
+            return;
+        }
+
+
+        var queryData = {
+            player_code: "<%=player_code %>",
+            game_code: "<%=game_code %>",
+            callData: JSON.stringify(callData),
+        }
+
+        const betPerLine = Number($("#betPerLine").val());
+        const win = Number(callData.win) / Number(callData.bpl) * betPerLine;
+
+
+        if (confirm(`       [ ${queryData.game_code} ]               ${queryData.player_code}              ${win}                    ? \n                                        .`) == false) {
+            return;
+        }
+
+
+        $.get('/call', queryData, function (res) {
+            alert(`                                   .`);
+        });
+    }
+
+    function onClick(e) {
+        alert(e.dataSeries.name + "   " + e.dataPoint.label);
+    }
+</script>

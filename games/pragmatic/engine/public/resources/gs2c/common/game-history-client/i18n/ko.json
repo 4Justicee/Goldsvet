@@ -1,0 +1,2606 @@
+{
+  "session_list_columns": {
+    "session_id": "                 ID #",
+    "date": "      ",
+    "bet": "         ",
+    "amount_won": "             ",
+    "details": "            ",
+    "balance": "          "
+  },
+  "warning": {
+    "empty_history": "                             . \n                                                        ."
+  },
+  "error": {
+    "default_msg": "                            .                                          .",
+    "expired_session": "                                       .",
+    "action_content": "               .                                                         .",
+    "action_result": "               .                                                                ."
+  },
+  "loading": "          ...",
+  "miniLabel": {
+    "frb": "                ",
+    "bonusBet": "                ",
+    "anteBet": "             ",
+    "bonusBoost": "                   "
+  },
+  "round": {
+    "win": "         ",
+    "totalWin": "          ",
+    "details": "            ",
+    "winExceeded": "                                          ",
+    "totalMultiplier": "                             ",
+    "moneySymbol": "             ",
+    "payTable": "         ",
+    "multipliedWin": "                                   ",
+    "msSymbol": "                   ",
+    "winMul": "                         ",
+    "bonusTitle": "         ",
+    "prize": "   ",
+    "bonusWin": "                ",
+    "lose": "      ",
+    "totalWinTooltip": "                                                                                                                                 .",
+    "goldSymbol": "             ",
+    "jackpot": "      ",
+    "next": "      ",
+    "allWins": "             ",
+    "jackpotAwarded": "                              ",
+    "extra": "      ",
+    "extraDrop": "             ",
+    "wins": "      ",
+    "consolationPrize": "         ",
+    "retrigger": "         ",
+    "rolls": "         ",
+    "dice": "         ",
+    "featureWin": "Feature Win",
+    "mysteryChoice": "                   ",
+    "mysteryWin": "                      ",
+    "points": "         ",
+    "level": "      ",
+    "expandingSymbol": "             ",
+    "extraSpin": "             ",
+    "wildWinsMultiplier": "Wild                          ",
+    "spinsLeft": "             ",
+    "price": "      ",
+    "discount": "      ",
+    "livesLeft": "                ",
+    "addWilds": "Wild       ",
+    "quickCollect": "             ",
+    "award": "      ",
+    "spins": "      ",
+    "offer": "      ",
+    "accept": "      ",
+    "reject": "      ",
+    "extraRolls": "                ",
+    "maxLevel": "             ",
+    "colossal": "         ",
+    "wilds": "Wild"
+  },
+  "winLines": {
+    "title": "             ",
+    "blockTitle": {
+      "spin": "      ",
+      "scatter": "Scatter",
+      "psym": "          Scatter",
+      "mysteryScatter": "             Scatter",
+      "bonus": "         ",
+      "expandedSymbols": "             "
+    },
+    "winBets": "             ",
+    "winPositions": "                "
+  },
+  "lines": {
+    "title": "      ",
+    "lineNum": "      "
+  },
+  "slot": {
+    "lineWinAmount": "         ",
+    "lineNum": "      "
+  },
+  "spin": {
+    "title": "      ",
+    "bet": "         ",
+    "guaranteedWin": "             "
+  },
+  "waysspin": {
+    "title": "      ",
+    "winSymbol": "      ",
+    "linesCount": "          ",
+    "direction": {
+      "title": "      ",
+      "r": "                      ",
+      "l": "                      ",
+      "t": "                   ",
+      "b": "                   "
+    }
+  },
+  "respin": {
+    "title": "         ",
+    "initial_screen": "             ",
+    "respinsLeft": "                ",
+    "respinsWin": "                ",
+    "respins": "         ",
+    "coin": "      ",
+    "coins": "      ",
+    "respinsWon": "                   ",
+    "lastRespin": "                   "
+  },
+  "free_spin": {
+    "free_spin_played": "             ",
+    "win_multiplier": "                  ",
+    "total_win": "          ",
+    "free_spin_progress": "            ",
+    "free_spin_played_won": "                    ",
+    "free_spins": "             ",
+    "options": "                    ",
+    "select": "                    ",
+    "raining_wilds": "                        Wild",
+    "sticky_wilds": "                        Wild",
+    "roundsLeft": "                ",
+    "free_spin_sfs": "                    "
+  },
+  "vs20chicken": {
+    "game": "The Great Chicken Escape",
+    "bonus": {
+      "21": {
+        "h": "      ",
+        "spbf": "                       ",
+        "mbf": "                      ",
+        "swrssf": "                             ",
+        "cbf": "                    ",
+        "swfof": "                                     ",
+        "1-title": "         ",
+        "0-title": "         ",
+        "3-title": "             "
+      },
+      "23": {
+        "level": "      ",
+        "title": "         ",
+        "subtitle": "                      ",
+        "stepTableTitle": "      ",
+        "step": {
+          "value": "      ",
+          "result": "                  ",
+          "collect": "      ",
+          "win": "                    "
+        },
+        "result": {
+          "collect": "                  ",
+          "win": "      :                     "
+        }
+      },
+      "34": {
+        "np": "      ",
+        "sf": "             ",
+        "mul": "                  ",
+        "h": "      ",
+        "title": "         ",
+        "subtitle": "             ",
+        "result": {
+          "win": "                  ",
+          "totalWin": "                         "
+        }
+      },
+      "35": {
+        "spbf": "                       ",
+        "mbf": "                      ",
+        "swrssf": "                             ",
+        "cbf": "                    ",
+        "swfof": "                                     ",
+        "title": "      ",
+        "subtitle": "             ",
+        "collect": "      ",
+        "gamble": "      ",
+        "result": {
+          "text": "      ",
+          "lose": "                ",
+          "gamble": "      "
+        },
+        "collectBonus": {
+          "title": "                "
+        }
+      },
+      "36": {
+        "respin": "         ",
+        "collect": "      ",
+        "title": "         ",
+        "subtitle": "          ",
+        "result": {
+          "win": "                  ",
+          "totalWin": "                         "
+        }
+      },
+      "selected": "          "
+    },
+    "collectBonus": "         "
+  },
+  "accum": {
+    "t_mul": "                         ",
+    "mul": "                  "
+  },
+  "mysteryScatter": {
+    "title": "             Scatter",
+    "win": "                    "
+  },
+  "vsrk20eking": {
+    "game": "Emerald King"
+  },
+  "vs25walker": {
+    "game": "Wild Walker"
+  },
+  "vs1024lionsd": {
+    "game": "5 Lions Dance"
+  },
+  "vs10returndead": {
+    "game": "Return of the Dead"
+  },
+  "buy_feature": {
+    "title": "             ",
+    "next": "      "
+  },
+  "scatter": {
+    "major": "         ",
+    "minor": "         ",
+    "mega": "      ",
+    "grand": "         ",
+    "mini": "      ",
+    "freeGames": "             ",
+    "jackpot": "      ",
+    "maxi": "Maxi"
+  },
+  "vsprg": {
+    "major": "Major",
+    "minor": "Minor",
+    "mega": "Mega",
+    "grand": "Grand",
+    "mini": "Mini",
+    "maxi": "Maxi",
+    "jackpot": "Jackpot"
+  },
+  "tumbling": {
+    "title": "      ",
+    "win": "                "
+  },
+  "feature": {
+    "title": "      ",
+    "pending": "                    ",
+    "winningSrf": "                           ",
+    "superSpin": "             ",
+    "maxWinForce": "                    "
+  },
+  "vs40pirgold": {
+    "game": "Pirate Gold Deluxe",
+    "bonus49": {
+      "roundsLeft": "                "
+    }
+  },
+  "vs1024dtiger": {
+    "game": "The Dragon Tiger"
+  },
+  "vs25bkofkngdm": {
+    "game": "Book of Kingdoms"
+  },
+  "vs20goldfever": {
+    "game": "Gems Bonanza",
+    "progress": {
+      "title": "             "
+    },
+    "features": {
+      "c1": "   ",
+      "c2": "Wild       ",
+      "c3": "         ",
+      "c4": "             ",
+      "c5": "       Wild",
+      "fever": "             "
+    }
+  },
+  "wilds": {
+    "title": "Wild",
+    "wildTitle": "Wild"
+  },
+  "vs10cowgold": {
+    "game": "Cowboys Gold"
+  },
+  "vswaysrhino": {
+    "game": "Great Rhino Megaways",
+    "fsOption": {
+      "startMultiplier": "                         "
+    }
+  },
+  "vs20xmascarol": {
+    "game": "Christmas Carol Megaways",
+    "fsOption": {
+      "startMultiplier": "                         "
+    }
+  },
+  "vs75bronco": {
+    "game": "Bronco Spirit"
+  },
+  "vs75empress": {
+    "game": "Golden Beauty"
+  },
+  "vs40spartaking": {
+    "game": "Spartan King"
+  },
+  "vs10mayangods": {
+    "game": "John Hunter And The Mayan Gods"
+  },
+  "vs40voodoo": {
+    "game": "Voodoo Magic",
+    "bonus": {
+      "21": {
+        "wild_cur": "                ",
+        "fort_hex": "             ",
+        "nff": "                    ",
+        "sff": "                    ",
+        "mff": "                    ",
+        "0-title": "             ",
+        "1-title": "             "
+      }
+    }
+  },
+  "vs25wolfgold": {
+    "game": "Wolf Gold",
+    "bonus": {
+      "11": {
+        "extraWin": "             "
+      }
+    }
+  },
+  "vs25goldpig": {
+    "game": "Golden Pig",
+    "bonus": {
+      "11": {
+        "extraWin": "             "
+      }
+    }
+  },
+  "vs25scarabqueen": {
+    "game": "Scarab Queen"
+  },
+  "vs25eldorado": {
+    "game": "El Dorado The City of Gold"
+  },
+  "vs25mmouse": {
+    "game": "Money Mouse",
+    "bonus": {
+      "11": {
+        "extraWin": "             "
+      }
+    }
+  },
+  "vs25newyear": {
+    "game": "Lucky New Year",
+    "bonus": {
+      "11": {
+        "extraWin": "             "
+      }
+    }
+  },
+  "vs1600drago": {
+    "game": "Drago - Jewels of Fortune",
+    "bonus44": {
+      "symbolCount": "          "
+    }
+  },
+  "vs10bbbonanza": {
+    "game": "Big Bass Bonanza"
+  },
+  "vswaysrhinodafa": {
+    "game": "dafabet Safari Megaways",
+    "fsOption": {
+      "startMultiplier": "                         "
+    }
+  },
+  "vs4096bufking": {
+    "game": "Buffalo King"
+  },
+  "gamble": {
+    "optionsTitle": "             ",
+    "title": "      ",
+    "collect": "      ",
+    "mult": "                  ",
+    "gameOver": "             ",
+    "riskAmount": "             "
+  },
+  "vs20olympgate": {
+    "game": "Gates of Olympus"
+  },
+  "vs25davinci": {
+    "game": "Da Vinci's Treasure",
+    "bonus": {
+      "9": {
+        "title": "             ",
+        "h": "      "
+      },
+      "21": {
+        "psm": "                                ",
+        "mbf": "             ",
+        "pbf": "          "
+      },
+      "23": {
+        "title": "         ",
+        "subtitle": "             ",
+        "stepTableTitle": "      ",
+        "step": {
+          "value": "         ",
+          "collect": "             "
+        },
+        "result": {
+          "collect": "                  "
+        }
+      }
+    }
+  },
+  "vswaysdogs": {
+    "game": "The Dog House Megaways"
+  },
+  "vs20doghouse": {
+    "game": "The Dog House"
+  },
+  "vs5aztecgems": {
+    "game": "Aztec Gems"
+  },
+  "vs25mustang": {
+    "game": "Mustang Gold",
+    "bonus18": {
+      "title": "         ",
+      "major": "         ",
+      "minor": "         ",
+      "mini": "      ",
+      "grand": "         ",
+      "jackpot": "      "
+    }
+  },
+  "vs10wildtut": {
+    "game": "Mysterious Egypt"
+  },
+  "vs20xmascarolvj": {
+    "game": "Vera and John's Christmas Carol Megaways",
+    "fsOption": {
+      "startMultiplier": "                         "
+    }
+  },
+  "vs243fortseren": {
+    "game": "Greek Gods"
+  },
+  "vs20midas": {
+    "game": "The Hand of Midas"
+  },
+  "vs20ekingrr": {
+    "game": "Emerald King Rainbow Road",
+    "bonus50": {
+      "pickMe": "                      ",
+      "road_bonus": "                   "
+    },
+    "rrb": {
+      "title": "                   ",
+      "win": "                ",
+      "reward": "      "
+    }
+  },
+  "jewelBoard": {
+    "win": "   "
+  },
+  "vs432congocash": {
+    "game": "Congo Cash"
+  },
+  "vs25jokerking": {
+    "game": "Joker King"
+  },
+  "vs25gldox": {
+    "game": "Golden Ox",
+    "bonus": {
+      "11": {
+        "extraWin": "             "
+      }
+    }
+  },
+  "vswaysmadame": {
+    "game": "Madame Destiny Megaways"
+  },
+  "vs10eyestorm": {
+    "game": "Eye of the Storm"
+  },
+  "vs20hercpeg": {
+    "game": "Hercules and Pegasus",
+    "bonus": {
+      "41": {
+        "title": "         ",
+        "subtitle": "",
+        "h": "      ",
+        "rwf_s1": "Pegasus Wilds",
+        "rwf_s1_mul": "Pegasus Wilds",
+        "rwf_s0": "Hercules Wilds",
+        "rwf_s0_es": "Hercules Wilds",
+        "cmp": "         ",
+        "prfm": "         ",
+        "prf": "         ",
+        "msf": "Bolts of Zeus"
+      }
+    }
+  },
+  "vs5drmystery": {
+    "game": "Dragon Kingdom - Eyes of Fire"
+  },
+  "symbol": {
+    "odd": "   ",
+    "even": "   ",
+    "low": "      ",
+    "high": "      "
+  },
+  "vs40wildwest": {
+    "game": "Wild West Gold"
+  },
+  "rla": {
+    "game": "Roulette",
+    "first": "1      ",
+    "second": "2      ",
+    "third": "3      "
+  },
+  "vs20fruitparty": {
+    "game": "Fruit Party"
+  },
+  "vs10goldfish": {
+    "game": "Fishin' Reels",
+    "bonus": {
+      "30": {
+        "title": "                    ",
+        "big_catch": "The Big Catch",
+        "frenzy_fishing": "Reel It In"
+      }
+    }
+  },
+  "bnadvanced": {
+    "game": "Dragon Bonus Baccarat",
+    "dragonBonus": "         ",
+    "tie": "      ",
+    "banker": "      ",
+    "player": "            ",
+    "perfectPair": "                "
+  },
+  "vs20hburnhs": {
+    "game": "Hot to Burn Hold and Spin"
+  },
+  "vs243caishien": {
+    "game": "Caishen's Cash",
+    "bonus": {
+      "21": {
+        "0-title": "         ",
+        "nff": "             ",
+        "rsb": "         "
+      }
+    }
+  },
+  "vs5joker": {
+    "game": "Joker's Jewels"
+  },
+  "vs1024temuj": {
+    "game": "Temujin Treasures"
+  },
+  "vs20wildboost": {
+    "game": "Wild Booster",
+    "fsOption": {
+      "megaBoost": "Mega Boost",
+      "ultraBoost": "Ultra Boost"
+    },
+    "wildBoost": "Wild Boost"
+  },
+  "vs7fire88": {
+    "game": "Fire 88"
+  },
+  "vs50juicyfr": {
+    "game": "Juicy Fruits"
+  },
+  "vswayshammthor": {
+    "game": "Power of Thor Megaways",
+    "bonus": {
+      "35": {
+        "result": {
+          "text": "      "
+        },
+        "gamble": "      ",
+        "lose": "      ",
+        "win": "             "
+      }
+    }
+  },
+  "vs10bookoftut": {
+    "game": "John Hunter and the Book of Tut"
+  },
+  "vs10floatdrg": {
+    "game": "Floating Dragon"
+  },
+  "vs576treasures": {
+    "game": "Wild Wild Riches"
+  },
+  "vs576wwwolf": {
+    "game": "Wild Wild Wolf"
+  },
+  "vswaysdorado": {
+    "game": "El Dorado Megaways",
+    "fsOption": {
+      "startMultiplier": "                         "
+    }
+  },
+  "rllg": {
+    "game": "LaLiga Roulette",
+    "first": "1      ",
+    "second": "2      ",
+    "third": "3      "
+  },
+  "vs25hotfiesta": {
+    "game": "Hot Fiesta"
+  },
+  "vs243lionsgold": {
+    "game": "5 Lions Gold"
+  },
+  "vs20rhino": {
+    "game": "Great Rhino"
+  },
+  "vswaysbufking": {
+    "game": "Buffalo King Megaways"
+  },
+  "vs20phoenixf": {
+    "game": "Phoenix Forge"
+  },
+  "vs10amm": {
+    "game": "The Amazing Money Machine",
+    "bonus18": {
+      "title": "         ",
+      "mini": "      ",
+      "major": "         ",
+      "grand": "         ",
+      "maxi": "Maxi"
+    },
+    "coverallFeature": "                    ",
+    "jackpotAwarded": "                              "
+  },
+  "vs20terrorv": {
+    "game": "Cash Elevator",
+    "basementFeature": "Basement feature",
+    "bonus": {
+      "21": {
+        "2-title": "         ",
+        "0-title": "         ",
+        "psf": "                      ",
+        "pbf": "                      ",
+        "1-title": "         "
+      }
+    }
+  },
+  "vs25pandagold": {
+    "game": "Panda's Fortune"
+  },
+  "vs20magicpot": {
+    "game": "The Magic Cauldron",
+    "features": {
+      "bf": "Befuddlement",
+      "in": "Invisibrew",
+      "tr": "Balm of Transfiguration",
+      "en": "Enlarging Ale",
+      "dn": "Potion of Darkness",
+      "un": "Unicorn Dust",
+      "ew": "Elixir Wilds"
+    }
+  },
+  "vs25chilli": {
+    "game": "Chilli Heat",
+    "bonus": {
+      "11": {
+        "extraWin": "   "
+      }
+    }
+  },
+  "vs1dragon8": {
+    "game": "888 Dragons"
+  },
+  "vs1drg8fun88": {
+    "game": "Fun88 Dragons"
+  },
+  "vs1dragon8ag": {
+    "game": "888 Dragons AG VIP"
+  },
+  "vs1dragon8b07": {
+    "game": "888 Dragons B07"
+  },
+  "vs1dragon8eveb": {
+    "game": "888 Dragons EVEB"
+  },
+  "vs1dragon8gpk": {
+    "game": "888 Dragons GPK"
+  },
+  "vs1dragon8hl": {
+    "game": "888 Dragons HappyLuke"
+  },
+  "vs1dragon8salon": {
+    "game": "888 Dragons Salon365"
+  },
+  "vs1dragon8yabo": {
+    "game": "888 Dragons Yabo"
+  },
+  "vs1dragon8lebo": {
+    "game": "888 Dragons LEBO"
+  },
+  "vs1dragon8og": {
+    "game": "888 Dragons OG"
+  },
+  "vs1dragon8emp": {
+    "game": "Empire 777"
+  },
+  "vs1dragon8dafa": {
+    "game": "Dafabet 888 Dragons"
+  },
+  "vs1dragon8ig": {
+    "game": "Igamble Dragons"
+  },
+  "vs1dragonzing": {
+    "game": "Manbetx 888 Dragons"
+  },
+  "vs20fruitsw": {
+    "game": "Sweet Bonanza"
+  },
+  "vs20fruitswbbin": {
+    "game": "BBIN Sweet Bonanza"
+  },
+  "vs20fruitswyabo": {
+    "game": "Yabo Sweet Bonanza"
+  },
+  "vs20sbxmas": {
+    "game": "Sweet Bonanza Xmas"
+  },
+  "vs20fruitswvj": {
+    "game": "VeraJohn Sweet Bonanza"
+  },
+  "vs20fruitswm88": {
+    "game": "Sweet M88"
+  },
+  "vs20fruitswhl": {
+    "game": "Sweet Bonanza HappyLuke"
+  },
+  "vs20bonzgold": {
+    "game": "Bonanza Gold"
+  },
+  "vs20sbxmasf88": {
+    "game": "Fun88 Sweet Bonanza Christmas"
+  },
+  "vs20ebonanza": {
+    "game": "Egypt Bonanza"
+  },
+  "vswayssamurai": {
+    "game": "Rise of Samurai Megaways"
+  },
+  "vswayslight": {
+    "game": "Lucky Lightning",
+    "scatter": {
+      "silver": "Silver",
+      "gold": "Gold",
+      "platinum": "Platinum"
+    }
+  },
+  "vs25rio": {
+    "game": "Heart of Rio"
+  },
+  "vs25pandatemple": {
+    "game": "Panda Fortune 2"
+  },
+  "vs20fruit88": {
+    "game": "Agen138 Sweet Bonanza"
+  },
+  "vs5drhs": {
+    "game": "Dragon Hot Hold and Spin"
+  },
+  "vs20fruitbets10": {
+    "game": "Bets10 Bonanza"
+  },
+  "vs1600draginter": {
+    "game": "Drago - Jewels of Intercasino",
+    "bonus44": {
+      "symbolCount": "          "
+    }
+  },
+  "vswayslions": {
+    "game": "5 Lions Megaways"
+  },
+  "vs10firestrike": {
+    "game": "Fire Strike"
+  },
+  "vs576hokkwolf": {
+    "game": "Hokkaido Wolf"
+  },
+  "vs20emptybank": {
+    "game": "Empty the Bank"
+  },
+  "vs5ultra": {
+    "game": "Ultra Hold and Spin"
+  },
+  "vs20kraken": {
+    "game": "Release the Kraken",
+    "bonus": {
+      "34": {
+        "title": "         ",
+        "subtitle": "",
+        "h": "      ",
+        "np": "      ",
+        "sf": "         "
+      },
+      "41": {
+        "title": "         ",
+        "subtitle": "",
+        "h": "",
+        "cw": "",
+        "iw": "",
+        "lwb": ""
+      },
+      "43": {
+        "title": "         ",
+        "subtitle": "",
+        "ws": "Wilds +       ",
+        "s": "      ",
+        "mc": "                   +       ",
+        "h": "      ",
+        "c": "      ",
+        "sc": "       +       ",
+        "wc": "Wild +       "
+      }
+    }
+  },
+  "vs25aztecking": {
+    "game": "Aztec King"
+  },
+  "vs15diamond": {
+    "game": "Diamond Strike"
+  },
+  "vs10luckcharm": {
+    "game": "Lucky, Grace & Charm"
+  },
+  "vs5dewajoker": {
+    "game": "Dewavegas Joker's Jewels"
+  },
+  "vs20chickdrop": {
+    "game": "Chicken Drop"
+  },
+  "vs20fruitswdora": {
+    "game": "Doradobet Bonanza"
+  },
+  "vs20fruitsw188": {
+    "game": "188bet Sweet Bonanza"
+  },
+  "vs20sweetbmerit": {
+    "game": "Merit Royal Sweet Bonanza"
+  },
+  "vs20fruitswroo": {
+    "game": "Roo Bonanza"
+  },
+  "vs20fruitswjp": {
+    "game": "Sweet Jackpot Bonanza"
+  },
+  "vs20fparty2": {
+    "game": "Fruit Party 2"
+  },
+  "vswaysdogseggc": {
+    "game": "EGGC Dog House Megaways"
+  },
+  "vs5dewaaztec": {
+    "game": "DewaCasino Aztec Gems"
+  },
+  "vs20rhinoluxe": {
+    "game": "Great Rhino Deluxe"
+  },
+  "vswayschilheat": {
+    "game": "Chilli Heat Megaways"
+  },
+  "vs5hotburn": {
+    "game": "Hot To Burn"
+  },
+  "vs25pyramid": {
+    "game": "Pyramid King",
+    "bonus": {
+      "11": {
+        "extraWin": "             "
+      }
+    }
+  },
+  "vs10nudgeit": {
+    "game": "Rise of Giza PowerNudge"
+  },
+  "vs20stars77gate": {
+    "game": "Stars77 Gates of Olympus"
+  },
+  "vswayswerewolf": {
+    "game": "Curse of the Werewolf Megaways"
+  },
+  "vs20fruitsbk8": {
+    "game": "BK8 Sweet Blaster"
+  },
+  "vs9aztecgemsdx": {
+    "game": "Aztec Gems Deluxe"
+  },
+  "vs243lions": {
+    "game": "5 Lions"
+  },
+  "vs10fruity2": {
+    "game": "Extra Juicy"
+  },
+  "vs20fruitswmrsbh": {
+    "game": "Mars Bonanza"
+  },
+  "vswaysyumyum": {
+    "game": "Yum Yum Powerways",
+    "bonus": {
+      "35": {
+        "gamble": "      ",
+        "lose": "      ",
+        "win": "             ",
+        "result": {
+          "text": "      ",
+          "lose": "      "
+        }
+      }
+    }
+  },
+  "vswaysaztecking": {
+    "game": "Aztec King Megaways",
+    "fsOption": {
+      "startMultiplier": "                         "
+    }
+  },
+  "vs243chargebull": {
+    "game": "Raging Bull"
+  },
+  "vs20starlight": {
+    "game": "Starlight Princess"
+  },
+  "vs10egyptcls": {
+    "game": "Ancient Egypt Classic"
+  },
+  "vs20birdhouse": {
+    "game": "The Bird House"
+  },
+  "vs12bbb": {
+    "game": "Bigger Bass Bonanza",
+    "feature": {
+      "hook": "      ",
+      "dynamite": "                  "
+    }
+  },
+  "vs20fruitsheart": {
+    "game": "Heart Bonanza"
+  },
+  "vs5super7": {
+    "game": "Super 7s"
+  },
+  "vs20trsbox": {
+    "game": "Treasure Wild",
+    "treasurebox": "Treasure Wild"
+  },
+  "vs20rhinoyes": {
+    "game": "Yesbet Great Rhino"
+  },
+  "vs20eightdragons": {
+    "game": "8 Dragons"
+  },
+  "vs243mwarrior": {
+    "game": "Monkey Warrior"
+  },
+  "vs9piggybank": {
+    "game": "Piggy Bank Bills"
+  },
+  "vs7pigs": {
+    "game": "7 Piggies",
+    "bonus": {
+      "nff": "             ",
+      "m": "                  "
+    }
+  },
+  "vs10bblwild": {
+    "game": "Bubble Wild"
+  },
+  "vs20pbonanza": {
+    "game": "Pyramid Bonanza"
+  },
+  "vswayswest": {
+    "game": "Mystic Chief"
+  },
+  "vswaysbankbonz": {
+    "game": "Cash Bonanza"
+  },
+  "vs20amuleteg": {
+    "game": "Fortune of Giza"
+  },
+  "vs20daydead": {
+    "game": "Day of Dead"
+  },
+  "vs10starpirate": {
+    "game": "Star Pirates Code"
+  },
+  "vs20fruitswbwin": {
+    "game": "BWIN Bonanza"
+  },
+  "vs40bigjuan": {
+    "game": "Big Juan"
+  },
+  "vs20bermuda": {
+    "game": "Bermuda Riches"
+  },
+  "vs25copsrobbers": {
+    "game": "Cash Patrol"
+  },
+  "vs20fruitbetway": {
+    "game": "Betway Sweet Bonanza"
+  },
+  "vs10madame": {
+    "game": "Madame Destiny"
+  },
+  "vs10threestar": {
+    "game": "Three Star Fortune"
+  },
+  "vs20fruitbetano": {
+    "game": "Betano Bonanza"
+  },
+  "vs25btygold": {
+    "game": "Bounty Gold"
+  },
+  "vs25safari": {
+    "game": "Hot Safari"
+  },
+  "vs20fruitswfn": {
+    "game": "Sweet Bonanza88"
+  },
+  "vswaysbbb": {
+    "game": "Big Bass Bonanza Megaways",
+    "feature": {
+      "bazooka": "         ",
+      "dynamite": "                  "
+    }
+  },
+  "vswayshive": {
+    "game": "Star Bounty"
+  },
+  "vs20tweethouse": {
+    "game": "The Tweety house"
+  },
+  "vs20candvil": {
+    "game": "Candy Village"
+  },
+  "vs25wolfjpt": {
+    "game": "Wolf Gold Power Jackpot",
+    "bonus": {
+      "11": {
+        "extraWin": "             "
+      }
+    }
+  },
+  "vs25wolfsolbet": {
+    "game": "Solbet Wolf Gold",
+    "bonus": {
+      "11": {
+        "extraWin": "             "
+      }
+    }
+  },
+  "vs20santawonder": {
+    "game": "Santa's Wonderland"
+  },
+  "vs10bookfallen": {
+    "game": "Book of Fallen"
+  },
+  "vs20superx": {
+    "game": "Super X"
+  },
+  "vs20olympnova88": {
+    "game": "Nova88 Olympus"
+  },
+  "vs10bxmasbnza": {
+    "game": "Christmas Big Bass Bonanza"
+  },
+  "vs20smugcove": {
+    "game": "Smugglers Cove"
+  },
+  "vs10bblpop": {
+    "game": "Bubble Pop"
+  },
+  "vs20fruitgaruda": {
+    "game": "Garuda Bonanza Gold"
+  },
+  "vs10bookdorado": {
+    "game": "Book of El Dorado"
+  },
+  "vswayscryscav": {
+    "game": "Crystal Caverns Megaways"
+  },
+  "vs25vegas": {
+    "game": "Vegas Nights"
+  },
+  "vs25vegas88": {
+    "game": "Vegas88 Nights"
+  },
+  "vs20fruitswvbet": {
+    "game": "VBET Sweet Bonanza"
+  },
+  "vs20xmascarolwh": {
+    "game": "William Hill Christmas Megaways",
+    "fsOption": {
+      "startMultiplier": "                         "
+    }
+  },
+  "vs40wwestkd": {
+    "game": "Wild KDSLOTS Gold"
+  },
+  "vs25asgard": {
+    "game": "Asgard",
+    "bonus": {
+      "21": {
+        "title": "         ",
+        "msf": "                          ",
+        "rrf": "       Wild    ",
+        "rwf": "          Wild",
+        "nlf": "Wild                    "
+      }
+    }
+  },
+  "vs25mustangbetp": {
+    "game": "BetPlay Mustang Gold",
+    "bonus18": {
+      "title": "         ",
+      "major": "         ",
+      "minor": "         ",
+      "mini": "      ",
+      "grand": "         ",
+      "jackpot": "      "
+    }
+  },
+  "vs1024butterfly": {
+    "game": "Jade Butterfly"
+  },
+  "vs88hockattack": {
+    "game": "Hockey Attack"
+  },
+  "vs40wanderw": {
+    "game": "Wild Depths"
+  },
+  "vs243medusa": {
+    "game": "Medusa Strike"
+  },
+  "vs243fortune": {
+    "game": "Caishen's Gold"
+  },
+  "vs25fermin": {
+    "game": "Fiesta de San Fermin",
+    "bonus": {
+      "11": {
+        "extraWin": "             "
+      }
+    }
+  },
+  "vs4096magician": {
+    "game": "Magician's Secrets",
+    "bonus": {
+      "title": "                    ",
+      "startMultiplier": "                         "
+    }
+  },
+  "vs5aztecmpoplay": {
+    "game": "MPOPLAY Aztec Gems"
+  },
+  "vs20fruitswbee": {
+    "game": "Beebet Sweet Bonanza"
+  },
+  "vs20fsbuffbnz": {
+    "game": "Fish Buffet Bonanza"
+  },
+  "vs1024atlantis": {
+    "game": "Queen of Atlantis",
+    "bonus": {
+      "9": {
+        "nff": "             ",
+        "sff": "                    "
+      }
+    }
+  },
+  "vs40wwestpanen": {
+    "game": "Panen138 Wild West Gold"
+  },
+  "vs20fruitsnexus": {
+    "game": "Nexus Sweet Bonanza"
+  },
+  "vs25goldparty": {
+    "game": "Gold Party"
+  },
+  "vs10runes": {
+    "game": "Gates of Valhalla"
+  },
+  "vs117649starz": {
+    "game": "Starz Megaways"
+  },
+  "vs20bchprty": {
+    "game": "Wild Beach Party"
+  },
+  "vs10vampwolf": {
+    "game": "Vampires vs Wolves"
+  },
+  "vs20bchxmsprty": {
+    "game": "Wild Beach Xmas Party"
+  },
+  "vs15fairytale": {
+    "game": "Fairytale Fortune",
+    "bonus": {
+      "21": {
+        "wof": "                      ",
+        "prf": "                                ",
+        "psf": "       Wild              ",
+        "rwf": "          Wild"
+      }
+    },
+    "progressFs": {
+      "level": "      ",
+      "points": "         "
+    }
+  },
+  "vs20doghousejp": {
+    "game": "The Dog House Jackpot"
+  },
+  "vs20colcashzone": {
+    "game": "Colossal Cash Zone"
+  },
+  "vs20fruitvd": {
+    "game": "VDCasino Bonanza"
+  },
+  "vs20rockvegas": {
+    "game": "Rock Vegas Mega Hold & Spin",
+    "valuesInfo": {
+      "k": "      ",
+      "rtg": "         "
+    }
+  },
+  "vs25chillibplay": {
+    "game": "Bplay Chilli Heat",
+    "bonus": {
+      "11": {
+        "extraWin": "   "
+      }
+    }
+  },
+  "vs13ladyofmoon": {
+    "game": "Lady of the Moon"
+  },
+  "vswaysxjuicy": {
+    "game": "Extra Juicy Megaways",
+    "bonus": {
+      "35": {
+        "result": {
+          "text": "      "
+        },
+        "gamble": "      ",
+        "lose": "      ",
+        "win": "             "
+      }
+    }
+  },
+  "vs20fruitsimaj": {
+    "game": "IMAJ Bonanza"
+  },
+  "vs25tigeryear": {
+    "game": "Lucky New Year - Tiger Treasures",
+    "bonus": {
+      "11": {
+        "extraWin": "             "
+      }
+    }
+  },
+  "vs50mightra": {
+    "game": "Might of Ra"
+  },
+  "vswayselements": {
+    "game": "Elemental Gems Megaways"
+  },
+  "vs20ultim5": {
+    "game": "The Ultimate 5"
+  },
+  "vs7776aztec": {
+    "game": "Aztec Bonanza"
+  },
+  "vs18mashang": {
+    "game": "Treasure Horse"
+  },
+  "vs243empcaishen": {
+    "game": "Emperor Caishen"
+  },
+  "vs40pirate": {
+    "game": "Pirate Gold",
+    "bonus": {
+      "totalMultiplier": "                         "
+    }
+  },
+  "vs20godiva": {
+    "game": "Lady Godiva"
+  },
+  "vs20fruitsjojo": {
+    "game": "Jojo Sweet Bonanza"
+  },
+  "vs243queenie": {
+    "game": "Queenie"
+  },
+  "vs10tictac": {
+    "game": "Tic Tac Take"
+  },
+  "vs20olympsbotop": {
+    "game": "SBOTOP Olympus"
+  },
+  "vs10snakeladd": {
+    "game": "Snakes and Ladders Megadice"
+  },
+  "vs20fruittipo": {
+    "game": "Sweet Bonanza Tipobet365"
+  },
+  "vs20dnegfish": {
+    "game": "Daniel Negreanu's Fish Buffet"
+  },
+  "vs20fruitbwing": {
+    "game": "Sweet Bwing"
+  },
+  "vs10pblinders2": {
+    "game": "Peaky Blinders 2"
+  },
+  "vs20egypttrs": {
+    "game": "Egyptian Fortunes",
+    "energySpins": "                "
+  },
+  "vs20farmfest": {
+    "game": "Barn Festival"
+  },
+  "vs5aztecgemslch": {
+    "game": "Aztec Gems LCH"
+  },
+  "vs20rainbowg": {
+    "game": "Rainbow Gold"
+  },
+  "vswayswhcash": {
+    "game": "William Hill Cash Bonanza"
+  },
+  "vs10chkchase": {
+    "game": "Chicken Chase"
+  },
+  "vs20wildpix": {
+    "game": "Wild Pixies"
+  },
+  "vs25vegasadv": {
+    "game": "Vegas Adventures",
+    "progressFs": {
+      "level": "      ",
+      "points": "         "
+    }
+  },
+  "vs1masterjoker": {
+    "game": "Master Joker"
+  },
+  "vs20drtgold": {
+    "game": "Drill that Gold"
+  },
+  "vs20vegasmagic": {
+    "game": "Vegas Magic"
+  },
+  "vs25peking": {
+    "game": "Peking Luck"
+  },
+  "vs20fruitjel": {
+    "game": "Sweet Bonanza JuegaEnLinea"
+  },
+  "vs20gorilla": {
+    "game": "Jungle Gorilla"
+  },
+  "vs20leprechaun": {
+    "game": "Leprechaun Song",
+    "bonus21": {
+      "title": {
+        "cmp": "                ",
+        "gsf": "                   ",
+        "oswr": "                       "
+      }
+    },
+    "coinCollect": {
+      "points": "         "
+    }
+  },
+  "vs40cleoeye": {
+    "game": "Eye of Cleopatra"
+  },
+  "vs20klsbonanza": {
+    "game": "Klas Bonanza"
+  },
+  "vs20olympmania": {
+    "game": "Slot Mania Olympus"
+  },
+  "vs20honey": {
+    "game": "Honey Honey Honey"
+  },
+  "vswaysoldminer": {
+    "game": "Old Gold Miner Megaways"
+  },
+  "vs20mustanggld2": {
+    "game": "Clover Gold",
+    "bonusNames": {
+      "expand": "      ",
+      "multiplier": "                  ",
+      "respin": "         ",
+      "extraCredit": "      "
+    }
+  },
+  "vs10firestrike2": {
+    "game": "Fire Strike 2"
+  },
+  "vs50northgard": {
+    "game": "North Guardians"
+  },
+  "vs10bookazteck": {
+    "game": "Book of Aztec King"
+  },
+  "vs25bullfiesta": {
+    "game": "Bull Fiesta",
+    "bonus": {
+      "11": {
+        "extraWin": "             "
+      }
+    }
+  },
+  "vs4096mystery": {
+    "game": "Mysterious",
+    "bonus": {
+      "fsw": "                                   ",
+      "fss": "       wild                 "
+    }
+  },
+  "vs40frrainbow": {
+    "game": "Fruit Rainbow"
+  },
+  "vs4096vikings": {
+    "game": "Vikings vs Trolls"
+  },
+  "vs20fruittogel": {
+    "game": "Dewatogel Sweet Bonanza"
+  },
+  "vs10spiritadv": {
+    "game": "Spirit of Adventure"
+  },
+  "vs40samurai3": {
+    "game": "Rise of Samurai 3"
+  },
+  "vs20gobnudge": {
+    "game": "Goblin Heist Powernudge",
+    "bonus": {
+      "totalBonusWin": "                    "
+    }
+  },
+  "vs243dancingpar": {
+    "game": "Dance Party"
+  },
+  "vs25goldrush": {
+    "game": "Gold Rush"
+  },
+  "sport": {
+    "goal": "   ",
+    "miss": "      "
+  },
+  "blackjack": {
+    "hit": "      ",
+    "double": "      ",
+    "stand": "         ",
+    "deal": "   ",
+    "split": "         ",
+    "insurance": "               ",
+    "yes": "   ",
+    "no": "         "
+  },
+  "free_respin": {
+    "title": "                ",
+    "free_respin_won": "                       "
+  },
+  "baccarat": {
+    "tie": "      ",
+    "banker": "      ",
+    "player": "            "
+  },
+  "scratch": {
+    "title": "      ",
+    "ticketsPurchased": "                ",
+    "tickets": "      ",
+    "freeTicket": "             ",
+    "ticketsLeft": "             ",
+    "freeTicketsWon": "                    ",
+    "freePlay": "                "
+  },
+  "vs10madamejp": {
+    "game": "Madame Destiny Jackpot"
+  },
+  "vs25asgardjp": {
+    "game": "Asgard Jackpot",
+    "bonus": {
+      "21": {
+        "title": "         ",
+        "msf": "                          ",
+        "rrf": "       Wild    ",
+        "rwf": "          Wild",
+        "nlf": "Wild                    "
+      }
+    }
+  },
+  "vs20cleocatra": {
+    "game": "Cleocatra"
+  },
+  "vs5littlegem": {
+    "game": "Little Gem Hold and Spin"
+  },
+  "vs10mocha": {
+    "game": "La Moka Wild Powernudge"
+  },
+  "vs50celtic": {
+    "game": "Celtic Gold",
+    "bonus": {
+      "rwf": "                        Wild",
+      "swf": "                        Wild"
+    }
+  },
+  "vs50aladdin": {
+    "game": "3 Genie Wishes",
+    "bonus": {
+      "rwf": "                        Wild",
+      "swf": "                        Wild"
+    }
+  },
+  "vs20stickysymbol": {
+    "game": "The Great Stick-up"
+  },
+  "vs20fruitstoix": {
+    "game": "Stoiximan Bonanza"
+  },
+  "vs5ultrab": {
+    "game": "Ultra Burn"
+  },
+  "vs50safariking": {
+    "game": "Safari King"
+  },
+  "vs5trdragons": {
+    "game": "Triple Dragons"
+  },
+  "vs5trjokers": {
+    "game": "Triple Jokers"
+  },
+  "vs9hotroll": {
+    "game": "Hot Chilli"
+  },
+  "vs243discolady": {
+    "game": "Disco Lady"
+  },
+  "vs20dewabonanza": {
+    "game": "Dewapoker Sweet Bonanza"
+  },
+  "vs20nagaolymp": {
+    "game": "Naga303 Gates of Olympus"
+  },
+  "vs40streetracer": {
+    "game": "Street Racer",
+    "prg": {
+      "laps": "   "
+    }
+  },
+  "vs9madmonkey": {
+    "game": "Monkey Madness"
+  },
+  "vs20fruitnetbet": {
+    "game": "NetBet Bonanza"
+  },
+  "vswayswildwest": {
+    "game": "Wild West Gold Megaways"
+  },
+  "vs20aladdinsorc": {
+    "game": "Aladdin and the Sorcerer"
+  },
+  "vs20santa": {
+    "game": "Santa"
+  },
+  "vs9chen": {
+    "game": "Master Chen's Fortune"
+  },
+  "vs20betvolebnz": {
+    "game": "Betvole Bonanza"
+  },
+  "vs20venusbnz": {
+    "game": "Venus Bonanza"
+  },
+  "vs20leprexmas": {
+    "game": "Leprechaun Carol",
+    "bonus21": {
+      "title": {
+        "cmp": "                ",
+        "gsf": "                   ",
+        "oswr": "                       "
+      }
+    },
+    "coinCollect": {
+      "points": "         "
+    }
+  },
+  "vs10fruity": {
+    "game": "Extra Fruity",
+    "bonus25": {
+      "repeat": "      "
+    }
+  },
+  "vs7776secrets": {
+    "game": "John Hunter and the Aztec Treasure"
+  },
+  "vs10egrich": {
+    "game": "Queen of Gods"
+  },
+  "vs20ngsbonanza": {
+    "game": "NGS Bonanza"
+  },
+  "vs20betebetbnz": {
+    "game": "Betebet Bonanza"
+  },
+  "vswayszombcarn": {
+    "game": "Zombie Carnival"
+  },
+  "vs10bookviking": {
+    "game": "Book of Vikings"
+  },
+  "vs20olympusn2o": {
+    "game": "N2O Gates of Olympus"
+  },
+  "vs50pixie": {
+    "game": "Pixie Wings"
+  },
+  "vs5sh": {
+    "game": "Shining Hot 5"
+  },
+  "vs20sh": {
+    "game": "Shining Hot 20"
+  },
+  "vs40sh": {
+    "game": "Shining Hot 40"
+  },
+  "vs100sh": {
+    "game": "Shining Hot 100"
+  },
+  "vs25gladiator": {
+    "game": "Wild Gladiators"
+  },
+  "vs20fruitpotjoy": {
+    "game": "JackpotJoy Bonanza"
+  },
+  "vs10txbigbass": {
+    "game": "Big Bass Splash",
+    "feature": {
+      "hook": "      ",
+      "dynamite": "                  ",
+      "bazooka": "         ",
+      "scatter": "      "
+    }
+  },
+  "vs243koipond": {
+    "game": "Koi Pond"
+  },
+  "vs20sugarrush": {
+    "game": "Sugar Rush"
+  },
+  "vs20fruitbola88": {
+    "game": "Bola88 Bonanza"
+  },
+  "vs40madwheel": {
+    "game": "The Wild Machine"
+  },
+  "vs20estelarp": {
+    "game": "Estelarbet Princess"
+  },
+  "vs7monkeys": {
+    "game": "7 Monkeys"
+  },
+  "vs7bookofsports": {
+    "game": "Book of Sports"
+  },
+  "vs20wildman": {
+    "game": "Wildman Super Bonanza",
+    "progress": {
+      "title": "             "
+    },
+    "features": {
+      "c1": "   ",
+      "c2": "Wild       ",
+      "c3": "         ",
+      "c4": "             ",
+      "c5": "       Wild",
+      "fever": "             "
+    }
+  },
+  "vs20royalwinbnz": {
+    "game": "Royalwin Sweet Bonanza"
+  },
+  "vs20dewaggolymp": {
+    "game": "DewaGG Olympus"
+  },
+  "vs25bomb": {
+    "game": "Bomb Bonanza"
+  },
+  "vs40cosmiccash": {
+    "game": "Cosmic Cash"
+  },
+  "vs20coinolymp": {
+    "game": "Gates of Bitcasino"
+  },
+  "vs25champ": {
+    "game": "The Champions"
+  },
+  "vs20sekaolymp": {
+    "game": "Gates of Sekabet"
+  },
+  "vs20goldenbnz": {
+    "game": "Golden Bonanza"
+  },
+  "vs20fruitmania": {
+    "game": "Sweet Slot Mania"
+  },
+  "vs20nerobonanza": {
+    "game": "Nero Bonanza"
+  },
+  "vswaysjkrdrop": {
+    "game": "Tropical Tiki"
+  },
+  "vs5spjoker": {
+    "game": "Super Joker"
+  },
+  "vs20cd": {
+    "game": "Dice and Fire"
+  },
+  "vs25queenofgold": {
+    "game": "Queen Of Gold",
+    "level": {
+      "super": "      "
+    }
+  },
+  "vs10mmm": {
+    "game": "Magic Money Maze"
+  },
+  "vs4096jurassic": {
+    "game": "Jurassic Giants"
+  },
+  "vs20goldmania": {
+    "game": "Slot Mania Bonanza"
+  },
+  "vs25kingdomsnojp": {
+    "game": "3 Kingdoms - Battle of Red Cliffs"
+  },
+  "vs4096atra": {
+    "game": "Atracadores Gold",
+    "bonus": {
+      "title": "                    ",
+      "startMultiplier": "                         "
+    }
+  },
+  "vs20mozzartbnz": {
+    "game": "Mozzart Bonanza"
+  },
+  "vs20trswild2": {
+    "game": "Black Bull"
+  },
+  "vs20wolfie": {
+    "game": "Greedy Wolf"
+  },
+  "vs1024gmayhem": {
+    "game": "Gorilla Mayhem",
+    "progress": {
+      "level2": "       3x",
+      "level1": "2x        3x"
+    }
+  },
+  "vs20pblinders": {
+    "game": "Peaky Blinders"
+  },
+  "vs25pantherqueen": {
+    "game": "Panther Queen"
+  },
+  "vs20olymprush": {
+    "game": "Gates of Rushbet"
+  },
+  "vs50chinesecharms": {
+    "game": "Lucky Dragons"
+  },
+  "vs20totoprincess": {
+    "game": "Totogaming Starlight Princess"
+  },
+  "vs40hotburnx": {
+    "game": "Hot to Burn Extreme"
+  },
+  "vs20betcupbonanza": {
+    "game": "BetCup Sweet Bonanza"
+  },
+  "vs20indobetolymp": {
+    "game": "INDOBET Gates Of Olympus"
+  },
+  "vs25dragonkingdom": {
+    "game": "Dragon Kingdom"
+  },
+  "vs20bonanza777": {
+    "game": "Casino777 Bonanza"
+  },
+  "vs20octobeer": {
+    "game": "Octobeer Fortunes",
+    "treasurebox": "Treasure Wild"
+  },
+  "vs5firehot": {
+    "game": "Fire Hot 5"
+  },
+  "vs20fh": {
+    "game": "Fire Hot 20"
+  },
+  "vs40firehot": {
+    "game": "Fire Hot 40"
+  },
+  "vs100firehot": {
+    "game": "Fire Hot 100"
+  },
+  "vs1024mahjpanda": {
+    "game": "Mahjong Panda"
+  },
+  "vs20underground": {
+    "game": "Down the Rails"
+  },
+  "vs5jokergacor77": {
+    "game": "Gacor77 Joker's Jewels"
+  },
+  "vswayspwrfish": {
+    "game": "Power Fishing Megaways",
+    "bonus": {
+      "35": {
+        "result": {
+          "text": "      "
+        },
+        "gamble": "      ",
+        "lose": "      ",
+        "win": "             "
+      }
+    }
+  },
+  "vs20fruitjoker": {
+    "game": "Joker Bonanza"
+  },
+  "vs20fruitsbotopb": {
+    "game": "SBOTOP Sweet Bonanza"
+  },
+  "vs20olympat": {
+    "game": "Apuestatotal Gates of Olympus"
+  },
+  "vs20mummy": {
+    "game": "Mummy's Gold",
+    "bonus": {
+      "34": {
+        "title": "         ",
+        "subtitle": "",
+        "h": "      ",
+        "np": "      ",
+        "sf": "         "
+      },
+      "41": {
+        "title": "         ",
+        "subtitle": "",
+        "h": "",
+        "cw": "",
+        "iw": "",
+        "lwb": ""
+      },
+      "43": {
+        "title": "         ",
+        "subtitle": "",
+        "ws": "Wilds +       ",
+        "s": "      ",
+        "mc": "                   +       ",
+        "h": "      ",
+        "c": "      ",
+        "sc": "       +       ",
+        "wc": "Wild +       "
+      }
+    }
+  },
+  "vs40beowulf": {
+    "game": "Beowulf"
+  },
+  "vs25ladbroheat": {
+    "game": "Ladbrokes Heat",
+    "bonus": {
+      "11": {
+        "extraWin": "   "
+      }
+    }
+  },
+  "bca": {
+    "game": "Baccarat"
+  },
+  "bclg": {
+    "game": "LaLiga Baccarat"
+  },
+  "vs576coralrich": {
+    "game": "Coral Riches"
+  },
+  "bjmb": {
+    "game": "American Blackjack"
+  },
+  "bjma": {
+    "game": "Multihand Blackjack"
+  },
+  "bjlg": {
+    "game": "Blackjack LaLiga"
+  },
+  "bndt": {
+    "game": "Dragon Tiger",
+    "table": {
+      "pl": "         ",
+      "ba": "         ",
+      "bb": "   ",
+      "bs": "      ",
+      "pb": "   ",
+      "ps": "      ",
+      "sti": "             ",
+      "ti": "      "
+    }
+  },
+  "vs5strh": {
+    "game": "Striking Hot 5"
+  },
+  "vs50kingkong": {
+    "game": "Mighty Kong"
+  },
+  "vs8magicjourn": {
+    "game": "Magic Journey"
+  },
+  "vs20betexperbnz": {
+    "game": "Betexper Bonanza"
+  },
+  "vs10coffee": {
+    "game": "Coffee Wild"
+  },
+  "vswaysbook": {
+    "game": "Book of Golden Sands"
+  },
+  "vs20neyinebnz": {
+    "game": "Neyine Bonanza"
+  },
+  "vs20olympozzo": {
+    "game": "Gates of Ozzo"
+  },
+  "vs10crownfire": {
+    "game": "Crown of Fire"
+  },
+  "vs25sea": {
+    "game": "Great Reef"
+  },
+  "vs20vigorolymp": {
+    "game": "Gates of Vigor"
+  },
+  "vs40mstrwild": {
+    "game": "Happy Hooves"
+  },
+  "vs10egyptbook": {
+    "game": "Book of Egypt"
+  },
+  "vs20mparty": {
+    "game": "Wild Hop & Drop"
+  },
+  "vs20olympj9": {
+    "game": "J9 Gates of Olympus"
+  },
+  "vs20juraganstar": {
+    "game": "Juragan Starlight Princess"
+  },
+  "vs20gatesnovi": {
+    "game": "Gates of Novibet"
+  },
+  "vs25wildspells": {
+    "game": "Wild Spells"
+  },
+  "vs20superbetinb": {
+    "game": "Superbetin Bonanza"
+  },
+  "vs243ckemp": {
+    "game": "Cheeky Emperor"
+  },
+  "vs50hercules": {
+    "game": "Hercules Son of Zeus"
+  },
+  "vs20gatesofrizk": {
+    "game": "Gates of Rizk"
+  },
+  "vs20betfurybnz": {
+    "game": "Betfury Bonanza"
+  },
+  "vs20superbetb": {
+    "game": "Superbet Bonanza"
+  },
+  "vs10tut": {
+    "game": "Book Of Tut Respin"
+  },
+  "vs25dwarves_new": {
+    "game": "Dwarven Gold Deluxe"
+  },
+  "vs25dwarves": {
+    "game": "Dwarven Gold"
+  },
+  "vs10egypt": {
+    "game": "Ancient Egypt"
+  },
+  "vs20olympmerit": {
+    "game": "Merit King of Olympus"
+  },
+  "vswaysfrywld": {
+    "game": "Spin & Score Megaways",
+    "bonus": {
+      "35": {
+        "result": {
+          "text": "      "
+        },
+        "gamble": "      ",
+        "lose": "      ",
+        "win": "             "
+      }
+    }
+  },
+  "vs20mtreasure": {
+    "game": "Pirate Golden Age"
+  },
+  "vs20bets10olymp": {
+    "game": "Gates of Bets10"
+  },
+  "vswaysfltdrg": {
+    "game": "Floating Dragon Megaways Hold & Spin"
+  },
+  "vs243crystalcave": {
+    "game": "Magic Crystals"
+  },
+  "vs25kfruit": {
+    "game": "Aztec Blaze"
+  },
+  "vs1tigers": {
+    "game": "Triple Tigers"
+  },
+  "vswaysconcoll": {
+    "game": "Firebird Spirit - Connect & Collect"
+  },
+  "vs20planetbnnz": {
+    "game": "Planetwin Bonanza"
+  },
+  "vswaysstrwild": {
+    "game": "Candy Stars"
+  },
+  "vs20m88gates": {
+    "game": "M88 Olympus"
+  },
+  "vs1fortunetree": {
+    "game": "Tree of Riches"
+  },
+  "vs20valhallar": {
+    "game": "Valhalla Riches",
+    "bonusNames": {
+      "expand": "      ",
+      "multiplier": "                  ",
+      "respin": "         ",
+      "extraCredit": "      "
+    }
+  },
+  "vs20muertos": {
+    "game": "Muertos Multiplier Megaways"
+  },
+  "vs50amt": {
+    "game": "Aladdin's Magical Treasure"
+  },
+  "vs10bbkir": {
+    "game": "Big Bass Bonanza - Keeping it Reel"
+  },
+  "vswayslofhero": {
+    "game": "Legend of Heroes",
+    "bonus": {
+      "35": {
+        "result": {
+          "text": "      "
+        },
+        "gamble": "      ",
+        "lose": "      ",
+        "win": "             "
+      }
+    }
+  },
+  "vs20olimpog": {
+    "game": "Gates of Olimpo"
+  },
+  "vs20casumob": {
+    "game": "Casumo Bonanza"
+  },
+  "vs50starjackpots": {
+    "game": "Star Jackpots"
+  },
+  "cs3irishcharms": {
+    "game": "Irish Charms"
+  },
+  "cs5triple8gold": {
+    "game": "888 Gold"
+  },
+  "vs25journey": {
+    "game": "Journey to the West"
+  },
+  "vs25journey_jp": {
+    "game": "Journey to the West Jackpot"
+  },
+  "vs20bet7kgate": {
+    "game": "Gates of Bet7K"
+  },
+  "vs9catz": {
+    "game": "The Catfather"
+  },
+  "vs20rome": {
+    "game": "Glorious Rome"
+  },
+  "vs20doragate": {
+    "game": "Gates to El Dorado"
+  },
+  "vs20hockey": {
+    "game": "Hockey League"
+  },
+  "vs20kraken2": {
+    "game": "Release The Kraken 2"
+  },
+  "vs25c": {
+    "game": "Black Diamond"
+  },
+  "vs20swordofares": {
+    "game": "Sword of Ares"
+  },
+  "vs20theights": {
+    "game": "Towering Fortunes"
+  },
+  "vs15ktv": {
+    "game": "KTV"
+  },
+  "vs20sparta": {
+    "game": "Shield of Sparta"
+  },
+  "vs20smprincess": {
+    "game": "Slot Mania Princess"
+  },
+  "vs40smwildwest": {
+    "game": "Wild West Slot Mania"
+  },
+  "vs20slotsugar": {
+    "game": "Slot Mania Sugar"
+  },
+  "vs50prockparty": {
+    "game": "Piggy Rock Party"
+  },
+  "vs20lcount": {
+    "game": "Gems of Serengeti"
+  },
+  "vs9hockey": {
+    "game": "Hockey League Wild Match"
+  },
+  "scdiamond": {
+    "game": "Diamond Strike 100,000"
+  },
+  "scdiamondai": {
+    "game": "Diamond Strike 250,000"
+  },
+  "sc7piggies": {
+    "game": "7 Piggies 5,000"
+  },
+  "sc7piggiesai": {
+    "game": "7 Piggies 25,000"
+  },
+  "scgoldrush": {
+    "game": "Gold Rush 250,000"
+  },
+  "scgoldrushai": {
+    "game": "Gold Rush 500,000"
+  },
+  "scpanda": {
+    "game": "Panda Gold 10,000"
+  },
+  "scpandai": {
+    "game": "Panda Gold 50,000"
+  },
+  "scqog": {
+    "game": "Queen Of Gold 100,000"
+  },
+  "scsafari": {
+    "game": "Hot Safari 50,000"
+  },
+  "scsafariai": {
+    "game": "Hot Safari 75,000"
+  },
+  "scwolfgold": {
+    "game": "Wolf Gold 1,000,000"
+  },
+  "vs10snakeeyes": {
+    "game": "Snakes & Ladders 2 - Snake Eyes"
+  },
+  "vs20osiris": {
+    "game": "New Tales of Egypt"
+  },
+  "vs20egypt": {
+    "game": "Tales of Egypt"
+  },
+  "vs20soccer": {
+    "game": "Religion of Champions Brasil"
+  },
+  "vs20porbs": {
+    "game": "Santa's Great Gifts",
+    "items": "      "
+  },
+  "vs30catz": {
+    "game": "The Catfather Part II"
+  },
+  "vs3train": {
+    "game": "Gold Train"
+  },
+  "vs3traingw": {
+    "game": "GO WILD Train"
+  },
+  "vs3traingpk": {
+    "game": "Gold Train GPK"
+  },
+  "vs3trainedf": {
+    "game": "Gold Train EDF"
+  },
+  "vs12bbbxmas": {
+    "game": "Bigger Bass Blizzard - Christmas Catch",
+    "feature": {
+      "hook": "      ",
+      "dynamite": "                  "
+    }
+  },
+  "vs20fruitswh": {
+    "game": "Sweet Fiesta"
+  },
+  "vs4096bufkingh": {
+    "game": "Bison Spirit"
+  },
+  "vs25rlbank": {
+    "game": "Reel Banks"
+  },
+  "vs20biabetgates": {
+    "game": "Gates of Biabet"
+  },
+  "vs20dhdice": {
+    "game": "The Dog House Dice Show"
+  },
+  "vs20clspwrndg": {
+    "game": "Sweet Powernudge"
+  },
+  "vswaysfuryodin": {
+    "game": "Fury of Odin Megaways"
+  },
+  "vswaysdogsh": {
+    "game": "The Dog Mansion Megaways"
+  },
+  "vs20goldfeverh": {
+    "game": "Jewel Bonanza",
+    "progress": {
+      "title": "             "
+    },
+    "features": {
+      "c1": "   ",
+      "c2": "Wild       ",
+      "c3": "         ",
+      "c4": "             ",
+      "c5": "       Wild",
+      "fever": "             "
+    }
+  },
+  "vs20superxmas": {
+    "game": "Superbet Christmas Megaways",
+    "fsOption": {
+      "startMultiplier": "                         "
+    }
+  },
+  "vswayslionsh": {
+    "game": "Lucky Phoenix Megaways"
+  },
+  "vs20dugems": {
+    "game": "Hot Pepper"
+  },
+  "vs20partygates": {
+    "game": "Gates of Party Casino"
+  },
+  "vs20bnnzdice": {
+    "game": "Sweet Bonanza Dice"
+  },
+  "vs20xmascoral": {
+    "game": "Christmas Coral Megaways",
+    "fsOption": {
+      "startMultiplier": "                         "
+    }
+  },
+  "vs20cm": {
+    "game": "Sugar Rush"
+  },
+  "vs20cms": {
+    "game": "Sugar Rush Summer Time"
+  },
+  "vs20cmv": {
+    "game": "Sugar Rush Valentine's Day"
+  },
+  "vswaysdragon": {
+    "game": "Enchanted Dragon"
+  },
+  "vs20mb88gates": {
+    "game": "Mybet88 Gates of Olympus"
+  },
+  "vs20perabnnz": {
+    "game": "Perabet Bonanza"
+  },
+  "vs20asgard": {
+    "game": "Kingdom of Asgard",
+    "bonusNames": {
+      "expand": "      ",
+      "multiplier": "                  ",
+      "respin": "         ",
+      "extraCredit": "      "
+    }
+  },
+  "vswayspizza": {
+    "game": "PIZZA! PIZZA? PIZZA!"
+  },
+  "vs25rjoker": {
+    "game": "Racing Joker",
+    "bonus": {
+      "11": {
+        "extraWin": "   "
+      }
+    }
+  },
+  "vs20hippos": {
+    "game": "Flying Hippo"
+  },
+  "vs20vggates": {
+    "game": "Virgin Games Olympus"
+  },
+  "vs20drgbless": {
+    "game": "Dragon Hero"
+  },
+  "vs20schristmas": {
+    "game": "Starlight Christmas"
+  },
+  "vswayswwhex": {
+    "game": "Wild Wild Bananas"
+  },
+  "vs20onwinbnnz": {
+    "game": "Onwin Bonanza"
+  },
+  "vs25spgldways": {
+    "game": "Secret City Gold"
+  },
+  "cs3w": {
+    "game": "Diamonds are Forever 3 Lines"
+  },
+  "cs5ca88gold": {
+    "game": "ca88 Gold"
+  },
+  "cs5moneyroll": {
+    "game": "Money Roll"
+  },
+  "cs5triple8ag": {
+    "game": "AG88 Gold"
+  },
+  "cs5triple8bbin": {
+    "game": "888 BBIN"
+  },
+  "cs5triple8edf": {
+    "game": "888 EDF"
+  },
+  "cs5triple8fun": {
+    "game": "Fun88 Gold"
+  },
+  "cs5triple8gpk": {
+    "game": "888 GPK"
+  },
+  "vs20bnnz1win": {
+    "game": "1Win Bonanza"
+  },
+  "vs20frenzybnnz": {
+    "game": "Sweet Frenzy"
+  },
+  "vs5jokerdice": {
+    "game": "Joker Jewel Dice"
+  },
+  "vs20ltng": {
+    "game": "Pinup Girls"
+  },
+  "vswaysrabbits": {
+    "game": "5 Rabbits Megaways"
+  },
+  "vs20donutparty": {
+    "game": "Donut Party"
+  },
+  "vswaysluckyfish": {
+    "game": "Lucky Fishing",
+    "bonus": {
+      "35": {
+        "result": {
+          "text": "      "
+        },
+        "gamble": "      ",
+        "lose": "      ",
+        "win": "             "
+      }
+    }
+  },
+  "vs20snabbare": {
+    "game": "Snabbare Bonanza"
+  },
+  "vs20mochimon": {
+    "game": "Mochimon"
+  },
+  "vs20spacebnnz": {
+    "game": "Space Bonanza"
+  },
+  "vs12tropicana": {
+    "game": "Club Tropicana",
+    "feature": {
+      "hook": "      ",
+      "dynamite": "                  "
+    }
+  },
+  "vs20superlanche": {
+    "game": "Monster Superlanche"
+  },
+  "vs10fisheye": {
+    "game": "Fish Eye"
+  },
+  "vs20mammoth": {
+    "game": "Mammoth Gold Megaways"
+  },
+  "vs20betmotion": {
+    "game": "Gates of Betmotion"
+  },
+  "vs20mokaji": {
+    "game": "Mon of Olympus"
+  },
+  "vs20gatotgates": {
+    "game": "Gates of Gatot Kaca"
+  },
+  "vs20sweetamb": {
+    "game": "AMB Sweet Candy"
+  },
+  "vs20g8gates": {
+    "game": "G8 Gates of Olympus"
+  },
+  "vs20dolar138": {
+    "game": "Dolar138 Starlight Princess"
+  },
+  "vs25archer": {
+    "game": "Fire Archer"
+  },
+  "vs25viadel": {
+    "game": "Via del Corso"
+  },
+  "vs20vulkangate": {
+    "game": "Vulkan of Olympus"
+  },
+  "vs20knbtgates": {
+    "game": "Gates of Olympus Konibet"
+  },
+  "vs20olymplux": {
+    "game": "Luxury of Olympus"
+  },
+  "vswayswwriches": {
+    "game": "Wild Wild Riches Megaways"
+  },
+  "vs20aztecgates": {
+    "game": "Gates of Aztec"
+  },
+  "vs20olympsoju88": {
+    "game": "Soju88 Gates of Olympus"
+  },
+  "vs10powerlines": {
+    "game": "Peak Power"
+  },
+  "vs20meritkingsr": {
+    "game": "Merit King Sugar Rush"
+  },
+  "vs20pistols": {
+    "game": "Wild West Duels"
+  },
+  "vs20guarush": {
+    "game": "Guarana - Eyes of the Amazon"
+  },
+  "vswaysmorient": {
+    "game": "Mystery of the Orient"
+  },
+  "vs20bwinrush": {
+    "game": "Bwin Rush"
+  },
+  "vs20mvwild": {
+    "game": "Jasmine Dreams"
+  },
+  "vs20fruitwin": {
+    "game": "Sweet Winchat"
+  },
+  "vs20bcolymp": {
+    "game": "BC.Game Olympus"
+  },
+  "vs20nexusgates": {
+    "game": "Nexus Gates of Olympus"
+  },
+  "vswaysultrcoin": {
+    "game": "Cowboy Coins"
+  },
+  "vs20doghousemh": {
+    "game": "The Dog House Multihold"
+  },
+  "vs20grandpasha": {
+    "game": "Gates of Grandpashabet"
+  },
+  "vs20fruitcmd": {
+    "game": "Sweet CMD368 Bonanza"
+  },
+  "vs10bbhas": {
+    "game": "Big Bass - Hold & Spinner",
+    "feature": {
+      "hook": "      ",
+      "dynamite": "                  ",
+      "bazooka": "         ",
+      "scatter": "      "
+    }
+  },
+  "vs20swordparty": {
+    "game": "Sword of Party Casino"
+  },
+  "vs20hunny": {
+    "game": "Gates of Hunny"
+  },
+  "vs1024shotsfs": {
+    "game": "Shots for Slots",
+    "progress": {
+      "level2": "       3x",
+      "level1": "2x        3x"
+    }
+  },
+  "vs20sknights": {
+    "game": "The Knight King"
+  },
+  "vs20weclubprin": {
+    "game": "Weclub Princess"
+  },
+  "vs20cricksugar": {
+    "game": "10Crick Sugar Rush"
+  },
+  "vs20roohouse": {
+    "game": "The Roo House"
+  },
+  "vs20gatotfury": {
+    "game": "Gatot Kaca's Fury"
+  },
+  "vs20dhnovi": {
+    "game": "TSILI Dog House"
+  },
+  "vs20goldclust": {
+    "game": "Rabbit Garden"
+  },
+  "vs10gizagods": {
+    "game": "Gods of Giza"
+  },
+  "vswaysfrogsfr": {
+    "game": "Frogs and Fruits"
+  },
+  "vs20supermania": {
+    "game": "Supermania"
+  },
+  "vs20hotzone": {
+    "game": "African Elephant"
+  },
+  "vsprg20olympus": {
+    "game": "Gates of Olympus Jackpot Play"
+  },
+  "vsprg10bigbass": {
+    "game": "Big Bass Splash Jackpot Play",
+    "feature": {
+      "hook": "      ",
+      "dynamite": "                  ",
+      "bazooka": "         ",
+      "scatter": "      "
+    }
+  }
+}

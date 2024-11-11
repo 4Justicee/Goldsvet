@@ -1,0 +1,123 @@
+<?php
+$rep_room=$room;
+
+if(isset($_POST['fromdate']))
+  $_SESSION['rep10_start_dat']=$_POST['fromdate'];
+else
+  $_POST['fromdate']=isset($_SESSION['rep10_start_dat'])?$_SESSION['rep10_start_dat']:REPORT_START_DATE;
+
+if(isset($_POST['todate']))  
+  $_SESSION['rep10_end_dat']=$_POST['todate'];
+else
+  $_POST['todate']=isset($_SESSION['rep10_end_dat'])?$_SESSION['rep10_end_dat']:REPORT_CURR_DATE;
+  
+if(isset($_POST['fromtime']))  
+  $_SESSION['rep10_start_time']=$_POST['fromtime'];
+else
+  $_POST['fromtime']=isset($_SESSION['rep10_start_time'])?$_SESSION['rep10_start_time']:REPORT_START_TIME;
+  
+if(isset($_POST['totime']))
+  $_SESSION['rep10_end_time']=$_POST['totime'];
+else
+  $_POST['totime']=isset($_SESSION['rep10_end_time'])?$_SESSION['rep10_end_time']:REPORT_END_TIME;
+
+if($rep_room>0)
+  {
+  $sql="select count(*) as numspin, t1.g_name, sum(if(t1.g_name=t2.game, stav,0))as sum_in, sum(win) as sum_out 
+        from game_settings t1 
+            join stat_game t2 ON ( t2.game=t1.g_name or t2.game LIKE concat( t1.g_name, '\_%' ) and t1.room_id=t2.room_id )"; 
+  
+  $sql="select * from enter join users using (login) ";
+         
+  $where[]="paysys like 'return%' and room_id=$rep_room";       
+  
+$from_date=isset($_POST['fromdate'])?$_POST['fromdate']: REPORT_START_DATE;
+$to_date=isset($_POST['todate'])?$_POST['todate']: REPORT_CURR_DATE;
+
+$from_time=isset($_POST['fromtime'])?$_POST['fromtime']: REPORT_START_TIME;
+$to_time=isset($_POST['totime'])?$_POST['totime']: REPORT_END_TIME;
+
+if($from_date)
+ $where[]='`date` >= '.strtotime($from_date.' '.$from_time);
+
+if($to_date)
+ $where[]='`date`<= '.strtotime($to_date.' '.$to_time); 
+
+if(isset($where)&& isset ($sql))
+  $sql.=' where '.implode(' and ',$where);
+    
+  //$sql.=" group by g_name ";
+
+  $res=pager($sql,$paginator);
+        if($res)
+          {
+          if(mysql_num_rows($res)>0)
+            {
+            print '
+                        <div class="row">                            
+                            <div class="col-md-12">
+                                <div class="block">
+                                    <div class="head"> 
+									<h2>'.$lang['reportmenu'][10].'</h2>                                       
+                                    </div>
+                                    <div class="content np">
+
+                                        <table cellpadding="0" cellspacing="0" width="100%" id="addRowExample" class="editable oc_disable">
+										
+                                            <thead>
+                                                <tr>                                                    
+                                                    <th width="25%">'.$lang['adm_report_date'].'</th> 
+                                                    <th width="25%">'.$lang['adm_report_login'].'</th>													
+                                                    <th width="25%">'.$lang['adm_report_sum'].'</th>
+													<th width="25%">'.$lang['adm_report_return'].'</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody> 			
+            ';
+            while($row=mysql_fetch_array($res))
+              {
+              print "
+                <tr align='center'>
+                <td>".date('Y-m-d H:i:s',$row['date'])."</td>
+                <td>".$row['login']."</td>
+                <td><span class='badge badge-success'>".sprintf("%01.2f",$row['sum'])."</span></td>
+                <td>".($row['paysys']=='return_room' ? $lang['room']: $lang['user'])."</td>
+              </tr>  
+              ";
+              }
+            print "</tbody>
+											
+                                        </table>                                         
+                                        
+                                    </div>";
+           if($paginator)
+      echo "
+          <div class='footer'>
+            <div class=\"side fr\">$paginator</div>
+          </div>";
+           print                         "
+                                </div> 
+                            </div>                                
+                        </div>";          
+            }
+          else
+            echo "                           
+<div class='col-md-12'>
+<div class='alert alert-danger'>
+<center><strong>{$lang['adm_report_no_data']}</strong></center>
+<button class='close' data-dismiss='alert' type='button'>×</button>
+</div>
+</div>		
+			";  
+          }
+        else
+          echo "                           
+<div class='col-md-12'>
+<div class='alert alert-danger'>
+<center><strong>ошибка MySql: ".mysql_error()."</strong></center>
+<button class='close' data-dismiss='alert' type='button'>×</button>
+</div>
+</div>	  
+		  ";  
+  }
+?>

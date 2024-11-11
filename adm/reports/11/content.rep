@@ -1,0 +1,116 @@
+<?php 
+$rep_room=$room;
+
+if($rep_room>0)
+  {
+  
+  $sql="select t1.*, users.login from settings_history t1 left join users on (users.id=t1.user_id)";
+
+  $where[]="t1.room_id=$rep_room";
+  
+$from_date=isset($_POST['fromdate'])?$_POST['fromdate']: REPORT_START_DATE;
+$to_date=isset($_POST['todate'])?$_POST['todate']: REPORT_CURR_DATE;
+
+$from_time=isset($_POST['fromtime'])?$_POST['fromtime']: REPORT_START_TIME;
+$to_time=isset($_POST['totime'])?$_POST['totime']: REPORT_END_TIME;
+
+if($from_date)
+ $where[]='unix_timestamp(ifnull(t1.`date_time`,0)) >= '.strtotime($from_date.' '.$from_time);
+
+if($to_date)
+ $where[]='unix_timestamp(ifnull(t1.`date_time`,0))<= '.strtotime($to_date.' '.$to_time); 
+ 
+if(isset($where)&& isset ($sql))
+  $sql.=' where '.implode(' and ',$where);
+  
+$sql.=' order by `date_time` desc';  
+  }
+if (isset($sql))  
+  {  
+  $res=pager($sql,$paginator);
+        if($res)
+          {
+          if(mysql_num_rows($res)>0)
+            {
+            print '
+                        <div class="row">                            
+                            <div class="col-md-12">
+                                <div class="block">
+                                    <div class="head"> 
+									<h2>'.$lang['reportmenu'][11].'</h2>                                       
+                                    </div>
+                                    <div class="content np">
+
+                                        <table cellpadding="0" cellspacing="0" width="100%" id="addRowExample" class="editable oc_disable">
+										
+                                            <thead>
+                                                <tr>                                                    
+                                                    <th width="20%">'.$lang['adm_report_login'].'</th> 
+                                                    <th width="20%">'.$lang['adm_report_setting'].'</th>													
+                                                    <th width="20%">'.$lang['adm_report_date'].'</th>
+													<th width="20%">'.$lang['adm_report_old'].'</th>
+													<th width="20%">'.$lang['adm_report_new'].'</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody> 
+            ';
+            while($row=mysql_fetch_array($res))
+              {
+              //print_r($row);
+              print "
+                <tr align='center'>
+                <td>".$row['login']."</td>
+                <td><span class='badge badge-danger'>".$row['key_name']."</span></td>
+                <td>".$row['date_time']."</td>
+                <td>".$row['val_old']."</td>
+                <td>".$row['val_new']."</td>
+              </tr>  
+              "; 
+              }
+echo "</tbody>
+											
+                                        </table>                                         
+                                        
+                                    </div>";
+    if($paginator)
+      echo "
+          <div class='footer'>
+            <div class=\"side fr\">$paginator</div>
+          </div>";
+    print "
+                                </div> 
+                            </div>                                
+                        </div>";				  
+            }
+          else
+            echo "                            
+<div class='col-md-12'>
+<div class='alert alert-danger'>
+<center><strong>{$lang['adm_report_no_data']}</strong></center>
+<button class='close' data-dismiss='alert' type='button'>×</button>
+</div>
+</div>			
+			";  
+          }
+        else
+          echo "                            
+<div class='col-md-12'>
+<div class='alert alert-danger'>
+<center><strong>ошибка MySql: ".mysql_error()."</strong></center>
+<button class='close' data-dismiss='alert' type='button'>×</button>
+</div>
+</div>		  
+		  ";  
+  }
+  else
+    echo "                            
+<div class='col-md-12'>
+<div class='alert alert-danger'>
+<center><strong>выберите игровой зал</strong></center>
+<button class='close' data-dismiss='alert' type='button'>×</button>
+</div>
+</div>	
+	";
+	
+                                            
+?>

@@ -1,0 +1,162 @@
+@media screen and (max-width: 1441px) {
+    .loteries-items-wrap-inner .loteries-items .items .item-left .item-description {
+        padding-right: 10px;
+    }
+
+    .loteries-items-wrap-inner .loteries-items .items .item-left .item-description {
+        padding-left: 20px;
+    }
+
+    .loteries-items-wrap-inner .loteries-items .items .item-left .item-description .item-img {
+        margin-right: 20px;
+    }
+}
+
+@media screen and (max-width: 1239px) {
+    .loteries-items-wrap-inner .loteries-items .items .item-right .item-right-bottom {
+        width: 90%;
+    }
+
+    .loteries-items-wrap-inner .loteries-items .items .item-right .total-ticket {
+        width: 90%;
+    }
+
+    .loteries-items-wrap-inner .loteries-items .items .item-left .item-description {
+        display: none;
+    }
+
+    .loteries-items-wrap-inner .loteries-items .items .item-left {
+        max-width: 440px;
+    }
+
+    .loteries-items-wrap-inner .loteries-items .items .item-left .item-description-1289 {
+        display: block;
+    }
+
+    .loteries-items-wrap-inner .loteries-items .items .item-left:after {
+        right: -8px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .loteries-items-wrap-inner .loteries-items .items {
+        display: none;
+    }
+
+    .loteries-items-wrap-inner .loteries-items .items-700 {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -moz-box;
+        display: -ms-flexbox;
+        display: flex;
+        padding-top: 25px;
+    }
+
+    .loteries-items-wrap-inner .loteries-items .items-700 .cover-for-prize-money .item-right-top .item-price-number:after {
+        bottom: -4px;
+    }
+
+    .cash-popup-history {
+        margin-left: 0px;
+        margin-right: 0px;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 785px) and (min-width: 768px) {
+    .cashbox-popup .cashbox-middle .cashbox-middle-wrapper {
+        max-width: 660px;
+    }
+
+    .cash-popup-history .table-imitation .table-header {
+        padding-right: 30px;
+    }
+}
+
+@media screen and (max-width: 767px) and (min-width: 700px) {
+    .loteries-items-wrap-inner .loteries-items {
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+
+    .cash-popup-history .table-imitation {
+        height: 650px;
+    }
+
+    .cash-popup-history .table-imitation .table-main-container {
+        max-height: none;
+        height: auto;
+    }
+
+    .cash-popup-history .table-imitation .table-header {
+        padding-right: 0px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .cash-popup-history .table-imitation {
+        height: 650px;
+    }
+
+    .cash-popup-history .table-imitation .table-main-container {
+        max-height: none;
+        height: auto;
+    }
+
+    .cash-popup-history .table-imitation .table-header {
+        padding-right: 0px;
+    }
+
+    .loteries-items-wrap-inner .loteries-items .items-300 {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -moz-box;
+        display: -ms-flexbox;
+        display: flex;
+    }
+
+    .loteries-items-wrap-inner .loteries-items .items-700 {
+        display: none;
+    }
+
+    .mbox {
+        max-width: 340px;
+    }
+
+    .loteries-items-wrap-inner .loteries-items .items-300 .item-description b {
+        padding: 0;
+        display: inline-block;
+        margin-bottom: 5px;
+    }
+
+    .loteries-items-wrap-inner .loteries-items .items-300 .item-description h3 {
+        margin-bottom: 11px;
+    }
+
+    .loteries-items-wrap-inner .loteries-items .items-300 .item-description b:after {
+        bottom: -5px;
+    }
+
+    .loteries-items-wrap-inner .loteries-items .items-300 .cover-for-prize-money .item-right-top .item-price-number:after {
+        bottom: -3px;
+    }
+
+    .loteries-items-wrap-inner .loteries-items {
+        padding-top: 50px;
+    }
+
+    .loteries-items-wrap-inner .loteries-items .items-300 .backward-link {
+        top: -30px;
+        left: 50%;
+        -webkit-transform: translateX(-40%);
+        -moz-transform: translateX(-40%);
+        -ms-transform: translateX(-40%);
+        -o-transform: translateX(-40%);
+        transform: translateX(-40%);
+    }
+
+    .loteries-items-wrap-inner .loteries-items .items-300 .backward-link a {
+        width: 200px;
+        display: block;
+    }
+}

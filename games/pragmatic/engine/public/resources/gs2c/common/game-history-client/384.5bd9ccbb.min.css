@@ -1,0 +1,1 @@
+:root{--reel-width:60px;--reel-height:200px}.ReelsSlot__Reel{width:auto}.ReelsSlot__Reel .MoneyScatter__Label{background:unset}.ReelsSlot__Reel .ReelsSlot__Item{width:var(--reel-width)}.ReelsSlot__Reel .ReelsSlot__Item--win .MoneyScatter.ReelsSlot__Item{opacity:1}.ReelsSlot__Reel .ReelsSlot__ItemImg{object-fit:contain}

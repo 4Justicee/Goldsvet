@@ -1,0 +1,583 @@
+html {
+	font-size: 100%;
+}
+body {
+	font-size: 1em;
+}
+
+#PaytableContent
+{
+	background: #ca7020;
+	padding: 0 90px;
+	overflow: overlay;
+}
+
+#PaytableContent .title
+{
+	background-image: url("BaseSlotEngine/games/GETJSlot/paytable/title.png");
+	width: 470px;
+	height: 66px;
+	margin: 10px auto 5px auto;
+}
+
+#PaytableContent .panelContainer {
+	position: relative;
+	width: 100%;
+	height: 207px;
+}
+
+#PaytableContent .panel {
+	background: #ffdf95;
+	border: 6px solid #883b00;
+	border-radius: 10px;
+	/*margin-bottom: 1%;*/
+	padding: 20px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	float: left;
+}
+
+#PaytableContent .panel.jackpot {
+	padding: 20px 30px;
+}
+
+#PaytableContent .panel.scatter, #PaytableContent .panel.wild {
+	position: relative;
+	margin-bottom: 1%;
+	height: 450px;
+}
+
+#PaytableContent .panel.freespins, #PaytableContent .panel.wilds {
+	position: relative;
+}
+
+#PaytableContent .panel.scatter, #PaytableContent .panel.feature {
+	background: #4863f3;
+}
+
+#PaytableContent .panel.full {
+	width: 100%;
+}
+#PaytableContent .panel.half {
+	width: 49.5%;
+}
+#PaytableContent .panel.even {
+	float: right;
+}
+#PaytableContent .panel.top, #PaytableContent .panel.bottom {
+	position: absolute;
+	top: 0;
+	left: 0;
+	padding: 10px 5px;
+	height: 207px;
+}
+#PaytableContent .panel.top {
+	width: 74%;
+	z-index: 3;
+}
+#PaytableContent .panel.bottom {
+	background: #c5aa6e;
+	width: 100%;
+	z-index: 2;
+}
+#PaytableContent .panel.bottom .image,
+#PaytableContent .panel.bottom .linesContainer {
+	float: right;
+}
+
+#PaytableContent .panel.bottom .image {
+	margin-top: 55px;
+}
+
+
+
+#PaytableContent .panel h1 {
+	font: bold 2.5em arial,sans-serif;
+	color: #2d77b0;
+	text-align: center;
+	margin-bottom: 20px;
+	text-shadow:1px 1px 1px #000,
+				-1px -1px 1px #000,
+				1px -1px 1px #000,
+				-1px 1px 1px #000,
+				0px 1px 1px #000,
+				1px 0px 1px #000,
+				0px -1px 1px #000,
+				-1px 0px 1px #000;
+	line-height: 1.25em;
+}
+
+#PaytableContent .panel.full.feature.es h1 
+{
+	font: bold 2.10em arial,sans-serif;
+}
+
+#PaytableContent .panel.full.feature.bg h1{
+	font: bold 2.4em arial,sans-serif;
+  	margin-top: 60px;
+}
+
+#PaytableContent .panel.full.feature.ru h1{
+	font: bold 2.2em arial,sans-serif;
+  margin-top: 60px;
+}
+
+#PaytableContent .panel.full.feature.fr h1{
+	font: bold 2em arial,sans-serif;
+  margin-top: 60px;
+}
+
+#PaytableContent .panel.wild h1 {
+	font-size: 2em;
+	color: #f47500;
+	margin-bottom: 10px;
+}
+
+#PaytableContent .panel.wild.es h1
+{
+	font-size: 1.7em;
+    margin-top: 14px;
+}
+#PaytableContent .panel.feature h1 {
+	color: #f47500;
+	margin-top: 75px;
+}
+
+#PaytableContent .panel.feature.ro h1{
+    font: bold 32px arial,sans-serif;
+}
+
+#PaytableContent .panel.wild h1.flex {
+	margin-bottom: 0;
+}
+
+
+#PaytableContent .panel.wild h1.flex.ro {
+	margin-bottom: 10px;
+}
+
+/*#PaytableContent.bg .panel.wild h1 {
+	font-size: 1.65em;
+}*/
+
+/*#PaytableContent.ru .panel.wild h1 {
+	margin-top: 40px;
+	font-size: 2.25em;
+}*/
+
+/*#PaytableContent.nl .panel.wild h1 {
+	font-size: 1.8em;
+}*/
+
+/*#PaytableContent.fr .panel.wild h1 {
+	margin-top: 45px;
+	font-size: 2.2em;
+}*/
+
+#PaytableContent .panel.scatter h1
+{
+	position: absolute;
+	left: 40px;
+	top: 135px;
+	line-height: 1em;
+	font-weight: 900;
+	font-size: 4em;
+	text-align: left;
+}
+
+#PaytableContent .panel.scatter h1 span {
+	font-size: 0.75em;
+}
+
+/*#PaytableContent.bg .panel.scatter h1 span, #PaytableContent.ru .panel.scatter h1 span
+{
+	font-size: 0.5em;
+}
+
+#PaytableContent.fr .panel.scatter h1 span
+{
+	font-size: 0.45em;
+}*/
+
+#PaytableContent .panel p
+{
+	color: #2a8ad4;
+	font: bold 1.25em arial,sans-serif;
+	line-height: 2em;
+	text-align: center;
+	text-shadow:1px 1px 1px #fff,
+				-1px -1px 1px #fff,
+				1px -1px 1px #fff,
+				-1px 1px 1px #fff,
+				0px 1px 1px #fff,
+				1px 0px 1px #fff,
+				0px -1px 1px #fff,
+				-1px 0px 1px #fff;
+}
+
+
+
+#PaytableContent .panel.scatter p {
+	margin-top: 100px;
+	font-size: 2em;
+}
+
+/*#PaytableContent.ru .panel.scatter p {
+	font-size: 1.65em;
+}*/
+
+#PaytableContent .panel .arrow {
+	position: absolute;
+	display: block;
+	background-image: url("BaseSlotEngine/games/GETJSlot/paytable/arrow.png");
+	width: 296px;
+	height: 101px;
+	left: -65px;
+	bottom: -100px;
+	z-index: 2;
+}
+
+#PaytableContent .panel.wild .image.scatter {
+	/*position: absolute;*/
+	/*top: 250px;*/
+	/*left: 375px;*/
+	float: none;
+}
+
+#PaytableContent .panel.freespins p,
+#PaytableContent .panel.freespins h1 {
+	text-indent: 104px;
+}
+
+#PaytableContent .image.scatter.small.ro{
+	    margin-top: -10px;
+}
+
+#PaytableContent .panel.freespins .image, #PaytableContent .panel.wilds .image {
+	position: absolute;
+	top: 20px;
+	left: 20px;
+}
+
+#PaytableContent .panel.wilds .image.right {
+	left: inherit;
+	right: 20px;
+}
+
+#PaytableContent .panel.wild p .image.small
+{
+	position: inherit;
+	float: none;
+	display: inline-block;
+	content: "";
+	margin: 0 10px;
+}
+
+#PaytableContent .panel .flex
+{
+	display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
+	display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
+	display: -ms-flexbox;      /* TWEENER - IE 10 */
+	display: -webkit-flex;     /* NEW - Chrome */
+	display: flex;             /* NEW, Spec - Opera 12.1, Firefox 20+ */
+  	-webkit-justify-content: center;
+  	-moz-justify-content: center;
+  	justify-content: center;
+  	line-height: 1.65em;
+}
+
+#PaytableContent .panel.wild .flex {
+	line-height: 1em;
+	height: 1.4em;
+}
+
+#PaytableContent .panel .flex .image {
+	margin: -15px 10px 0 10px;
+}
+
+/*#PaytableContent.ru .panel .flex .image {
+	margin-top: -20px;
+}*/
+
+#PaytableContent .panel.gamble p span#GambleTextLine,
+#PaytableContent .panel.jackpot p span#JackpotTextLine {
+	font-size: 1.1em;
+	color: #fff;
+	text-shadow:1px 1px 1px #000,
+				-1px -1px 1px #000,
+				1px -1px 1px #000,
+				-1px 1px 1px #000,
+				0px 1px 1px #000,
+				1px 0px 1px #000,
+				0px -1px 1px #000,
+				-1px 0px 1px #000;
+}
+#PaytableContent .panel.jackpot p span#JackpotTextLine {
+	line-height: 1.5em;
+}
+
+#PaytableContent .image {
+	background-image: url("BaseSlotEngine/games/GETJSlot/paytable/sprite.jpg");
+	float: left;
+	width: 175px;
+	height: 175px;
+}
+
+#PaytableContent .image.scatter 		{ background-position: -175px 	-000px;	}
+#PaytableContent .image.scatter.small	{ background-position:-1050px 	-250px;	width: 74px; height: 74px; }
+#PaytableContent .image.wild		 	{ background-position: -000px 	-000px;	}
+#PaytableContent .image.wild.small	 	{ background-position:-1050px 	-175px;	width: 74px; height: 74px; }
+#PaytableContent .image.man 			{ background-position: -350px 	-000px;	}
+#PaytableContent .image.woman			{ background-position: -525px 	-000px;	}
+#PaytableContent .image.cat 			{ background-position: -700px 	-000px;	}
+#PaytableContent .image.symbol 			{ background-position: -875px 	-000px;	}
+#PaytableContent .image.stone 			{ background-position:-1050px 	-000px;	}
+#PaytableContent .image.A 				{ background-position: -000px 	-175px;	}
+#PaytableContent .image.K 				{ background-position: -175px 	-175px;	}
+#PaytableContent .image.Q	 			{ background-position: -350px 	-175px;	}
+#PaytableContent .image.J	 			{ background-position: -525px 	-175px;	}
+#PaytableContent .image.Ten	 			{ background-position: -700px 	-175px;	}
+#PaytableContent .image.Nine			{ background-position: -875px 	-175px;	}
+
+#PaytableContent .image.reels			{ background-position: -958px 	-350px;	width: 267px; height: 148px; }
+
+#PaytableContent .image.jackpot 		{ background-position: -278px 	-432px;	width: 526px; height: 063px; }
+#PaytableContent .image.lines			{ background-position: -000px 	-350px;	width: 958px; height: 081px; }
+
+#PaytableContent .image.center {
+	float: none;
+	margin: 0 auto;
+}
+
+#PaytableContent .image.right {
+	float: right;
+}
+
+#PaytableContent .image.text {
+	margin-top: 85px;
+}
+
+#PaytableContent .imageContainer {
+	display: block;
+	float: left;
+	width: 68%;
+}
+
+#PaytableContent .imageContainer.auto {
+	width: auto;
+}
+
+#PaytableContent .imageContainer.full {
+	width: 100%;
+	margin: 0;
+	float: none;
+}
+
+#PaytableContent .scatter .imageContainer {
+	margin-left: 30%;
+	width: 20%;
+}
+
+#PaytableContent .wild .imageContainer {
+	width: 40%;
+}
+
+#PaytableContent .imageContainer.two .image:nth-child(1) {
+	margin-left: 13%;
+	margin-right: 3%;
+}
+
+#PaytableContent .imageContainer.two .image:last-child {
+	margin-left: 3%;
+	margin-right: 13%;
+}
+
+#PaytableContent .imageContainer.three {
+	margin: 0;
+}
+
+#PaytableContent .imageContainer.three .image  {
+	margin: 0 2px;
+}
+
+#PaytableContent .imageContainer.three .image:nth-child(1)   {
+	margin-left: 0;
+}
+
+#PaytableContent .imageContainer.three .image:last-child  {
+	margin-right: 0;
+}
+
+#PaytableContent .panel p.centerImage {
+	margin-top: -25px;
+	line-height: 90px;
+}
+
+#PaytableContent .panel p.centerImage .image {
+	vertical-align: middle;
+}
+
+
+#PaytableContent .linesContainer
+{
+	color: #fff;
+	width: 58%;
+	float: right;
+	font: bold 2em arial, sans-serif;
+	margin-top: 25px;
+	text-shadow:1px 1px 1px #000000,
+				-1px -1px 1px #000000,
+				1px -1px 1px #000000,
+				-1px 1px 1px #000000,
+				0px 1px 1px #000000,
+				1px 0px 1px #000000,
+				0px -1px 1px #000000,
+				-1px 0px 1px #000000;
+}
+
+#PaytableContent .linesContainer.left
+{
+	float: left;
+}
+
+
+#PaytableContent .linesContainer .paytableLine .lineBullet
+{
+	color: #883b00;
+	text-shadow:1px 1px 1px #fff,
+				-1px -1px 1px #fff,
+				1px -1px 1px #fff,
+				-1px 1px 1px #fff,
+				0px 1px 1px #fff,
+				1px 0px 1px #fff,
+				0px -1px 1px #fff,
+				-1px 0px 1px #fff;
+	width: 20%;
+	float: left;
+}
+
+#PaytableContent .panel.bottom .linesContainer {
+	width: 23%;
+}
+
+#PaytableContent .linesContainer.four {
+	margin-top: 0;
+}
+
+#PaytableContent .linesContainer:after
+{
+	content:'';
+    display:block;
+    clear: both;
+}
+
+#PaytableContent .panel.full .linesContainer {
+	width: 31%;
+}
+
+#PaytableContent .panel.scatter .linesContainer {
+	width: 60%;
+	float: none;
+	margin: 30px auto 0 auto;
+	padding-left: 47px;
+}
+
+#PaytableContent .panel.scatter .special {
+	background: #ffdf95;
+	border-top: 6px solid #883b00;
+	border-left: 6px solid #883b00;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	width: 414px;
+	height: 53px;
+}
+
+#PaytableContent .panel.scatter .special .linesContainer {
+	margin: 0;
+	width: 71%;
+	margin-left: 23px;
+	margin-top: 6px;
+	padding-left: 0;
+}
+
+#PaytableContent .panel.wild .linesContainer {
+	margin-top: 0;
+}
+
+#PaytableContent .linesContainer .paytableLine div
+{
+	line-height: 1.25em;
+}
+
+#PaytableContent .linesContainer .paytableLine:after
+{
+	content:'';
+    display:block;
+    clear: both;
+}
+
+#PaytableContent .linesContainer .paytableLine .lineContent
+{
+	width: 80%;
+	text-align: center;
+	float: right;
+}
+#PaytableContent .jackpotLabel, #PaytableContent .cardsLabel {
+	text-shadow:1px 1px 1px #000,
+				-1px -1px 1px #000,
+				1px -1px 1px #000,
+				-1px 1px 1px #000,
+				0px 1px 1px #000,
+				1px 0px 1px #000,
+				0px -1px 1px #000,
+				-1px 0px 1px #000;
+}
+#PaytableContent .jackpotLabel { color: #ffde00; }
+#PaytableContent .cardsLabel { color: #f40000; }
+#PaytableContent .currency, #PaytableContent .jackpotGambleCurrency { font-size: 0.6em !important; }
+
+.clearfix {
+  *zoom: 1;
+}
+.clearfix:before, .clearfix:after {
+	display: table;
+    content: "";
+    line-height: 0;
+}
+.clearfix:after {
+    clear: both;
+}
+
+.uppercase {
+	text-transform: uppercase;
+}
+
+.lowercase{
+	text-transform: lowercase;
+}
+
+
+.left { float: left; }
+
+.right { float: right; }
+
+.gap { display: block; width: auto; height: 1.25em; line-height: 1.25em; content: "";}
+
+.big { font-size: 1.25em; }
+.bigger { font-size: 1.5em; font-weight: bold; }
+
+.orange {
+	color: #f47500;
+	text-shadow:1px 1px 1px #000,
+				-1px -1px 1px #000,
+				1px -1px 1px #000,
+				-1px 1px 1px #000,
+				0px 1px 1px #000,
+				1px 0px 1px #000,
+				0px -1px 1px #000,
+				-1px 0px 1px #000;
+}
+
+.indent { margin-left: 215px; }

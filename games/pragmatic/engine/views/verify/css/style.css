@@ -1,0 +1,264 @@
+@font-face {
+    font-family: "Poppins";
+    src: url("../fonts/Poppins-ExtraLight.ttf") format("truetype");
+    font-style: normal;
+    font-weight: 200;
+}
+
+@font-face {
+    font-family: "Poppins";
+    src: url("../fonts/Poppins-Regular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Poppins";
+    src: url("../fonts/Poppins-Black.ttf") format("truetype");
+    font-style: normal;
+    font-weight: 900;
+}
+
+@font-face {
+    font-family: "Poppins";
+    src: url("../fonts/Poppins-ExtraBold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: 800;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    color: #fff;
+    padding: 0;
+    margin: 0;
+    font-family: Poppins, sans-serif;
+    font-weight: 200;
+    position: relative;
+    background-color: #15011d;
+    background-image: url("../img/shine-h.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: overlay;
+}
+
+.container {
+    font-size: 20px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.container-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.container-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    /*height: 100%;*/
+    height: auto;
+    max-width: 1000px;
+    width: 50%;
+}
+
+.paragraph {
+    margin-bottom: 15px;
+}
+
+.title {
+    /*color: #f08f21;*/
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.verify-title {
+    color: #f08f21;
+    font-weight: 800;
+    text-transform: uppercase;
+    margin: 4vh 0;
+    width: 80%;
+}
+
+.step .text {
+    display: inline;
+}
+
+.url-bar {
+    max-width: 221px;
+    display: block;
+    width: 40vw;
+}
+
+/*.important .title {*/
+
+/*  text-transform: uppercase;*/
+
+/*}*/
+
+a {
+    color: rgb(230, 230, 230);
+}
+
+.logo {
+    margin-bottom: 30%;
+    height: clamp(1vmin, 34vw, 571px);
+}
+
+.status-logo {
+    position: absolute;
+}
+
+.balance-value {
+    display: inline;
+    font-weight: bold;
+}
+
+.mailto-text,
+.important-text-2 {
+    display: inline;
+}
+
+.last-rounds-table {
+    display: grid;
+    max-width: 100%;
+    width: auto;
+    grid-template-columns: max-content 1fr max-content max-content;
+    column-gap: 3px;
+    background-color: #ffffff0f;
+}
+
+.last-rounds-table .column-title {
+    text-align: center;
+    background-color: inherit;
+}
+
+.last-rounds-table .table-cell {
+    padding: 0 7px;
+    box-sizing: border-box;
+}
+
+.attention-title,
+.attention-text {
+    display: inline;
+}
+
+.delimiter {
+    height: 10px;
+    width: 100%;
+    border-top: 1px dashed rgba(255, 255, 255, .15);
+    /*border-color: white;*/
+}
+
+.warning {
+    color: red;
+    font-weight: bold;
+}
+
+.hidden {
+    /*visibility: hidden;*/
+    display: none;
+}
+
+@media screen and (orientation: landscape) and (max-width: 1599px) {
+    .container-info {
+        width: 60%;
+    }
+}
+
+@media screen and (orientation: landscape) and (max-width: 1599px),
+screen and (orientation: landscape) and (max-height: 899px) {
+    .container {
+        font-size: 15px;
+    }
+}
+
+@media screen and (orientation: landscape) and (max-width: 1280px) and (max-height: 1024px),
+screen and (orientation: landscape) and (max-width: 1600px) and (max-height: 900px) {
+    .container {
+        font-size: 16px;
+    }
+}
+
+@media screen and (orientation: landscape) and (max-width: 1280px) and (max-height: 800px),
+screen and (orientation: landscape) and (max-width: 1366px) and (max-height: 800px) {
+    .container {
+        font-size: 13px;
+    }
+}
+
+@media screen and (orientation: landscape) and (max-width: 1024px) {
+    .container {
+        font-size: 13px;
+    }
+}
+
+@media screen and (orientation: landscape) and (max-width: 899px),
+screen and (orientation: landscape) and (max-width: 1024px) and (max-height: 412px) {
+    .container {
+        font-size: 10px;
+    }
+}
+
+@media screen and (orientation: landscape) and (max-width: 812px) {
+    .container {
+        font-size: 9px;
+    }
+}
+
+@media screen and (orientation: landscape) and (max-width: 740px) {
+    .container {
+        font-size: 8px;
+    }
+}
+
+@media screen and (orientation: portrait) {
+    body {
+        background-image: url("../img/shine-v.png");
+    }
+    .verify-title {
+        align-self: center;
+        text-align: center;
+    }
+    .logo {
+        margin-bottom: 0;
+        position: absolute;
+        height: 100%;
+    }
+    .container {
+        flex-direction: column;
+        padding: 4%;
+        font-size: 2.5vmin;
+        box-sizing: border-box;
+    }
+    .container-logo {
+        flex: 1;
+        width: 100%;
+    }
+    .container-info {
+        width: 100%;
+    }
+    .last-rounds-table .table-cell {
+        padding: 0 3px;
+    }
+    /* Portrait TAB */
+}
+
+@media screen and (orientation: portrait) and (min-device-width: 540px) and (max-device-width: 1024px) {
+    .container {
+        font-size: 2vmin;
+    }
+}

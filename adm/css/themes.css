@@ -1,0 +1,121 @@
+/* Dark Theme */
+body.themeDark{background: #F5F5F5;}
+    body.themeDark #header{
+        border-bottom: 1px solid #0F0F0F;
+        background-color: #393939;}    
+
+    body.themeDark #header .buttons .item .btn-primary,
+    body.themeDark .btn.btn-primary,
+    body.themeDark .ui-dialog .ui-dialog-buttonpane button{color: #ffffff; background-color: #363636; border-color: #303030;}
+    body.themeDark .btn.btn-primary:hover,body.themeDark .btn.btn-primary:active,body.themeDark .btn.btn-primary:focus,body.themeDark .btn.btn-primary.active,
+    body.themeDark .ui-dialog .ui-dialog-buttonpane button:hover, body.themeDark .ui-dialog .ui-dialog-buttonpane button:active,body.themeDark .ui-dialog .ui-dialog-buttonpane button:focus{color:#fff!important;background-color:#222!important}
+    body.themeDark #content{background:url(../img/themes/dark/content_line.png) left top repeat-y}
+    body.themeDark a:hover,body.themeDark table.list .name:hover,body.themeDark #content .block .block_info .name:hover,body.themeDark #sidebar .user .info .name a:hover,body.themeDark #content .block .content.faq .item .title:hover{color:#222}
+    body.themeDark #sidebar,body.themeDark #header .buttons .item .popup{-moz-box-shadow: none; -webkit-box-shadow: none; box-shadow: none; border-color: #D5D5D5;}
+    body.themeDark #sidebar .navigation{border-top-color:#D5D5D5}
+    body.themeDark #sidebar .navigation > li > a{color:#333;border-left:1px solid #D5D5D5;border-bottom:1px solid #D5D5D5;background:#EAEAEA}
+    body.themeDark #sidebar .navigation > li > ul{border-color: #D5D5D5;}
+    body.themeDark #sidebar .navigation > li.openable > a{background:url(../img/themes/dark/nav_arrow.png) right top no-repeat #EAEAEA; border-bottom: 0px;}
+    body.themeDark #sidebar .navigation > li > ul > li.openable > a{background-image:url(../img/themes/dark/nav_arrow.png)}
+    body.themeDark #sidebar .navigation li.active > a{border-right:3px solid #AAA}
+    body.themeDark #sidebar .navigation > li > a:hover,body.themeDark #sidebar .navigation > li.active > a{background-color:#E2E2E2}
+    body.themeDark #content .block .head,body.themeDark #content .block .content,body.themeDark #content .block .footer,body.themeDark #header .buttons .item .popup .head,body.themeDark #header .buttons .item .popup .footer{background-color:#EAEAEA;border-color:#D5D5D5}
+    body.themeDark #content .block .content{background-color:#FFF}
+    body.themeDark #content .block .head .buttons li a{border-left-color:#D5D5D5}
+    body.themeDark #content .block .head .buttons li a:hover{background:#F9F9F9}
+    body.themeDark .button:hover{background-color:#F9F9F9}
+    body.themeDark .mCSB_scrollTools .mCSB_draggerRail{background:rgba(0,0,0,0.7)}
+    body.themeDark .invoice .highlight,body.themeDark .table-sorting .paginate_active{background:#222; border-color: #222;}
+    body.themeDark .ui-dialog{border-color: #222;}
+    body.themeDark #content > .wrap > .head,body.themeDark .button{background-color:#EAEAEA;border-color:#D5D5D5}
+    body.themeDark #content > .wrap > .head .info h1,body.themeDark a,body.themeDark #content .block .boxes li,body.themeDark .messages .item .info .name,body.themeDark #sidebar .user .info .name a,body.themeDark table.list .name,body.themeDark ul.list_simple.dates li .date,body.themeDark #content .block .block_info .name,body.themeDark #content .block .content.faq .item .title,body.themeDark .btn-link,body.themeDark #content .block .head h2,body.themeDark .ui-accordion .ui-accordion-header,body.themeDark .block .content.tabs .ui-tabs-nav li.ui-state-default .ui-tabs-anchor,body.themeDark #header .buttons .item .popup .head h2{color:#333}
+    body.themeDark #header .buttons .item .popup,body.themeDark #content .search input[type=text],body.themeDark #content .search button,body.themeDark textarea,body.themeDark input,body.themeDark select,body.themeDark .button .info{border-color:#D5D5D5}
+    body.themeDark #sidebar .navigation > li.openable.open > a,body.themeDark #sidebar .navigation > li > ul > li.openable.open > a{background-image:url(../img/themes/dark/nav_arrow_a.png)}
+    body.themeDark a[class^='btn-']{color: #FFF;}
+    body.themeDark #scrollUp,body.themeDark .ui-dialog .ui-widget-header,body.themeDark .modal .modal-header{background: #333;}
+        body.themeDark #scrollUp:hover{background: #000;}        
+/* EOF Dark Theme */
+
+/* Simple */
+body.themeSimple{background: #F5F5F5;}
+body.themeSimple #content > .wrap{margin-top:38px;}
+    body.themeSimple #header{background: transparent; border: 0px; -moz-box-shadow: none; -webkit-box-shadow: none; box-shadow: none;}
+        body.themeSimple #header .logo{background: url('../img/logo_dark.png') left top no-repeat;}
+        body.themeSimple #header .buttons .item .popup{-moz-box-shadow: none; -webkit-box-shadow: none; box-shadow: none; border-color: #E4DDCB;}
+            body.themeSimple #header .buttons .item .popup:before{border-bottom-color: #E4DDCB;}
+            body.themeSimple #header .buttons .item .popup:after{border-bottom-color: #F4EDE7;}
+    body.themeSimple #header .buttons .item .btn-primary,
+    body.themeSimple .btn.btn-primary,
+    body.themeSimple .ui-dialog .ui-dialog-buttonpane button{color: #fff; background-color: #98A280; border-color: #98A280;}
+    
+    body.themeSimple .btn.btn-primary:hover, body.themeSimple .btn.btn-primary:active, 
+    body.themeSimple .btn.btn-primary:focus, body.themeSimple .btn.btn-primary.active,
+    body.themeSimple .ui-dialog .ui-dialog-buttonpane button:hover, body.themeSimple .ui-dialog .ui-dialog-buttonpane button:active,
+    body.themeSimple .ui-dialog .ui-dialog-buttonpane button:focus
+    {color:#ffffff !important; background-color:#8C9674 !important; *background-color:#8C9674;}
+    
+    body.themeSimple #content{background: transparent;}
+    body.themeSimple #content > .wrap > .head{background-color:#FEFAEF;border:1px solid #E4DDCB;-moz-border-radius:3px;-webkit-border-radius:3px;border-radius:3px}
+    body.themeSimple #content > .wrap > .head .info h1{color:#434345;margin:5px 10px 0}
+    body.themeSimple #content .search{margin:6px 6px 6px 0}
+    body.themeSimple #content > .wrap > .head .side{padding:6px 6px 4px 0}
+    body.themeSimple a:hover,body.themeSimple table.list .name:hover,body.themeSimple #content .block .block_info .name:hover,body.themeSimple #sidebar .user .info .name a:hover,body.themeSimple #content .block .content.faq .item .title:hover{color:#787461}
+    body.themeSimple a[class^=btn-]{color:#FFF}
+    body.themeSimple #sidebar{width: 219px; -moz-box-shadow: none; -webkit-box-shadow: none; box-shadow: none; border: 0px;}        
+    body.themeSimple #sidebar .user .info{width: 179px;}
+    body.themeSimple #wrapper.screen_wide #sidebar .user .info{width: 174px}    
+    body.themeSimple #sidebar .user{width: 219px}
+    body.themeSimple #sidebar .navigation{border:1px solid #E4DDCB;width:217px;-moz-border-radius:3px;-webkit-border-radius:3px;border-radius:3px}
+    body.themeSimple #sidebar .navigation > li > a{color:#434240;border:0;background:#FDFDFD;border-top:1px solid #FFF;border-bottom:1px solid #E4DDCB}
+    body.themeSimple #sidebar .navigation > li:first-child > a{-moz-border-radius:3px 3px 0 0;-webkit-border-radius:3px 3px 0 0;border-radius:3px 3px 0 0;border-top:0}
+    body.themeSimple #sidebar .navigation > li:last-child > a{-moz-border-radius:0 0 3px 3px;-webkit-border-radius:0 0 3px 3px;border-radius:0 0 3px 3px;border-bottom:0}
+    body.themeSimple #sidebar .navigation > li.openable > a{background:url(../img/themes/simple/nav_arrow.png) right top no-repeat #FDFDFD;  border-bottom: 0px;}
+    body.themeSimple #sidebar .navigation > li > ul{border-left:0;border-bottom-color:#E4DDCB}
+    body.themeSimple #sidebar .navigation > li > ul > li.openable > a{background-image:url(../img/themes/simple/nav_arrow.png);}
+    body.themeSimple #sidebar .navigation li.active > a{border-right:0}
+    body.themeSimple #sidebar .navigation > li > a:hover,body.themeSimple #sidebar .navigation > li.active > a{background-color:#FEFAEF}
+    body.themeSimple #content .block .head,body.themeSimple #content .block .content,body.themeSimple #content .block .footer,body.themeSimple #header .buttons .item .popup .head,body.themeSimple .block .content.tabs .ui-tabs-nav,body.themeSimple .block .content.tabable .nav-tabs,body.themeSimple #header .buttons .item .popup .footer{background-color:#F4EDE7;border-color:#E4DDCB}
+    body.themeSimple .block .content.tabs .ui-tabs-nav li.ui-state-default{background:#F4EDE7}
+    body.themeSimple .block .content.tabs .ui-tabs-nav li.ui-state-active,body.themeSimple .block .content.tabs .ui-tabs-nav li.ui-state-hover{background:#FFF}
+    body.themeSimple #content .block .block_wrapper{background-color:#FEFAEF;border:1px solid #E4DDCB}
+    body.themeSimple #content .block .head .buttons li a{border-left-color:#E4DDCB}
+    body.themeSimple #content .block .head .buttons li a:hover{background:#F9F9F9}
+    body.themeSimple .button{background-color:#FAF7F2;border-color:#E4DDCB}
+    body.themeSimple .mCSB_scrollTools .mCSB_draggerRail{background:rgba(72,70,60,0.7)}
+    body.themeSimple .invoice .highlight,body.themeSimple .table-sorting .paginate_active{background:#98A280;border-color:#98A280}
+    body.themeSimple #content .search input[type=text],body.themeSimple #content .search button,body.themeSimple .ui-state-default,body.themeSimple .ui-widget-content .ui-state-default,body.themeSimple .block .content.tabable.tabable-whead .nav-tabs,body.themeSimple .block .content.tabable .nav-tabs a,body.themeSimple .block .content.tabable.tabable-head .nav-tabs a,body.themeSimple .ui-widget-header .ui-state-default,body.themeSimple textarea,body.themeSimple input,body.themeSimple select,body.themeSimple .button .info{border-color:#E4DDCB}
+    body.themeSimple a,body.themeSimple #content .block .boxes li,body.themeSimple .messages .item .info .name,body.themeSimple #sidebar .user .info .name a,body.themeSimple table.list .name,body.themeSimple ul.list_simple.dates li .date,body.themeSimple #content .block .block_info .name,body.themeSimple #content .block .content.faq .item .title,body.themeSimple .btn-link,body.themeSimple #content .block .head h2,body.themeSimple .ui-accordion .ui-accordion-header,body.themeSimple .block .content.tabs .ui-tabs-nav li.ui-state-default .ui-tabs-anchor,body.themeSimple #header .buttons .item .popup .head h2{color:#817C69}
+    body.themeSimple #sidebar .navigation > li.openable.open > a,body.themeSimple #sidebar .navigation > li > ul > li.openable.open > a{background-image:url(../img/themes/simple/nav_arrow_a.png)}
+    body.themeSimple #content .block .content,body.themeSimple .button:hover{background-color:#FFF}
+    body.themeSimple .ui-dialog{border-color: #A3AC8D;}
+    body.themeSimple #scrollUp,body.themeSimple .ui-dialog .ui-widget-header,body.themeSimple .modal .modal-header{background: #87936F;}
+        body.themeSimple #scrollUp:hover{background: #5f6d40;}
+/* EOF Simple */        
+                       
+body.themeDark .text-error,
+body.themeSimple .text-error{color: #b94a48;}
+    body.themeDark .text-error:hover,
+    body.themeSimple .text-error:hover,
+    body.themeDark .text-error:focus,
+    body.themeSimple .text-error:focus{color: #953b39;}
+
+body.themeDark .text-info,
+body.themeSimple .text-info{color: #3a87ad;}
+    body.themeDark .text-info:hover,
+    body.themeSimple .text-info:hover,
+    body.themeDark .text-info:focus,       
+    body.themeSimple .text-info:focus{color: #2d6987;}
+
+body.themeDark .text-success,
+body.themeSimple .text-success{color: #468847;}
+    body.themeDark .text-success:hover,
+    body.themeSimple .text-success:hover,
+    body.themeDark .text-success:focus,
+    body.themeSimple .text-success:focus{color: #356635;}
+
+body.themeDark .text-warning,
+body.themeSimple .text-warning{color: #e58900;}
+    body.themeDark .text-warning:hover,
+    body.themeSimple .text-warning:hover,
+    body.themeDark .text-warning:focus,
+    body.themeSimple .text-warning:focus{color: #d87e00;}           

@@ -1,0 +1,308 @@
+#PaytableContent
+{
+	background: #0f3816;
+	
+	padding: 0 112px 0 112px;
+	overflow: overlay;
+}
+
+#PaytableContent .title
+{
+	background-image: url("BaseSlotEngine/games/BDJSlot/paytable/title.png");
+	width: 417px;
+	height: 91px;
+	margin: 0 auto;
+}
+
+#PaytableContent .panel
+{
+	background: #071d0b;
+	border: 3px solid #1dd80b;
+	border-radius: 11px;
+	margin-bottom: 14px;
+	padding: 5px 5px 5px 5px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	float: left;
+}
+#PaytableContent .currency, #PaytableContent .jackpotGambleCurrency
+{
+	font-size: 50%;
+}
+
+#PaytableContent .panel.joker
+{
+	width: 520px;
+	height: 200px;
+	margin-right: 16px;
+}
+
+#PaytableContent .panel.six
+{
+	width: 520px;
+	height: 200px;
+}
+
+#PaytableContent .panel.eight
+{
+	width: 520px;
+	height: 200px;
+	margin-right: 16px;
+}
+
+#PaytableContent .panel.five
+{
+	width: 520px;
+	height: 200px;
+}
+
+#PaytableContent .panel.one
+{
+	width: 100%;
+	height: 200px;
+}
+
+#PaytableContent .panel.wild
+{
+	width: 520px;
+	height: 530px;
+	margin-right: 16px;
+}
+
+#PaytableContent .panel.scatter2
+{
+	width: 520px;
+	height: 258px;
+	padding: 50px 0 0 30px;
+}
+
+#PaytableContent .panel.scatter1
+{
+	width: 520px;
+	height: 258px;
+	padding: 35px 0 0 30px;
+}
+
+#PaytableContent .panel.jackpot
+{
+	width: 100%;
+	overflow: hidden;
+}
+
+#PaytableContent .panel.gamble
+{
+	width: 100%;
+	overflow: hidden;
+}
+
+#PaytableContent .panel.linesAndRules
+{
+	width: 100%;
+	overflow: hidden;
+}
+
+#PaytableContent .singleImage
+{
+	background-image: url("BaseSlotEngine/games/BDJSlot/paytable/sprite.jpg");
+	float: left;
+	margin: 16px 0 0 20px;
+	width: 152px;
+	height: 152px;
+}
+
+#PaytableContent .singleImage.right
+{
+	float: right;
+	margin: 16px 20px 0 0;
+}
+
+#PaytableContent .singleImage.one { background-position: -304px -152px; }
+#PaytableContent .singleImage.two { background-position: -152px -220px; }
+#PaytableContent .singleImage.three { background-position: 0px -220px; }
+#PaytableContent .singleImage.four { background-position: -1132px 0px; }
+#PaytableContent .singleImage.five { background-position: -980px 0px; }
+#PaytableContent .singleImage.six { background-position: -828px 0px; }
+#PaytableContent .singleImage.eight { background-position: -676px 0px; }
+#PaytableContent .singleImage.joker { background-position: -524px 0px; }
+#PaytableContent .singleImage.scatter2 
+{
+	margin: 0;
+	background-position: -220px 0px;
+}
+#PaytableContent .singleImage.scatter1 
+{ 
+	margin: 15px 0 0 0;
+	background-position: -372px 0px; 
+}
+#PaytableContent .singleImage.wild
+{
+	background-position: 0px 0px;
+	float: none;
+	margin: 15px auto;
+	width: 220px;
+	height: 220px;
+}
+
+#PaytableContent .singleImage.smallImage
+{
+	margin-top: 0px;
+	display: inline-block;
+	float: none;
+}
+
+#PaytableContent .singleImage.lineSection1
+{
+	float:none;
+	background-position: -557px -230px;
+	width: 608px;
+	height: 132px;
+	margin: 10px auto;
+}
+
+#PaytableContent .singleImage.smallImage.scatter2
+{
+	background-position: -456px -152px;
+	width: 100px;
+	height: 100px;
+	margin: 0px 18px;
+}
+
+#PaytableContent .singleImage.smallImage.scatter1
+{
+	background-position: -456px -252px;
+	width: 100px;
+	height: 100px;
+	margin-left: 18px;
+}
+
+#PaytableContent .singleImage.jackpotTitle
+{
+	background-position: -556px -156px;
+	width: 600px;
+	height: 64px;
+	float: none;
+	margin: 10px auto 20px auto;
+}
+
+#PaytableContent .linesContainer
+{
+	float: left;
+	width: 300px;
+	padding: 0 20px;
+	height: 100%;
+}
+
+#PaytableContent .paytableLine
+{
+	overflow: hidden;
+	height: 40px;
+	margin-bottom: 6px;
+}
+#PaytableContent .paytableLine.iOS
+{
+	height: 46px;
+	margin-bottom: -2px;
+}
+
+#PaytableContent .paytableLine.firstLine { margin-top: 25px; }
+#PaytableContent .paytableLine.firstLine.joker { margin-top: 3px; }
+#PaytableContent .paytableLine.firstLine.scatter2 { margin-top: 12px; }
+#PaytableContent .paytableLine.firstLine.scatter1 { margin-top: 0px; }
+
+#PaytableContent .textLine
+{
+	line-height: 34px;
+	font: bold 34px arial,sans-serif;
+	color: #ffffff;
+	text-align: center;
+	text-shadow: 0px 1px 5px #000000;
+}
+
+#PaytableContent .textLine.lineBullet
+{
+	color: #fa860b;
+	text-shadow: 0px 0px 6px #622e81, 0px 0px 6px #622e81, 0px 0px 6px #622e81, 0px 0px 6px #622e81, 0px 0px 6px #622e81, 0px 0px 6px #622e81, 0px 0px 6px #622e81, 0px 0px 6px #622e81;
+	float: left;
+	margin-left: 20px;
+}
+#PaytableContent .textLine.lineContent
+{
+	margin-top: 5px;
+	overflow: hidden;
+	text-shadow: 0px 2px 5px #000000;
+}
+#PaytableContent .textLine.lineJackpot
+{
+	font-size: 22px;
+	margin-left: 10px;
+}
+
+#PaytableContent .textLine.lineGamble
+{
+	font-size: 22px;
+	margin-left: 10px;
+}
+
+#PaytableContent .textLine.scatterText
+{
+	font-size: 46px;
+	width: 100%;
+	text-shadow: 3px 3px 1px #000000;
+}
+#PaytableContent .textLine.scatterText.scatter2 { color: #ffc333}
+#PaytableContent .textLine.scatterText.scatter1 { color: #c224de}
+
+#PaytableContent .paytableText
+{
+	font: bold 25px arial,sans-serif;
+	color: #62f023;
+	text-align: center;
+	line-height: 47px;
+	text-shadow: 0px 2px 5px #000000;
+}
+
+#PaytableContent .paytableText.exceptText 
+{ 
+	display: inline-block; 
+	position: relative;
+	top: -35px;
+}
+
+#PaytableContent .specialWildContainer
+{
+	display: table;
+	margin: 0 auto;
+}
+
+#PaytableContent .paytableText.jackpot
+{
+	width: 100%;
+	font-size: 20px;
+	line-height: 31px;
+	padding: 0px 26px;
+	box-sizing: border-box;
+	margin-bottom: 6px;
+}
+
+#PaytableContent .jackpotLabel { color: #f0de2e; }
+#PaytableContent .cardsLabel { color: #cf3838; }
+#PaytableContent .qBets
+{
+	position: relative;
+	left: -70px;
+}
+#PaytableContent .gambleFirstLine
+{
+	position: relative;
+	left: -40px;
+}
+
+#PaytableContent .sectionTitle
+{
+	font: bold 40px arial,sans-serif;
+	color: #deaf0f;
+	text-align: center;
+	text-shadow: 0px 0px 2px #001903, 0px 0px 2px #001903, 0px 0px 2px #001903, 0px 0px 2px #001903, 0px 0px 2px #001903, 0px 0px 2px #001903, 0px 0px 2px #001903, 0px 0px 2px #001903;
+	margin: 7px auto;
+}

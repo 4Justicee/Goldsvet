@@ -1,0 +1,1534 @@
+{
+    "items": [
+        {
+            "position": 1,
+            "playerID": "*****8132",
+            "score": 1098239759,
+            "scoreBet": 100000.0,
+            "effectiveBetForBetMultiplier": 100000.0,
+            "effectiveBetForFreeRounds": 100000.0,
+            "memberCurrency": "KRW",
+            "countryID": "KR"
+        },
+        {
+            "position": 2,
+            "playerID": "*****2825",
+            "score": 912944681,
+            "scoreBet": 600.0,
+            "effectiveBetForBetMultiplier": 600.0,
+            "effectiveBetForFreeRounds": 600.0,
+            "memberCurrency": "CNY",
+            "countryID": "CN"
+        },
+        {
+            "position": 3,
+            "playerID": "*****6405",
+            "score": 576683991,
+            "scoreBet": 10500.0,
+            "effectiveBetForBetMultiplier": 10500.0,
+            "effectiveBetForFreeRounds": 10500.0,
+            "memberCurrency": "CNY",
+            "countryID": "CN"
+        },
+        {
+            "position": 4,
+            "playerID": "*****9862",
+            "score": 575167649,
+            "scoreBet": 10000.0,
+            "effectiveBetForBetMultiplier": 10000.0,
+            "effectiveBetForFreeRounds": 10000.0,
+            "memberCurrency": "CNY",
+            "countryID": "CN"
+        },
+        {
+            "position": 5,
+            "playerID": "*****8045",
+            "score": 550858000,
+            "scoreBet": 3000.0,
+            "effectiveBetForBetMultiplier": 3000.0,
+            "effectiveBetForFreeRounds": 3000.0,
+            "memberCurrency": "USD",
+            "countryID": "JP"
+        },
+        {
+            "position": 6,
+            "playerID": "*****8812",
+            "score": 447181816,
+            "scoreBet": 1.0E8,
+            "effectiveBetForBetMultiplier": 1.0E8,
+            "effectiveBetForFreeRounds": 1.0E8,
+            "memberCurrency": "VND",
+            "countryID": "VN"
+        },
+        {
+            "position": 7,
+            "playerID": "*****5124",
+            "score": 416840800,
+            "scoreBet": 1.4,
+            "effectiveBetForBetMultiplier": 1.4,
+            "effectiveBetForFreeRounds": 1.4,
+            "memberCurrency": "USD",
+            "countryID": "JP"
+        },
+        {
+            "position": 8,
+            "playerID": "*****5246",
+            "score": 323575330,
+            "scoreBet": 5400.0,
+            "effectiveBetForBetMultiplier": 5400.0,
+            "effectiveBetForFreeRounds": 5400.0,
+            "memberCurrency": "KRW",
+            "countryID": "KR"
+        },
+        {
+            "position": 9,
+            "playerID": "*****7049",
+            "score": 309810435,
+            "scoreBet": 41500.0,
+            "effectiveBetForBetMultiplier": 41500.0,
+            "effectiveBetForFreeRounds": 41500.0,
+            "memberCurrency": "KRW",
+            "countryID": "KR"
+        },
+        {
+            "position": 10,
+            "playerID": "*****9470",
+            "score": 282380064,
+            "scoreBet": 15525.0,
+            "effectiveBetForBetMultiplier": 15525.0,
+            "effectiveBetForFreeRounds": 15525.0,
+            "memberCurrency": "IDR",
+            "countryID": "ID"
+        },
+        {
+            "position": 11,
+            "playerID": "*****5412",
+            "score": 271933436,
+            "scoreBet": 5400.0,
+            "effectiveBetForBetMultiplier": 5400.0,
+            "effectiveBetForFreeRounds": 5400.0,
+            "memberCurrency": "CNY",
+            "countryID": "CN"
+        },
+        {
+            "position": 12,
+            "playerID": "*****8030",
+            "score": 226601238,
+            "scoreBet": 1000.0,
+            "effectiveBetForBetMultiplier": 1000.0,
+            "effectiveBetForFreeRounds": 1000.0,
+            "memberCurrency": "KRW",
+            "countryID": "KR"
+        },
+        {
+            "position": 13,
+            "playerID": "*****0397",
+            "score": 222321953,
+            "scoreBet": 864000.0,
+            "effectiveBetForBetMultiplier": 864000.0,
+            "effectiveBetForFreeRounds": 864000.0,
+            "memberCurrency": "KRW",
+            "countryID": "KR"
+        },
+        {
+            "position": 14,
+            "playerID": "*****0740",
+            "score": 201532381,
+            "scoreBet": 150.0,
+            "effectiveBetForBetMultiplier": 150.0,
+            "effectiveBetForFreeRounds": 150.0,
+            "memberCurrency": "CNY",
+            "countryID": "CN"
+        },
+        {
+            "position": 15,
+            "playerID": "*****7298",
+            "score": 198236516,
+            "scoreBet": 600.0,
+            "effectiveBetForBetMultiplier": 600.0,
+            "effectiveBetForFreeRounds": 600.0,
+            "memberCurrency": "KRW",
+            "countryID": "KR"
+        },
+        {
+            "position": 16,
+            "playerID": "*****7051",
+            "score": 197732500,
+            "scoreBet": 70.0,
+            "effectiveBetForBetMultiplier": 70.0,
+            "effectiveBetForFreeRounds": 70.0,
+            "memberCurrency": "USD",
+            "countryID": "CN"
+        },
+        {
+            "position": 17,
+            "playerID": "*****4132",
+            "score": 190671847,
+            "scoreBet": 400.0,
+            "effectiveBetForBetMultiplier": 400.0,
+            "effectiveBetForFreeRounds": 400.0,
+            "memberCurrency": "KRW",
+            "countryID": "KR"
+        },
+        {
+            "position": 18,
+            "playerID": "*****6820",
+            "score": 188892883,
+            "scoreBet": 1250.0,
+            "effectiveBetForBetMultiplier": 1250.0,
+            "effectiveBetForFreeRounds": 1250.0,
+            "memberCurrency": "IDR2",
+            "countryID": "ID"
+        },
+        {
+            "position": 19,
+            "playerID": "*****3667",
+            "score": 188817918,
+            "scoreBet": 384960.0,
+            "effectiveBetForBetMultiplier": 384960.0,
+            "effectiveBetForFreeRounds": 384960.0,
+            "memberCurrency": "IDR",
+            "countryID": "ID"
+        },
+        {
+            "position": 20,
+            "playerID": "*****5304",
+            "score": 186308526,
+            "scoreBet": 50000.0,
+            "effectiveBetForBetMultiplier": 50000.0,
+            "effectiveBetForFreeRounds": 50000.0,
+            "memberCurrency": "KRW",
+            "countryID": "KR"
+        },
+        {
+            "position": 21,
+            "playerID": "*****3937",
+            "score": 182519849,
+            "scoreBet": 90000.0,
+            "effectiveBetForBetMultiplier": 90000.0,
+            "effectiveBetForFreeRounds": 90000.0,
+            "memberCurrency": "KRW",
+            "countryID": "MY"
+        },
+        {
+            "position": 22,
+            "playerID": "*****8077",
+            "score": 169807705,
+            "scoreBet": 375.0,
+            "effectiveBetForBetMultiplier": 375.0,
+            "effectiveBetForFreeRounds": 375.0,
+            "memberCurrency": "CNY",
+            "countryID": "MY"
+        },
+        {
+            "position": 23,
+            "playerID": "*****2742",
+            "score": 166328573,
+            "scoreBet": 272000.0,
+            "effectiveBetForBetMultiplier": 272000.0,
+            "effectiveBetForFreeRounds": 272000.0,
+            "memberCurrency": "KRW",
+            "countryID": "KR"
+        },
+        {
+            "position": 24,
+            "playerID": "*****1423",
+            "score": 159050000,
+            "scoreBet": 8000.0,
+            "effectiveBetForBetMultiplier": 8000.0,
+            "effectiveBetForFreeRounds": 8000.0,
+            "memberCurrency": "USD",
+            "countryID": "JP"
+        },
+        {
+            "position": 25,
+            "playerID": "*****7760",
+            "score": 153899499,
+            "scoreBet": 3000.0,
+            "effectiveBetForBetMultiplier": 3000.0,
+            "effectiveBetForFreeRounds": 3000.0,
+            "memberCurrency": "THB",
+            "countryID": "TH"
+        },
+        {
+            "position": 26,
+            "playerID": "*****1074",
+            "score": 153034594,
+            "scoreBet": 9744000.0,
+            "effectiveBetForBetMultiplier": 9744000.0,
+            "effectiveBetForFreeRounds": 9744000.0,
+            "memberCurrency": "IDR",
+            "countryID": "ID"
+        },
+        {
+            "position": 27,
+            "playerID": "*****2174",
+            "score": 146479604,
+            "scoreBet": 228.0,
+            "effectiveBetForBetMultiplier": 228.0,
+            "effectiveBetForFreeRounds": 228.0,
+            "memberCurrency": "CNY",
+            "countryID": "CN"
+        },
+        {
+            "position": 28,
+            "playerID": "*****0421",
+            "score": 138833480,
+            "scoreBet": 1500.0,
+            "effectiveBetForBetMultiplier": 1500.0,
+            "effectiveBetForFreeRounds": 1500.0,
+            "memberCurrency": "CNY",
+            "countryID": "CN"
+        },
+        {
+            "position": 29,
+            "playerID": "*****0021",
+            "score": 138504505,
+            "scoreBet": 150.0,
+            "effectiveBetForBetMultiplier": 150.0,
+            "effectiveBetForFreeRounds": 150.0,
+            "memberCurrency": "CNY",
+            "countryID": "JP"
+        },
+        {
+            "position": 30,
+            "playerID": "*****9889",
+            "score": 136382383,
+            "scoreBet": 21000.0,
+            "effectiveBetForBetMultiplier": 21000.0,
+            "effectiveBetForFreeRounds": 21000.0,
+            "memberCurrency": "KRW",
+            "countryID": "KR"
+        },
+        {
+            "position": 31,
+            "playerID": "*****8299",
+            "score": 136378909,
+            "scoreBet": 7080.0,
+            "effectiveBetForBetMultiplier": 7080.0,
+            "effectiveBetForFreeRounds": 7080.0,
+            "memberCurrency": "KRW",
+            "countryID": "KR"
+        },
+        {
+            "position": 32,
+            "playerID": "*****4006",
+            "score": 135744804,
+            "scoreBet": 112.5,
+            "effectiveBetForBetMultiplier": 112.5,
+            "effectiveBetForFreeRounds": 112.5,
+            "memberCurrency": "CNY",
+            "countryID": "MY"
+        },
+        {
+            "position": 33,
+            "playerID": "*****9790",
+            "score": 133427152,
+            "scoreBet": 15000.0,
+            "effectiveBetForBetMultiplier": 15000.0,
+            "effectiveBetForFreeRounds": 15000.0,
+            "memberCurrency": "IDR",
+            "countryID": "ID"
+        },
+        {
+            "position": 34,
+            "playerID": "*****7914",
+            "score": 131654717,
+            "scoreBet": 9440.0,
+            "effectiveBetForBetMultiplier": 9440.0,
+            "effectiveBetForFreeRounds": 9440.0,
+            "memberCurrency": "KRW",
+            "countryID": "KR"
+        },
+        {
+            "position": 35,
+            "playerID": "*****5793",
+            "score": 129670522,
+            "scoreBet": 17600.0,
+            "effectiveBetForBetMultiplier": 17600.0,
+            "effectiveBetForFreeRounds": 17600.0,
+            "memberCurrency": "KRW",
+            "countryID": "KR"
+        },
+        {
+            "position": 36,
+            "playerID": "*****5591",
+            "score": 126436785,
+            "scoreBet": 60000.0,
+            "effectiveBetForBetMultiplier": 60000.0,
+            "effectiveBetForFreeRounds": 60000.0,
+            "memberCurrency": "CNY",
+            "countryID": "CN"
+        },
+        {
+            "position": 37,
+            "playerID": "*****0433",
+            "score": 122121750,
+            "scoreBet": 22.5,
+            "effectiveBetForBetMultiplier": 22.5,
+            "effectiveBetForFreeRounds": 22.5,
+            "memberCurrency": "USD",
+            "countryID": "TH"
+        },
+        {
+            "position": 38,
+            "playerID": "*****9774",
+            "score": 121061699,
+            "scoreBet": 120.0,
+            "effectiveBetForBetMultiplier": 120.0,
+            "effectiveBetForFreeRounds": 120.0,
+            "memberCurrency": "CNY",
+            "countryID": "CN"
+        },
+        {
+            "position": 39,
+            "playerID": "*****2958",
+            "score": 120760000,
+            "scoreBet": 1000.0,
+            "effectiveBetForBetMultiplier": 1000.0,
+            "effectiveBetForFreeRounds": 1000.0,
+            "memberCurrency": "USD",
+            "countryID": "JP"
+        },
+        {
+            "position": 40,
+            "playerID": "*****2806",
+            "score": 118604000,
+            "scoreBet": 20.0,
+            "effectiveBetForBetMultiplier": 20.0,
+            "effectiveBetForFreeRounds": 20.0,
+            "memberCurrency": "USD",
+            "countryID": "JP"
+        },
+        {
+            "position": 41,
+            "playerID": "*****7115",
+            "score": 117526220,
+            "scoreBet": 420.0,
+            "effectiveBetForBetMultiplier": 420.0,
+            "effectiveBetForFreeRounds": 420.0,
+            "memberCurrency": "CNY",
+            "countryID": "CN"
+        },
+        {
+            "position": 42,
+            "playerID": "*****4218",
+            "score": 115230720,
+            "scoreBet": 102.6,
+            "effectiveBetForBetMultiplier": 102.6,
+            "effectiveBetForFreeRounds": 102.6,
+            "memberCurrency": "CNY",
+            "countryID": "CN"
+        },
+        {
+            "position": 43,
+            "playerID": "*****0836",
+            "score": 111006326,
+            "scoreBet": 175.0,
+            "effectiveBetForBetMultiplier": 175.0,
+            "effectiveBetForFreeRounds": 175.0,
+            "memberCurrency": "EUR",
+            "countryID": "JP"
+        },
+        {
+            "position": 44,
+            "playerID": "*****9089",
+            "score": 110629124,
+            "scoreBet": 20000.0,
+            "effectiveBetForBetMultiplier": 20000.0,
+            "effectiveBetForFreeRounds": 20000.0,
+            "memberCurrency": "IDR",
+            "countryID": "ID"
+        },
+        {
+            "position": 45,
+            "playerID": "*****7568",
+            "score": 110213296,
+            "scoreBet": 1000.0,
+            "effectiveBetForBetMultiplier": 1000.0,
+            "effectiveBetForFreeRounds": 1000.0,
+            "memberCurrency": "KRW",
+            "countryID": "KR"
+        },
+        {
+            "position": 46,
+            "playerID": "*****0557",
+            "score": 108975435,
+            "scoreBet": 384960.0,
+            "effectiveBetForBetMultiplier": 384960.0,
+            "effectiveBetForFreeRounds": 384960.0,
+            "memberCurrency": "IDR",
+            "countryID": "ID"
+        },
+        {
+            "position": 47,
+            "playerID": "*****1362",
+            "score": 105776556,
+            "scoreBet": 10800.0,
+            "effectiveBetForBetMultiplier": 10800.0,
+            "effectiveBetForFreeRounds": 10800.0,
+            "memberCurrency": "KRW",
+            "countryID": "KR"
+        },
+        {
+            "position": 48,
+            "playerID": "*****0565",
+            "score": 104000823,
+            "scoreBet": 236000.0,
+            "effectiveBetForBetMultiplier": 236000.0,
+            "effectiveBetForFreeRounds": 236000.0,
+            "memberCurrency": "KRW",
+            "countryID": "KR"
+        },
+        {
+            "position": 49,
+            "playerID": "*****6887",
+            "score": 102369434,
+            "scoreBet": 8000.0,
+            "effectiveBetForBetMultiplier": 8000.0,
+            "effectiveBetForFreeRounds": 8000.0,
+            "memberCurrency": "IDR2",
+            "countryID": "ID"
+        },
+        {
+            "position": 50,
+            "playerID": "*****3970",
+            "score": 99323853,
+            "scoreBet": 10.0,
+            "effectiveBetForBetMultiplier": 10.0,
+            "effectiveBetForFreeRounds": 10.0,
+            "memberCurrency": "VND2",
+            "countryID": "VN"
+        },
+        {
+            "position": 51,
+            "playerID": "*****8944",
+            "score": 98781816,
+            "scoreBet": 2000.0,
+            "effectiveBetForBetMultiplier": 2000.0,
+            "effectiveBetForFreeRounds": 2000.0,
+            "memberCurrency": "KRW",
+            "countryID": "KR"
+        },
+        {
+            "position": 52,
+            "playerID": "*****8798",
+            "score": 98733403,
+            "scoreBet": 7350.0,
+            "effectiveBetForBetMultiplier": 7350.0,
+            "effectiveBetForFreeRounds": 7350.0,
+            "memberCurrency": "KRW",
+            "countryID": "KR"
+        },
+        {
+            "position": 53,
+            "playerID": "*****0970",
+            "score": 98420000,
+            "scoreBet": 600.0,
+            "effectiveBetForBetMultiplier": 600.0,
+            "effectiveBetForFreeRounds": 600.0,
+            "memberCurrency": "USD",
+            "countryID": "JP"
+        },
+        {
+            "position": 54,
+            "playerID": "*****5897",
+            "score": 97865406,
+            "scoreBet": 2.5,
+            "effectiveBetForBetMultiplier": 2.5,
+            "effectiveBetForFreeRounds": 2.5,
+            "memberCurrency": "CNY",
+            "countryID": "CN"
+        },
+        {
+            "position": 55,
+            "playerID": "*****5619",
+            "score": 97790611,
+            "scoreBet": 2000.0,
+            "effectiveBetForBetMultiplier": 2000.0,
+            "effectiveBetForFreeRounds": 2000.0,
+            "memberCurrency": "IDR",
+            "countryID": "ID"
+        },
+        {
+            "position": 56,
+            "playerID": "*****9612",
+            "score": 95960995,
+            "scoreBet": 100000.0,
+            "effectiveBetForBetMultiplier": 100000.0,
+            "effectiveBetForFreeRounds": 100000.0,
+            "memberCurrency": "KRW",
+            "countryID": "KR"
+        },
+        {
+            "position": 57,
+            "playerID": "*****5096",
+            "score": 95212100,
+            "scoreBet": 30.0,
+            "effectiveBetForBetMultiplier": 30.0,
+            "effectiveBetForFreeRounds": 30.0,
+            "memberCurrency": "USD",
+            "countryID": "TH"
+        },
+        {
+            "position": 58,
+            "playerID": "*****9079",
+            "score": 92530540,
+            "scoreBet": 9666.0,
+            "effectiveBetForBetMultiplier": 9666.0,
+            "effectiveBetForFreeRounds": 9666.0,
+            "memberCurrency": "IDR",
+            "countryID": "ID"
+        },
+        {
+            "position": 59,
+            "playerID": "*****3331",
+            "score": 92467942,
+            "scoreBet": 60000.0,
+            "effectiveBetForBetMultiplier": 60000.0,
+            "effectiveBetForFreeRounds": 60000.0,
+            "memberCurrency": "KRW",
+            "countryID": "KR"
+        },
+        {
+            "position": 60,
+            "playerID": "*****2896",
+            "score": 92423000,
+            "scoreBet": 300.0,
+            "effectiveBetForBetMultiplier": 300.0,
+            "effectiveBetForFreeRounds": 300.0,
+            "memberCurrency": "USD",
+            "countryID": "JP"
+        },
+        {
+            "position": 61,
+            "playerID": "*****6234",
+            "score": 92025784,
+            "scoreBet": 560000.0,
+            "effectiveBetForBetMultiplier": 560000.0,
+            "effectiveBetForFreeRounds": 560000.0,
+            "memberCurrency": "IDR",
+            "countryID": "ID"
+        },
+        {
+            "position": 62,
+            "playerID": "*****8517",
+            "score": 90867711,
+            "scoreBet": 408000.0,
+            "effectiveBetForBetMultiplier": 408000.0,
+            "effectiveBetForFreeRounds": 408000.0,
+            "memberCurrency": "KRW",
+            "countryID": "KR"
+        },
+        {
+            "position": 63,
+            "playerID": "*****8001",
+            "score": 90521512,
+            "scoreBet": 7090000.0,
+            "effectiveBetForBetMultiplier": 7090000.0,
+            "effectiveBetForFreeRounds": 7090000.0,
+            "memberCurrency": "IDR",
+            "countryID": "ID"
+        },
+        {
+            "position": 64,
+            "playerID": "*****4744",
+            "score": 89721434,
+            "scoreBet": 40.0,
+            "effectiveBetForBetMultiplier": 40.0,
+            "effectiveBetForFreeRounds": 40.0,
+            "memberCurrency": "CNY",
+            "countryID": "CN"
+        },
+        {
+            "position": 65,
+            "playerID": "*****2675",
+            "score": 89599984,
+            "scoreBet": 375.0,
+            "effectiveBetForBetMultiplier": 375.0,
+            "effectiveBetForFreeRounds": 375.0,
+            "memberCurrency": "CNY",
+            "countryID": "CN"
+        },
+        {
+            "position": 66,
+            "playerID": "*****7947",
+            "score": 89101106,
+            "scoreBet": 30.0,
+            "effectiveBetForBetMultiplier": 30.0,
+            "effectiveBetForFreeRounds": 30.0,
+            "memberCurrency": "CNY",
+            "countryID": "CN"
+        },
+        {
+            "position": 67,
+            "playerID": "*****9224",
+            "score": 88338247,
+            "scoreBet": 200000.0,
+            "effectiveBetForBetMultiplier": 200000.0,
+            "effectiveBetForFreeRounds": 200000.0,
+            "memberCurrency": "KRW",
+            "countryID": "KR"
+        },
+        {
+            "position": 68,
+            "playerID": "*****5546",
+            "score": 85450092,
+            "scoreBet": 80.0,
+            "effectiveBetForBetMultiplier": 80.0,
+            "effectiveBetForFreeRounds": 80.0,
+            "memberCurrency": "CNY",
+            "countryID": "CN"
+        },
+        {
+            "position": 69,
+            "playerID": "*****0586",
+            "score": 84803597,
+            "scoreBet": 52.5,
+            "effectiveBetForBetMultiplier": 52.5,
+            "effectiveBetForFreeRounds": 52.5,
+            "memberCurrency": "CNY",
+            "countryID": "CN"
+        },
+        {
+            "position": 70,
+            "playerID": "*****6496",
+            "score": 84023391,
+            "scoreBet": 40000.0,
+            "effectiveBetForBetMultiplier": 40000.0,
+            "effectiveBetForFreeRounds": 40000.0,
+            "memberCurrency": "KRW",
+            "countryID": "KR"
+        },
+        {
+            "position": 71,
+            "playerID": "*****6792",
+            "score": 83646962,
+            "scoreBet": 6000.0,
+            "effectiveBetForBetMultiplier": 6000.0,
+            "effectiveBetForFreeRounds": 6000.0,
+            "memberCurrency": "CNY",
+            "countryID": "CN"
+        },
+        {
+            "position": 72,
+            "playerID": "*****6907",
+            "score": 83511681,
+            "scoreBet": 5440.0,
+            "effectiveBetForBetMultiplier": 5440.0,
+            "effectiveBetForFreeRounds": 5440.0,
+            "memberCurrency": "KRW",
+            "countryID": "KR"
+        },
+        {
+            "position": 73,
+            "playerID": "*****2294",
+            "score": 83159687,
+            "scoreBet": 150.0,
+            "effectiveBetForBetMultiplier": 150.0,
+            "effectiveBetForFreeRounds": 150.0,
+            "memberCurrency": "VND2",
+            "countryID": "VN"
+        },
+        {
+            "position": 74,
+            "playerID": "*****2894",
+            "score": 82590412,
+            "scoreBet": 40000.0,
+            "effectiveBetForBetMultiplier": 40000.0,
+            "effectiveBetForFreeRounds": 40000.0,
+            "memberCurrency": "KRW",
+            "countryID": "KR"
+        },
+        {
+            "position": 75,
+            "playerID": "*****0620",
+            "score": 81556346,
+            "scoreBet": 20000.0,
+            "effectiveBetForBetMultiplier": 20000.0,
+            "effectiveBetForFreeRounds": 20000.0,
+            "memberCurrency": "KRW",
+            "countryID": "KR"
+        },
+        {
+            "position": 76,
+            "playerID": "*****4293",
+            "score": 81312254,
+            "scoreBet": 150.0,
+            "effectiveBetForBetMultiplier": 150.0,
+            "effectiveBetForFreeRounds": 150.0,
+            "memberCurrency": "CNY",
+            "countryID": "CN"
+        },
+        {
+            "position": 77,
+            "playerID": "*****0812",
+            "score": 79023351,
+            "scoreBet": 20000.0,
+            "effectiveBetForBetMultiplier": 20000.0,
+            "effectiveBetForFreeRounds": 20000.0,
+            "memberCurrency": "IDR",
+            "countryID": "ID"
+        },
+        {
+            "position": 78,
+            "playerID": "*****6127",
+            "score": 78940833,
+            "scoreBet": 2000.0,
+            "effectiveBetForBetMultiplier": 2000.0,
+            "effectiveBetForFreeRounds": 2000.0,
+            "memberCurrency": "KRW",
+            "countryID": "KR"
+        },
+        {
+            "position": 79,
+            "playerID": "*****0529",
+            "score": 78924689,
+            "scoreBet": 18160.0,
+            "effectiveBetForBetMultiplier": 18160.0,
+            "effectiveBetForFreeRounds": 18160.0,
+            "memberCurrency": "IDR",
+            "countryID": "ID"
+        },
+        {
+            "position": 80,
+            "playerID": "*****9639",
+            "score": 78672505,
+            "scoreBet": 5000.0,
+            "effectiveBetForBetMultiplier": 5000.0,
+            "effectiveBetForFreeRounds": 5000.0,
+            "memberCurrency": "IDR",
+            "countryID": "ID"
+        },
+        {
+            "position": 81,
+            "playerID": "*****1036",
+            "score": 77630539,
+            "scoreBet": 5075.0,
+            "effectiveBetForBetMultiplier": 5075.0,
+            "effectiveBetForFreeRounds": 5075.0,
+            "memberCurrency": "KRW",
+            "countryID": "KR"
+        },
+        {
+            "position": 82,
+            "playerID": "*****7789",
+            "score": 77368851,
+            "scoreBet": 1500.0,
+            "effectiveBetForBetMultiplier": 1500.0,
+            "effectiveBetForFreeRounds": 1500.0,
+            "memberCurrency": "KRW",
+            "countryID": "KR"
+        },
+        {
+            "position": 83,
+            "playerID": "*****3044",
+            "score": 77320863,
+            "scoreBet": 10000.0,
+            "effectiveBetForBetMultiplier": 10000.0,
+            "effectiveBetForFreeRounds": 10000.0,
+            "memberCurrency": "KRW",
+            "countryID": "KR"
+        },
+        {
+            "position": 84,
+            "playerID": "*****6201",
+            "score": 76867830,
+            "scoreBet": 54000.0,
+            "effectiveBetForBetMultiplier": 54000.0,
+            "effectiveBetForFreeRounds": 54000.0,
+            "memberCurrency": "THB",
+            "countryID": "TH"
+        },
+        {
+            "position": 85,
+            "playerID": "*****6130",
+            "score": 76807663,
+            "scoreBet": 25.0,
+            "effectiveBetForBetMultiplier": 25.0,
+            "effectiveBetForFreeRounds": 25.0,
+            "memberCurrency": "CNY",
+            "countryID": "CN"
+        },
+        {
+            "position": 86,
+            "playerID": "*****3494",
+            "score": 74376320,
+            "scoreBet": 20.0,
+            "effectiveBetForBetMultiplier": 20.0,
+            "effectiveBetForFreeRounds": 20.0,
+            "memberCurrency": "CNY",
+            "countryID": "CN"
+        },
+        {
+            "position": 87,
+            "playerID": "*****8732",
+            "score": 73849427,
+            "scoreBet": 1.9328E7,
+            "effectiveBetForBetMultiplier": 1.9328E7,
+            "effectiveBetForFreeRounds": 1.9328E7,
+            "memberCurrency": "IDR",
+            "countryID": "ID"
+        },
+        {
+            "position": 88,
+            "playerID": "*****2244",
+            "score": 73709451,
+            "scoreBet": 4120.0,
+            "effectiveBetForBetMultiplier": 4120.0,
+            "effectiveBetForFreeRounds": 4120.0,
+            "memberCurrency": "KRW",
+            "countryID": "KR"
+        },
+        {
+            "position": 89,
+            "playerID": "*****9929",
+            "score": 73565566,
+            "scoreBet": 750.0,
+            "effectiveBetForBetMultiplier": 750.0,
+            "effectiveBetForFreeRounds": 750.0,
+            "memberCurrency": "KRW",
+            "countryID": "KR"
+        },
+        {
+            "position": 90,
+            "playerID": "*****0978",
+            "score": 73122060,
+            "scoreBet": 1740.0,
+            "effectiveBetForBetMultiplier": 1740.0,
+            "effectiveBetForFreeRounds": 1740.0,
+            "memberCurrency": "KRW",
+            "countryID": "KR"
+        },
+        {
+            "position": 91,
+            "playerID": "*****3244",
+            "score": 72457899,
+            "scoreBet": 600.0,
+            "effectiveBetForBetMultiplier": 600.0,
+            "effectiveBetForFreeRounds": 600.0,
+            "memberCurrency": "KRW",
+            "countryID": "KR"
+        },
+        {
+            "position": 92,
+            "playerID": "*****6365",
+            "score": 72195081,
+            "scoreBet": 50.0,
+            "effectiveBetForBetMultiplier": 50.0,
+            "effectiveBetForFreeRounds": 50.0,
+            "memberCurrency": "CNY",
+            "countryID": "CN"
+        },
+        {
+            "position": 93,
+            "playerID": "*****6688",
+            "score": 71881585,
+            "scoreBet": 1080.0,
+            "effectiveBetForBetMultiplier": 1080.0,
+            "effectiveBetForFreeRounds": 1080.0,
+            "memberCurrency": "KRW",
+            "countryID": "KR"
+        },
+        {
+            "position": 94,
+            "playerID": "*****8885",
+            "score": 71313258,
+            "scoreBet": 5440.0,
+            "effectiveBetForBetMultiplier": 5440.0,
+            "effectiveBetForFreeRounds": 5440.0,
+            "memberCurrency": "KRW",
+            "countryID": "KR"
+        },
+        {
+            "position": 95,
+            "playerID": "*****9272",
+            "score": 71187389,
+            "scoreBet": 800.0,
+            "effectiveBetForBetMultiplier": 800.0,
+            "effectiveBetForFreeRounds": 800.0,
+            "memberCurrency": "KRW",
+            "countryID": "KR"
+        },
+        {
+            "position": 96,
+            "playerID": "*****2944",
+            "score": 70564586,
+            "scoreBet": 1000.0,
+            "effectiveBetForBetMultiplier": 1000.0,
+            "effectiveBetForFreeRounds": 1000.0,
+            "memberCurrency": "KRW",
+            "countryID": "KR"
+        },
+        {
+            "position": 97,
+            "playerID": "*****7942",
+            "score": 68839103,
+            "scoreBet": 5520.0,
+            "effectiveBetForBetMultiplier": 5520.0,
+            "effectiveBetForFreeRounds": 5520.0,
+            "memberCurrency": "KRW",
+            "countryID": "KR"
+        },
+        {
+            "position": 98,
+            "playerID": "*****8410",
+            "score": 68192379,
+            "scoreBet": 100000.0,
+            "effectiveBetForBetMultiplier": 100000.0,
+            "effectiveBetForFreeRounds": 100000.0,
+            "memberCurrency": "IDR",
+            "countryID": "ID"
+        },
+        {
+            "position": 99,
+            "playerID": "*****7415",
+            "score": 68005500,
+            "scoreBet": 2000.0,
+            "effectiveBetForBetMultiplier": 2000.0,
+            "effectiveBetForFreeRounds": 2000.0,
+            "memberCurrency": "KRW",
+            "countryID": "KR"
+        },
+        {
+            "position": 100,
+            "playerID": "*****9879",
+            "score": 68003169,
+            "scoreBet": 200000.0,
+            "effectiveBetForBetMultiplier": 200000.0,
+            "effectiveBetForFreeRounds": 200000.0,
+            "memberCurrency": "KRW",
+            "countryID": "KR"
+        },
+        {
+            "position": 101,
+            "playerID": "*****4324",
+            "score": 67000000,
+            "scoreBet": 62.5,
+            "effectiveBetForBetMultiplier": 62.5,
+            "effectiveBetForFreeRounds": 62.5,
+            "memberCurrency": "USD",
+            "countryID": "JP"
+        },
+        {
+            "position": 102,
+            "playerID": "*****6568",
+            "score": 66580092,
+            "scoreBet": 68000.0,
+            "effectiveBetForBetMultiplier": 68000.0,
+            "effectiveBetForFreeRounds": 68000.0,
+            "memberCurrency": "KRW",
+            "countryID": "KR"
+        },
+        {
+            "position": 103,
+            "playerID": "*****6169",
+            "score": 66212500,
+            "scoreBet": 12.5,
+            "effectiveBetForBetMultiplier": 12.5,
+            "effectiveBetForFreeRounds": 12.5,
+            "memberCurrency": "USD",
+            "countryID": "JP"
+        },
+        {
+            "position": 104,
+            "playerID": "*****8713",
+            "score": 66188556,
+            "scoreBet": 2720.0,
+            "effectiveBetForBetMultiplier": 2720.0,
+            "effectiveBetForFreeRounds": 2720.0,
+            "memberCurrency": "KRW",
+            "countryID": "KR"
+        },
+        {
+            "position": 105,
+            "playerID": "*****6942",
+            "score": 66186271,
+            "scoreBet": 15120.0,
+            "effectiveBetForBetMultiplier": 15120.0,
+            "effectiveBetForFreeRounds": 15120.0,
+            "memberCurrency": "KRW",
+            "countryID": "KR"
+        },
+        {
+            "position": 106,
+            "playerID": "*****7547",
+            "score": 65904113,
+            "scoreBet": 15000.0,
+            "effectiveBetForBetMultiplier": 15000.0,
+            "effectiveBetForFreeRounds": 15000.0,
+            "memberCurrency": "THB",
+            "countryID": "TH"
+        },
+        {
+            "position": 107,
+            "playerID": "*****3776",
+            "score": 65872092,
+            "scoreBet": 200.0,
+            "effectiveBetForBetMultiplier": 200.0,
+            "effectiveBetForFreeRounds": 200.0,
+            "memberCurrency": "IDR2",
+            "countryID": "ID"
+        },
+        {
+            "position": 108,
+            "playerID": "*****8580",
+            "score": 65802135,
+            "scoreBet": 2040.0,
+            "effectiveBetForBetMultiplier": 2040.0,
+            "effectiveBetForFreeRounds": 2040.0,
+            "memberCurrency": "KRW",
+            "countryID": "KR"
+        },
+        {
+            "position": 109,
+            "playerID": "*****4993",
+            "score": 65440457,
+            "scoreBet": 1000.0,
+            "effectiveBetForBetMultiplier": 1000.0,
+            "effectiveBetForFreeRounds": 1000.0,
+            "memberCurrency": "KRW",
+            "countryID": "KR"
+        },
+        {
+            "position": 110,
+            "playerID": "*****5172",
+            "score": 65364966,
+            "scoreBet": 4760.0,
+            "effectiveBetForBetMultiplier": 4760.0,
+            "effectiveBetForFreeRounds": 4760.0,
+            "memberCurrency": "KRW",
+            "countryID": "KR"
+        },
+        {
+            "position": 111,
+            "playerID": "*****5766",
+            "score": 64652524,
+            "scoreBet": 76000.0,
+            "effectiveBetForBetMultiplier": 76000.0,
+            "effectiveBetForFreeRounds": 76000.0,
+            "memberCurrency": "KRW",
+            "countryID": "KR"
+        },
+        {
+            "position": 112,
+            "playerID": "*****3106",
+            "score": 64345045,
+            "scoreBet": 400.0,
+            "effectiveBetForBetMultiplier": 400.0,
+            "effectiveBetForFreeRounds": 400.0,
+            "memberCurrency": "KRW",
+            "countryID": "KR"
+        },
+        {
+            "position": 113,
+            "playerID": "*****9272",
+            "score": 64190000,
+            "scoreBet": 8.0,
+            "effectiveBetForBetMultiplier": 8.0,
+            "effectiveBetForFreeRounds": 8.0,
+            "memberCurrency": "USD",
+            "countryID": "JP"
+        },
+        {
+            "position": 114,
+            "playerID": "*****8986",
+            "score": 63762544,
+            "scoreBet": 2360.0,
+            "effectiveBetForBetMultiplier": 2360.0,
+            "effectiveBetForFreeRounds": 2360.0,
+            "memberCurrency": "KRW",
+            "countryID": "KR"
+        },
+        {
+            "position": 115,
+            "playerID": "*****9460",
+            "score": 63223524,
+            "scoreBet": 2.0,
+            "effectiveBetForBetMultiplier": 2.0,
+            "effectiveBetForFreeRounds": 2.0,
+            "memberCurrency": "IDR2",
+            "countryID": "ID"
+        },
+        {
+            "position": 116,
+            "playerID": "*****3007",
+            "score": 62979082,
+            "scoreBet": 8800.0,
+            "effectiveBetForBetMultiplier": 8800.0,
+            "effectiveBetForFreeRounds": 8800.0,
+            "memberCurrency": "KRW",
+            "countryID": "KR"
+        },
+        {
+            "position": 117,
+            "playerID": "*****7422",
+            "score": 62750139,
+            "scoreBet": 5100.0,
+            "effectiveBetForBetMultiplier": 5100.0,
+            "effectiveBetForFreeRounds": 5100.0,
+            "memberCurrency": "KRW",
+            "countryID": "KR"
+        },
+        {
+            "position": 118,
+            "playerID": "*****1622",
+            "score": 62697032,
+            "scoreBet": 2000.0,
+            "effectiveBetForBetMultiplier": 2000.0,
+            "effectiveBetForFreeRounds": 2000.0,
+            "memberCurrency": "KRW",
+            "countryID": "KR"
+        },
+        {
+            "position": 119,
+            "playerID": "*****5413",
+            "score": 62308316,
+            "scoreBet": 272160.0,
+            "effectiveBetForBetMultiplier": 272160.0,
+            "effectiveBetForFreeRounds": 272160.0,
+            "memberCurrency": "IDR",
+            "countryID": "ID"
+        },
+        {
+            "position": 120,
+            "playerID": "*****1053",
+            "score": 61951217,
+            "scoreBet": 1600.0,
+            "effectiveBetForBetMultiplier": 1600.0,
+            "effectiveBetForFreeRounds": 1600.0,
+            "memberCurrency": "CNY",
+            "countryID": "CN"
+        },
+        {
+            "position": 121,
+            "playerID": "*****3643",
+            "score": 61773432,
+            "scoreBet": 100000.0,
+            "effectiveBetForBetMultiplier": 100000.0,
+            "effectiveBetForFreeRounds": 100000.0,
+            "memberCurrency": "KRW",
+            "countryID": "KR"
+        },
+        {
+            "position": 122,
+            "playerID": "*****9809",
+            "score": 61605306,
+            "scoreBet": 2000.0,
+            "effectiveBetForBetMultiplier": 2000.0,
+            "effectiveBetForFreeRounds": 2000.0,
+            "memberCurrency": "KRW",
+            "countryID": "KR"
+        },
+        {
+            "position": 123,
+            "playerID": "*****3660",
+            "score": 61374785,
+            "scoreBet": 14880.0,
+            "effectiveBetForBetMultiplier": 14880.0,
+            "effectiveBetForFreeRounds": 14880.0,
+            "memberCurrency": "KRW",
+            "countryID": "KR"
+        },
+        {
+            "position": 124,
+            "playerID": "*****3853",
+            "score": 61260586,
+            "scoreBet": 200.0,
+            "effectiveBetForBetMultiplier": 200.0,
+            "effectiveBetForFreeRounds": 200.0,
+            "memberCurrency": "CNY",
+            "countryID": "CN"
+        },
+        {
+            "position": 125,
+            "playerID": "*****2763",
+            "score": 60936986,
+            "scoreBet": 20000.0,
+            "effectiveBetForBetMultiplier": 20000.0,
+            "effectiveBetForFreeRounds": 20000.0,
+            "memberCurrency": "KRW",
+            "countryID": "KR"
+        },
+        {
+            "position": 126,
+            "playerID": "*****2343",
+            "score": 60690503,
+            "scoreBet": 1080.0,
+            "effectiveBetForBetMultiplier": 1080.0,
+            "effectiveBetForFreeRounds": 1080.0,
+            "memberCurrency": "CNY",
+            "countryID": "CN"
+        },
+        {
+            "position": 127,
+            "playerID": "*****4041",
+            "score": 60631058,
+            "scoreBet": 5000.0,
+            "effectiveBetForBetMultiplier": 5000.0,
+            "effectiveBetForFreeRounds": 5000.0,
+            "memberCurrency": "IDR2",
+            "countryID": "ID"
+        },
+        {
+            "position": 128,
+            "playerID": "*****8890",
+            "score": 60307259,
+            "scoreBet": 500.0,
+            "effectiveBetForBetMultiplier": 500.0,
+            "effectiveBetForFreeRounds": 500.0,
+            "memberCurrency": "KRW",
+            "countryID": "KR"
+        },
+        {
+            "position": 129,
+            "playerID": "*****8508",
+            "score": 59957722,
+            "scoreBet": 9800.0,
+            "effectiveBetForBetMultiplier": 9800.0,
+            "effectiveBetForFreeRounds": 9800.0,
+            "memberCurrency": "KRW",
+            "countryID": "KR"
+        },
+        {
+            "position": 130,
+            "playerID": "*****4733",
+            "score": 59944239,
+            "scoreBet": 4200.0,
+            "effectiveBetForBetMultiplier": 4200.0,
+            "effectiveBetForFreeRounds": 4200.0,
+            "memberCurrency": "CNY",
+            "countryID": "CN"
+        },
+        {
+            "position": 131,
+            "playerID": "*****8766",
+            "score": 59932800,
+            "scoreBet": 0.8,
+            "effectiveBetForBetMultiplier": 0.8,
+            "effectiveBetForFreeRounds": 0.8,
+            "memberCurrency": "USD",
+            "countryID": "JP"
+        },
+        {
+            "position": 132,
+            "playerID": "*****7412",
+            "score": 59652152,
+            "scoreBet": 490.0,
+            "effectiveBetForBetMultiplier": 490.0,
+            "effectiveBetForFreeRounds": 490.0,
+            "memberCurrency": "CNY",
+            "countryID": "JP"
+        },
+        {
+            "position": 133,
+            "playerID": "*****8836",
+            "score": 59423069,
+            "scoreBet": 3400.0,
+            "effectiveBetForBetMultiplier": 3400.0,
+            "effectiveBetForFreeRounds": 3400.0,
+            "memberCurrency": "KRW",
+            "countryID": "KR"
+        },
+        {
+            "position": 134,
+            "playerID": "*****3110",
+            "score": 59185075,
+            "scoreBet": 5000000.0,
+            "effectiveBetForBetMultiplier": 5000000.0,
+            "effectiveBetForFreeRounds": 5000000.0,
+            "memberCurrency": "KRW",
+            "countryID": "KR"
+        },
+        {
+            "position": 135,
+            "playerID": "*****5629",
+            "score": 58992628,
+            "scoreBet": 2360.0,
+            "effectiveBetForBetMultiplier": 2360.0,
+            "effectiveBetForFreeRounds": 2360.0,
+            "memberCurrency": "KRW",
+            "countryID": "KR"
+        },
+        {
+            "position": 136,
+            "playerID": "*****6877",
+            "score": 58939848,
+            "scoreBet": 10000.0,
+            "effectiveBetForBetMultiplier": 10000.0,
+            "effectiveBetForFreeRounds": 10000.0,
+            "memberCurrency": "KRW",
+            "countryID": "KR"
+        },
+        {
+            "position": 137,
+            "playerID": "*****9999",
+            "score": 58531186,
+            "scoreBet": 1000.0,
+            "effectiveBetForBetMultiplier": 1000.0,
+            "effectiveBetForFreeRounds": 1000.0,
+            "memberCurrency": "KRW",
+            "countryID": "KR"
+        },
+        {
+            "position": 138,
+            "playerID": "*****6379",
+            "score": 57987263,
+            "scoreBet": 5400.0,
+            "effectiveBetForBetMultiplier": 5400.0,
+            "effectiveBetForFreeRounds": 5400.0,
+            "memberCurrency": "KRW",
+            "countryID": "KR"
+        },
+        {
+            "position": 139,
+            "playerID": "*****9841",
+            "score": 57639626,
+            "scoreBet": 180000.0,
+            "effectiveBetForBetMultiplier": 180000.0,
+            "effectiveBetForFreeRounds": 180000.0,
+            "memberCurrency": "KRW",
+            "countryID": "KR"
+        },
+        {
+            "position": 140,
+            "playerID": "*****5813",
+            "score": 57439177,
+            "scoreBet": 400.0,
+            "effectiveBetForBetMultiplier": 400.0,
+            "effectiveBetForFreeRounds": 400.0,
+            "memberCurrency": "KRW",
+            "countryID": "KR"
+        },
+        {
+            "position": 141,
+            "playerID": "*****7669",
+            "score": 57342434,
+            "scoreBet": 10.0,
+            "effectiveBetForBetMultiplier": 10.0,
+            "effectiveBetForFreeRounds": 10.0,
+            "memberCurrency": "CNY",
+            "countryID": "CN"
+        },
+        {
+            "position": 142,
+            "playerID": "*****5531",
+            "score": 57223564,
+            "scoreBet": 2720.0,
+            "effectiveBetForBetMultiplier": 2720.0,
+            "effectiveBetForFreeRounds": 2720.0,
+            "memberCurrency": "KRW",
+            "countryID": "KR"
+        },
+        {
+            "position": 143,
+            "playerID": "*****3784",
+            "score": 56858845,
+            "scoreBet": 1200.0,
+            "effectiveBetForBetMultiplier": 1200.0,
+            "effectiveBetForFreeRounds": 1200.0,
+            "memberCurrency": "KRW",
+            "countryID": "KR"
+        },
+        {
+            "position": 144,
+            "playerID": "*****0202",
+            "score": 56600662,
+            "scoreBet": 1000.0,
+            "effectiveBetForBetMultiplier": 1000.0,
+            "effectiveBetForFreeRounds": 1000.0,
+            "memberCurrency": "KRW",
+            "countryID": "KR"
+        },
+        {
+            "position": 145,
+            "playerID": "*****4809",
+            "score": 56233100,
+            "scoreBet": 300.0,
+            "effectiveBetForBetMultiplier": 300.0,
+            "effectiveBetForFreeRounds": 300.0,
+            "memberCurrency": "USD",
+            "countryID": "JP"
+        },
+        {
+            "position": 146,
+            "playerID": "*****8363",
+            "score": 56102049,
+            "scoreBet": 30.0,
+            "effectiveBetForBetMultiplier": 30.0,
+            "effectiveBetForFreeRounds": 30.0,
+            "memberCurrency": "CNY",
+            "countryID": "CN"
+        },
+        {
+            "position": 147,
+            "playerID": "*****0840",
+            "score": 56054697,
+            "scoreBet": 15240.0,
+            "effectiveBetForBetMultiplier": 15240.0,
+            "effectiveBetForFreeRounds": 15240.0,
+            "memberCurrency": "KRW",
+            "countryID": "KR"
+        },
+        {
+            "position": 148,
+            "playerID": "*****9923",
+            "score": 55971500,
+            "scoreBet": 0.6,
+            "effectiveBetForBetMultiplier": 0.6,
+            "effectiveBetForFreeRounds": 0.6,
+            "memberCurrency": "USD",
+            "countryID": "JP"
+        },
+        {
+            "position": 149,
+            "playerID": "*****7528",
+            "score": 55870439,
+            "scoreBet": 1600.0,
+            "effectiveBetForBetMultiplier": 1600.0,
+            "effectiveBetForFreeRounds": 1600.0,
+            "memberCurrency": "KRW",
+            "countryID": "KR"
+        },
+        {
+            "position": 150,
+            "playerID": "*****6841",
+            "score": 54562590,
+            "scoreBet": 10.0,
+            "effectiveBetForBetMultiplier": 10.0,
+            "effectiveBetForFreeRounds": 10.0,
+            "memberCurrency": "IDR2",
+            "countryID": "ID"
+        },
+        {
+            "position": 125355,
+            "playerID": "*****8356",
+            "score": 120269,
+            "scoreBet": 4.5,
+            "effectiveBetForBetMultiplier": 4.5,
+            "effectiveBetForFreeRounds": 4.5,
+            "memberCurrency": "IDR2",
+            "countryID": "ID"
+        },
+        {
+            "position": 125356,
+            "playerID": "*****0281",
+            "score": 120267,
+            "scoreBet": 15120.0,
+            "effectiveBetForBetMultiplier": 15120.0,
+            "effectiveBetForFreeRounds": 15120.0,
+            "memberCurrency": "KRW",
+            "countryID": "HK"
+        },
+        {
+            "position": 125357,
+            "playerID": "*****1404",
+            "score": 120262,
+            "scoreBet": 2500.0,
+            "effectiveBetForBetMultiplier": 2500.0,
+            "effectiveBetForFreeRounds": 2500.0,
+            "memberCurrency": "IDR",
+            "countryID": "ID"
+        }
+    ]
+}

@@ -1,0 +1,48 @@
+.pageContent {
+    width: 100%;
+    height: 100%;
+    background-color: #272727;
+}
+
+.centerContent {
+    background-color: #FD8932;
+    position: absolute;
+    height: 200px;
+    width: 100%;
+    top: 35%;
+    left: 0%;
+}
+
+.textContent {
+    color: white;
+    position: absolute;
+    text-align: center;
+    top: 25%;
+    left: 0;
+    width: 100%;
+    font-size: 30px;
+    font-family: 'Century Gothic', CenturyGothic, AppleGothic, Futura, sans-serif;
+    letter-spacing: -1px;
+}
+
+.safariHelp {
+    display: none;
+}
+
+.safariBrowser .centerContent {
+    background-color: inherit !important;
+    top: 25% !important;
+}
+
+.safariBrowser .textContent {
+    background-color: #FD8932 !important;
+    position: relative !important;
+    top: 0% !important;
+    padding: 25px 0px !important;
+}
+
+.safariBrowser .safariHelp {
+    display: block !important;
+    text-align: center !important;
+    padding-bottom: 20px !important;
+}

@@ -1,0 +1,12 @@
+body { background-color: #012351;}
+:-moz-full-screen {background: #012351;}
+:-webkit-full-screen {background: #012351;}
+:fullscreen {background: #012351;}
+#gameArea 
+{
+	position: fixed;
+	left:     50%;
+	top:      50%;
+	-ms-touch-action: none;
+}
+canvas { position: absolute;}

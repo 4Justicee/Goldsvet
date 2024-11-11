@@ -1,0 +1,110 @@
+<?php
+
+$report_user_id=$status==3? $user_creator: $user_id;
+
+  if($status<4)
+    {$sql="select rooms.name, t1.*, t2.login as kassir 
+    from rooms 
+    join users t1 on (rooms.id=t1.room_id and t1.status in(5,6)) 
+    join users t2 on(t1.creator=t2.id)";
+    }
+  else
+    {$sql="select rooms.name, t1.*, t2.login as kassir from rooms join users t1 on (rooms.id=t1.room_id and t1.status in (5,6)) left join users t2 on(t1.creator=t2.id)  ";
+      $where[]="rooms.id=$room";
+     }
+$from_date=isset($_POST['fromdate'])?$_POST['fromdate']: REPORT_START_DATE;
+$to_date=isset($_POST['todate'])?$_POST['todate']: REPORT_CURR_DATE;
+
+$from_time=isset($_POST['fromtime'])?$_POST['fromtime']: REPORT_START_TIME;
+$to_time=isset($_POST['totime'])?$_POST['totime']: REPORT_END_TIME;
+
+if($from_date)
+ $where[]='ifnull(t1.`go_time`,0) >= '.strtotime($from_date.' '.$from_time);
+
+if($to_date)
+ $where[]='ifnull(t1.`go_time`,0)<= '.strtotime($to_date.' '.$to_time); 
+ 
+if(isset($where)&& isset ($sql))
+  $sql.=' where '.implode(' and ',$where);
+
+if(isset($sql))
+  {
+  $res=pager($sql,$paginator);
+  if ($res)
+    {
+    if(mysql_num_rows($res)>0)
+      {
+            print '
+                        <div class="row">                            
+                            <div class="col-md-12">
+                                <div class="block">
+                                    <div class="head"> 
+									<h2>'.$lang['reportmenu'][5].'</h2>                                       
+                                    </div>
+                                    <div class="content np">
+
+                                        <table cellpadding="0" cellspacing="0" width="100%" id="addRowExample" class="editable oc_disable">
+										
+                                            <thead>
+                                                <tr>                                                    
+                                                    <th width="20%">'.$lang['adm_report_gamer'].'</th> 
+                                                    <th width="20%">'.$lang['adm_report_regtime'].'</th>													
+                                                    <th width="20%">'.$lang['adm_report_authtime'].'</th>
+													<th width="20%">'.$lang['adm_report_balance'].'</th>
+													<th width="20%">'.$lang['adm_report_bonus'].'</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody> 			
+            ';
+                
+      while($row=mysql_fetch_array($res))
+        {
+        print "<tr align='center'>
+                <td>".$row['login']."</td>
+                <td>".date('Y-m-d H:i:s', $row['reg_time'])."</td>
+                <td>".date('Y-m-d H:i:s', $row['go_time'])."</td>
+                <td><span class='badge badge-success'>".$row['balance']."</span></td>
+                <td><span class='badge'>".$row['balance_bonus']."</span></td>
+              </tr>";
+        }
+     
+     print "
+                                            </tbody>
+											
+                                        </table>                                         
+                                        
+                                    </div>";
+    if($paginator)
+      echo "
+          <div class='footer'>
+            <div class=\"side fr\">$paginator</div>
+          </div>";
+    print "
+                                </div> 
+                            </div>                                
+                        </div>	 
+	 ";         
+            
+      }
+    else
+      echo "                            
+<div class='col-md-12'>
+<div class='alert alert-danger'>
+<center><strong>{$lang['adm_report_no_data']}</strong></center>
+<button class='close' data-dismiss='alert' type='button'>×</button>
+</div>
+</div>	  
+	  ";  
+    }
+  else
+    echo "                            
+<div class='col-md-12'>
+<div class='alert alert-danger'>
+<center><strong>ошибка MySql: ".$sql."\r\n".mysql_error()."</strong></center>
+<button class='close' data-dismiss='alert' type='button'>×</button>
+</div>
+</div>	
+	";  
+  }  
+  
+?>

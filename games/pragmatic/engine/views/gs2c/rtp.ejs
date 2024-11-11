@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+
+<link href="assets/chart/bootstrap.css" rel="stylesheet" type="text/css">
+<script src="assets/chart/jquery-1.11.3.min.js"></script>
+<script src="assets/chart/bootstrap.js"></script>
+<script src="assets/chart/canvasjs.min.js"></script>
+
+
+<div class="container" style="margin-top:10px;">
+
+    <div class="row">
+
+        <div class="col-md-6">
+            <div class="panel panel-default">
+                <div class="panel-heading">               </div>
+                <div class="panel-body">
+
+                    <table class="table table-bordered">
+                        <thead>
+                            <tr>
+                                <th>      </th>
+                                <th>   </th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>            </td>
+                                <td><input type="text" id="initMoney" value="100000"></td>
+                            </tr>
+                            <tr>
+                                <td>                   </td>
+                                <td><input type="text" id="betPerLine" value="10" disabled></td>
+                            </tr>
+                            <tr>
+                                <td>            </td>
+                                <td><input type="text" id="betCnt" value="1000"></td>
+                            </tr>
+                            <tr>
+                                <td>            </td>
+                                <td><input type="checkbox" id="natural" checked></td>
+                            </tr>
+                            <tr>
+                                <td>          </td>
+                                <td><input type="text" id="topLimit" value="50"></td>
+                            </tr>
+                            <tr>
+                                <td>            </td>
+                                <td><input type="text" id="bottomLimit" value="10"></td>
+                            </tr>
+                            <tr>
+                                <td>                      </td>
+                                <td><input type="text" id="baseWinPercent" value="20"></td>
+                            </tr>
+                            <tr>
+                                <td>                                         </td>
+                                <td><input type="text" id="freeWinPercent" value="5"></td>
+                            </tr>
+                            <tr>
+                                <td>                                            </td>
+                                <td><input type="text" id="moneyWinPercent" value="5"></td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                    <button class="btn btn-success" onclick="OnStart()">        </button>
+
+                </div>
+            </div>
+
+        </div>
+        <div class="col-md-6">
+            <div class="panel panel-default">
+                <div class="panel-heading">               </div>
+                <div class="panel-body">
+
+                    <table class="table table-bordered">
+                        <thead>
+                            <tr>
+                                <th>      </th>
+                                <th>   </th>
+                            </tr>
+                        </thead>
+
+                        <tbody>
+                            <tr>
+                                <td>          </td>
+                                <td id="totalIncome">0</td>
+                            </tr>
+                            <tr>
+                                <td>          </td>
+                                <td id="totalOutgo">0</td>
+                            </tr>
+                            <tr>
+                                <td>            </td>
+                                <td id="finalMoney">0</td>
+                            </tr>
+                            <tr>
+                                <td>             </td>
+                                <td id="betCnt">0</td>
+                            </tr>
+                            <tr>
+                                <td>             </td>
+                                <td id="winCnt">0</td>
+                            </tr>
+                            <tr>
+                                <td>             </td>
+                                <td id="lostCnt">0</td>
+                            </tr>
+                            <tr>
+                                <td>                   </td>
+                                <td id="freeSpinCount">0</td>
+                            </tr>
+                            <tr>
+                                <td>                      </td>
+                                <td id="bonusSpinCount">0</td>
+                            </tr>
+                            <tr>
+                                <td>RTP</td>
+                                <td id="rtp">0</td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <select onchange="refreshChart()" id="chart_type" style="height: 34px;">
+        <option value="line">line</option>
+        <option value="spline">spline</option>
+        <option value="area">area</option>
+        <option value="column">column</option>
+        <option value="bar">bar</option>
+    </select>
+    <div id="chartContainer" style="height: 370px; width: 100%; margin: 10px auto;"></div>
+
+    <select onchange="refreshChart1()" id="chart_type1" style="height: 34px;">
+        <option value="column">column</option>
+        <option value="line">line</option>
+        <option value="spline">spline</option>
+        <option value="area">area</option>
+        <option value="bar">bar</option>
+    </select>
+    <div id="chartContainer1" style="height: 370px; width: 100%; margin: 10px auto;"></div>
+
+</div>
+
+
+<script type="text/javascript">
+
+
+    function OnStart() {
+        var queryData = {
+            initMoney: $("#initMoney").val(),
+            betPerLine: $("#betPerLine").val(),
+            betCnt: $("#betCnt").val(),
+            isRandom: Number($("#natural").prop("checked")),
+            topLimit: $("#topLimit").val(),
+            bottomLimit: $("#bottomLimit").val(),
+            baseWinPercent: $("#baseWinPercent").val(),
+            freeWinPercent: $("#freeWinPercent").val(),
+            moneyWinPercent: $("#moneyWinPercent").val(),
+        }
+
+        $.get('/rtp', queryData, function (res) {
+
+            $data1 = [];
+            $data2 = [];
+            var player = res.player;
+
+            $("#totalIncome").html(player.totalIncome);
+            $("#totalOutgo").html(player.totalOutgo);
+            $("#finalMoney").html(player.money);
+            $("#betCnt").html(player.betCnt);
+            $("#winCnt").html(player.winCnt);
+            $("#lostCnt").html(player.lostCnt);
+            $("#freeSpinCount").html(player.freeSpinCount);
+            $("#bonusSpinCount").html(player.bonusSpinCount);
+            $("#rtp").html(Math.floor(player.rtp * 100) /100);
+
+            for (var i = 0; i < player.moneyHist.length; i++) {
+                var obj = {
+                    label: i,
+                    y: player.moneyHist[i]
+                };
+                $data1.push(obj);
+
+
+                var obj = {
+                    label: i,
+                    y: player.winMoneys[i]
+                };
+                $data2.push(obj);
+            }
+            refreshChart(); 
+            refreshChart1();
+
+        });
+    }
+    $data1 = [];
+    $data2 = [];
+
+
+
+    var canvas;
+    function toggleDataSeries(e) {
+        if (typeof (e.dataSeries.visible) === "undefined" || e.dataSeries.visible) {
+            e.dataSeries.visible = false;
+        }
+        else {
+            e.dataSeries.visible = true;
+        }
+        chart.render();
+    }
+
+    function refreshChart() {
+        chart = new CanvasJS.Chart("chartContainer", {
+            // animationEnabled: true,
+            title: {
+                text: "            "
+            },
+            axisY: {
+                title: "      ",
+                titleFontColor: "#4F81BC",
+                lineColor: "#4F81BC",
+                labelFontColor: "#4F81BC",
+                tickColor: "#4F81BC"
+            },
+            // axisY2: {
+            //     title: "Millions of Barrels/day",
+            //     titleFontColor: "#C0504E",
+            //     lineColor: "#C0504E",
+            //     labelFontColor: "#C0504E",
+            //     tickColor: "#C0504E"
+            // },  
+            toolTip: {
+                shared: true
+            },
+            legend: {
+                cursor: "pointer",
+                itemclick: toggleDataSeries
+            },
+            data: [{
+                type: $("#chart_type").val(),
+                name: "      ",
+                legendText: "      ",
+                click: onClick,
+                showInLegend: true,
+                dataPoints: $data1
+            },
+
+                // {
+                //     type: $("#chart_type").val(),
+                //     name: "      ",
+                //     legendText: "         ",
+                //     click: onClick,
+                //     showInLegend: true,
+                //     dataPoints: $data2
+                // },
+                // {
+                //     type: "column",
+                //     name: "Chatted",
+                //     legendText: "Chatted Projects",
+                //     // axisYType: "secondary",
+                //     click: onClick,
+                //     showInLegend: true,
+                //     dataPoints: $chatted_data
+                // },
+                // {
+                //     type: "column",
+                //     name: "In Progress",
+                //     legendText: "In Progress Projects",
+                //     // axisYType: "secondary",
+                //     click: onClick,
+                //     showInLegend: true,
+                //     dataPoints: $inprogress_data
+                // },
+                // {
+                //     type: "column",
+                //     name: "Completed",
+                //     legendText: "Completed Projects",
+                //     // axisYType: "secondary",
+                //     click: onClick,
+                //     showInLegend: true,
+                //     dataPoints: $completed_data
+                // }
+
+            ]
+        });
+        chart.render();
+
+
+
+    }
+
+    function refreshChart1() {
+        chart = new CanvasJS.Chart("chartContainer1", {
+            // animationEnabled: true,
+            title: {
+                text: "            "
+            },
+            axisY: {
+                title: "         ",
+                titleFontColor: "#4F81BC",
+                lineColor: "#4F81BC",
+                labelFontColor: "#4F81BC",
+                tickColor: "#4F81BC"
+            },
+            toolTip: {
+                shared: true
+            },
+            legend: {
+                cursor: "pointer",
+                itemclick: toggleDataSeries
+            },
+            data: [{
+                type: $("#chart_type1").val(),
+                name: "         ",
+                legendText: "         ",
+                click: onClick,
+                showInLegend: true,
+                dataPoints: $data2
+            },
+
+
+            ]
+        });
+        chart.render();
+    }
+    function onClick(e) {
+        alert(e.dataSeries.name + "   " + e.dataPoint.label);
+    }
+</script>

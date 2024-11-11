@@ -1,0 +1,286 @@
+<?php 
+$account=$_SESSION['rep6_acc']=isset($_POST['account'])?$_POST['account']:(isset($_SESSION['rep6_acc'])?$_SESSION['rep6_acc']:'');
+$paysys=$_SESSION['rep6_ps']=isset($_POST['paysys'])?$_POST['paysys']:(isset($_SESSION['rep6_ps'])?$_SESSION['rep6_ps']:'');
+$allroom= isset($_COOKIE['rep_allroom'])? intval($_COOKIE['rep_allroom']): 0;
+
+mysql_query("delete from enter where status=0 and `date`<".(time()-300));
+
+if($allroom==0)
+  $where[]="users.room_id=$room";
+  
+if($account)
+  $account_info=get_user_info($account,'login');
+
+if(isset($_REQUEST['fromdate']))
+  $_SESSION['rep6_start_dat']=$_REQUEST['fromdate'];
+else
+  $_REQUEST['fromdate']=isset($_SESSION['rep6_start_dat'])?$_SESSION['rep6_start_dat']:REPORT_START_DATE;
+
+if(isset($_REQUEST['todate']))  
+  $_SESSION['rep6_end_dat']=$_REQUEST['todate'];
+else
+  $_REQUEST['todate']=isset($_SESSION['rep6_end_dat'])?$_SESSION['rep6_end_dat']:REPORT_CURR_DATE;
+  
+if(isset($_REQUEST['fromtime']))  
+  $_SESSION['rep6_start_time']=$_REQUEST['fromtime'];
+else
+  $_REQUEST['fromtime']=isset($_SESSION['rep6_start_time'])?$_SESSION['rep6_start_time']:REPORT_START_TIME;
+  
+if(isset($_REQUEST['totime']))
+  $_SESSION['rep6_end_time']=$_REQUEST['totime'];
+else
+  $_REQUEST['totime']=isset($_SESSION['rep6_end_time'])?$_SESSION['rep6_end_time']:REPORT_END_TIME;
+
+
+if (isset($_REQUEST['account']) &&!empty($_REQUEST['account']))
+  $where[]="login like '".$_REQUEST['account']."'";
+  
+if (isset($_REQUEST['ip']))
+  $where[]="ip like '".$_REQUEST['ip']."'"; 
+
+if ($paysys)
+  $where[]="paysys like '".$paysys."'";   
+  
+if (isset($_REQUEST['fromdate']))
+  {
+  $from_time=isset($_REQUEST['fromtime'])?$_REQUEST['fromtime']:'';
+  $where[]="`date` >= UNIX_TIMESTAMP('".$_REQUEST['fromdate']." ".$from_time."')";    
+  $where_sum[]="`date` >= UNIX_TIMESTAMP('".$_REQUEST['fromdate']." ".$from_time."')";    
+  }
+  
+if (isset($_REQUEST['todate']))
+  {
+  $to_time=isset($_REQUEST['totime'])?$_REQUEST['totime']:'';
+  $where[]="`date` <= UNIX_TIMESTAMP('".$_REQUEST['todate']." ".$to_time."')";
+  $where_sum[]="`date` <= UNIX_TIMESTAMP('".$_REQUEST['todate']." ".$to_time."')";  
+  }
+if (isset($_REQUEST['fromsum']))
+  $where[]="`sum` >= ".$_REQUEST['fromsum'];    
+
+if (isset($_REQUEST['tosum']))
+  $where[]="`sum` <= ".$_REQUEST['tosum'];    
+
+  $from= " from enter join users using (login) where users.room_id=$room and  enter.status=2 ";
+
+$sql="select *  $from";
+if (isset ($where) && count($where)>0)
+  $sql.= " and ". implode(' and ', $where);
+$sql.= " order by `date` DESC ";
+
+$sum_sql= "select sum(`sum`) as s, sum(if(`sum`>0,`sum`,0)) as s_plus, sum(if(`sum`<0,`sum`,0)) as s_minus $from";
+
+if (isset ($where_sum) && count($where_sum)>0)
+  $sum_sql_date= $sum_sql." and ". implode(' and ', $where_sum); 
+else
+  $sum_sql_date= $sum_sql;   
+
+$res=mysql_query($sum_sql_date);
+if (mysql_num_rows($res)>0)
+  $sum_date=mysql_fetch_array($res);
+else
+  $sum_date=array('s'=>0,'s_plus'=>0,'s_minus'=>0);
+
+$res_all=mysql_query($sum_sql);
+if (mysql_num_rows($res_all)>0)
+  $sum_all=mysql_fetch_array($res_all);
+else
+  $sum_all= array('s'=>0,'s_plus'=>0,'s_minus'=>0);
+
+if (isset ($where) && count($where)>0)
+  $sum_sql.= " and ". implode(' and ', $where);
+  
+$sum=mysql_fetch_array(mysql_query($sum_sql));  
+
+//echo $sql;
+$res= pager($sql,$paginator);
+
+
+if(isset($account_info)&& $account_info)
+  {
+print '             <div class="row">                            
+                            <div class="col-md-12">
+                                <div class="block">
+                                    <div class="head"> 
+									<h2>'.$lang['reportmenu'][6].'</h2>                                       
+                                    </div>
+                                    <div class="content np">
+
+                                        <table cellpadding="0" cellspacing="0" width="100%" id="addRowExample" class="editable oc_disable">
+										
+                                            <thead>
+                                                <tr>                                                    
+                                                    <th width="15%">'.$lang['adm_report_title'].'</th> 
+                                                    <th width="85%">'.$lang['adm_report_data'].'</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+<tr align="center">
+<td>'.$lang['adm_report_login'].'</td>
+<td><span class="badge badge-inverse">'.$account_info['login'].'</span></td>
+</tr>
+
+<tr align="center">
+<td>'.$lang['adm_report_balance'].'</td>
+<td><span class="badge badge-success">'.$account_info['balance'].'</span></td>
+</tr>
+
+<tr align="center">
+<td>'.$lang['adm_report_bonus'].'</td>
+<td><span class="badge">'.$account_info['balance_bonus'].'</span></td>
+</tr>
+
+<tr align="center">
+<td>'.$lang['adm_report_regtime'].'</td>
+<td><span class="badge badge-inverse">'.date('Y-m-d H:i:s', $account_info['reg_time']).'<span></td>
+</tr>
+
+<tr align="center">
+<td>'.$lang['adm_report_authtime'].'</td>
+<td><span class="badge badge-inverse">'.($account_info['go_time']>0 ? date('Y-m-d H:i:s',$account_info['go_time']): $lang['adm_report_no_data']).'<span></td>
+</tr>
+
+<tr align="center">
+<td>'.$lang['adm_report_os'].'</td>
+<td><span class="badge badge-inverse">'.$account_info['os'].'<span></td>
+</tr>
+
+<tr align="center">
+<td>'.$lang['adm_report_useragent'].'</td>
+<td><span class="badge badge-inverse">'.$account_info['useragent'].'<span></td>
+</tr>
+
+<tr align="center">
+<td>'.$lang['adm_report_useragent1'].'</td>
+<td><span class="badge badge-inverse">';
+   $sql1= "select distinct useragent from useragent where user_id=".$account_info['id'];
+   $res1=mysql_query($sql1);
+   $useragent=array();
+   while($row1=mysql_fetch_assoc($res1)) 
+   $useragent[]=$row1['useragent']; 
+   print  implode('</span><br /><span class="badge badge-inverse">',$useragent);       
+   print   '</span></td></tr>
+
+<tr align="center">
+<td>'.$lang['adm_report_userip'].'</td>
+<td><span class="badge badge-warning">'.$account_info['ip'].'<span></td>
+</tr>
+
+<tr align="center">
+<td>'.$lang['adm_report_userip'].'</td>
+<td><span class="badge badge-info">';
+   $sql1= "select distinct ip from logip where user_id=".$account_info['id'];
+   $res1=mysql_query($sql1);
+   $ips=array();
+   while($row1=mysql_fetch_assoc($res1)) 
+   $ips[]=$row1['ip']; 
+   print  implode('</span> <span class="badge badge-info">',$ips);       
+   print   "</span></td></tr>
+
+                                            </tbody>
+											
+                                        </table>                                         
+                                        
+                                    </div>";
+  if($paginator)
+      echo "
+          <div class='footer'>
+            <div class=\"side fr\">$paginator</div>
+          </div>";
+  print "
+                                </div> 
+                            </div>                                
+                        </div>";
+  }
+elseif($account)
+  {
+  echo "                           
+<div class='col-md-12'>
+<div class='alert alert-danger'>
+<center><strong>игрок не найден</strong></center>
+<button class='close' data-dismiss='alert' type='button'>×</button>
+</div>
+</div>  
+  ";
+  } 
+
+  if (!isset($account_info)||$account_info)
+  {    
+  if ($res)
+    {
+    if(mysql_num_rows($res)>0)
+      {
+      
+            print '
+                        <div class="row">                            
+                            <div class="col-md-12">
+                                <div class="block">
+                                    <div class="head"> 
+									<h2>'.$lang['reportmenu'][6].'</h2>                                       
+                                    </div>
+                                    <div class="content np">
+
+                                        <table cellpadding="0" cellspacing="0" width="100%" id="addRowExample" class="editable oc_disable">
+										
+                                            <thead>
+                                                <tr>'; 
+            if(!isset($account_info))												
+            print '                                 <th width="20%">'.$lang['adm_report_login'].'</th> ';
+            print '                                 <th width="20%">'.$lang['adm_report_date'].'</th>													
+                                                    <th width="20%">'.$lang['adm_report_ps'].'</th>
+													<th width="20%">'.$lang['adm_report_action'].'</th>
+													<th width="20%">'.$lang['adm_report_sum'].'</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody> 			
+            ';
+                
+      while($row=mysql_fetch_array($res))
+        {
+        print "<tr align='center'>";
+        if(!isset($account_info))
+         print "<td>".$row['login']."</td>";
+         print "<td>".date('Y-m-d H:i:s',$row['date'])."</td>
+                <td><span class='badge'>".$row['paysys']."</span></td>
+				<td>".($row['sum']>0 ? "<span class='badge badge-success'>".$lang['adm_report_inpay']."</span>" : "<span class='badge badge-danger'>".$lang['adm_report_outpay']."</span>")."</td>
+                <td><span class='badge badge-success'>".abs($row['sum'])."</span></td>
+              </tr>";
+        }
+     
+     print '
+                                            </tbody>
+											
+                                        </table>                                         
+                                        
+                                    </div> ';
+    if($paginator)
+      echo "
+          <div class='footer'>
+            <div class=\"side fr\">$paginator</div>
+          </div>";
+    print '
+                                </div> 
+                            </div>                                
+                        </div>	 
+	 ';         
+      }
+    else
+      echo "                            
+<div class='col-md-12'>
+<div class='alert alert-danger'>
+<center><strong>{$lang['adm_report_no_data']}</strong></center>
+<button class='close' data-dismiss='alert' type='button'>×</button>
+</div>
+</div>	  
+	  ";  
+    }
+  else
+    echo "                           
+<div class='col-md-12'>
+<div class='alert alert-danger'>
+<center><strong>ошибка MySql: ".$sql."\r\n".mysql_error()."</strong></center>
+<button class='close' data-dismiss='alert' type='button'>×</button>
+</div>
+</div>	
+	";  
+  }
+?>

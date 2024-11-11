@@ -1,0 +1,31 @@
+@import "bootstrap/bootstrap.min.css";
+@import "jquery/jquery-ui-1.10.3.custom.css";
+
+@import "select2/select2.css";
+@import "uniform/uniform.default.css";
+@import "tagsinput/jquery.tagsinput.css";
+@import "multiselect/multi-select.css";
+@import "validationengine/validationEngine.css";
+@import "stepy/jquery.stepy.css";
+@import "cleditor/jquery.cleditor.css";
+@import "mcustomscrollbar/jquery.mCustomScrollbar.css";
+
+@import "shbrush/shCoreDefault.css";
+@import "shbrush/shThemeDefault.css";
+@import "ibutton/jquery.ibutton.css";
+@import "colorpicker/colorpicker.css";
+
+@import "datatables/jquery.dataTables.css";
+@import "fancybox/jquery.fancybox.css";
+
+@import "codemirror/codemirror.css";
+@import "filetree/jqueryFileTree.css";
+
+@import "icomoon.css";
+@import "stylesheet.css";
+@import "themes.css";
+
+
+html,body{height: 100%; min-width:1210px;}
+
+body{font-family: arial, tahoma, sans-serif; font-size: 11px; position: relative; background: #F9F9F9; color: #333;}

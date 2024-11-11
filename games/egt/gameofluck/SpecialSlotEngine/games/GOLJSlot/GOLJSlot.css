@@ -1,0 +1,41 @@
+#Game.slot.GOLJSlot .gameViewport { background: url('SpecialSlotEngine/games/GOLJSlot/images/background.jpg?v=1.3.0|23-08-2016|10:39:21') top center; }
+#Game.slot.GOLJSlot .backgroundOverlay { background-image: url('SpecialSlotEngine/games/GOLJSlot/images/backgroundOverlay.png?v=1.3.0|23-08-2016|10:39:21');  }
+#Game.slot.GOLJSlot .gameTitle { background-image: url('SpecialSlotEngine/games/GOLJSlot/images/gameTitle.png?v=1.3.0|23-08-2016|10:39:21'); }
+#Game.slot.GOLJSlot .gameTitle.noJackpot { background-image: url('SpecialSlotEngine/games/GOLJSlot/images/gameTitleNoJackpot.png?v=1.3.0|23-08-2016|10:39:21'); }
+#Game.slot.GOLJSlot .topGameTitle { background-image: url('SpecialSlotEngine/games/GOLJSlot/images/topGameTitle.png?v=1.3.0|23-08-2016|10:39:21'); }
+#Game.slot.GOLJSlot .denomButton { background-image: url("SpecialSlotEngine/games/GOLJSlot/images/denominationButton.png?v=1.3.0|23-08-2016|10:39:21"); }
+#Game.slot.GOLJSlot .autoplayButton { background-image: url("SpecialSlotEngine/games/GOLJSlot/images/autoSoundButton.png?v=1.3.0|23-08-2016|10:39:21"); }
+#Game.slot.GOLJSlot .soundButton { background-image: url("SpecialSlotEngine/games/GOLJSlot/images/autoSoundButton.png?v=1.3.0|23-08-2016|10:39:21"); }
+#Game.slot.GOLJSlot .betButton { background-image: url("SpecialSlotEngine/games/GOLJSlot/images/betButton.png?v=1.3.0|23-08-2016|10:39:21"); }
+#Game.slot.GOLJSlot .icons{		background-image: url("SpecialSlotEngine/games/GOLJSlot/images/settingsInfo.png?v=1.3.0|23-08-2016|10:39:21");}
+#Game.slot.GOLJSlot .iconsImage{	background-image: url("SpecialSlotEngine/games/GOLJSlot/images/settingsInfo.png?v=1.3.0|23-08-2016|10:39:21"); }
+#Game.slot.GOLJSlot .jackpotBoxes { background-image: url('SpecialSlotEngine/games/GOLJSlot/images/backgroundOverlay.png?v=1.3.0|23-08-2016|10:39:21'); }
+#Game.slot.GOLJSlot .jackpotContentView
+{
+	border-color: #c6723a;
+	background: -webkit-linear-gradient(black, #033414);
+	background: -o-linear-gradient(black, #033414);
+	background: -moz-linear-gradient(black, #033414);
+	background: linear-gradient(black, #033414);
+}
+#Game.slot.GOLJSlot .bottomUIContainer { background-image: url('SpecialSlotEngine/games/GOLJSlot/images/backgroundOverlay.png?v=1.3.0|23-08-2016|10:39:21'); }
+#Game.slot.GOLJSlot .gambleContainer { border-color: #c6723a; }
+#Game.slot.GOLJSlot .settingsView { background-image: url("SpecialSlotEngine/games/GOLJSlot/images/background.jpg?v=1.3.0|23-08-2016|10:39:21"); }
+#Game.slot.GOLJSlot .settingsPaytableCloseButton { background-image: url("SpecialSlotEngine/games/GOLJSlot/images/settingsPaytableCloseButton.png?v=1.3.0|23-08-2016|10:39:21"); }
+#Game.slot.GOLJSlot .settingsPaytableCloseButtonArrow { background-image: url("SpecialSlotEngine/games/GOLJSlot/images/settingsPaytableCloseButton.png?v=1.3.0|23-08-2016|10:39:21"); }
+#Game.slot.GOLJSlot .settingsPaytableCloseButtonArrowHighlight { background-image: url("SpecialSlotEngine/games/GOLJSlot/images/settingsPaytableCloseButton.png?v=1.3.0|23-08-2016|10:39:21"); }
+#Game.slot.GOLJSlot .paytableFromSettingsButton { background-image: url("SpecialSlotEngine/games/GOLJSlot/images/settingsPaytableCloseButton.png?v=1.3.0|23-08-2016|10:39:21"); }
+#Game.slot.GOLJSlot .settingsFromPaytableButton { background-image: url("SpecialSlotEngine/games/GOLJSlot/images/settingsPaytableCloseButton.png?v=1.3.0|23-08-2016|10:39:21"); }
+#Game.slot.GOLJSlot .textField.lines
+{
+	color: #ffffff;
+	text-shadow: 0px 0px 6px #303030, 0px 0px 6px #303030, 0px 0px 6px #303030, 0px 0px 6px #303030, 0px 0px 6px #303030, 0px 0px 6px #303030, 0px 0px 6px #303030;
+}
+#Game.slot.GOLJSlot .textField.lines.active
+{
+	color: #ffff00;
+	text-shadow: 0px 0px 6px #bf0000, 0px 0px 6px #bf0000, 0px 0px 6px #bf0000, 0px 0px 6px #bf0000, 0px 0px 6px #bf0000, 0px 0px 6px #bf0000, 0px 0px 6px #bf0000;
+}
+#Game.slot.GOLJSlot .gameNumberTime { color: #c6723a; }
+#Game.slot.GOLJSlot .textField.totals { color: #c6723a; }
+#Game.slot.GOLJSlot .textField.totals.jackpot { color: #c6723a; }

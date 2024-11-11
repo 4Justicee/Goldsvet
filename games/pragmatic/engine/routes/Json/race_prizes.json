@@ -1,0 +1,55 @@
+{
+    "error": 0,
+    "description": "OK",
+    "prizes": [
+        {
+            "id": 5420,
+            "prizeRemains": [
+                {
+                    "prizeID": 1,
+                    "count": 1,
+                    "type": "BM",
+                    "betMultiplier": 1000.0
+                },
+                {
+                    "prizeID": 3,
+                    "count": 8,
+                    "type": "BM",
+                    "betMultiplier": 250.0
+                },
+                {
+                    "prizeID": 4,
+                    "count": 52,
+                    "type": "BM",
+                    "betMultiplier": 50.0
+                },
+                {
+                    "prizeID": 5,
+                    "count": 110,
+                    "type": "BM",
+                    "betMultiplier": 30.0
+                },
+                {
+                    "prizeID": 6,
+                    "count": 261,
+                    "type": "BM",
+                    "betMultiplier": 10.0
+                },
+                {
+                    "prizeID": 7,
+                    "count": 171,
+                    "type": "BM",
+                    "betMultiplier": 8.0
+                },
+                {
+                    "prizeID": 8,
+                    "count": 176,
+                    "type": "BM",
+                    "betMultiplier": 5.0
+                }
+            ],
+            "currency": "KRW",
+            "maxBetLimitByMultiplier": 625000
+        }
+    ]
+}

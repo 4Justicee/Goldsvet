@@ -1,0 +1,308 @@
+#PaytableContent
+{
+	background: -webkit-linear-gradient(left, #022f00, #08852a 40%, #08852a 60%, #022f00 100%);
+	background: -o-linear-gradient(left, #2f782c, #ffffff 20%, #2f782c 80%);
+	background: -moz-linear-gradient(left, #2f782c, #ffffff 20%, #2f782c 80%);
+	background: linear-gradient(left, #2f782c, #ffffff 20%, #2f782c 80%);
+	
+	padding: 0 112px 0 112px;
+	overflow: overlay;
+}
+
+#PaytableContent .title
+{
+	background-image: url("BaseSlotEngine/games/BHJSlot/paytable/title.png");
+	width: 734px;
+	height: 79px;
+	margin: 0 auto;
+}
+
+#PaytableContent .panel
+{
+	background: #003008;
+	border: 3px solid #1ccf0b;
+	border-radius: 11px;
+	margin-bottom: 14px;
+	padding: 5px 5px 5px 5px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	float: left;
+}
+#PaytableContent .currency, #PaytableContent .jackpotGambleCurrency
+{
+	font-size: 50%;
+}
+
+#PaytableContent .panel.seven
+{
+	width: 520px;
+	height: 200px;
+	margin-right: 16px;
+}
+
+#PaytableContent .panel.grapes
+{
+	width: 520px;
+	height: 200px;
+}
+
+#PaytableContent .panel.watermelon
+{
+	width: 520px;
+	height: 200px;
+	margin-right: 16px;
+}
+
+#PaytableContent .panel.bell
+{
+	width: 520px;
+	height: 200px;
+}
+
+#PaytableContent .panel.cherry
+{
+	width: 100%;
+	height: 200px;
+}
+
+#PaytableContent .panel.clover
+{
+	width: 520px;
+	height: 530px;
+	margin-right: 16px;
+}
+
+#PaytableContent .panel.dollar
+{
+	width: 520px;
+	height: 258px;
+}
+
+#PaytableContent .panel.star
+{
+	width: 520px;
+	height: 258px;
+}
+
+#PaytableContent .panel.jackpot
+{
+	width: 100%;
+	overflow: hidden;
+}
+
+#PaytableContent .panel.gamble
+{
+	width: 100%;
+	overflow: hidden;
+}
+
+#PaytableContent .panel.linesAndRules
+{
+	width: 100%;
+	overflow: hidden;
+}
+
+#PaytableContent .singleImage
+{
+	background-image: url("BaseSlotEngine/games/BHJSlot/paytable/sprite.jpg");
+	float: left;
+	margin-top: 2px;
+	width: 195px;
+	height: 178px;
+}
+
+#PaytableContent .singleImage.seven { background-position: 0px 0px; }
+#PaytableContent .singleImage.grapes { background-position: -195px 0px; }
+#PaytableContent .singleImage.watermelon { background-position: -390px 0px; }
+#PaytableContent .singleImage.bell { background-position: -585px 0px; }
+#PaytableContent .singleImage.cherry { background-position: -780px 0px; }
+#PaytableContent .singleImage.lemon { background-position: -975px 0px; }
+#PaytableContent .singleImage.plum { background-position: -1170px 0px; }
+#PaytableContent .singleImage.orange { background-position: 0px -178px; }
+#PaytableContent .singleImage.dollar 
+{
+	background-position: -390px -178px;
+}
+#PaytableContent .singleImage.star 
+{ 
+	margin-left: 13px;
+	background-position: -585px -178px; 
+}
+#PaytableContent .singleImage.clover
+{
+	background-position: -195px -178px;
+	float: none;
+	margin: 30px auto 30px auto;
+	-webkit-transform: scale3d(1.2, 1.2, 1);
+	-moz-transform: scale3d(1.2, 1.2, 1);
+	transform: scale3d(1.2, 1.2, 1);
+}
+
+#PaytableContent .singleImage.smallImage
+{
+	margin-top: 0px;
+	background-size: 832px;
+	display: inline-block;
+	float: none;
+}
+
+#PaytableContent .singleImage.lineSection1
+{
+	float:none;
+	background-position: -780px -242px;
+	width: 608px;
+	height: 133px;
+	margin: 10px auto;
+}
+
+#PaytableContent .singleImage.smallImage.dollar
+{
+	background-position: -247px -108px;
+	width: 85px;
+	height: 104px;
+	margin: 0px 18px;
+}
+
+#PaytableContent .singleImage.smallImage.star
+{
+	background-position: -353px -107px;
+	width: 110px;
+	height: 105px;
+	margin-left: 18px;
+}
+
+#PaytableContent .singleImage.jackpotTitle
+{
+	background-position: -780px -178px;
+	width: 600px;
+	height: 64px;
+	float: none;
+	margin: 10px auto 20px auto;
+}
+
+#PaytableContent .linesContainer
+{
+	float: left;
+	width: 257px;
+	height: 100%;
+}
+
+#PaytableContent .paytableLine
+{
+	overflow: hidden;
+	height: 40px;
+	margin-bottom: 6px;
+}
+#PaytableContent .paytableLine.iOS
+{
+	height: 46px;
+	margin-bottom: -2px;
+}
+
+#PaytableContent .paytableLine.firstLine { margin-top: 25px; }
+#PaytableContent .paytableLine.firstLine.seven { margin-top: 3px; }
+#PaytableContent .paytableLine.firstLine.dollar { }
+#PaytableContent .paytableLine.firstLine.star { margin-top: 0px; }
+
+#PaytableContent .textLine
+{
+	line-height: 34px;
+	font: bold 34px arial,sans-serif;
+	color: #ffffff;
+	text-align: center;
+	text-shadow: 0px 1px 5px #000000;
+}
+
+#PaytableContent .textLine.lineBullet
+{
+	color: #fa860b;
+	text-shadow: 0px 0px 6px #622e81, 0px 0px 6px #622e81, 0px 0px 6px #622e81, 0px 0px 6px #622e81, 0px 0px 6px #622e81, 0px 0px 6px #622e81, 0px 0px 6px #622e81, 0px 0px 6px #622e81;
+	float: left;
+	margin-left: 10px;
+}
+#PaytableContent .textLine.lineContent
+{
+	margin-top: 5px;
+	overflow: hidden;
+	text-shadow: 0px 2px 5px #000000;
+}
+#PaytableContent .textLine.lineJackpot
+{
+	font-size: 22px;
+	margin-left: 10px;
+}
+
+#PaytableContent .textLine.lineGamble
+{
+	font-size: 22px;
+	margin-left: 10px;
+}
+
+#PaytableContent .textLine.scatterText
+{
+	font-size: 46px;
+	width: 100%;
+	text-shadow: 3px 3px 1px #000000;
+}
+#PaytableContent .textLine.scatterText.dollar { color: #ffc333}
+#PaytableContent .textLine.scatterText.star { color: #c224de}
+
+#PaytableContent .paytableText
+{
+	font: bold 25px arial,sans-serif;
+	color: #62f023;
+	text-align: center;
+	line-height: 47px;
+	text-shadow: 0px 2px 5px #000000;
+}
+
+#PaytableContent .marginTopBottom15PX
+{
+	margin: 15px 0;  
+}
+
+#PaytableContent .paytableText.exceptText 
+{ 
+	display: inline-block; 
+	position: relative;
+	top: -47px;
+}
+
+#PaytableContent .specialCloverContainer
+{
+	display: table;
+	margin: 0 auto;
+}
+
+#PaytableContent .paytableText.jackpot
+{
+	width: 100%;
+	font-size: 20px;
+	line-height: 31px;
+	padding: 0px 26px;
+	box-sizing: border-box;
+	margin-bottom: 6px;
+}
+
+#PaytableContent .jackpotLabel { color: #f0de2e; }
+#PaytableContent .cardsLabel { color: #cf3838; }
+#PaytableContent .qBets
+{
+	position: relative;
+	left: -70px;
+}
+#PaytableContent .gambleFirstLine
+{
+	position: relative;
+	left: -40px;
+}
+
+#PaytableContent .sectionTitle
+{
+	font: bold 40px arial,sans-serif;
+	color: #deaf0f;
+	text-align: center;
+	text-shadow: 0px 0px 2px #001903, 0px 0px 2px #001903, 0px 0px 2px #001903, 0px 0px 2px #001903, 0px 0px 2px #001903, 0px 0px 2px #001903, 0px 0px 2px #001903, 0px 0px 2px #001903;
+	margin: 7px auto;
+}

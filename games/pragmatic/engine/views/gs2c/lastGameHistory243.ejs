@@ -1,0 +1,228 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html class="frame">
+<head>
+  <title>             </title>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+  <meta http-equiv="Expires" content="Tue, 10 Aug 2021 07:31:02 +0000"/>
+  <meta http-equiv="Cache-Control" content="no-store, no-cache, must-revalidate"/>
+  <meta http-equiv="Pragma" content="no-cache"/>
+  <link rel="stylesheet" type="text/css" href="/gs2c/generic/css/web_style_en.css"/>
+  <link rel="stylesheet" type="text/css" href="/gs2c/generic/css/web_style_ko.css"/>
+  <link rel="stylesheet" type="text/css" href="/gs2c/common/css/common/brands.css"/>
+<style type="text/css">
+    html.frame,
+    body.innerBody {
+        background: #000 !important;
+        overflow: unset !important;
+    }
+
+    .table-history > tbody > tr > th, .table-history > tbody > tr > td {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 12px;
+        margin: 0;
+        color: #FFFFFF !important;
+    }
+
+    table.screen span {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 12px;
+        margin: 0;
+        color: #FFFFFF !important;
+    }
+
+    .table-history-border, .table-history-border td, td.table-history-border {
+        background: #000000;
+        border: 2px ridge #888888;
+        border-spacing: 0;
+        padding: 2px;
+        border-collapse: collapse;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 12px;
+        color: #FFFFFF;
+    }
+
+    ul.progress {
+        margin-top: 0;
+        margin-bottom: 0;
+        padding-left: 20px;
+    }
+
+    td.targetSymbol {
+        padding: 1px !important;
+    }
+
+    td.targetSymbol img {
+        border: dashed 2px yellow;
+        border-radius: 100px;
+        padding: 1px;
+    }
+
+    td.disappearingSymbol {
+        background: #999999 !important;
+    }
+
+    #disappearingSymbolSquare {
+        width: 15px;
+        height: 15px;
+        background: #999999;
+    }
+
+    table.screen {
+        background: #000000;
+        border: 0px ridge #888888;
+        border-spacing: 0;
+        border-collapse: separate;
+        empty-cells: hide;
+    }
+
+    table.screen td {
+        width: 34px;
+        height: 34px;
+        text-align: center;
+        background: #000000;
+        padding: 2px;
+        border: 2px ridge #888888;
+    }
+
+    table.lines {
+        background: #696D6C;
+        border: 2px ridge #888888 !important;
+        border-spacing: 0;
+        border-collapse: collapse;
+    }
+
+    table.lines td {
+        padding: 4px !important;
+        border: 2px ridge #888888 !important;
+    }
+
+    td.selected {
+        background: #aaaaaa;
+    }
+
+    td.actual {
+        background: #ffffff;
+    }
+
+    table.screen td.marked {
+        background: #68636f;
+    }
+
+    table.screen td.scratch {
+        width: 75px;
+        height: 34px;
+    }
+
+    div.gameName {
+        display: block;
+        text-align: center;
+        horiz-align: center;
+        font-size: 16px;
+        font-weight: bold;
+        color: #FFFFFF;
+        border: 2px ridge #888888;
+    }
+
+    .accumulativeHighlight {
+        border: 4px solid red;
+    }
+
+    .ways_mult_container {
+        position: relative;
+    }
+
+    .ways_multiplier {
+        display: block;
+        position: absolute;
+        font-size: small;
+        font-weight: bold;
+        color: red !important;
+        background: white;
+        opacity: 0.8;
+    }
+
+</style><script type="text/javascript">
+    function openHistory(detailsUrl) {
+      document.getElementById('historyFrame').setAttribute('src', detailsUrl);
+    }
+  </script>
+  <style type="text/css">
+    /* Table */
+    .table-bordered {
+      border: 1px solid #000;
+    }
+    .table-bordered>tbody>tr>td, .table-bordered>tfoot>tr>td, .table-bordered>tfoot>tr>th {
+      border: 1px solid #000;
+      background: #F5F5F5;
+      color: #000 !important;
+    }
+
+    .table-bordered>tbody>tr>th, .table-bordered>thead>tr>td, .table-bordered>thead>tr>th {
+      background: #999999;
+      color: #FFFFFF !important;
+      border: 1px solid #000;
+    }
+
+    .table-bordered>tbody>tr>td, .table-bordered>tbody>tr>th, .table-bordered>tfoot>tr>td, .table-bordered>tfoot>tr>th, .table-bordered>thead>tr>td, .table-bordered>thead>tr>th {
+      cursor: pointer;
+      padding: 8px;
+      line-height: 1.42857143;
+      vertical-align: top;
+      border-top: 1px solid #000;
+    }
+
+    .table-bordered .rightAlign {
+      text-align: right;
+    }
+
+    .last-history-container {
+      width: 600px;
+      margin: 0 auto;
+      display: flex;
+      flex-direction: column;
+      height: 100%;
+    }
+
+    .history-detail-iframe-container {
+      flex: 1;
+    }
+
+    .history-detail-iframe {
+      width: 600px;
+      min-height: 340px;
+      height: 100%;
+      border: none;
+      margin: 0 auto;
+      overflow: auto
+    }
+  </style>
+</head>
+<body style="overflow-x: auto;visibility: visible !important;background-color: transparent !important; text-align: center;">
+<div class="last-history-container">
+  <div class="customScroll" style="overflow-y: auto;width: 100%">
+    <table class="table-bordered" width="100%" border="0">
+      <tr>
+        <th>                 ID #</th>
+        <th>                </th>
+        <th>      </th>
+        <th>             </th>
+        <th>          </th>
+      </tr>
+      <% for(let i = 1; i<records.length ; i++){%>
+        <tr>
+          <td onclick="openHistory('/gs2c/gameHistoryDetails?playSessionId=<%= records[i].id %>&stylename=agst2_agst2&hash=2e814ba49e5bed13cf66d98b95f5be4e&symbol=<%=symbol%>&mgckey=<%=mgckey%>&language=ko')"><%= records[i].id %></td>
+          <td onclick="openHistory('/gs2c/gameHistoryDetails?playSessionId=<%= records[i].id %>&stylename=agst2_agst2&hash=2e814ba49e5bed13cf66d98b95f5be4e&symbol=<%=symbol%>&mgckey=<%=mgckey%>&language=ko')"><%= records[i].createdAt %></td>
+          <td class="rightAlign" onclick="openHistory('/gs2c/gameHistoryDetails?playSessionId=<%= records[i].id %>&stylename=agst2_agst2&hash=2e814ba49e5bed13cf66d98b95f5be4e&symbol=<%=symbol%>&mgckey=<%=mgckey%>&language=ko')">   &nbsp;<%= records[i].bet %></td>
+          <td class="rightAlign" onclick="openHistory('/gs2c/gameHistoryDetails?playSessionId=<%= records[i].id %>&stylename=agst2_agst2&hash=2e814ba49e5bed13cf66d98b95f5be4e&symbol=<%=symbol%>&mgckey=<%=mgckey%>&language=ko')">   &nbsp;<%= records[i].win %></td>
+          <td class="rightAlign" onclick="openHistory('/gs2c/gameHistoryDetails?playSessionId=<%= records[i].id %>&stylename=agst2_agst2&hash=2e814ba49e5bed13cf66d98b95f5be4e&symbol=<%=symbol%>&mgckey=<%=mgckey%>&language=ko')">   &nbsp;<%= records[i].balance %></td>
+        </tr>
+      <%}%>
+      </table>
+  </div>
+  <div class="history-detail-iframe-container">
+      <iframe id="historyFrame" src="/gs2c/gameHistoryDetails?playSessionId=<%= records[0].id %>&stylename=agst2_agst2&hash=2e814ba49e5bed13cf66d98b95f5be4e&symbol=<%=symbol%>&mgckey=<%=mgckey%>&language=ko" class="history-detail-iframe">
+      </iframe>
+  </div>
+  </div>
+</body>
+</html>

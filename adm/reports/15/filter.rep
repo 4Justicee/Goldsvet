@@ -1,0 +1,89 @@
+<?php
+$sql="select loto_draw.id from loto_draw join loto_bets on (loto_draw.id=loto_bets.draw_id) order by 1 desc";
+$draw=$db->get_all($sql,'id');
+if(is_array($draw))
+  {
+  $select_draw=isset($_COOKIE['draw_report'.$curr_report_menu_item]) && array_key_exists($_COOKIE['draw_report'.$curr_report_menu_item],$draw)? $_COOKIE['draw_report'.$curr_report_menu_item]: key($draw);
+  }
+else  
+  $select_draw=false;
+  
+  $_COOKIE['draw_report'.$curr_report_menu_item]= $select_draw;
+
+?>                        <div class="row">
+                            
+                            <div class="col-md-12">
+                                <div class="block">
+                                    <div class="head">
+                                        <h2><?=$lang['adm_report_filter']?></h2>
+                                    </div>
+									<form action="?a=report&report=<?=$curr_report_menu_item?>" method="post">
+                                    <div class="content np">									
+                                        <div class="controls-row">
+                                            <div class="col-md-3"><?=$lang['adm_report_date']?>:</div>
+                                            <div class="col-md-4">
+                                                <div class="input-group">
+                                                    <span class="input-group-addon"><i class="i-calendar"></i></span>
+                                                    <input name="fromdate" type="text" class="datepicker form-control" value="<?=@isset($_POST['fromdate'])? $_POST['fromdate']: REPORT_START_DATE; ?>"/>
+                                                </div>                                                                                                
+                                            </div>                                           
+                                            <div class="col-md-5">
+                                                <div class="input-group">
+                                                    <span class="input-group-addon"><i class="i-calendar"></i></span>
+                                                    <input name="todate" type="text" class="datepicker form-control" value="<?=@isset($_POST['todate'])? $_POST['todate']: REPORT_CURR_DATE; ?>"/>
+                                                </div>                                                                                                
+                                            </div>											
+                                        </div>
+                                        <div class="controls-row">
+                                            <div class="col-md-3"><?=$lang['adm_report_time']?>:</div>
+                                            <div class="col-md-4">
+                                                <div class="input-group">
+                                                    <span class="input-group-addon"><i class="i-time"></i></span>
+                                                    <input name="fromtime" type="text" class="timepicker form-control" value="<?=@isset($_POST['fromtime'])? $_POST['fromtime']: REPORT_START_TIME; ?>"/>
+                                                </div>                                                 
+                                            </div>
+                                            <div class="col-md-5">
+                                                <div class="input-group">
+                                                    <span class="input-group-addon"><i class="i-time"></i></span>
+                                                    <input name="totime" type="text" class="timepicker form-control" value="<?=@isset($_POST['totime'])? $_POST['totime']: REPORT_END_TIME; ?>"/>
+                                                </div>                                                 
+                                            </div>											
+                                        </div>
+                                        <div class="controls-row">
+                                            <div class="col-md-3"><?=$lang['adm_report_lotodraw']?>:</div>
+                                            <div class="col-md-4">
+                                                <div class="input-group">
+                                                    <select name="draw"/>
+                                                    <?php
+                                                    if($draw)
+                                                      foreach($draw as $row)
+                                                        {
+                                                        echo "<option ";
+                                                        if($row['id']==$select_draw) echo " selected=selected ";
+                                                        echo "val='".$row['id']."'>".$row['id']."</option>";
+                                                        }
+                                                    ?>
+                                                    </select>
+                                                </div>                                                 
+                                            </div>
+                                        </div>
+										
+                                    </div>
+									
+                                    <div class="footer">
+                                        <div class="side fr">
+											<input class="btn btn-primary" type="submit" value="ОК" name="submit" id="submit" />
+                                        </div>
+                                    </div>		
+		                            </form>
+									
+                                </div>
+                            </div>
+                        </div>
+<script>
+$('select[name=draw]').on('change',function(){
+  draw=this.value;
+  $.cookies.set('draw_report<?=$curr_report_menu_item?>', draw);
+  location.reload();
+})
+</script>

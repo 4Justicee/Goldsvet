@@ -1,0 +1,1928 @@
+.rules .text-container, .about-us .text-container, .responsibility .text-container {
+    max-width: 950px;
+    width: 100%;
+    margin: 0 auto;
+    color: #444;
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.2;
+    letter-spacing: 1px;
+    padding-left: 25px;
+    padding-top: 35px;
+    padding-right: 25px;
+}
+
+.rules .text-container h2, .about-us .text-container h2, .responsibility .text-container h2 {
+    font-family: TotShrift;
+    font-size: 23px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 0 0 25px;
+    color: #a43fb3;
+    letter-spacing: 0px;
+}
+
+.rules .text-container h3, .about-us .text-container h3, .responsibility .text-container h3 {
+    color: #a43fb3;
+    font-family: TotShrift;
+    font-size: 15px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 0 0 15px;
+    letter-spacing: 0px;
+    line-height: 1.2;
+}
+
+.rules .text-container p, .about-us .text-container p, .responsibility .text-container p {
+    margin: 0;
+}
+
+.rules .text-container ul, .about-us .text-container ul, .responsibility .text-container ul {
+    margin: 0;
+    margin: 25px 0 20px;
+}
+
+.rules .text-container ul li, .about-us .text-container ul li, .responsibility .text-container ul li {
+    list-style: none;
+    position: relative;
+}
+
+.rules .text-container ul li:before, .about-us .text-container ul li:before, .responsibility .text-container ul li:before {
+    content: "";
+    position: absolute;
+    display: block;
+    left: -35px;
+    top: 6px;
+    width: 8px;
+    height: 8px;
+    background: #a949b7;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+}
+
+.rules .text-container ol, .about-us .text-container ol, .responsibility .text-container ol {
+    margin: 10px 0;
+    padding: 5px;
+}
+
+.rules .text-container ol ul, .about-us .text-container ol ul, .responsibility .text-container ol ul {
+    margin: 15px 0;
+}
+
+.rules .text-container .separate-shadow, .about-us .text-container .separate-shadow, .responsibility .text-container .separate-shadow {
+    width: 100%;
+    min-height: 21px;
+    height: 21px;
+    position: relative;
+    overflow: hidden;
+    margin: 25px 0 15px;
+}
+
+.rules .text-container .separate-shadow:before, .about-us .text-container .separate-shadow:before, .responsibility .text-container .separate-shadow:before {
+    content: '';
+    position: absolute;
+    display: block;
+    bottom: 0;
+    left: 50%;
+    top: -25px;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    transform: translateX(-50%);
+    width: 90%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    min-height: 18px;
+    height: 18px;
+    -webkit-box-shadow: 0 5px 20px 0px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0 5px 20px 0px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 5px 20px 0px rgba(0, 0, 0, 0.3);
+}
+
+.about-us .text-container ul li:before {
+    width: 12px;
+    height: 12px;
+    top: 5px;
+}
+
+.responsibility .main .mbox:after, .responsibility .main .mbox:before {
+    height: 600px;
+    top: -57px;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -o-background-size: contain;
+    background-size: contain;
+}
+
+.responsibility .main .title-inside h1 {
+    font-size: 23px;
+    text-transform: uppercase;
+}
+
+.responsibility .main .title-inside h1:after {
+    bottom: -15px;
+}
+
+.responsibility .main .text-container {
+    min-height: 500px;
+}
+
+.loteries-items-wrap-inner .loteries-items {
+    max-width: 1205px;
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 30px;
+    padding-bottom: 60px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.loteries-items-wrap-inner .loteries-items .items {
+    position: relative;
+    -webkit-border-radius: 24px;
+    -moz-border-radius: 24px;
+    border-radius: 24px;
+    margin-bottom: 28px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-justify-content: space-around;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+}
+
+.loteries-items-wrap-inner .loteries-items .items .backward-link {
+    position: absolute;
+    top: -15px;
+    left: 30px;
+}
+
+.loteries-items-wrap-inner .loteries-items .items .backward-link a {
+    color: #454545;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.loteries-items-wrap-inner .loteries-items .items.onfire .item-left .item-img .loteries-on-fire {
+    opacity: 1;
+    visibility: visible;
+}
+
+.loteries-items-wrap-inner .loteries-items .items p {
+    margin: 0;
+}
+
+.loteries-items-wrap-inner .loteries-items .items .item-left {
+    width: 100%;
+    max-width: 670px;
+    float: left;
+    height: auto;
+    position: relative;
+}
+
+.loteries-items-wrap-inner .loteries-items .items .item-left:after {
+    width: 39px;
+    height: 290px;
+    background: transparent url("../images/loteries-items-left.png") left top no-repeat;
+    position: absolute;
+    top: 10px;
+    right: -49px;
+    content: '';
+}
+
+.loteries-items-wrap-inner .loteries-items .items .item-left .item-img {
+    height: 340px;
+    width: 340px;
+    position: relative;
+    float: left;
+}
+
+.loteries-items-wrap-inner .loteries-items .items .item-left .item-img .loteries-on-fire {
+    width: 239px;
+    height: 253px;
+    position: absolute;
+    top: -4px;
+    left: -4px;
+    z-index: 3;
+    opacity: 1;
+    visibility: visible;
+    pointer-events: none;
+}
+
+.loteries-items-wrap-inner .loteries-items .items .item-left .item-img img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    min-height: 100%;
+    min-width: 100%;
+    -webkit-border-radius: 24px;
+    -moz-border-radius: 24px;
+    border-radius: 24px;
+    z-index: 2;
+}
+
+.loteries-items-wrap-inner .loteries-items .items .item-left .item-img:after {
+    content: '';
+    background: transparent url("../images/loteries-item-left-img.png") center center no-repeat;
+    width: 58px;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: -34px;
+    z-index: 1;
+}
+
+.loteries-items-wrap-inner .loteries-items .items .item-left .item-description {
+    width: 100%;
+    float: none;
+    height: 100%;
+    padding-left: 30px;
+    padding-right: 10px;
+    padding-top: 20px;
+}
+
+.loteries-items-wrap-inner .loteries-items .items .item-left .item-description .item-img {
+    height: 340px;
+    width: 340px;
+    position: relative;
+    float: left;
+    margin-right: 30px;
+    margin-bottom: 20px;
+}
+
+.loteries-items-wrap-inner .loteries-items .items .item-left .item-description .item-img .loteries-on-fire {
+    width: 239px;
+    height: 253px;
+    position: absolute;
+    top: -4px;
+    left: -4px;
+    z-index: 3;
+    opacity: 1;
+    visibility: visible;
+    pointer-events: none;
+}
+
+.loteries-items-wrap-inner .loteries-items .items .item-left .item-description .item-img img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    min-height: 100%;
+    min-width: 100%;
+    -webkit-border-radius: 24px;
+    -moz-border-radius: 24px;
+    border-radius: 24px;
+    z-index: 2;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.loteries-items-wrap-inner .loteries-items .items .item-left .item-description .item-img:after {
+    content: '';
+    background: transparent url("../images/loteries-item-left-img.png") center center no-repeat;
+    width: 58px;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: -34px;
+    z-index: 1;
+}
+
+.loteries-items-wrap-inner .loteries-items .items .item-left .item-description h3 {
+    color: #a725c1;
+    font-weight: 900;
+    font-family: "TotShrift";
+    font-size: 28px;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+    margin-top: 0;
+    -moz-hyphens: auto;
+    -webkit-hyphens: auto;
+    -ms-hyphens: auto;
+}
+
+.loteries-items-wrap-inner .loteries-items .items .item-left .item-description h4 {
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 700;
+    -moz-hyphens: auto;
+    -webkit-hyphens: auto;
+    -ms-hyphens: auto;
+}
+
+.loteries-items-wrap-inner .loteries-items .items .item-left .item-description b {
+    color: #bebebe;
+    font-family: TotShrift;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 1.2;
+    position: relative;
+    margin-bottom: 15px;
+    display: inline-block;
+    padding-bottom: 10px;
+}
+
+.loteries-items-wrap-inner .loteries-items .items .item-left .item-description b:after {
+    width: 160px;
+    height: 1px;
+    left: 0;
+    position: absolute;
+    background-color: #bebebe;
+    content: '';
+    bottom: 0;
+    opacity: .5;
+    bottom: -2px;
+}
+
+.loteries-items-wrap-inner .loteries-items .items .item-left .item-description p {
+    font-size: 13px;
+    color: #444444;
+    font-family: "Roboto";
+    line-height: 1.2;
+}
+
+.loteries-items-wrap-inner .loteries-items .items .item-left .item-description ul {
+    padding: 0 0 0 20px;
+}
+
+.loteries-items-wrap-inner .loteries-items .items .item-left .item-description ul li {
+    font-family: Roboto;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.loteries-items-wrap-inner .loteries-items .items .item-right {
+    width: 100%;
+    max-width: 520px;
+    float: right;
+    text-align: center;
+    padding-top: 25px;
+}
+
+.loteries-items-wrap-inner .loteries-items .items .item-right .item-price-title {
+    font-size: 18px;
+    color: #444444;
+    font-weight: bold;
+    font-family: TotShrift;
+    margin-bottom: 16px;
+    position: relative;
+}
+
+.loteries-items-wrap-inner .loteries-items .items .item-right .item-price-title:after {
+    background: transparent url("../images/loteries-item-price-title.png") left top no-repeat;
+    width: 415px;
+    height: 21px;
+    position: absolute;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    transform: translateX(-50%);
+    bottom: -33px;
+    content: '';
+}
+
+.loteries-items-wrap-inner .loteries-items .items .item-right .item-price-number {
+    font-family: "Roboto";
+    font-weight: 900;
+    font-size: 50px;
+    margin-bottom: 25px;
+    position: relative;
+}
+
+.loteries-items-wrap-inner .loteries-items .items .item-right .item-price-number:after {
+    background: transparent url("../images/loteries-item-price-title.png") left top no-repeat;
+    width: 415px;
+    height: 21px;
+    position: absolute;
+    left: 50%;
+    -webkit-transform: translateX(-50%) rotate(180deg);
+    -moz-transform: translateX(-50%) rotate(180deg);
+    -ms-transform: translateX(-50%) rotate(180deg);
+    -o-transform: translateX(-50%) rotate(180deg);
+    transform: translateX(-50%) rotate(180deg);
+    bottom: -6px;
+    content: '';
+}
+
+.loteries-items-wrap-inner .loteries-items .items .item-right .item-price-number + .item-price-title {
+    margin-bottom: 30px;
+}
+
+.loteries-items-wrap-inner .loteries-items .items .item-right .item-right-middle {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.loteries-items-wrap-inner .loteries-items .items .item-right .item-right-middle .line {
+    width: 100%;
+    border-bottom: 1px solid #e1e1e1;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: 75px;
+}
+
+.loteries-items-wrap-inner .loteries-items .items .item-right .item-right-middle .line .right-part {
+    width: 50%;
+    text-align: left;
+}
+
+.loteries-items-wrap-inner .loteries-items .items .item-right .item-right-middle .line .right-part p {
+    color: #a4a4a4;
+    font-family: TotShrift;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 75px;
+}
+
+.loteries-items-wrap-inner .loteries-items .items .item-right .item-right-middle .line .left-part {
+    width: 50%;
+    text-align: right;
+}
+
+.loteries-items-wrap-inner .loteries-items .items .item-right .item-right-middle .line .left-part p {
+    color: #444;
+    font-family: TotShrift;
+    font-size: 18px;
+    font-weight: 900;
+    text-transform: uppercase;
+    line-height: 75px;
+}
+
+.loteries-items-wrap-inner .loteries-items .items .item-right .item-right-middle .line:last-child {
+    border: none;
+}
+
+.loteries-items-wrap-inner .loteries-items .items .item-right .item-right-middle .line:last-child .left-part {
+    width: 100%;
+}
+
+.loteries-items-wrap-inner .loteries-items .items .item-right .item-right-bottom {
+    width: 80%;
+    margin: 0 auto;
+    background: #fff;
+    background-color: white;
+    background-image: -webkit-gradient(linear, left top, right top, from(white), color-stop(50%, #f7f7f7), to(white));
+    background-image: -webkit-linear-gradient(left, white 0%, #f7f7f7 50%, white 100%);
+    background-image: -moz-linear-gradient(left, white 0%, #f7f7f7 50%, white 100%);
+    background-image: -o-linear-gradient(left, white 0%, #f7f7f7 50%, white 100%);
+    background-image: linear-gradient(to right, white 0%, #f7f7f7 50%, white 100%);
+    -webkit-border-radius: 24px;
+    -moz-border-radius: 24px;
+    border-radius: 24px;
+    -webkit-box-shadow: 0 2px 8px rgba(0, 0, 0, 0.14);
+    -moz-box-shadow: 0 2px 8px rgba(0, 0, 0, 0.14);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.14);
+    padding: 10px 0 0 0;
+    margin-bottom: 30px;
+}
+
+.loteries-items-wrap-inner .loteries-items .items .item-right .item-right-bottom .table-imitation {
+    max-width: 380px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.loteries-items-wrap-inner .loteries-items .items .item-right .item-right-bottom .table-imitation .heading {
+    font-family: TotShrift;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: left;
+    padding: 10px 0 20px;
+}
+
+.loteries-items-wrap-inner .loteries-items .items .item-right .item-right-bottom .table-imitation .table-top-part {
+    border-bottom: 1px solid #e1e1e1;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-justify-content: space-around;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+}
+
+.loteries-items-wrap-inner .loteries-items .items .item-right .item-right-bottom .table-imitation .table-top-part .cell {
+    color: #a4a4a4;
+    font-family: Roboto;
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 20px;
+    width: -webkit-calc(100% / 4);
+    width: -moz-calc(100% / 4);
+    width: calc(100% / 4);
+    text-align: left;
+    text-align: center;
+}
+
+.loteries-items-wrap-inner .loteries-items .items .item-right .item-right-bottom .table-imitation .table-top-part .cell:not(:first-child) {
+    text-align: center;
+}
+.loteries-items-wrap-inner .loteries-items .items .item-right .item-right-bottom .table-imitation .main-part {
+    padding: 10px 0;
+}
+
+.loteries-items-wrap-inner .loteries-items .items .item-right .item-right-bottom .table-imitation .main-part .row {
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+    border-collapse: separate;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-justify-content: space-around;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    width: 100%;
+    margin: 0;
+    display: table;
+}
+
+.loteries-items-wrap-inner .loteries-items .items .item-right .item-right-bottom .table-imitation .main-part .row .cell {
+    color: #444;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+    width: -webkit-calc(100% / 4);
+    width: -moz-calc(100% / 4);
+    width: calc(100% / 4);
+    text-align: center;
+    vertical-align: middle;
+    display: inline-block;
+}
+.loteries-items-wrap-inner .loteries-items .items .item-right .item-right-bottom .table-imitation .main-part .row.future .cell{
+    width: -webkit-calc(100% / 3);
+    width: -moz-calc(100% / 3);
+    width: calc(100% / 3);
+}
+
+.loteries-items-wrap-inner .loteries-items .items .item-right .item-right-bottom .table-imitation .main-part .row .cell:not(:first-child) {
+    text-align: center;
+}
+.loteries-items-wrap-inner .loteries-items .items .item-right .item-right-bottom .table-imitation .main-part .row:nth-child(odd) {
+    background: #f3f3f3;
+}
+
+.loteries-items-wrap-inner .loteries-items .items .item-right .item-right-bottom .table-imitation .main-part .row.signed_in_user {
+    background-color: #a725c1;
+}
+
+.loteries-items-wrap-inner .loteries-items .items .item-right .item-right-bottom .table-imitation .main-part .row.signed_in_user .cell {
+    color: #fff;
+}
+
+.loteries-items-wrap-inner .loteries-items .items .item-right .total-ticket {
+    width: 80%;
+    margin: 0 auto;
+    background: #fff;
+    background-color: white;
+    background-image: -webkit-gradient(linear, left top, right top, from(white), color-stop(50%, #f7f7f7), to(white));
+    background-image: -webkit-linear-gradient(left, white 0%, #f7f7f7 50%, white 100%);
+    background-image: -moz-linear-gradient(left, white 0%, #f7f7f7 50%, white 100%);
+    background-image: -o-linear-gradient(left, white 0%, #f7f7f7 50%, white 100%);
+    background-image: linear-gradient(to right, white 0%, #f7f7f7 50%, white 100%);
+    -webkit-border-radius: 24px;
+    -moz-border-radius: 24px;
+    border-radius: 24px;
+    -webkit-box-shadow: 0 2px 8px rgba(0, 0, 0, 0.14);
+    -moz-box-shadow: 0 2px 8px rgba(0, 0, 0, 0.14);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.14);
+    color: #444;
+    font-family: TotShrift;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 10px 0;
+    line-height: 1.2;
+}
+
+.loteries-items-wrap-inner .loteries-items .items-700 {
+    display: none;
+    -webkit-justify-content: space-around;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+.loteries-items-wrap-inner .loteries-items .items-700 .backward-link {
+    position: absolute;
+    top: -15px;
+    left: 0;
+}
+
+.loteries-items-wrap-inner .loteries-items .items-700 .backward-link a {
+    color: #454545;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.loteries-items-wrap-inner .loteries-items .items-700 .backward-link a:hover {
+    text-decoration: underline;
+}
+
+.loteries-items-wrap-inner .loteries-items .items-700 .item-img {
+    height: 340px;
+    width: 340px;
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.loteries-items-wrap-inner .loteries-items .items-700 .item-img .loteries-on-fire {
+    width: 239px;
+    height: 253px;
+    position: absolute;
+    top: -4px;
+    left: -4px;
+    z-index: 3;
+    opacity: 1;
+    visibility: visible;
+    pointer-events: none;
+}
+
+.loteries-items-wrap-inner .loteries-items .items-700 .item-img img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    min-height: 100%;
+    min-width: 100%;
+    -webkit-border-radius: 24px;
+    -moz-border-radius: 24px;
+    border-radius: 24px;
+    z-index: 2;
+}
+
+.loteries-items-wrap-inner .loteries-items .items-700 .item-img:after {
+    content: '';
+    background: transparent url("../images/loteries-item-left-img.png") center center no-repeat;
+    width: 58px;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: -34px;
+    z-index: 1;
+}
+
+.loteries-items-wrap-inner .loteries-items .items-700 .cover-for-prize-money {
+    width: -webkit-calc(100% - 340px);
+    width: -moz-calc(100% - 340px);
+    width: calc(100% - 340px);
+    padding-left: 35px;
+}
+
+.loteries-items-wrap-inner .loteries-items .items-700 .cover-for-prize-money .item-right-top .item-price-title {
+    font-size: 18px;
+    color: #444444;
+    font-weight: bold;
+    font-family: TotShrift;
+    margin-bottom: 20px;
+    position: relative;
+    text-align: right;
+}
+
+.loteries-items-wrap-inner .loteries-items .items-700 .cover-for-prize-money .item-right-top .item-price-title:after {
+    background: transparent url("../images/loteries-item-price-title.png") left top no-repeat;
+    width: 100%;
+    height: 21px;
+    position: absolute;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    transform: translateX(-50%);
+    bottom: -33px;
+    content: '';
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -o-background-size: contain;
+    background-size: contain;
+}
+
+.loteries-items-wrap-inner .loteries-items .items-700 .cover-for-prize-money .item-right-top .item-price-number {
+    font-family: "Roboto";
+    font-weight: 900;
+    font-size: 50px;
+    margin-bottom: 15px;
+    text-align: right;
+    position: relative;
+}
+
+.loteries-items-wrap-inner .loteries-items .items-700 .cover-for-prize-money .item-right-top .item-price-number:after {
+    background: transparent url(../images/loteries-item-price-title.png) left top no-repeat;
+    width: 100%;
+    height: 21px;
+    position: absolute;
+    left: 50%;
+    -webkit-transform: translateX(-50%) rotate(180deg);
+    -moz-transform: translateX(-50%) rotate(180deg);
+    -ms-transform: translateX(-50%) rotate(180deg);
+    -o-transform: translateX(-50%) rotate(180deg);
+    transform: translateX(-50%) rotate(180deg);
+    bottom: -6px;
+    content: '';
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -o-background-size: contain;
+    background-size: contain;
+}
+
+.loteries-items-wrap-inner .loteries-items .items-700 .cover-for-prize-money .item-right-top .item-price-number + .item-price-title {
+    margin-bottom: 20px;
+}
+
+.loteries-items-wrap-inner .loteries-items .items-700 .cover-for-prize-money .item-right-middle {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.loteries-items-wrap-inner .loteries-items .items-700 .cover-for-prize-money .item-right-middle .line {
+    width: 100%;
+    border-bottom: 1px solid #e1e1e1;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+.loteries-items-wrap-inner .loteries-items .items-700 .cover-for-prize-money .item-right-middle .line .right-part {
+    width: 100%;
+    color: #a4a4a4;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 700;
+    text-align: right;
+    margin: 10px 0 0;
+}
+
+.loteries-items-wrap-inner .loteries-items .items-700 .cover-for-prize-money .item-right-middle .line .right-part p {
+    margin: 0;
+}
+
+.loteries-items-wrap-inner .loteries-items .items-700 .cover-for-prize-money .item-right-middle .line .left-part {
+    width: 100%;
+    color: #444;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 900;
+    text-transform: uppercase;
+    text-align: right;
+    margin-bottom: 10px;
+}
+
+.loteries-items-wrap-inner .loteries-items .items-700 .cover-for-prize-money .item-right-middle .line .left-part p {
+    margin: 0;
+}
+
+.loteries-items-wrap-inner .loteries-items .items-700 .cover-for-prize-money .item-right-middle .line:last-child {
+    border: none;
+}
+
+.loteries-items-wrap-inner .loteries-items .items-700 .cover-for-prize-money .item-right-middle .line:last-child .left-part {
+    width: 100%;
+    margin: 10px 0;
+}
+
+.loteries-items-wrap-inner .loteries-items .items-700 .item-right {
+    width: 100%;
+}
+
+.loteries-items-wrap-inner .loteries-items .items-700 .item-right .item-right-bottom {
+    width: 100%;
+    margin: 0 auto;
+    background: #fff;
+    background-color: white;
+    background-image: -webkit-gradient(linear, left top, right top, from(white), color-stop(50%, #f7f7f7), to(white));
+    background-image: -webkit-linear-gradient(left, white 0%, #f7f7f7 50%, white 100%);
+    background-image: -moz-linear-gradient(left, white 0%, #f7f7f7 50%, white 100%);
+    background-image: -o-linear-gradient(left, white 0%, #f7f7f7 50%, white 100%);
+    background-image: linear-gradient(to right, white 0%, #f7f7f7 50%, white 100%);
+    -webkit-border-radius: 24px;
+    -moz-border-radius: 24px;
+    border-radius: 24px;
+    -webkit-box-shadow: 0 2px 8px rgba(0, 0, 0, 0.14);
+    -moz-box-shadow: 0 2px 8px rgba(0, 0, 0, 0.14);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.14);
+    padding: 10px 0 10px 0;
+    margin-bottom: 30px;
+}
+
+.loteries-items-wrap-inner .loteries-items .items-700 .item-right .item-right-bottom .table-imitation {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.loteries-items-wrap-inner .loteries-items .items-700 .item-right .item-right-bottom .table-imitation .heading {
+    font-family: TotShrift;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: left;
+    padding: 10px 0 20px;
+}
+
+.loteries-items-wrap-inner .loteries-items .items-700 .item-right .item-right-bottom .table-imitation .table-top-part {
+    border-bottom: 1px solid #e1e1e1;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-justify-content: space-around;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+}
+
+.loteries-items-wrap-inner .loteries-items .items-700 .item-right .item-right-bottom .table-imitation .table-top-part .cell {
+    color: #a4a4a4;
+    font-family: Roboto;
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 20px;
+    width: -webkit-calc(100% / 4);
+    width: -moz-calc(100% / 4);
+    width: calc(100% / 4);
+    text-align: center;
+}
+
+.loteries-items-wrap-inner .loteries-items .items-700 .item-right .item-right-bottom .table-imitation .table-top-part .cell:nth-child(1) {
+    width: 30px;
+}
+
+.loteries-items-wrap-inner .loteries-items .items-700 .item-right .item-right-bottom .table-imitation .main-part {
+    padding: 10px 0;
+}
+
+.loteries-items-wrap-inner .loteries-items .items-700 .item-right .item-right-bottom .table-imitation .main-part .row {
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+    border-collapse: separate;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-justify-content: space-around;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.loteries-items-wrap-inner .loteries-items .items-700 .item-right .item-right-bottom .table-imitation .main-part .row .cell {
+    color: #444;
+    font-family: Roboto;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: center;
+    width: -webkit-calc(100% / 4);
+    width: -moz-calc(100% / 4);
+    width: calc(100% / 4);
+}
+
+.loteries-items-wrap-inner .loteries-items .items-700 .item-right .item-right-bottom .table-imitation .main-part .row .cell:nth-child(1) {
+    color: #a4a4a4;
+    font-family: Roboto;
+    font-size: 13px;
+    font-weight: 400;
+    text-transform: uppercase;
+    width: 30px;
+}
+
+.loteries-items-wrap-inner .loteries-items .items-700 .item-right .item-right-bottom .table-imitation .main-part .row:nth-child(odd) {
+    background: #f3f3f3;
+}
+
+.loteries-items-wrap-inner .loteries-items .items-700 .item-right .item-right-bottom .table-imitation .main-part .row.signed_in_user {
+    background-color: #a725c1;
+}
+
+.loteries-items-wrap-inner .loteries-items .items-700 .item-right .item-right-bottom .table-imitation .main-part .row.signed_in_user .cell {
+    color: #fff;
+}
+
+.loteries-items-wrap-inner .loteries-items .items-700 .item-right .total-ticket {
+    width: 100%;
+    margin: 0 auto;
+    background: #fff;
+    background-color: white;
+    background-image: -webkit-gradient(linear, left top, right top, from(white), color-stop(50%, #f7f7f7), to(white));
+    background-image: -webkit-linear-gradient(left, white 0%, #f7f7f7 50%, white 100%);
+    background-image: -moz-linear-gradient(left, white 0%, #f7f7f7 50%, white 100%);
+    background-image: -o-linear-gradient(left, white 0%, #f7f7f7 50%, white 100%);
+    background-image: linear-gradient(to right, white 0%, #f7f7f7 50%, white 100%);
+    -webkit-border-radius: 24px;
+    -moz-border-radius: 24px;
+    border-radius: 24px;
+    -webkit-box-shadow: 0 2px 8px rgba(0, 0, 0, 0.14);
+    -moz-box-shadow: 0 2px 8px rgba(0, 0, 0, 0.14);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.14);
+    color: #444;
+    font-family: TotShrift;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    line-height: 1.2;
+}
+
+.loteries-items-wrap-inner .loteries-items .items-700 .item-right .total-ticket p {
+    margin: 0;
+    margin: 5px 0px;
+}
+
+.loteries-items-wrap-inner .loteries-items .items-700 .item-description {
+    font-size: 13px;
+    color: #444444;
+    font-family: "Roboto";
+    line-height: 1.2;
+    margin-bottom: 20px;
+}
+
+.loteries-items-wrap-inner .loteries-items .items-700 .item-description h3 {
+    color: #a725c1;
+    font-weight: 900;
+    font-family: "Roboto";
+    font-size: 28px;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+    width: 100%;
+    text-align: left;
+    margin-top: 0;
+}
+
+.loteries-items-wrap-inner .loteries-items .items-700 .item-description h4 {
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 700;
+    text-align: left;
+    width: 100%;
+}
+
+.loteries-items-wrap-inner .loteries-items .items-700 .item-description b {
+    color: #bebebe;
+    font-family: TotShrift;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 1.2;
+    position: relative;
+    margin-bottom: 7px;
+    padding-bottom: 10px;
+    text-align: left;
+    width: 100%;
+    padding: 0 20px 8px;
+    display: inline-block;
+}
+
+.loteries-items-wrap-inner .loteries-items .items-700 .item-description b:after {
+    width: 100%;
+    height: 1px;
+    left: 0;
+    position: absolute;
+    background: -webkit-gradient(linear, left top, right top, from(rgba(190, 190, 190, 0)), color-stop(10%, #bebebe), color-stop(90%, #bebebe), to(rgba(190, 190, 190, 0)));
+    background: -webkit-linear-gradient(left, rgba(190, 190, 190, 0) 0%, #bebebe 10%, #bebebe 90%, rgba(190, 190, 190, 0) 100%);
+    background: -moz-linear-gradient(left, rgba(190, 190, 190, 0) 0%, #bebebe 10%, #bebebe 90%, rgba(190, 190, 190, 0) 100%);
+    background: -o-linear-gradient(left, rgba(190, 190, 190, 0) 0%, #bebebe 10%, #bebebe 90%, rgba(190, 190, 190, 0) 100%);
+    background: linear-gradient(to right, rgba(190, 190, 190, 0) 0%, #bebebe 10%, #bebebe 90%, rgba(190, 190, 190, 0) 100%);
+    content: '';
+    bottom: 0;
+    opacity: .5;
+    bottom: -2px;
+}
+
+.loteries-items-wrap-inner .loteries-items .items-700 .item-description ul {
+    padding: 0 0 0 20px;
+}
+
+.loteries-items-wrap-inner .loteries-items .items-700 .item-description ul li {
+    font-family: Roboto;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.loteries-items-wrap-inner .loteries-items .items-300 {
+    display: none;
+    -webkit-justify-content: space-around;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    max-width: 340px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.loteries-items-wrap-inner .loteries-items .items-300 .item-img {
+    height: 340px;
+    width: 340px;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.loteries-items-wrap-inner .loteries-items .items-300 .item-img .loteries-on-fire {
+    width: 239px;
+    height: 253px;
+    position: absolute;
+    top: -4px;
+    left: -4px;
+    z-index: 3;
+    opacity: 1;
+    visibility: visible;
+    pointer-events: none;
+}
+
+.loteries-items-wrap-inner .loteries-items .items-300 .item-img img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    min-height: 100%;
+    min-width: 100%;
+    -webkit-border-radius: 24px;
+    -moz-border-radius: 24px;
+    border-radius: 24px;
+    z-index: 2;
+}
+
+.loteries-items-wrap-inner .loteries-items .items-300 .item-img:after {
+    content: '';
+    background: transparent url("../images/loteries-item-left-img.png") center center no-repeat;
+    width: 58px;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: -34px;
+    z-index: 1;
+}
+
+.loteries-items-wrap-inner .loteries-items .items-300 .cover-for-prize-money .item-right-top .item-price-title {
+    font-size: 18px;
+    color: #444444;
+    font-weight: bold;
+    font-family: TotShrift;
+    margin-bottom: 18px;
+    position: relative;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.loteries-items-wrap-inner .loteries-items .items-300 .cover-for-prize-money .item-right-top .item-price-title:after {
+    background: transparent url("../images/loteries-item-price-title.png") left top no-repeat;
+    width: 100%;
+    height: 21px;
+    position: absolute;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    transform: translateX(-50%);
+    bottom: -33px;
+    content: '';
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -o-background-size: contain;
+    background-size: contain;
+}
+
+.loteries-items-wrap-inner .loteries-items .items-300 .cover-for-prize-money .item-right-top .item-price-number {
+    font-family: "Roboto";
+    font-weight: 900;
+    font-size: 50px;
+    margin-bottom: 15px;
+    text-align: center;
+    position: relative;
+}
+
+.loteries-items-wrap-inner .loteries-items .items-300 .cover-for-prize-money .item-right-top .item-price-number:after {
+    background: transparent url(../images/loteries-item-price-title.png) left top no-repeat;
+    width: 100%;
+    height: 21px;
+    position: absolute;
+    left: 50%;
+    -webkit-transform: translateX(-50%) rotate(180deg);
+    -moz-transform: translateX(-50%) rotate(180deg);
+    -ms-transform: translateX(-50%) rotate(180deg);
+    -o-transform: translateX(-50%) rotate(180deg);
+    transform: translateX(-50%) rotate(180deg);
+    bottom: -7px;
+    content: '';
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -o-background-size: contain;
+    background-size: contain;
+}
+
+.loteries-items-wrap-inner .loteries-items .items-300 .cover-for-prize-money .item-right-top .item-price-number + .item-price-title {
+    margin-bottom: 20px;
+}
+
+.loteries-items-wrap-inner .loteries-items .items-300 .cover-for-prize-money .item-right-middle {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.loteries-items-wrap-inner .loteries-items .items-300 .cover-for-prize-money .item-right-middle .line {
+    width: 100%;
+    border-bottom: 1px solid #e1e1e1;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+.loteries-items-wrap-inner .loteries-items .items-300 .cover-for-prize-money .item-right-middle .line .right-part {
+    width: 100%;
+    color: #a4a4a4;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+    margin: 10px 0 10px;
+}
+
+.loteries-items-wrap-inner .loteries-items .items-300 .cover-for-prize-money .item-right-middle .line .right-part p {
+    margin: 0;
+}
+
+.loteries-items-wrap-inner .loteries-items .items-300 .cover-for-prize-money .item-right-middle .line .left-part {
+    width: 100%;
+    color: #444;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 900;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.loteries-items-wrap-inner .loteries-items .items-300 .cover-for-prize-money .item-right-middle .line .left-part p {
+    margin: 0;
+}
+
+.loteries-items-wrap-inner .loteries-items .items-300 .cover-for-prize-money .item-right-middle .line:last-child {
+    border: none;
+}
+
+.loteries-items-wrap-inner .loteries-items .items-300 .cover-for-prize-money .item-right-middle .line:last-child .left-part {
+    width: 100%;
+    margin: 20px 0 20px;
+}
+
+.loteries-items-wrap-inner .loteries-items .items-300 .item-right {
+    width: 100%;
+}
+
+.loteries-items-wrap-inner .loteries-items .items-300 .item-right .item-right-bottom {
+    width: 100%;
+    margin: 0 auto;
+    background: #fff;
+    background-color: white;
+    background-image: -webkit-gradient(linear, left top, right top, from(white), color-stop(50%, #f7f7f7), to(white));
+    background-image: -webkit-linear-gradient(left, white 0%, #f7f7f7 50%, white 100%);
+    background-image: -moz-linear-gradient(left, white 0%, #f7f7f7 50%, white 100%);
+    background-image: -o-linear-gradient(left, white 0%, #f7f7f7 50%, white 100%);
+    background-image: linear-gradient(to right, white 0%, #f7f7f7 50%, white 100%);
+    -webkit-border-radius: 24px;
+    -moz-border-radius: 24px;
+    border-radius: 24px;
+    -webkit-box-shadow: 0 2px 8px rgba(0, 0, 0, 0.14);
+    -moz-box-shadow: 0 2px 8px rgba(0, 0, 0, 0.14);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.14);
+    padding: 10px 0 10px 0;
+    margin-bottom: 30px;
+}
+
+.loteries-items-wrap-inner .loteries-items .items-300 .item-right .item-right-bottom .table-imitation {
+    width: 90%;
+    margin: 0 auto;
+    height: auto;
+}
+
+.loteries-items-wrap-inner .loteries-items .items-300 .item-right .item-right-bottom .table-imitation .heading {
+    font-family: TotShrift;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: left;
+    padding: 10px 0 20px;
+}
+
+.loteries-items-wrap-inner .loteries-items .items-300 .item-right .item-right-bottom .table-imitation .table-top-part {
+    border-bottom: 1px solid #e1e1e1;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-justify-content: space-around;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+}
+
+.loteries-items-wrap-inner .loteries-items .items-300 .item-right .item-right-bottom .table-imitation .table-top-part .cell {
+    color: #a4a4a4;
+    font-family: Roboto;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 20px;
+    width: 28.33%;
+    text-align: center;
+}
+
+.loteries-items-wrap-inner .loteries-items .items-300 .item-right .item-right-bottom .table-imitation .table-top-part .cell:nth-child(1) {
+    width: 40%;
+}
+
+.loteries-items-wrap-inner .loteries-items .items-300 .item-right .item-right-bottom .table-imitation .main-part {
+    padding: 10px 0;
+}
+
+.loteries-items-wrap-inner .loteries-items .items-300 .item-right .item-right-bottom .table-imitation .main-part .row {
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+    border-collapse: separate;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    -webkit-justify-content: space-around;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    width: 100%;
+    margin: 0;
+    display: table;
+}
+
+.loteries-items-wrap-inner .loteries-items .items-300 .item-right .item-right-bottom .table-imitation .main-part .row .cell {
+    color: #444;
+    font-family: Roboto;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: center;
+    width: 28.33%;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.loteries-items-wrap-inner .loteries-items .items-300 .item-right .item-right-bottom .table-imitation .main-part .row .cell:nth-child(1) {
+    color: #a4a4a4;
+    text-transform: uppercase;
+    width: 25%;
+}
+
+.loteries-items-wrap-inner .loteries-items .items-300 .item-right .item-right-bottom .table-imitation .main-part .row .cell:last-child {
+    min-width: 100px;
+}
+
+.loteries-items-wrap-inner .loteries-items .items-300 .item-right .item-right-bottom .table-imitation .main-part .row:nth-child(odd) {
+    background: #f3f3f3;
+}
+
+.loteries-items-wrap-inner .loteries-items .items-300 .item-right .item-right-bottom .table-imitation .main-part .row.signed_in_user {
+    background-color: #a725c1;
+}
+
+.loteries-items-wrap-inner .loteries-items .items-300 .item-right .item-right-bottom .table-imitation .main-part .row.signed_in_user .cell {
+    color: #fff;
+}
+
+.loteries-items-wrap-inner .loteries-items .items-300 .item-right .total-ticket {
+    width: 100%;
+    margin: 0 auto;
+    background: #fff;
+    background-color: white;
+    background-image: -webkit-gradient(linear, left top, right top, from(white), color-stop(50%, #f7f7f7), to(white));
+    background-image: -webkit-linear-gradient(left, white 0%, #f7f7f7 50%, white 100%);
+    background-image: -moz-linear-gradient(left, white 0%, #f7f7f7 50%, white 100%);
+    background-image: -o-linear-gradient(left, white 0%, #f7f7f7 50%, white 100%);
+    background-image: linear-gradient(to right, white 0%, #f7f7f7 50%, white 100%);
+    -webkit-border-radius: 24px;
+    -moz-border-radius: 24px;
+    border-radius: 24px;
+    -webkit-box-shadow: 0 2px 8px rgba(0, 0, 0, 0.14);
+    -moz-box-shadow: 0 2px 8px rgba(0, 0, 0, 0.14);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.14);
+    color: #444;
+    font-family: TotShrift;
+    font-size: 15px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 10px 15px;
+    line-height: 1.2;
+}
+
+.loteries-items-wrap-inner .loteries-items .items-300 .item-right .total-ticket p {
+    margin: 5px 0px 0px;
+}
+
+.loteries-items-wrap-inner .loteries-items .items-300 .item-description {
+    font-size: 13px;
+    color: #444444;
+    font-family: "Roboto";
+    line-height: 1.2;
+}
+
+.loteries-items-wrap-inner .loteries-items .items-300 .item-description h3 {
+    color: #a725c1;
+    font-weight: 900;
+    font-family: "Roboto";
+    font-size: 28px;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+    width: 100%;
+    text-align: left;
+    margin-top: 0;
+}
+
+.loteries-items-wrap-inner .loteries-items .items-300 .item-description h4 {
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 700;
+    text-align: left;
+    width: 100%;
+}
+
+.loteries-items-wrap-inner .loteries-items .items-300 .item-description b {
+    color: #bebebe;
+    font-family: TotShrift;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 1.2;
+    position: relative;
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+    text-align: left;
+    width: 100%;
+    padding: 0 20px 10px;
+}
+
+.loteries-items-wrap-inner .loteries-items .items-300 .item-description b:after {
+    width: 100%;
+    height: 1px;
+    left: 0;
+    position: absolute;
+    background: -webkit-gradient(linear, left top, right top, from(rgba(190, 190, 190, 0)), color-stop(10%, #bebebe), color-stop(90%, #bebebe), to(rgba(190, 190, 190, 0)));
+    background: -webkit-linear-gradient(left, rgba(190, 190, 190, 0) 0%, #bebebe 10%, #bebebe 90%, rgba(190, 190, 190, 0) 100%);
+    background: -moz-linear-gradient(left, rgba(190, 190, 190, 0) 0%, #bebebe 10%, #bebebe 90%, rgba(190, 190, 190, 0) 100%);
+    background: -o-linear-gradient(left, rgba(190, 190, 190, 0) 0%, #bebebe 10%, #bebebe 90%, rgba(190, 190, 190, 0) 100%);
+    background: linear-gradient(to right, rgba(190, 190, 190, 0) 0%, #bebebe 10%, #bebebe 90%, rgba(190, 190, 190, 0) 100%);
+    content: '';
+    bottom: 0;
+    opacity: .5;
+    bottom: -2px;
+}
+
+.loteries-items-wrap-inner .loteries-items .items-300 .item-description ul {
+    padding: 0 0 0 20px;
+}
+
+.loteries-items-wrap-inner .loteries-items .items-300 .item-description ul li {
+    font-family: Roboto;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.bottom-section {
+    margin-top: -70px;
+}
+
+.loteries-items-wrap-inner .loteries-items {
+    max-width: 1255px;
+    padding-bottom: 0;
+    padding-top: 50px;
+}
+
+.loteries-items-wrap-inner .loteries-items .items .item-left:after,
+.loteries-items-wrap-inner .loteries-items .items-700 .item-left:after,
+.loteries-items-wrap-inner .loteries-items .items-300 .item-left:after {
+    width: 20px;
+    background: transparent url(../images/loteries-items-left.png) no-repeat;
+    background-position: 60%;
+    right: -20px;
+}
+
+.loteries-items-wrap-inner .loteries-items .items .item-right .item-right-bottom .table-imitation .main-part .row .cell:nth-child(2),
+.loteries-items-wrap-inner .loteries-items .items-700 .item-right .item-right-bottom .table-imitation .main-part .row .cell:nth-child(2),
+.loteries-items-wrap-inner .loteries-items .items-300 .item-right .item-right-bottom .table-imitation .main-part .row .cell:nth-child(2) {
+    text-align: center;
+    padding-left: 5px;
+}
+
+.loteries-items-wrap-inner .loteries-items .items .item-right .item-right-bottom .table-imitation .table-top-part .cell:nth-child(2),
+.loteries-items-wrap-inner .loteries-items .items-700 .item-right .item-right-bottom .table-imitation .table-top-part .cell:nth-child(2),
+.loteries-items-wrap-inner .loteries-items .items-300 .item-right .item-right-bottom .table-imitation .table-top-part .cell:nth-child(2) {
+    text-align: center;
+    padding-left: 5px;
+}
+
+.loteries-items-wrap-inner .loteries-items .items .item-left .item-description {
+    padding-right: 30px;
+}
+
+.loteries-items-wrap-inner .loteries-items .items .item-left .item-description b:nth-of-type(1):after {
+    display: none;
+}
+
+.loteries-items-wrap-inner .loteries-items .items .item-left .item-description h3 {
+    font-size: 33px;
+}
+
+.loteries-items-wrap-inner .loteries-items .items .item-left .item-description-1289 {
+    display: none;
+}
+
+.loteries-items-wrap-inner .loteries-items .items .item-right {
+    max-width: 560px;
+}
+
+.loteries-items-wrap-inner .loteries-items .items .item-right .item-right-top .item-price-number {
+    margin-bottom: 0px;
+}
+
+.loteries-items-wrap-inner .loteries-items .items .item-right .item-right-middle {
+    width: 87%;
+    margin-bottom: 50px;
+}
+
+.loteries-items-wrap-inner .loteries-items .items .item-right .item-right-middle .line {
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -moz-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    height: 50px;
+}
+
+.loteries-items-wrap-inner .loteries-items .items .item-right .item-right-middle .line .right-part {
+    width: auto;
+    text-transform: uppercase;
+}
+
+.loteries-items-wrap-inner .loteries-items .items .item-right .item-right-middle .line .right-part p {
+    line-height: 50px;
+}
+
+.loteries-items-wrap-inner .loteries-items .items .item-right .item-right-middle .line .left-part {
+    width: auto;
+}
+
+.loteries-items-wrap-inner .loteries-items .items .item-right .item-right-middle .line .left-part p {
+    line-height: 50px;
+}
+
+.loteries-items-wrap-inner .loteries-items .items .item-right .item-right-middle .line:last-child .left-part {
+    width: auto;
+}
+
+.loteries-items-wrap-inner .loteries-items .items .item-right .item-right-bottom {
+    width: 90%;
+}
+
+.loteries-items-wrap-inner .loteries-items .items .item-right .item-right-bottom .table-imitation {
+    max-width: 420px;
+}
+
+.loteries-items-wrap-inner .loteries-items .items .item-right .item-right-bottom .table-imitation .heading {
+    text-align: center;
+}
+
+.loteries-items-wrap-inner .loteries-items .items-700 .cover-for-prize-money .item-right-middle .line .right-part {
+    margin: 5px 0 0;
+}
+
+.loteries-items-wrap-inner .loteries-items .items-700 .cover-for-prize-money .item-right-middle .line .left-part {
+    margin-bottom: 5px;
+}
+
+.loteries-items-wrap-inner .loteries-items .items-700 .item-description b {
+    padding: 0px 5px 8px;
+}
+
+.loteries-items-wrap-inner .loteries-items .items-700 .item-description b:nth-of-type(1):after {
+    display: none;
+}
+
+.loteries-items-wrap-inner .loteries-items .items-700 .item-description b:after {
+    width: 150px;
+}
+
+.loteries-items-wrap-inner .loteries-items .items-700 .item-description h3 {
+    font-size: 33px;
+}
+
+.loteries-items-wrap-inner .loteries-items .items-700 .item-right .item-right-bottom .table-imitation .heading {
+    text-align: center;
+}
+
+.loteries-items-wrap-inner .loteries-items .items-300 .backward-link {
+    position: absolute;
+    top: -25px;
+    left: 0;
+}
+
+.loteries-items-wrap-inner .loteries-items .items-300 .backward-link a {
+    color: #454545;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.loteries-items-wrap-inner .loteries-items .items-300 .backward-link a:hover {
+    text-decoration: underline;
+}
+
+.loteries-items-wrap-inner .loteries-items .items-300 .item-description b:after {
+    width: 150px;
+}
+
+.loteries-items-wrap-inner .loteries-items .items-300 .item-description b:nth-of-type(1):after {
+    display: none;
+}
+
+.loteries-items-wrap-inner .loteries-items .items-300 .item-right .item-right-bottom .table-imitation .heading {
+    text-align: center;
+}
+
+.loteries-items-wrap-inner .loteries-items .items-300 .item-right .item-right-bottom .table-imitation .cover-for-sroll {
+    overflow: auto;
+}
+
+.loteries-items-wrap-inner .loteries-items .items-300 .item-right .item-right-bottom .table-imitation .cover-for-sroll .wide-cover {
+    width: 350px;
+    padding-top: 20px;
+    position: relative;
+}
+
+.loteries-items-wrap-inner .loteries-items .items-300 .cover-for-prize-money .item-right-middle .line .right-part {
+    margin: 5px 0 5px;
+}
+
+.loteries-items-wrap-inner .loteries-items .items-300 .cover-for-prize-money .item-right-middle .line .left-part {
+    margin: 0 0 5px;
+}
+
+.loteries-items-wrap-inner .loteries-items .items-300 .cover-for-prize-money .item-right-middle .line:last-child .left-part {
+    margin: 5px 0px;
+}
+
+.loteries-items-wrap-inner .loteries-items .item-bottom .item-bottom-heading {
+    text-align: center;
+}
+
+.loteries-items-wrap-inner .loteries-items .item-bottom .item-bottom-heading h3 {
+    color: #444;
+    font-family: TotShrift;
+    font-size: 23px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.loteries-items-wrap-inner .loteries-items .item-bottom .item-bottom-slider-wrapper {
+    padding: 0 35px;
+}
+
+.loteries-items-wrap-inner .loteries-items .item-bottom .item-bottom-slider-wrapper .slick-prev {
+    background: url("../images/slick-left-arrow.png") no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: 50%;
+    width: 32px;
+    height: 32px;
+    border: none;
+    position: absolute;
+    top: 42%;
+    left: -16px;
+    -webkit-transform: translate(50%, -50%);
+    -moz-transform: translate(50%, -50%);
+    -ms-transform: translate(50%, -50%);
+    -o-transform: translate(50%, -50%);
+    transform: translate(50%, -50%);
+}
+
+.loteries-items-wrap-inner .loteries-items .item-bottom .item-bottom-slider-wrapper .slide {
+    text-align: center;
+}
+
+.loteries-items-wrap-inner .loteries-items .item-bottom .item-bottom-slider-wrapper .slide a {
+    text-decoration: none;
+    color: #444;
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.loteries-items-wrap-inner .loteries-items .item-bottom .item-bottom-slider-wrapper .slide a img {
+    display: block;
+    margin: 0 auto;
+    border-radius: 20px;
+}
+
+.loteries-items-wrap-inner .loteries-items .item-bottom .item-bottom-slider-wrapper .slick-next {
+    background: url("../images/slick-right-arrow.png") no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: 50%;
+    width: 32px;
+    height: 32px;
+    border: none;
+    position: absolute;
+    top: 42%;
+    right: -16px;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.loteries-items-wrap-inner .loteries-items .item-bottom .button-wraper {
+    text-align: center;
+    padding: 30px 0 0;
+}
+
+.loteries-items-wrap-inner .loteries-items .item-bottom .button-wraper a {
+    display: block;
+    margin: 0 auto;
+    max-width: 193px;
+    height: 58px;
+    text-decoration: none;
+    width: auto;
+    line-height: 50px;
+    color: white;
+    font-family: TotShrift;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    position: relative;
+    -webkit-transition: 0.2s;
+    -o-transition: 0.2s;
+    -moz-transition: 0.2s;
+    transition: 0.2s;
+}
+
+.loteries-items-wrap-inner .loteries-items .item-bottom .button-wraper a span {
+    z-index: 3;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translateX(-50%) translateZ(0) translateY(-59%);
+    -moz-transform: translateX(-50%) translateZ(0) translateY(-59%);
+    transform: translateX(-50%) translateZ(0) translateY(-59%);
+    position: absolute;
+    width: 100%;
+}
+
+.loteries-items-wrap-inner .loteries-items .item-bottom .button-wraper a .hover {
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.loteries-items-wrap-inner .loteries-items .item-bottom .button-wraper a:hover .hover {
+    opacity: 1;
+    visibility: visible;
+}
+
+.mCSB_scrollTools.mCSB_scrollTools_horizontal {
+    top: 0;
+    bottom: auto;
+}
+
+.mCSB_scrollTools.mCSB_scrollTools_horizontal .mCSB_dragger {
+    width: 100px !important;
+}
+
+.mCSB_scrollTools.mCSB_scrollTools_horizontal .mCSB_dragger .mCSB_dragger_bar {
+    height: 7px;
+    background: #767676;
+}
+
+.mCSB_scrollTools.mCSB_scrollTools_horizontal .mCSB_draggerRail {
+    background: #e1e1e1;
+    margin: 8px 0;
+}
+
+.mCSB_horizontal.mCSB_inside > .mCSB_container {
+    margin-bottom: 0;
+}
+
+.cash-popup-history {
+    height: 650px;
+}
+
+.cash-popup-history .table-imitation {
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    width: 100%;
+    overflow: hidden;
+    height: 650px;
+}
+
+.cash-popup-history .table-imitation .mCSB_container_wrapper {
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+.cash-popup-history .table-imitation .mCustomScrollBox {
+    width: 100%;
+}
+
+.cash-popup-history .table-imitation .mCSB_scrollTools_vertical .mCSB_dragger {
+    height: 100px !important;
+}
+
+.cash-popup-history .table-imitation .mCSB_scrollTools_vertical .mCSB_dragger .mCSB_dragger_bar {
+    width: 7px;
+    background: #767676;
+}
+
+.cash-popup-history .table-imitation .mCSB_scrollTools_vertical .mCSB_draggerRail {
+    background: #e1e1e1;
+}
+
+.cash-popup-history .table-imitation .table-header {
+    width: 100%;
+    min-width: 650px;
+    padding-right: 30px;
+}
+
+.cash-popup-history .table-imitation .table-header .header-row {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -moz-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    height: 75px;
+}
+
+.cash-popup-history .table-imitation .table-header .header-row .cell {
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+    -moz-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    text-align: center;
+    font-family: TotShrift;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -moz-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    font-size: 15px;
+    color: #a43fb3;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -moz-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+.cash-popup-history .table-imitation .table-header .header-row .cell:nth-child(4) {
+    -webkit-box-flex: 2;
+    -webkit-flex: 2;
+    -moz-box-flex: 2;
+    -ms-flex: 2;
+    flex: 2;
+}
+
+.cash-popup-history .table-imitation .table-main-container {
+    width: 100%;
+    max-height: 575px;
+    overflow: hidden;
+    min-width: 655px;
+}
+
+.cash-popup-history .table-imitation .table-main-container .mCSB_scrollTools_vertical .mCSB_dragger {
+    height: 100px !important;
+}
+
+.cash-popup-history .table-imitation .table-main-container .mCSB_scrollTools_vertical .mCSB_dragger .mCSB_dragger_bar {
+    width: 7px;
+    background: #767676;
+}
+
+.cash-popup-history .table-imitation .table-main-container .mCSB_scrollTools_vertical .mCSB_draggerRail {
+    background: #e1e1e1;
+}
+
+.cash-popup-history .table-imitation .table-main-container .mCSB_container {
+    border-top: 1px solid #c7c8c8;
+}
+
+.cash-popup-history .table-imitation .table-main-container .table-row {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -moz-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    height: 75px;
+    border-bottom: 1px solid #c7c8c8;
+}
+
+.cash-popup-history .table-imitation .table-main-container .table-row .cell {
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+    -moz-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    text-align: center;
+    height: 75px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -moz-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -moz-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.cash-popup-history .table-imitation .table-main-container .table-row .cell:nth-child(4) {
+    -webkit-box-flex: 2;
+    -webkit-flex: 2;
+    -moz-box-flex: 2;
+    -ms-flex: 2;
+    flex: 2;
+}

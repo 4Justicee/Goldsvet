@@ -1,0 +1,9 @@
+#FreespinAnimation
+{
+	z-index: 900;
+}
+
+#FreespinAnimation .startView
+{
+	cursor: pointer;
+}

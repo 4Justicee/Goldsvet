@@ -1,0 +1,41 @@
+#Game.slot.GEJSlot .gameViewport { background: url('GreatEmpireSlotEngine/games/GEJSlot/images/background.jpg?v=1.2.0.r|15-11-2016|09:22:55') top center; }
+#Game.slot.GEJSlot .backgroundOverlay { background-image: url('GreatEmpireSlotEngine/games/GEJSlot/images/backgroundOverlay.png?v=1.2.0.r|15-11-2016|09:22:55');  }
+#Game.slot.GEJSlot .gameTitle { background-image: url('GreatEmpireSlotEngine/games/GEJSlot/images/gameTitle.png?v=1.2.0.r|15-11-2016|09:22:55'); }
+#Game.slot.GEJSlot .gameTitle.noJackpot { background-image: url('GreatEmpireSlotEngine/games/GEJSlot/images/gameTitleNoJackpot.png?v=1.2.0.r|15-11-2016|09:22:55'); }
+#Game.slot.GEJSlot .topGameTitle { background-image: url('GreatEmpireSlotEngine/games/GEJSlot/images/topGameTitle.png?v=1.2.0.r|15-11-2016|09:22:55'); }
+#Game.slot.GEJSlot .denomButton { background-image: url("GreatEmpireSlotEngine/games/GEJSlot/images/denominationButton.png?v=1.2.0.r|15-11-2016|09:22:55"); }
+#Game.slot.GEJSlot .autoplayButton { background-image: url("GreatEmpireSlotEngine/games/GEJSlot/images/autoSoundButton.png?v=1.2.0.r|15-11-2016|09:22:55"); }
+#Game.slot.GEJSlot .soundButton { background-image: url("GreatEmpireSlotEngine/games/GEJSlot/images/autoSoundButton.png?v=1.2.0.r|15-11-2016|09:22:55"); }
+#Game.slot.GEJSlot .betButton { background-image: url("GreatEmpireSlotEngine/games/GEJSlot/images/betButton.png?v=1.2.0.r|15-11-2016|09:22:55"); }
+#Game.slot.GEJSlot .icons{		background-image: url("GreatEmpireSlotEngine/games/GEJSlot/images/settingsInfo.png?v=1.2.0.r|15-11-2016|09:22:55");}
+#Game.slot.GEJSlot .iconsImage{	background-image: url("GreatEmpireSlotEngine/games/GEJSlot/images/settingsInfo.png?v=1.2.0.r|15-11-2016|09:22:55"); }
+#Game.slot.GEJSlot .jackpotBoxes { background-image: url('GreatEmpireSlotEngine/games/GEJSlot/images/backgroundOverlay.png?v=1.2.0.r|15-11-2016|09:22:55'); }
+#Game.slot.GEJSlot .jackpotContentView 
+{ 
+	border-color: #f5e937; 
+	background: -webkit-linear-gradient(black, #b6051f);
+	background: -o-linear-gradient(black, #b6051f);
+	background: -moz-linear-gradient(black, #b6051f);
+	background: linear-gradient(black, #b6051f);
+}
+#Game.slot.GEJSlot .bottomUIContainer { background-image: url('GreatEmpireSlotEngine/games/GEJSlot/images/backgroundOverlay.png?v=1.2.0.r|15-11-2016|09:22:55'); }
+#Game.slot.GEJSlot .gambleContainer { border-color: #f5e937; }
+#Game.slot.GEJSlot .settingsView { background-image: url("GreatEmpireSlotEngine/games/GEJSlot/images/background.jpg?v=1.2.0.r|15-11-2016|09:22:55"); }
+#Game.slot.GEJSlot .settingsPaytableCloseButton { background-image: url("GreatEmpireSlotEngine/games/GEJSlot/images/settingsPaytableCloseButton.png?v=1.2.0.r|15-11-2016|09:22:55"); }
+#Game.slot.GEJSlot .settingsPaytableCloseButtonArrow { background-image: url("GreatEmpireSlotEngine/games/GEJSlot/images/settingsPaytableCloseButton.png?v=1.2.0.r|15-11-2016|09:22:55"); }
+#Game.slot.GEJSlot .settingsPaytableCloseButtonArrowHighlight { background-image: url("GreatEmpireSlotEngine/games/GEJSlot/images/settingsPaytableCloseButton.png?v=1.2.0.r|15-11-2016|09:22:55"); }
+#Game.slot.GEJSlot .paytableFromSettingsButton { background-image: url("GreatEmpireSlotEngine/games/GEJSlot/images/settingsPaytableCloseButton.png?v=1.2.0.r|15-11-2016|09:22:55"); }
+#Game.slot.GEJSlot .settingsFromPaytableButton { background-image: url("GreatEmpireSlotEngine/games/GEJSlot/images/settingsPaytableCloseButton.png?v=1.2.0.r|15-11-2016|09:22:55"); }
+#Game.slot.GEJSlot .textField.lines
+{
+	color: #ffffff;
+	text-shadow: 0px 0px 6px #303030, 0px 0px 6px #303030, 0px 0px 6px #303030, 0px 0px 6px #303030, 0px 0px 6px #303030, 0px 0px 6px #303030, 0px 0px 6px #303030;
+}
+#Game.slot.GEJSlot .textField.lines.active
+{
+	color: #ffff00;
+	text-shadow: 0px 0px 6px #bf0000, 0px 0px 6px #bf0000, 0px 0px 6px #bf0000, 0px 0px 6px #bf0000, 0px 0px 6px #bf0000, 0px 0px 6px #bf0000, 0px 0px 6px #bf0000;
+}
+#Game.slot.GEJSlot .gameNumberTime { color: #bcba1b; }
+#Game.slot.GEJSlot .textField.totals { color: #bcba1b; }
+#Game.slot.GEJSlot .textField.totals.jackpot { color: #bcba1b; }

@@ -1,0 +1,719 @@
+
+
+#PaytableContent
+{
+	background: #934111;
+	padding: 0 116px 0 116px;
+	overflow: overlay;
+}
+
+#PaytableContent .title
+{
+	background-image: url("BaseSlotEngine/games/FKJSlot/paytable/title.png");
+	width: 1007px;
+	height: 87px;
+	margin: 5px auto;
+}
+#PaytableContent .panel
+{
+	background: #000000;
+	border: 5px solid #f3ae44;
+	border-radius: 11px;
+	margin-bottom: 12px;
+	padding: 2px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	float: left;
+}
+#PaytableContent .panel.even {
+	float: right;
+}
+#PaytableContent .panel.half {
+
+	width: 515px;
+}
+#PaytableContent .panel.leftWide {
+	position: absolute;
+	border-radius: inherit 0px inherit 0px;
+	left: 0;
+	width: 74%;
+	height: 198px;
+	z-index: 10;
+}
+#PaytableContent .panel.wild {
+	height: 425px;
+}
+#PaytableContent .panel.scatter {
+	border: 5px solid #ffe400;
+	height: 425px;
+	position: relative;
+}
+#PaytableContent .panel.rightSmall {
+	position: absolute;
+	right: 0;
+	width: 29%;
+	height: 198px;
+	z-index: 1;
+	background: 	#e29c41;
+	border-color: 	#f09325;
+}
+#PaytableContent .panel .imagesContainer
+{
+	float: left;
+	width: 537px;
+	margin-top: 5px;
+}
+#PaytableContent .panel .imagesContainer .two
+{
+	width: 485px;
+	margin: 0 auto;
+}
+#PaytableContent .panel .imagesContainer .two .singleImage
+{
+	margin: 0 33px;
+}
+#PaytableContent .panel .imagesContainer .one
+{
+	width: 179px;
+	margin: 0 auto;
+}
+#PaytableContent .panel .imagesContainer .singleImage
+{
+	margin: 0 2px;
+}
+#PaytableContent .panel.freespins .singleImage
+{
+	margin: 10px 0 10px 50px;
+}
+#PaytableContent .panel.freespinsInfo {
+	position: relative;
+}
+#PaytableContent .panel.freespinsInfo .singleImage {
+	position: absolute;
+	top: 20px;
+	left: 8px;
+}
+
+#PaytableContent .panel.freespinsInfo .singleImage.ru{
+top: 14px;
+}
+#PaytableContent .panel.wildInfo {
+	position: relative;
+}
+#PaytableContent .panel.wildInfo .singleImage {
+	position: absolute;
+	top: 20px;
+}
+
+#PaytableContent .panel.wildInfo .singleImage.ru {
+	top: 14px;
+}
+
+#PaytableContent .panel.wildInfo .singleImage.scatter{margin-left: 860px;}
+
+#PaytableContent .panel.wildInfo .singleImage.scatterSmall { right: 244px; top: 65px;}
+
+#PaytableContent .panel.wildInfo .singleImage.scatterSmall.nl{ right: 216px; }
+
+#PaytableContent .panel.wildInfo .singleImage.scatterSmall.es{ right: 214px; }
+
+#PaytableContent .panel.wildInfo .singleImage.scatterSmall.ro{ right: 229px; }
+
+#PaytableContent .panel.wildInfo .singleImage.scatterSmall.ru{right: 274px;}
+
+#PaytableContent .panel.wildInfo .singleImage.scatterSmall.bg{right: 203px;}
+
+#PaytableContent .panel.wildInfo .singleImage.wildMid {	left: 20px;}
+
+#PaytableContent .smallPanel
+{
+	background: #3b4204;
+	border-top: 5px solid  #ffe400;
+	border-left: 5px solid #ffe400;
+	border-radius: 0 0 5px 0;
+	width: 386px;
+	height: 62px;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+}
+#PaytableContent .twoBoxesContainer
+{
+	position: relative;
+	width: 100%;
+	height: 200px;
+	float: left;
+	margin-bottom: 15px;
+}
+#PaytableContent .panel.fullSize
+{
+	width: 100%;
+	overflow: hidden;
+	padding: 10px;
+}
+
+#PaytableContent .singleImage
+{
+	background-image: url("BaseSlotEngine/games/FKJSlot/paytable/sprite.jpg");
+	float: left;
+	width: 175px;
+	height: 175px;
+}
+#PaytableContent .singleImage.leftCornerImage
+{
+	margin-top: 10px;
+	margin-left: 10px;
+}
+#PaytableContent .singleImage.centerImage
+{
+	float: none;
+	margin-top: 10px;
+	margin-left: auto;
+	margin-right: auto;
+}
+#PaytableContent .singleImage.leftImage
+{
+	margin-left: 10px;
+}
+#PaytableContent .arrowImage
+{
+	background-image: url("BaseSlotEngine/games/FKJSlot/paytable/arrow.png");
+	width: 296px;
+	height: 102px;
+	position: absolute;
+	bottom: -101px;
+	left: -63px;
+}
+
+#PaytableContent .arrowImage.iOS
+{
+	left: -64px;
+}
+
+#PaytableContent .singleImage.scatter {		background-position: -875px -92px }		
+#PaytableContent .singleImage.wild {		background-position: -700px -92px; }	
+#PaytableContent .singleImage.man {			background-position: -350px -92px; }	
+#PaytableContent .singleImage.woman {		background-position: -525px -92px; }	
+#PaytableContent .singleImage.apple {		background-position: -175px -92px; }	
+#PaytableContent .singleImage.watermelon {  background-position:  0px -92px; }		
+#PaytableContent .singleImage.grape {		background-position: -875px -267px;}	
+#PaytableContent .singleImage.orange {		background-position: -525px -267px;}	
+#PaytableContent .singleImage.bananas {		background-position: -700px -267px;}	
+#PaytableContent .singleImage.peaches {		background-position: 0px -267px;}		
+#PaytableContent .singleImage.lemon {		background-position: -175px -267px;}	
+#PaytableContent .singleImage.plum {		background-position: -350px -267px;}	
+#PaytableContent .singleImage.chery {		background-position: 0px -442px;}		
+#PaytableContent .singleImage.textScatter{
+	background-position: -405px -553px; 
+	width: 247px;
+	height: 41px;
+	margin-left: 224px;
+}
+
+#PaytableContent .singleImage.textScatter.mk{
+	background-position: -406px -507px; 
+	width: 286px;
+	height: 43px;
+	margin-left: 202px;
+}
+#PaytableContent .singleImage.textScatter.bg{
+	background-position: -405px -598px; 
+	width: 204px;
+	height: 43px;
+    margin-left: 243px;
+}
+#PaytableContent .singleImage.reelSet {		background-position: -771px -441px; width: 279px; height: 158px; }
+#PaytableContent .singleImage.scatterSmall {    
+    background-position: -245px -506px;
+    width: 74px;
+    height: 72px;
+	margin-top: 9px;
+    margin-left: 27px;
+}
+#PaytableContent .singleImage.scatterSmall.nl{
+	margin-left: -13px;
+    margin-top: 6px;
+}
+
+#PaytableContent .singleImage.scatterSmall.bg{
+	margin-left: 15px;
+    margin-top: 9px;
+}
+
+#PaytableContent .singleImage.scatterSmall.es{
+    margin-top: 6px;
+    margin-left: 0px;
+}
+
+#PaytableContent .singleImage.scatterSmall.ro{
+    margin-left: 34px;
+}
+
+#PaytableContent .singleImage.scatterSmall.fr{
+    margin-top: -7px;
+    margin-left: 4px;
+}
+
+/*#PaytableContent .singleImage.scatterSmall.es {background-position: -649px -361px; width: 65px; height: 65px; left: 370px;}*/
+/*#PaytableContent .singleImage.scatterSmall.mk {background-position: -649px -361px; width: 65px; height: 65px; left: 380px; top:35px}*/
+#PaytableContent .singleImage.wildSmall {	background-position: -319px -505px; width: 73px; height: 69px; }
+#PaytableContent .singleImage.jackpot {		background-position: -247px -442px; width: 524px; height: 63px; margin-bottom: 10px; }
+#PaytableContent .singleImage.lines {		background-position: -20px  0px; 	width: 1035px; height: 88px; }
+#PaytableContent .singleImage.scatterSmall.ro{margin-left: 20px;}
+
+.wildSpecialText {
+	position: relative;
+}
+.wildSpecialText p {
+	color:#fce101;
+	font: bold 30px arial, sans-serif;
+	line-height: 45px;
+}
+
+
+
+.wildSpecialText.es p{
+    font: bold 25px arial, sans-serif;
+    line-height: 43px;
+}
+.wildSpecialText.fr p{
+    font: bold 25px arial, sans-serif;
+    line-height: 40px;
+    margin-top: 28px;
+}
+.wildSpecialText.nl p{
+	font: bold 21px arial, sans-serif;
+	line-height: 39px;
+    margin-top: 20px;
+}
+
+.wildSpecialText .singleImage {	position: absolute; left: 328px; top: 61px;}
+
+.wildSpecialText .singleImage.bg {left: 367px;}
+
+.wildSpecialText .singleImage.es {left: 354px;}
+
+.wildSpecialText .singleImage.ro {left: 343px;}
+
+.wildSpecialText .singleImage.fr{left: 355px;}
+
+.wildSpecialText .singleImage.nl {left: 394px;}
+
+
+#PaytableContent .singleImage.smallImage
+{
+	margin-top: 0px;
+	display: inline-block;
+	float: none;
+}
+#PaytableContent .singleImage.smallImage.scatter
+{
+	background-position: -104px -147px;
+	width: 52.5px;
+	height: 52.5px;
+	background-size: 293px,207px;
+	margin-left: 20px;
+}
+#PaytableContent .singleImage.jackpotTitle
+{
+	background-position: -262px -80px;
+	width: 608px;
+	height: 64px;
+	float: none;
+	margin: 10px auto 20px auto;
+}
+
+#PaytableContent .linesContainer
+{
+	float: left;
+	width: 257px;
+	height: 100%;
+}
+#PaytableContent .panel.rightSmall .paytableLinesContainer {
+	padding-left: 25px;
+	float: left;
+	width: 175px;
+}
+#PaytableContent .panel.scatter .paytableLinesContainer {
+	margin-left: 115px;
+	margin-top: 170px;
+}
+#PaytableContent .panel.rightSmall .singleImage {
+	float: right;
+	margin: 50px 8px 50px 0;
+}
+#PaytableContent .paytableLine
+{
+	overflow: hidden;
+	height: 40px;
+	margin-bottom: 0px;
+}
+#PaytableContent .smallPanel .paytableLine
+{
+	margin-top: 10px;
+}
+#PaytableContent .paytableLine.scatter
+{
+	margin-bottom: 16px;
+}
+
+#PaytableContent .smallPanel.iOS
+{
+	width: 386.5px;
+}
+#PaytableContent .smallPanel.Android
+{
+	width: 386px;
+}
+
+
+
+#PaytableContent .textLine
+{
+	font: bold 30px arial,sans-serif;
+	color: #fce101;
+	text-align: center;
+}
+#PaytableContent .panel.wild .paytableLine .lineBullet
+{
+	color: #ffde00;
+}
+
+#PaytableContent .textLine.lineBullet
+{
+	line-height: 40px;
+	float: left;
+	margin-left: 15px;
+	font-weight: 800;
+}
+#PaytableContent .paytableLinesContainer {
+	margin-top: 30px;
+}
+#PaytableContent .paytableLinesContainer.wild {
+	margin-top: 15px;
+}
+#PaytableContent .paytableLinesContainer.four {
+	margin-top: 10px;
+}
+#PaytableContent .textLine.lineContent
+{
+	color: #ffffff;
+	line-height: 40px;
+	overflow: hidden;
+}
+
+#PaytableContent .textLine.lineContent.wild
+{
+	color: #f9a810;
+}
+#PaytableContent .currency
+{
+	font-size: 50%;
+}
+#PaytableContent .textLine.lineContent.iOS
+{
+	margin-top: 5px;
+}
+#PaytableContent .textLine.reward
+{
+	color: #ffffff;
+	font-size: 22px;
+	margin-left: 10px;
+}
+#PaytableContent .jackpotGambleCurrency
+{
+	font-size: 50%;
+	margin-left: 0px;
+	top: 0px;
+}
+#PaytableContent .textLine.scatterText
+{
+	font-size: 46px;
+	width: 100%;
+	text-shadow: 3px 3px 1px #000000;
+}
+#PaytableContent .paytableText
+{
+	font: bold 20px arial,sans-serif;
+	color: #b0ff4a;
+	text-align: center;
+	line-height: 31px;
+}
+
+#PaytableContent .paytableText.mk .specialFontSize{
+	    font-size: 25px;
+}
+
+#PaytableContent .paytableText.mk .specialCol{
+	font-size: 25px;
+}
+
+#PaytableContent .panel.freespins .paytableText
+{
+	color: #fce101;
+	margin-top: 85px;
+	margin-left: 5px;
+	font: bold 32px arial,sans-serif;
+	padding: 10px 20px;
+}
+
+#PaytableContent .panel.freespins .paytableText.mk{
+	font: bold 24px arial,sans-serif;
+}
+
+#PaytableContent .panel.freespins .paytableText.mk{
+	font: bold 30px arial,sans-serif;
+}
+
+#PaytableContent .panel.freespins .paytableText.es{
+	font: bold 29px arial,sans-serif;
+}
+
+#PaytableContent .panel.freespins .paytableText.fr{
+	font: bold 24px arial,sans-serif;
+}
+
+#PaytableContent .panel.freespins .paytableText.ru{
+	    font: bold 30px arial,sans-serif;
+}
+
+#PaytableContent .panel.freespins .paytableText.ro{
+	    font: bold 29px arial,sans-serif;
+}
+
+#PaytableContent .panel.freespins .paytableText.mk{
+	    font: bold 23px arial,sans-serif;
+}
+
+#PaytableContent .panel.freespins .paytableText.es{
+	    font: bold 30px arial,sans-serif;
+}
+
+#PaytableContent .panel.freespins .paytableText.fr{ font: bold 27px arial,sans-serif; }
+
+.specialColor{
+	color: #d5a62e;
+}
+
+
+.specColor{
+	color: #fad053;
+    text-shadow: 1px 1px #8d2323 , 1px 1px #8d2323, 1px -1px #8d2323, -1px 0px #8d2323;
+}
+.redNumbers {
+	font-size: 22px;
+	color: #f33900;
+}
+
+
+
+#PaytableContent .paytableText.exceptText 
+{ 
+	display: inline-block; 
+	position: relative;
+	top: -12px;
+}
+
+#PaytableContent .specialContainer
+{
+	display: table;
+	margin: 0 auto;
+}
+
+#PaytableContent .wildInfo .paytableText.ru{
+	margin-left: 30px;
+}
+
+#PaytableContent .wildInfo .paytableText.bg{
+	margin-left: 15px;
+    font-size: 19px;
+}
+
+#PaytableContent .freespinsInfo .paytableText.bg{
+	margin-left: 98px;
+}
+
+#PaytableContent .freespinsInfo .paytableText.fr{
+	margin-left: 33px;
+}
+
+#PaytableContent .freespinsInfo .paytableText.mk{
+	margin-left: 98px;
+	/*font-size: 20px;*/
+}
+
+#PaytableContent .freespinsInfo .paytableText.ru{
+	margin-left: 98px;
+}
+
+#PaytableContent .wildInfo .sectionTitle.ru{
+	margin-left: 30px;	
+}
+
+#PaytableContent .wildInfo .sectionTitle.bg{
+	margin-left: 15px;	
+}
+
+/*#PaytableContent .wildInfo .sectionTitle.mk{
+	margin-left: 15px;	
+}*/
+
+#PaytableContent .freespinsInfo .sectionTitle.ru{
+	margin-left: 98px;
+}
+
+#PaytableContent .freespinsInfo .sectionTitle.bg{
+	margin-left: 98px;
+}
+
+#PaytableContent .freespinsInfo .sectionTitle.mk{
+	margin-left: 98px;
+}
+
+#PaytableContent .paytableText.freespins
+{
+	width: 856px;
+	font-size: 30px;
+	line-height: 47px;
+	box-sizing: border-box;
+	margin-bottom: 6px;
+	margin-left: 101px;
+}
+#PaytableContent .paytableText.specialCol
+{
+	color: #fdf158;
+	margin-left: 0px;
+	padding: 0 0;
+	font-size: 30px;
+	font-weight: bold;
+}
+#PaytableContent .paytableText.yellow
+{
+	color: #ffae00;
+	margin-left: 0px;
+	padding: 0 0;
+	font-weight: bold;
+}
+#PaytableContent .paytableText.wild
+{
+	width: 928px;
+	font-size: 30px;
+	line-height: 47px;
+	box-sizing: border-box;
+	margin-bottom: 6px;
+	margin-left: 56px;
+}
+#PaytableContent .paytableText.wild.blue
+{
+	color: #17edee;
+	margin-left: 0px;
+}
+
+#PaytableContent .jackpotLabel { color: #ffde00; font-weight: bold; }
+#PaytableContent .cardsLabel { font-size: 22px;	color: #f40000; font-weight: bold; }
+#PaytableContent .qBets
+{
+	position: relative;
+	left: -70px;
+}
+#PaytableContent .gambleFirstLine
+{
+	position: relative;
+	left: -40px;
+}
+
+#PaytableContent .sectionTitle
+{
+	font: bold 40px arial,sans-serif;
+	color: #d5a62e;
+	text-shadow: 0px 0px 3px #e60101, 0px 0px 3px #e60101, 0px 0px 3px #e60101, 0px 0px 3px #e60101, 0px 0px 3px #e60101, 0px 0px 3px #e60101, 0px 0px 3px #e60101, 0px 0px 3px #e60101,0px 0px 3px #e60101, 0px 0px 3px #e60101, 0px 0px 3px #e60101, 0px 0px 3px #e60101, 0px 0px 3px #e60101, 0px 0px 3px #e60101, 0px 0px 3px #e60101, 0px 0px 3px #e60101;
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+#PaytableContent .paytableText.boldText{
+	font-size: 20px;
+}
+
+.oneLineText {
+	clear: both;
+	width: 100%;
+	text-align: center;
+}
+.oneLineImage {
+	float: none !important;
+	margin: 0 auto;
+}
+
+.uppercase {
+	text-transform: uppercase;
+}
+
+.clearfix {
+  *zoom: 1;
+}
+.clearfix:before, .clearfix:after {
+	display: table;
+    content: "";
+    line-height: 0;
+}
+.clearfix:after { clear: both;}
+
+.boldText {	font-weight: bold !important;}
+
+
+
+.multiplSpecTxt{
+	color:#ff6600;
+	font-size: 40px;
+}
+
+.multiplSpecTxt.mk{	font-size: 34px;}
+
+.multiplSpecTxt.fr{	font-size: 34px;}
+
+.multiplSpecTxt.es{	font-size: 36px;}
+
+
+/*.multiplSpecTxt.ru{
+	font-size: 40px;
+}*/
+
+.specialFontSize{font-size: 28px;}
+
+.greaterLetters{
+	font: bold 35px arial, sans-serif;
+}
+
+.greaterLetters.bg{
+	margin-left: -107px;
+}
+
+.greaterLetters.en{
+	margin-left: -27px;
+}
+.greaterLetters.ro{
+	margin-left: -27px;
+}
+
+.greaterLetters.nl{
+	font: bold 26px arial, sans-serif;
+	margin-left: -36px;
+	line-height: 54px;
+}
+
+.greaterLetters.fr{
+	font: bold 29px arial, sans-serif;
+	margin-left: -36px;
+}
+
+.greaterLetters.es{
+	font: bold 29px arial, sans-serif;
+	margin-left: -36px;
+}
+
+.multiplX{
+	color: #ff6600;
+	font-weight: 900;
+}

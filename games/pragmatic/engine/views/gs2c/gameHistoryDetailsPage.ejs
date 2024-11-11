@@ -1,0 +1,746 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html class="frame">
+<head>
+    <title>                       </title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="Expires" content="Tue, 10 Aug 2021 07:31:04 +0000"/>
+<meta http-equiv="Cache-Control" content="no-store, no-cache, must-revalidate"/>
+<meta http-equiv="Pragma" content="no-cache"/>
+<script type="text/javascript" src="/gs2c/common/js/web/script.js"></script>
+<script type="text/javascript">
+    $(window).load(function () {
+        $("body").css("visibility", "visible");
+    });
+
+
+    function printLines(elementId, actualLine, linePattern, screenW, screenH) {
+        var body, tab, tr, td, tn, index;
+        var linePatternArray = linePattern.split(',');
+        var actualLineArray = actualLine.split(',');
+
+        body = document.getElementById(elementId);
+        tab = document.createElement('table');
+        tab.classList.add('lines');
+
+        for (index = 0; index < screenW * screenH; index++) {
+
+            if (index % screenW === 0) {
+                tr = document.createElement('tr');
+            }
+
+            td = document.createElement('td');
+            tn = document.createTextNode('');
+
+            if (linePatternArray.indexOf(index.toString()) !== -1) {
+                td.classList.add('selected');
+            }
+            if (actualLineArray.indexOf(index.toString()) !== -1) {
+                td.classList.add('actual');
+            }
+            td.appendChild(tn);
+            tr.appendChild(td);
+
+            if (index % screenW === 0) {
+                tab.appendChild(tr);
+            }
+        }
+        body.appendChild(tab);
+    }
+
+
+    function printPattern(elementId, line, screenW, screenH) {
+        var body, tab, tr, td, tn, index;
+        var lineArray = line.split(',');
+
+        body = document.getElementById(elementId);
+        tab = document.createElement('table');
+        tab.classList.add('lines');
+
+        for (index = 0; index < screenW * screenH; index++) {
+
+            if (index % screenW === 0) {
+                tr = document.createElement('tr');
+            }
+
+            td = document.createElement('td');
+            tn = document.createTextNode('');
+
+            if (lineArray[index] === '1') {
+                td.classList.add('selected');
+            } else if (lineArray[index] === '-1') {
+                td.style.background = "black";
+            }
+
+            td.appendChild(tn);
+            tr.appendChild(td);
+
+            if (index % screenW === 0) {
+                tab.appendChild(tr);
+            }
+        }
+        body.appendChild(tab);
+    }
+
+</script><link rel="stylesheet" type="text/css" href="/gs2c/generic/css/web_style_en.css"/>
+    <link rel="stylesheet" type="text/css" href="/gs2c/generic/css/web_style_ko.css"/>
+    <link rel="stylesheet" type="text/css" href="/gs2c/common/css/common/brands.css"/>
+<style type="text/css">
+    html.frame,
+    body.innerBody {
+        background: #000 !important;
+        overflow: unset !important;
+    }
+
+    .table-history > tbody > tr > th, .table-history > tbody > tr > td {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 12px;
+        margin: 0;
+        color: #FFFFFF !important;
+    }
+
+    table.screen span {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 12px;
+        margin: 0;
+        color: #FFFFFF !important;
+    }
+
+    .table-history-border, .table-history-border td, td.table-history-border {
+        background: #000000;
+        border: 2px ridge #888888;
+        border-spacing: 0;
+        padding: 2px;
+        border-collapse: collapse;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 12px;
+        color: #FFFFFF;
+    }
+
+    ul.progress {
+        margin-top: 0;
+        margin-bottom: 0;
+        padding-left: 20px;
+    }
+
+    td.targetSymbol {
+        padding: 1px !important;
+    }
+
+    td.targetSymbol img {
+        border: dashed 2px yellow;
+        border-radius: 100px;
+        padding: 1px;
+    }
+
+    td.disappearingSymbol {
+        background: #999999 !important;
+    }
+
+    #disappearingSymbolSquare {
+        width: 15px;
+        height: 15px;
+        background: #999999;
+    }
+
+    table.screen {
+        background: #000000;
+        border: 0px ridge #888888;
+        border-spacing: 0;
+        border-collapse: separate;
+        empty-cells: hide;
+    }
+
+    table.screen td {
+        width: 34px;
+        height: 34px;
+        text-align: center;
+        background: #000000;
+        padding: 2px;
+        border: 2px ridge #888888;
+    }
+
+    table.lines {
+        background: #696D6C;
+        border: 2px ridge #888888 !important;
+        border-spacing: 0;
+        border-collapse: collapse;
+    }
+
+    table.lines td {
+        padding: 4px !important;
+        border: 2px ridge #888888 !important;
+    }
+
+    td.selected {
+        background: #aaaaaa;
+    }
+
+    td.actual {
+        background: #ffffff;
+    }
+
+    table.screen td.marked {
+        background: #68636f;
+    }
+
+    table.screen td.scratch {
+        width: 75px;
+        height: 34px;
+    }
+
+    div.gameName {
+        display: block;
+        text-align: center;
+        horiz-align: center;
+        font-size: 16px;
+        font-weight: bold;
+        color: #FFFFFF;
+        border: 2px ridge #888888;
+    }
+
+    .accumulativeHighlight {
+        border: 4px solid red;
+    }
+
+    .ways_mult_container {
+        position: relative;
+    }
+
+    .ways_multiplier {
+        display: block;
+        position: absolute;
+        font-size: small;
+        font-weight: bold;
+        color: red !important;
+        background: white;
+        opacity: 0.8;
+    }
+
+</style></head>
+<body class="innerBody" link="white">
+<div class="gameName"><%=gameName%></div>
+<table width="100%" border="0" style="height: 100%">
+    <tr>
+        <td width="49%" height="100%" align="right">
+            <table width="100%" border="0" cellpadding="5" cellspacing="5" class="slots" style="margin: 0">
+                <tr>
+
+                    <script type="text/javascript" src="/gs2c/common/js/web/script.js"></script>
+<script type="text/javascript">
+    $(window).load(function () {
+        $("body").css("visibility", "visible");
+    });
+
+
+    function printLines(elementId, actualLine, linePattern, screenW, screenH) {
+        var body, tab, tr, td, tn, index;
+        var linePatternArray = linePattern.split(',');
+        var actualLineArray = actualLine.split(',');
+
+        body = document.getElementById(elementId);
+        tab = document.createElement('table');
+        tab.classList.add('lines');
+
+        for (index = 0; index < screenW * screenH; index++) {
+
+            if (index % screenW === 0) {
+                tr = document.createElement('tr');
+            }
+
+            td = document.createElement('td');
+            tn = document.createTextNode('');
+
+            if (linePatternArray.indexOf(index.toString()) !== -1) {
+                td.classList.add('selected');
+            }
+            if (actualLineArray.indexOf(index.toString()) !== -1) {
+                td.classList.add('actual');
+            }
+            td.appendChild(tn);
+            tr.appendChild(td);
+
+            if (index % screenW === 0) {
+                tab.appendChild(tr);
+            }
+        }
+        body.appendChild(tab);
+    }
+
+
+    function printPattern(elementId, line, screenW, screenH) {
+        var body, tab, tr, td, tn, index;
+        var lineArray = line.split(',');
+
+        body = document.getElementById(elementId);
+        tab = document.createElement('table');
+        tab.classList.add('lines');
+
+        for (index = 0; index < screenW * screenH; index++) {
+
+            if (index % screenW === 0) {
+                tr = document.createElement('tr');
+            }
+
+            td = document.createElement('td');
+            tn = document.createTextNode('');
+
+            if (lineArray[index] === '1') {
+                td.classList.add('selected');
+            } else if (lineArray[index] === '-1') {
+                td.style.background = "black";
+            }
+
+            td.appendChild(tn);
+            tr.appendChild(td);
+
+            if (index % screenW === 0) {
+                tab.appendChild(tr);
+            }
+        }
+        body.appendChild(tab);
+    }
+
+</script><td align="right" width="50%" height="100%">
+                 <table class="screen">
+                <% for(let i = 0; i<3 ; i++){
+                    let symbols = data.s.split(",") ;
+                    let reelWidth = symbols.length/3 ;
+                    %>
+                        <tr>
+                        <% for(let j = 0; j<reelWidth ; j++){
+                            let curSymbol = symbols[j+i*reelWidth] ;
+                            if(curSymbol<10) curSymbol="0"+curSymbol ;
+                            %>                            
+                            <td>
+                                <img src="/gs2c/common/images/game_icons/<%=symbol%>/<%=curSymbol%>.png"/>
+                            </td>
+                        <%}%>
+                        </tr>
+                <%}%>
+                </table>
+
+    <!-- artificial screen -->
+    </td><script type="text/javascript" src="/gs2c/common/js/web/script.js"></script>
+<script type="text/javascript">
+    $(window).load(function () {
+        $("body").css("visibility", "visible");
+    });
+
+
+    function printLines(elementId, actualLine, linePattern, screenW, screenH) {
+        var body, tab, tr, td, tn, index;
+        var linePatternArray = linePattern.split(',');
+        var actualLineArray = actualLine.split(',');
+
+        body = document.getElementById(elementId);
+        tab = document.createElement('table');
+        tab.classList.add('lines');
+
+        for (index = 0; index < screenW * screenH; index++) {
+
+            if (index % screenW === 0) {
+                tr = document.createElement('tr');
+            }
+
+            td = document.createElement('td');
+            tn = document.createTextNode('');
+
+            if (linePatternArray.indexOf(index.toString()) !== -1) {
+                td.classList.add('selected');
+            }
+            if (actualLineArray.indexOf(index.toString()) !== -1) {
+                td.classList.add('actual');
+            }
+            td.appendChild(tn);
+            tr.appendChild(td);
+
+            if (index % screenW === 0) {
+                tab.appendChild(tr);
+            }
+        }
+        body.appendChild(tab);
+    }
+
+
+    function printPattern(elementId, line, screenW, screenH) {
+        var body, tab, tr, td, tn, index;
+        var lineArray = line.split(',');
+
+        body = document.getElementById(elementId);
+        tab = document.createElement('table');
+        tab.classList.add('lines');
+
+        for (index = 0; index < screenW * screenH; index++) {
+
+            if (index % screenW === 0) {
+                tr = document.createElement('tr');
+            }
+
+            td = document.createElement('td');
+            tn = document.createTextNode('');
+
+            if (lineArray[index] === '1') {
+                td.classList.add('selected');
+            } else if (lineArray[index] === '-1') {
+                td.style.background = "black";
+            }
+
+            td.appendChild(tn);
+            tr.appendChild(td);
+
+            if (index % screenW === 0) {
+                tab.appendChild(tr);
+            }
+        }
+        body.appendChild(tab);
+    }
+
+</script><!-- artificial screen -->
+</tr>
+            </table>
+        </td>
+        <td width="2%"></td>
+        <td width="49%" align="left">
+            <table class="table-history">
+                <tr>
+                    <td>
+                        <table>
+
+                            <tr>
+                                    <td>          :    &nbsp;<%=data.w%></td>
+                                </tr>
+                            <!-- symbol prize details -->
+                            <!-- end of  symbol prize details -->
+                        </table>
+                    </td>
+                    </tr>
+            </table>
+        </td>
+
+        </tr>
+</table>
+<script type="application/javascript">
+    function showLinesDiv() {
+        document.getElementById("linesDiv").style.display = "inherit";
+        document.getElementById("linesHref").style.visibility = "hidden";
+    }
+</script>
+<table width="100%" border="0" style="height: 100%">
+    <tr width="100%" height="100%" align="center">
+            <td><a href="#" id="linesHref" onclick="showLinesDiv()">      </a>
+            </td>
+        </tr>
+        <tr>
+            <td width="100%" height="100%" align="center">
+                <div id="linesDiv" style="display: none">
+                    <script type="text/javascript" src="/gs2c/common/js/web/script.js"></script>
+<script type="text/javascript">
+    $(window).load(function () {
+        $("body").css("visibility", "visible");
+    });
+
+
+    function printLines(elementId, actualLine, linePattern, screenW, screenH) {
+        var body, tab, tr, td, tn, index;
+        var linePatternArray = linePattern.split(',');
+        var actualLineArray = actualLine.split(',');
+
+        body = document.getElementById(elementId);
+        tab = document.createElement('table');
+        tab.classList.add('lines');
+
+        for (index = 0; index < screenW * screenH; index++) {
+
+            if (index % screenW === 0) {
+                tr = document.createElement('tr');
+            }
+
+            td = document.createElement('td');
+            tn = document.createTextNode('');
+
+            if (linePatternArray.indexOf(index.toString()) !== -1) {
+                td.classList.add('selected');
+            }
+            if (actualLineArray.indexOf(index.toString()) !== -1) {
+                td.classList.add('actual');
+            }
+            td.appendChild(tn);
+            tr.appendChild(td);
+
+            if (index % screenW === 0) {
+                tab.appendChild(tr);
+            }
+        }
+        body.appendChild(tab);
+    }
+
+
+    function printPattern(elementId, line, screenW, screenH) {
+        var body, tab, tr, td, tn, index;
+        var lineArray = line.split(',');
+
+        body = document.getElementById(elementId);
+        tab = document.createElement('table');
+        tab.classList.add('lines');
+
+        for (index = 0; index < screenW * screenH; index++) {
+
+            if (index % screenW === 0) {
+                tr = document.createElement('tr');
+            }
+
+            td = document.createElement('td');
+            tn = document.createTextNode('');
+
+            if (lineArray[index] === '1') {
+                td.classList.add('selected');
+            } else if (lineArray[index] === '-1') {
+                td.style.background = "black";
+            }
+
+            td.appendChild(tn);
+            tr.appendChild(td);
+
+            if (index % screenW === 0) {
+                tab.appendChild(tr);
+            }
+        }
+        body.appendChild(tab);
+    }
+
+</script><table class="table-history" border="1" cellpadding="2" cellspacing="0" bgcolor="#000000">
+
+    <tr>
+        </tr>
+                <tr>
+            <td align="center">1</td>
+            <td align="center">
+                <div id="lineDetailsTagId0">
+                    <script type="application/javascript">printLines("lineDetailsTagId0",
+                        "5,6,7,8,9",
+                        "5,6,7,8,9",
+                        5,
+                        3);
+                    </script>
+                </div>
+            </td>
+        <td align="center">2</td>
+            <td align="center">
+                <div id="lineDetailsTagId1">
+                    <script type="application/javascript">printLines("lineDetailsTagId1",
+                        "0,1,2,3,4",
+                        "0,1,2,3,4",
+                        5,
+                        3);
+                    </script>
+                </div>
+            </td>
+        <td align="center">3</td>
+            <td align="center">
+                <div id="lineDetailsTagId2">
+                    <script type="application/javascript">printLines("lineDetailsTagId2",
+                        "10,11,12,13,14",
+                        "10,11,12,13,14",
+                        5,
+                        3);
+                    </script>
+                </div>
+            </td>
+        <td align="center">4</td>
+            <td align="center">
+                <div id="lineDetailsTagId3">
+                    <script type="application/javascript">printLines("lineDetailsTagId3",
+                        "0,6,12,8,4",
+                        "0,6,12,8,4",
+                        5,
+                        3);
+                    </script>
+                </div>
+            </td>
+        <td align="center">5</td>
+            <td align="center">
+                <div id="lineDetailsTagId4">
+                    <script type="application/javascript">printLines("lineDetailsTagId4",
+                        "10,6,2,8,14",
+                        "10,6,2,8,14",
+                        5,
+                        3);
+                    </script>
+                </div>
+            </td>
+        <td align="center">6</td>
+            <td align="center">
+                <div id="lineDetailsTagId5">
+                    <script type="application/javascript">printLines("lineDetailsTagId5",
+                        "5,1,2,3,9",
+                        "5,1,2,3,9",
+                        5,
+                        3);
+                    </script>
+                </div>
+            </td>
+        <td align="center">7</td>
+            <td align="center">
+                <div id="lineDetailsTagId6">
+                    <script type="application/javascript">printLines("lineDetailsTagId6",
+                        "5,11,12,13,9",
+                        "5,11,12,13,9",
+                        5,
+                        3);
+                    </script>
+                </div>
+            </td>
+        <td align="center">8</td>
+            <td align="center">
+                <div id="lineDetailsTagId7">
+                    <script type="application/javascript">printLines("lineDetailsTagId7",
+                        "0,1,7,13,14",
+                        "0,1,7,13,14",
+                        5,
+                        3);
+                    </script>
+                </div>
+            </td>
+        </tr>
+                <tr>
+            <td align="center">9</td>
+            <td align="center">
+                <div id="lineDetailsTagId8">
+                    <script type="application/javascript">printLines("lineDetailsTagId8",
+                        "10,11,7,3,4",
+                        "10,11,7,3,4",
+                        5,
+                        3);
+                    </script>
+                </div>
+            </td>
+        <td align="center">10</td>
+            <td align="center">
+                <div id="lineDetailsTagId9">
+                    <script type="application/javascript">printLines("lineDetailsTagId9",
+                        "5,11,7,3,9",
+                        "5,11,7,3,9",
+                        5,
+                        3);
+                    </script>
+                </div>
+            </td>
+        <td align="center">11</td>
+            <td align="center">
+                <div id="lineDetailsTagId10">
+                    <script type="application/javascript">printLines("lineDetailsTagId10",
+                        "5,1,7,13,9",
+                        "5,1,7,13,9",
+                        5,
+                        3);
+                    </script>
+                </div>
+            </td>
+        <td align="center">12</td>
+            <td align="center">
+                <div id="lineDetailsTagId11">
+                    <script type="application/javascript">printLines("lineDetailsTagId11",
+                        "0,6,7,8,4",
+                        "0,6,7,8,4",
+                        5,
+                        3);
+                    </script>
+                </div>
+            </td>
+        <td align="center">13</td>
+            <td align="center">
+                <div id="lineDetailsTagId12">
+                    <script type="application/javascript">printLines("lineDetailsTagId12",
+                        "10,6,7,8,14",
+                        "10,6,7,8,14",
+                        5,
+                        3);
+                    </script>
+                </div>
+            </td>
+        <td align="center">14</td>
+            <td align="center">
+                <div id="lineDetailsTagId13">
+                    <script type="application/javascript">printLines("lineDetailsTagId13",
+                        "0,6,2,8,4",
+                        "0,6,2,8,4",
+                        5,
+                        3);
+                    </script>
+                </div>
+            </td>
+        <td align="center">15</td>
+            <td align="center">
+                <div id="lineDetailsTagId14">
+                    <script type="application/javascript">printLines("lineDetailsTagId14",
+                        "10,6,12,8,14",
+                        "10,6,12,8,14",
+                        5,
+                        3);
+                    </script>
+                </div>
+            </td>
+        <td align="center">16</td>
+            <td align="center">
+                <div id="lineDetailsTagId15">
+                    <script type="application/javascript">printLines("lineDetailsTagId15",
+                        "5,6,2,8,9",
+                        "5,6,2,8,9",
+                        5,
+                        3);
+                    </script>
+                </div>
+            </td>
+        </tr>
+                <tr>
+            <td align="center">17</td>
+            <td align="center">
+                <div id="lineDetailsTagId16">
+                    <script type="application/javascript">printLines("lineDetailsTagId16",
+                        "5,6,12,8,9",
+                        "5,6,12,8,9",
+                        5,
+                        3);
+                    </script>
+                </div>
+            </td>
+        <td align="center">18</td>
+            <td align="center">
+                <div id="lineDetailsTagId17">
+                    <script type="application/javascript">printLines("lineDetailsTagId17",
+                        "0,1,12,3,4",
+                        "0,1,12,3,4",
+                        5,
+                        3);
+                    </script>
+                </div>
+            </td>
+        <td align="center">19</td>
+            <td align="center">
+                <div id="lineDetailsTagId18">
+                    <script type="application/javascript">printLines("lineDetailsTagId18",
+                        "10,11,2,13,14",
+                        "10,11,2,13,14",
+                        5,
+                        3);
+                    </script>
+                </div>
+            </td>
+        <td align="center">20</td>
+            <td align="center">
+                <div id="lineDetailsTagId19">
+                    <script type="application/javascript">printLines("lineDetailsTagId19",
+                        "0,11,12,13,4",
+                        "0,11,12,13,4",
+                        5,
+                        3);
+                    </script>
+                </div>
+            </td>
+        </tr>
+    </table></div>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>

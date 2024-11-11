@@ -1,0 +1,92 @@
+<?php 
+
+$select_draw=isset($_COOKIE['draw_report'.$curr_report_menu_item]) ? $_COOKIE['draw_report'.$curr_report_menu_item]: false;
+
+if($select_draw)
+  $sql="select * from  loto_bets join users on (users.id=loto_bets.user_id) where draw_id=$select_draw ";
+
+
+// echo $sql;
+if(isset($sql))
+  {
+  $res=pager($sql,$paginator);
+  if ($res)
+    {
+    if(mysql_num_rows($res)>0)
+      {
+            print '
+                        <div class="row">                            
+                            <div class="col-md-12">
+                                <div class="block">
+                                    <div class="head"> 
+									<h2>'.$lang['reportmenu'][$curr_report_menu_item].'</h2>                                       
+                                    </div>
+                                    <div class="content np">
+
+                                        <table cellpadding="0" cellspacing="0" width="100%" id="addRowExample" class="editable oc_disable">
+										
+                                            <thead>
+                                                <tr>                                                                                                        
+                                                    <th width="25%" >'.$lang['adm_report_gamer'].'</th>
+                                                    <th width="25%">'.$lang['adm_report_bet'].'</th>
+                                                    <th width="25%">'.$lang['adm_report_winballs'].'</th>
+													                          <th width="25%" >'.$lang['adm_report_coef'].'</th>
+                                                    <th width="25%">'.$lang['adm_report_win'].'</th> 
+                                                </tr>
+                                            </thead>
+                                            <tbody> 			
+            ';
+      
+     
+      while($row=mysql_fetch_array($res))
+        {
+        print "<tr align='center'>                
+                <td>".$row['login']."</td>
+				        <td>".$row['bet_sum']."</td>
+                <td>".$row['win_balls_num']."</td>
+                <td>".$row['coef']."</td>
+                <td>".($row['bet_sum']*$row['coef'])."</td>
+              </tr>";
+  
+        }
+
+     print "
+                                            </tbody>
+											
+                                        </table>                                         
+                                        
+                                    </div>";
+     if($paginator)
+      echo "
+          <div class='footer'>
+            <div class=\"side fr\">$paginator</div>
+          </div>";
+     print                   "
+                                </div> 
+                            </div>                                
+                        </div>	 
+	 ";         
+            
+      }
+    else
+      echo "                           
+<div class='col-md-12'>
+<div class='alert alert-danger'>
+<center><strong>{$lang['adm_report_no_data']}</strong></center>
+<button class='close' data-dismiss='alert' type='button'>×</button>
+</div>
+</div>	  
+	  ";  
+    }
+  else
+    echo "                           
+<div class='col-md-12'>
+<div class='alert alert-danger'>
+<center><strong>ошибка MySql: ".$sql."\r\n".mysql_error()."</strong></center>
+<button class='close' data-dismiss='alert' type='button'>×</button>
+</div>
+</div>	
+	";  
+  }  
+  
+?>

@@ -1,0 +1,25 @@
+// Croatian
+plupload.addI18n({
+    'Select files': 'Izaberite datoteke:',
+    'Add files to the upload queue and click the start button.': 'Dodajte datoteke u listu i kliknite Upload.',
+    'Filename': 'Ime datoteke',
+    'Status': 'Status',
+    'Size': 'Veli  ina',
+    'Add files': 'Dodajte datoteke',
+    'Stop current upload': 'Zaustavi trenutan upload',
+    'Start uploading queue': 'Pokreni Upload',
+    'Uploaded %d/%d files': 'Uploadano %d/%d datoteka',
+    'N/A': 'N/A',
+    'Drag files here.': 'Dovucite datoteke ovdje',
+    'File extension error.': 'Gre  ka ekstenzije datoteke.',
+    'File size error.': 'Gre  ka veli  ine datoteke.',
+    'Init error.': 'Gre  ka inicijalizacije.',
+    'HTTP Error.': 'HTTP gre  ka.',
+    'Security error.': 'Sigurnosna gre  ka.',
+    'Generic error.': 'Generi  ka gre  ka.',
+    'IO error.': 'I/O gre  ka.',
+    'Stop Upload': 'Zaustavi upload.',
+    'Add Files': 'Dodaj datoteke',
+    'Start Upload': 'Pokreni upload.',
+    '%d files queued': '%d datoteka na   ekanju.'
+});

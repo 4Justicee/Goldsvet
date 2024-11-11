@@ -1,0 +1,403 @@
+#PaytableContent
+{
+	background: #1c2d42;
+	
+	padding: 0 105px 0 105px;
+	overflow: overlay;
+}
+
+#PaytableContent .title
+{
+	background-image: url("BaseSlotEngine/games/SHJSlot/paytable/title.png");
+	width: 727px;
+	height: 116px;
+	margin: 0 auto;
+}
+
+#PaytableContent .panel
+{
+	background: #061336;
+	border: 3px solid #b2b1b7;
+	border-radius: 10px;
+	margin-bottom: 14px;
+	padding: 5px 5px 5px 5px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	float: left;
+	-moz-box-shadow: 2px 2px 5px #000000;
+	-webkit-box-shadow: 2px 2px 13px #000000;
+	box-shadow: 2px 2px 13px #000000;
+}
+#PaytableContent .currency, #PaytableContent .jackpotGambleCurrency
+{
+	font-size: 50%;
+}
+#PaytableContent .panel.seven
+{
+	width: 562px;
+	height: 144px;
+	margin-right: 16px;
+}
+#PaytableContent .panel.dollar
+{
+	width: 562px;
+	height: 144px;
+	margin-right: 16px;
+}
+
+#PaytableContent .panel.multiplier
+{
+	width: 100%;
+	height: 694px;
+}
+#PaytableContent .panel.x2ImageContainer
+{
+	width:186px;
+	height:113px;
+	margin-bottom: 8px;
+}
+#PaytableContent .panel.bar
+{
+	width: 561px;
+	height: 144px;
+	margin-right: 16px;
+}
+
+#PaytableContent .panel.bell
+{
+	width: 100%;
+	height: 143px;
+}
+
+#PaytableContent .panel.clover
+{
+	width: 520px;
+	height: 530px;
+	margin-right: 16px;
+}
+
+#PaytableContent .panel.star
+{
+	width: 520px;
+	height: 258px;
+}
+#PaytableContent .panel.cherry
+{
+	width: 100%;
+	height: 156px;
+}
+#PaytableContent .panel.jackpot
+{
+	width: 100%;
+	overflow: hidden;
+}
+
+#PaytableContent .panel.gamble
+{
+	width: 100%;
+	overflow: hidden;
+}
+
+#PaytableContent .panel.linesAndRules
+{
+	width: 100%;
+	overflow: hidden;
+}
+
+#PaytableContent .multiplierContainer
+{
+	float:left;
+	width:325px;
+	margin-left: 20px;
+	
+}
+#PaytableContent .container
+{
+	float:left;
+	width:555px;
+	height:461px;
+	margin-top: 9px;
+}
+#PaytableContent .topContainer
+{
+	width:100%;
+	height: 503px;
+}
+#PaytableContent .sideImages
+{
+	float:right;
+	width:206px;
+	height:510px;
+	margin-top: -15px;
+	margin-bottom: 20px;
+}
+#PaytableContent .sideImages .singleImage
+{
+	width:510px;
+	height:206px;
+	background-position: 0px -389px;
+    -ms-transform-origin: left top; /* IE 9 */
+	-ms-transform: rotate(90deg) translate(0px, -206px); /* IE 9 */
+    -webkit-transform-origin: left top; /* Chrome, Safari, Opera */
+    -webkit-transform: rotate(90deg) translate(0px, -206px); /* Chrome, Safari, Opera */
+    transform-origin: left top;
+    transform: rotate(90deg) translate(0px, -206px);
+}
+#PaytableContent .paytable.container
+{
+	float:left;
+	width: 307px;
+	height:461px;
+}
+#PaytableContent .singleImage
+{
+	background-image: url("BaseSlotEngine/games/SHJSlot/paytable/sprite.jpg");
+	float: left;
+	margin-top: 2px;
+	width:322px;
+	height:188px;
+}
+#PaytableContent .singleImage.seven 
+{
+	background-position: -16px -8px;
+	width:160px;
+	height:103px;
+	margin-top: 14px;
+	margin-right: 17px;
+}
+#PaytableContent .singleImage.dollar 
+{
+	background-position: -187px -1px;
+	width:168px ;
+	height: 106px;
+	margin-top: 6px;
+	margin-right: 11px;
+}
+#PaytableContent .singleImage.bar
+{
+	background-position: -363px -6px;
+	width:171px ;
+	height:107px;
+	margin-top: 6px;
+	margin-right: 10px;
+}
+#PaytableContent .singleImage.smallImage
+{ 
+	background-position: 0px 0px;
+	float:left;
+	width:322px;
+	height:188px;
+	-webkit-transform-origin: 0px 0px;
+	-webkit-transform: scale3d(0.5, 0.5, 1);
+	-moz-transform: scale3d(0.5, 0.5, 1);
+	transform: scale3d(0.5, 0.5, 1);
+	margin-left:5px;
+}
+#PaytableContent .singleImage.smallImage.x2grapes{background-position: -266px -129px; margin-top: 0px;}
+#PaytableContent .singleImage.smallImage.x2apple{ background-position: -588px -129px; margin-top: 0px;}
+#PaytableContent .singleImage.smallImage.x2apricot{ background-position: -910px -129px;}
+#PaytableContent .singleImage.smallImage.x2cherry{ background-position: -1232px -129px;}
+#PaytableContent .singleImage.x2grapes{background-position: -266px -129px; margin-top: 10px; margin-bottom: 56px;}
+#PaytableContent .singleImage.x2apple{ background-position: -588px -129px; margin-top: 10px; margin-bottom: 56px;}
+#PaytableContent .singleImage.x2apricot{ background-position: -910px -129px;}
+#PaytableContent .singleImage.x2cherry{ background-position: -1232px -129px;}
+#PaytableContent .singleImage.cherry { background-position: -1065px 0px; width: 177px;   height: 119px; float: right; margin-right: 79px; margin-left: 10px; }
+#PaytableContent .singleImage.apple  { background-position: -1419px -2px;  width:175px;  height: 116px; float: right; margin-right: 79px; margin-left: 14px; }
+#PaytableContent .singleImage.grapes { background-position: -892px -1px;  width:172px;  height:  117px; float: none; margin: 0 auto; }
+#PaytableContent .singleImage.apricot{ background-position: -1250px -13px;  width:159px;  height: 93px; float: right; margin-right: 85px; margin-left: 23px; }
+#PaytableContent .singleImage.grapes_apricot { background-position: -16px -123px; width:119px; height:137px; margin-left: 18px; }
+#PaytableContent .singleImage.cherry_apple { background-position: -144px -127px; width:104px; height:129px; margin-left: 28px; }
+
+#PaytableContent .or
+{
+	font: bold 25px arial,sans-serif;
+	color: #bd050d;
+	text-align: right;
+	float: right;
+	text-shadow: 0px 2px 5px #000000;
+}
+
+#PaytableContent .or.apple { margin-top: 47px; }
+#PaytableContent .or.apricot { margin-top: 29px; }
+#PaytableContent .or.cherry { margin-top: 43px; }
+
+#PaytableContent .middleImageContainer
+{
+
+}
+
+#PaytableContent .singleImage.bell 
+{ 
+	background-position: -722px -6px;
+	width:159px; height:107px; 
+	margin-right: -23px;
+	margin-top: 10px;
+	-webkit-transform-origin: 0px 0px;
+	-webkit-transform: scale3d(0.9, 0.9, 1);
+	-moz-transform: scale3d(0.9, 0.9, 1);
+	transform: scale3d(0.9, 0.9, 1);
+}
+#PaytableContent .singleImage.star 
+{ 
+	background-position: -543px -4px; 
+	width:163px;
+	height:111px;
+	margin-right: -24px;
+	margin-top: 10px;
+	-webkit-transform-origin: 0px 0px;
+	-webkit-transform: scale3d(0.9, 0.9, 1);
+	-moz-transform: scale3d(0.9, 0.9, 1);
+	transform: scale3d(0.9, 0.9, 1);
+}
+
+#PaytableContent .singleImage.lineSection1
+{
+	background-position: -780px -242px;
+	width: 608px;
+	height: 133px;
+	margin: 10px auto;
+}
+#PaytableContent .singleImage.jackpotTitle
+{
+	background-position: 0px -317px;
+	width: 625px;
+	height:72px;
+	float: none;
+	margin: 10px auto 20px auto;
+}
+
+#PaytableContent .linesContainer
+{
+	float: left;
+	width: 257px;
+	height: 100%;
+}
+#PaytableContent .linesContainer.star
+{
+	
+	width: 220px;
+	
+}
+#PaytableContent .linesContainer.cherry
+{
+	
+	width: 220px;
+	
+}
+
+#PaytableContent .paytableLine
+{
+	overflow: hidden;
+	height: 40px;
+	margin-bottom: 6px;
+}
+#PaytableContent .paytableLine.iOS
+{
+	height: 44px;
+	margin-bottom: -2px;
+}
+
+#PaytableContent .paytableLine.firstLine { margin-top: 22px; }
+#PaytableContent .paytableLine.firstLine.cherry {margin-top: 47px; }
+#PaytableContent .paytableLine.firstLine.bell {margin-top: 40px; }
+#PaytableContent .paytableLine.firstLine.seven { margin-top: 49px; }
+#PaytableContent .paytableLine.firstLine.dollar { margin-top: 116px; }
+#PaytableContent .paytableLine.firstLine.bar { margin-top: 112px; }
+
+#PaytableContent .textLine
+{
+	line-height: 40px;
+	font: bold 38px arial,sans-serif;
+	color: #FFFFFF;
+	text-align: center;
+	text-shadow: 0px 2px 5px #000000;
+}
+#PaytableContent .textLine.lineContent
+{
+	text-shadow: 0px 2px 5px #000000;
+	overflow: hidden;
+}
+#PaytableContent .textLine.lineJackpot
+{
+	font-size: 22px;
+	margin-left: 10px;
+}
+
+#PaytableContent .textLine.lineGamble
+{
+	font-size: 22px;
+	margin-left: 10px;
+}
+
+#PaytableContent .paytableText
+{
+	font: bold 25px arial,sans-serif;
+	color: #fe9700;
+	text-align: center;
+	line-height: 47px;
+	text-shadow: 0px 1px 5px #000000;
+}
+
+#PaytableContent .exceptText
+{
+	position: relative;
+	left: -60px;
+	z-index: 100;
+	line-height: 80px;
+}
+
+#PaytableContent .paytableText.multiplier
+{
+	margin-top: 6px;
+	margin-bottom: 19px;
+	color: #ff181e;
+	font-size: 44px; 
+	text-shadow: 0px 2px 5px #000000;
+}
+#PaytableContent .paytableText.multiplier.smallTitle   
+{
+	margin-top: 0px;
+	margin-bottom: 0px;
+	color: #c20a00;
+	font-size: 27px;
+}
+#PaytableContent .paytableText.multiplier.bottomtitle
+{
+	height:40px;
+	color: #c20a00;
+	float: left;
+	width: 100%;
+	font-size: 32px;
+}
+
+#PaytableContent .paytableText.jackpot
+{
+	width: 100%;
+	font-size: 20px;
+	line-height: 31px;
+	padding: 0px 26px;
+	box-sizing: border-box;
+	margin-bottom: 6px;
+}
+
+#PaytableContent .jackpotLabel { color: #f0de2e; }
+#PaytableContent .cardsLabel { color: #cf3838; }
+#PaytableContent .qBets
+{
+	position: relative;
+	left: -70px;
+}
+#PaytableContent .gambleFirstLine
+{
+	position: relative;
+	left: -40px;
+}
+#PaytableContent .sectionTitle
+{
+	font: bold 40px arial,sans-serif;
+	color: #deaf0f;
+	text-align: center;
+	text-shadow: 0px 0px 2px #001903, 0px 0px 2px #001903, 0px 0px 2px #001903, 0px 0px 2px #001903, 0px 0px 2px #001903, 0px 0px 2px #001903, 0px 0px 2px #001903, 0px 0px 2px #001903;
+	margin: 7px auto;
+}

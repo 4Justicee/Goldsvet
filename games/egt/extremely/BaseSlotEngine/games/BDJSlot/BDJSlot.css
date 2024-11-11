@@ -1,0 +1,37 @@
+#Game.slot.BDJSlot .gameViewport { background: url('BaseSlotEngine/games/BDJSlot/images/background.jpg?v=1.3.0|23-08-2016|10:43:43') top center; }
+#Game.slot.BDJSlot .backgroundOverlay { background-image: url('BaseSlotEngine/games/BDJSlot/images/backgroundOverlay.png?v=1.3.0|23-08-2016|10:43:43');  }
+#Game.slot.BDJSlot .gameTitle { background-image: url('BaseSlotEngine/games/BDJSlot/images/gameTitle.png?v=1.3.0|23-08-2016|10:43:43'); }
+#Game.slot.BDJSlot .denomButton { background-image: url("BaseSlotEngine/games/BDJSlot/images/denominationButton.png?v=1.3.0|23-08-2016|10:43:43"); }
+#Game.slot.BDJSlot .autoplayButton { background-image: url("BaseSlotEngine/games/BDJSlot/images/autoSoundButton.png?v=1.3.0|23-08-2016|10:43:43"); }
+#Game.slot.BDJSlot .soundButton { background-image: url("BaseSlotEngine/games/BDJSlot/images/autoSoundButton.png?v=1.3.0|23-08-2016|10:43:43"); }
+#Game.slot.BDJSlot .betButton { background-image: url("BaseSlotEngine/games/BDJSlot/images/betButton.png?v=1.3.0|23-08-2016|10:43:43"); }
+#Game.slot.BDJSlot .icons{		background-image: url("BaseSlotEngine/games/BDJSlot/images/settingsInfo.png?v=1.3.0|23-08-2016|10:43:43");}
+#Game.slot.BDJSlot .iconsImage{	background-image: url("BaseSlotEngine/games/BDJSlot/images/settingsInfo.png?v=1.3.0|23-08-2016|10:43:43"); }
+#Game.slot.BDJSlot .jackpotBoxes { background-image: url('BaseSlotEngine/games/BDJSlot/images/backgroundOverlay.png?v=1.3.0|23-08-2016|10:43:43'); }
+#Game.slot.BDJSlot .jackpotContentView 
+{ 
+	border-color: #f5e937; 
+	background: -webkit-linear-gradient(black, #2f782c);
+	background: -o-linear-gradient(black, #2f782c);
+	background: -moz-linear-gradient(black, #2f782c);
+	background: linear-gradient(black, #2f782c);
+}
+#Game.slot.BDJSlot .bottomUIContainer { background-image: url('BaseSlotEngine/games/BDJSlot/images/backgroundOverlay.png?v=1.3.0|23-08-2016|10:43:43'); }
+#Game.slot.BDJSlot .gambleContainer { border-color: #f5e937; }
+#Game.slot.BDJSlot .settingsView { background-image: url("BaseSlotEngine/games/BDJSlot/images/background.jpg?v=1.3.0|23-08-2016|10:43:43"); }
+#Game.slot.BDJSlot .settingsPaytableCloseButton { background-image: url("BaseSlotEngine/games/BDJSlot/images/settingsPaytableCloseButton.png?v=1.3.0|23-08-2016|10:43:43"); }
+#Game.slot.BDJSlot .settingsPaytableCloseButtonArrow { background-image: url("BaseSlotEngine/games/BDJSlot/images/settingsPaytableCloseButton.png?v=1.3.0|23-08-2016|10:43:43"); }
+#Game.slot.BDJSlot .settingsPaytableCloseButtonArrowHighlight { background-image: url("BaseSlotEngine/games/BDJSlot/images/settingsPaytableCloseButton.png?v=1.3.0|23-08-2016|10:43:43"); }
+#Game.slot.BDJSlot .paytableFromSettingsButton { background-image: url("BaseSlotEngine/games/BDJSlot/images/settingsPaytableCloseButton.png?v=1.3.0|23-08-2016|10:43:43"); }
+#Game.slot.BDJSlot .settingsFromPaytableButton { background-image: url("BaseSlotEngine/games/BDJSlot/images/settingsPaytableCloseButton.png?v=1.3.0|23-08-2016|10:43:43"); }
+#Game.slot.BDJSlot .textField.lines
+{
+	color: #ffffff;
+	text-shadow: 0px 0px 6px #303030, 0px 0px 6px #303030, 0px 0px 6px #303030, 0px 0px 6px #303030, 0px 0px 6px #303030, 0px 0px 6px #303030, 0px 0px 6px #303030;
+}
+#Game.slot.BDJSlot .textField.lines.active
+{
+	color: #ffff00;
+	text-shadow: 0px 0px 6px #bf0000, 0px 0px 6px #bf0000, 0px 0px 6px #bf0000, 0px 0px 6px #bf0000, 0px 0px 6px #bf0000, 0px 0px 6px #bf0000, 0px 0px 6px #bf0000;
+}
+#Game.slot.BDJSlot .gameNumberTime { color: #bcba1b; }

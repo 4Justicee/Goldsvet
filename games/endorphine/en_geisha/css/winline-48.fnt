@@ -1,0 +1,21 @@
+<font>
+  <info face="winline-48" size="48" bold="0" italic="0" charset="" unicode="" stretchH="100" smooth="1" aa="1" padding="2,2,2,2" spacing="0,0" outline="0"/>
+  <common lineHeight="50.02" base="33" scaleW="64" scaleH="512" pages="1" packed="0"/>
+  <pages>
+    <page id="0" file="winline-48.png"/>
+  </pages>
+  <chars count="11">
+    <char id="48" x="2" y="2" width="33" height="44" xoffset="-3.2" yoffset="0.47" xadvance="25.04" page="0" chnl="15"/>
+    <char id="49" x="2" y="48" width="25" height="41" xoffset="-1.24" yoffset="2.2" xadvance="25.04" page="0" chnl="15"/>
+    <char id="50" x="2" y="91" width="31" height="44" xoffset="-2.72" yoffset="0.09" xadvance="25.04" page="0" chnl="15"/>
+    <char id="51" x="2" y="137" width="31" height="44" xoffset="-1.8" yoffset="0.09" xadvance="25.04" page="0" chnl="15"/>
+    <char id="52" x="2" y="183" width="31" height="43" xoffset="-2.34" yoffset="0.89" xadvance="25.04" page="0" chnl="15"/>
+    <char id="53" x="2" y="228" width="31" height="44" xoffset="-1.99" yoffset="0.19" xadvance="25.04" page="0" chnl="15"/>
+    <char id="54" x="2" y="274" width="31" height="44" xoffset="-2.66" yoffset="0.14" xadvance="25.04" page="0" chnl="15"/>
+    <char id="55" x="2" y="320" width="29" height="42" xoffset="-1.66" yoffset="0.84" xadvance="25.04" page="0" chnl="15"/>
+    <char id="56" x="2" y="364" width="32" height="44" xoffset="-3.16" yoffset="0" xadvance="25.04" page="0" chnl="15"/>
+    <char id="57" x="2" y="410" width="31" height="44" xoffset="-2.57" yoffset="0.14" xadvance="25.04" page="0" chnl="15"/>
+    <char id="46" x="29" y="48" width="19" height="19" xoffset="-1.9" yoffset="24.84" xadvance="14.05" page="0" chnl="15"/>
+    <char id="32" x="0" y="0" width="0" height="0" xoffset="-1.9" yoffset="24.84" xadvance="13.91" page="0" chnl="15"/>
+  </chars>
+</font>

@@ -1,0 +1,130 @@
+<?php 
+
+
+  $sql="SELECT t1.name, t1.id, 
+          sum(if(t2.sum>0,t2.sum ,0)) as inpay_k, 
+          sum(if(t2.sum<0,t2.sum ,0))*-1 as outpay_k,
+          (select sum(payin) from users where room_id=t1.id) as pay_in,
+          income,
+          (select sum(ifnull(jack_pay.suma,0)) from jack_pay join  users on (users.id=jack_pay.user_id) where jack_pay.status>0 ) as bonus_sum
+          FROM `rooms` t1 
+          left join users t3 on(t3.room_id=t1.id)
+          join enter t2 using (login)";
+
+$from_date=isset($_POST['fromdate'])?$_POST['fromdate']: REPORT_START_DATE;
+$to_date=isset($_POST['todate'])?$_POST['todate']: REPORT_CURR_DATE;
+
+$from_time=isset($_POST['fromtime'])?$_POST['fromtime']: REPORT_START_TIME;
+$to_time=isset($_POST['totime'])?$_POST['totime']: REPORT_END_TIME;
+
+if($from_date)
+ $where[]='ifnull(t2.`date`,0) >= '.strtotime($from_date.' '.$from_time);
+
+if($to_date)
+ $where[]='ifnull(t2.`date`,0)<= '.strtotime($to_date.' '.$to_time); 
+ 
+if(isset($where)&& isset ($sql))
+  $sql.=' where '.implode(' and ',$where);
+
+ $sql.= ' group by t1.name';
+
+ //echo $sql;
+if(isset($sql))
+  {
+  $res=pager($sql,$paginator);
+  if ($res)
+    {
+    if(mysql_num_rows($res)>0)
+      {
+            print '
+                        <div class="row">                            
+                            <div class="col-md-12">
+                                <div class="block">
+                                    <div class="head"> 
+									<h2>'.$lang['reportmenu'][1].'</h2>                                       
+                                    </div>
+                                    <div class="content np">
+
+                                        <table cellpadding="0" cellspacing="0" width="100%" id="addRowExample" class="editable oc_disable">
+										
+                                            <thead>
+                                                <tr>                                                                                                        
+                                                    <th width="25%" colspan=3>'.$lang['adm_report_KAS'].'</th>
+													                          <th width="25%" colspan=2>'.$lang['adm_report_INCOME'].'</th>
+                                                </tr>
+												
+                                                <tr>                                                    
+                                                    <th width="20%">'.$lang['adm_report_receipt'].'</th> 
+                                                    <th width="20%">'.$lang['adm_report_outcome'].'</th>													
+                                                    <th width="20%">'.$lang['adm_report_rest'].'</th>
+													<th width="20%">'.$lang['adm_report_np'].'</th>
+													<th width="20%">'.$lang['adm_report_income'].'</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody> 			
+            ';
+      $i=1; 
+      $ink_total=0;
+      $inkb_total=0;
+      $outk_total=0;
+      $k_total=0; 
+      
+      
+      $pay_in_total=0;
+      $pay_incom_total=0;
+      
+      $jack_total=0;
+      
+      while($row=mysql_fetch_array($res))
+        {
+        print "<tr align='center'>                
+                <td><span class='badge badge-success'>".sprintf("%01.2f",$row['inpay_k'])."</span></td>
+				<td><span class='badge badge-danger'>".sprintf("%01.2f",$row['outpay_k'])."</span></td>
+                <td><span class='badge'>".sprintf("%01.2f",($row['inpay_k']-$row['outpay_k']))."</span></td>
+                <td><span class='badge badge-info'>".sprintf("%01.2f",$row['pay_in'])."</span></td>
+                <td><span class='badge badge-success'>".sprintf("%01.2f",$row['income'])."</span></td>
+                
+              </tr>";
+  
+        }
+
+     print "
+                                            </tbody>
+											
+                                        </table>                                         
+                                        
+                                    </div>";
+     if($paginator)
+      echo "
+          <div class='footer'>
+            <div class=\"side fr\">$paginator</div>
+          </div>";
+     print                   "
+                                </div> 
+                            </div>                                
+                        </div>	 
+	 ";         
+            
+      }
+    else
+      echo "                           
+<div class='col-md-12'>
+<div class='alert alert-danger'>
+<center><strong>{$lang['adm_report_no_data']}</strong></center>
+<button class='close' data-dismiss='alert' type='button'>×</button>
+</div>
+</div>	  
+	  ";  
+    }
+  else
+    echo "                           
+<div class='col-md-12'>
+<div class='alert alert-danger'>
+<center><strong>ошибка MySql: ".$sql."\r\n".mysql_error()."</strong></center>
+<button class='close' data-dismiss='alert' type='button'>×</button>
+</div>
+</div>	
+	";  
+  }  
+  
+?>

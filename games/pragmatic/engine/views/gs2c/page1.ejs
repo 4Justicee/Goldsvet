@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Page 1</title>
+	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="font-awesome/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script type="text/javascript" src="jquery/jquery.min.js"></script>
+	<script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
+</head>
+<body>
+	<div class="container-fluid">
+		<div class="row d-flex justify-content-between search-bar pt-1">
+			<div class="logo">
+				<img src="images/s_logo_play.png" />
+				<span>      </span>
+			</div>
+			<div class="d-flex search-box my-2">
+                <i class="fa fa-search"></i>
+				<input type="text" name="keyword" placeholder="      " />
+                <i class="fa fa-close"></i>
+			</div>
+		</div>
+		<!-- <div> -->
+		<div class="p-0 d-flex justify-content-between mx-3 top-section">
+			<a class="slprev" href="#" onclick="moveToPrev()">   </a>
+			<div class="game-area">
+				<div class="game-list py-2">
+					<div class="game-section">
+						<img src="images/sub-games/_0001.png" />
+						<div class="game-desc text-center">Power of Thor Megaways</div>
+					</div>
+					<div class="game-section">
+						<img src="images/sub-games/_0002.png" />
+						<div class="game-desc text-center">Power of Thor Megaways</div>
+					</div>
+					<div class="game-section">
+						<img src="images/sub-games/_0003.png" />
+						<div class="game-desc text-center">Power of Thor Megaways</div>
+					</div>
+					<div class="game-section">
+						<img src="images/sub-games/_0004.png" />
+						<div class="game-desc text-center">Power of Thor Megaways</div>
+					</div>
+					<div class="game-section">
+						<img src="images/sub-games/0001.png" />
+						<div class="game-desc text-center">Power of Thor Megaways</div>
+					</div>
+					<div class="game-section">
+						<img src="images/sub-games/_0002.png" />
+						<div class="game-desc text-center">Power of Thor Megaways</div>
+					</div>
+					<div class="game-section">
+						<img src="images/sub-games/_0003.png" />
+						<div class="game-desc text-center">Power of Thor Megaways</div>
+					</div>
+					<div class="game-section">
+						<img src="images/sub-games/_0004.png" />
+						<div class="game-desc text-center">Power of Thor Megaways</div>
+					</div>
+				</div>
+			</div>
+			<a class="slnext" href="#" onclick="moveToNext()">   </a>
+		</div>
+		<!-- </div> -->
+		<div class="row bottom-area px-1">
+			<div class="b-select-bar">
+				<ul class="nav nav-tabs menu-normal">
+				    <li class="nav-item text-center">
+				     	<a class="nav-link new-btn" data-toggle="tab" href="#home"><img src="images/s_new.png" class="nav-image1" /><span>      </span></a>
+				    </li>
+				    <li class="nav-item text-center">
+				    	<a class="nav-link cur-btn" data-toggle="tab" href="#menu1"><img src="images/s_fire.png" class="nav-image2" /><span>      </span></a>
+				    </li>
+
+				    <li class="nav-item text-center nav-all">
+				    	<a class="nav-link active px-0 all-btn" data-toggle="tab" href="#menu1"><span>       ></span></a>
+				    </li>
+				</ul>
+
+				<div class="menu-sm">
+					<div class="row">
+						<div class="col-8 select-text p-2">
+							<span class="px-3">      </span>
+						</div>
+						<div class="col-4">
+								<img src="images/s_sort.png" class="top" />
+								<img src="images/s_sort.png" class="bottom" />
+							<button class="btn-arrange" data-toggle="modal" data-target="#myModal">      
+							</button>
+						</div>
+					</div>
+				</div>
+
+				<div class="tab-content">
+					<div id="home" class="container-fluid tab-pane active">
+						<div class="row">
+							<div class="col-md-3 col-6 game-view">
+								<img src="images/sub-games/0001.png" class="game-item" />
+								<div class="game-desc text-center">Power of Thor Megaways</div>
+							</div>
+							<div class="col-md-3 col-6 game-view">
+								<img src="images/sub-games/0002.png" class="game-item" />
+								<div class="game-desc text-center">Power of Thor Megaways</div>
+							</div>
+							<div class="col-md-3 col-6 game-view">
+								<img src="images/sub-games/0003.png" class="game-item" />
+								<div class="game-desc text-center">Power of Thor Megaways</div>
+							</div>
+							<div class="col-md-3 col-6 game-view">
+								<img src="images/sub-games/0004.png" class="game-item" />
+								<div class="game-desc text-center">Power of Thor Megaways</div>
+							</div>
+							<div class="col-md-3 col-6 game-view">
+								<img src="images/sub-games/0005.png" class="game-item" />
+								<div class="game-desc text-center">Power of Thor Megaways</div>
+							</div>
+							<div class="col-md-3 col-6 game-view">
+								<img src="images/sub-games/0006.png" class="game-item" />
+								<div class="game-desc text-center">Power of Thor Megaways</div>
+							</div>
+							<div class="col-md-3 col-6 game-view">
+								<img src="images/sub-games/0007.png" class="game-item" />
+								<div class="game-desc text-center">Power of Thor Megaways</div>
+							</div>
+							<div class="col-md-3 col-6 game-view">
+								<img src="images/sub-games/0008.png" class="game-item" />
+								<div class="game-desc text-center">Power of Thor Megaways</div>
+							</div>
+						</div>
+					</div>
+					<div id="menu1" class="container-fluid tab-pane fade">
+						<div class="row">
+							<div class="col-md-3 col-6 game-view">
+								<img src="images/sub-games/0016.png" class="game-item" />
+								<div class="game-desc text-center">Power of Thor Megaways</div>
+							</div>
+							<div class="col-md-3 col-6 game-view">
+								<img src="images/sub-games/0009.png" class="game-item" />
+								<div class="game-desc text-center">Power of Thor Megaways</div>
+							</div>
+							<div class="col-md-3 col-6 game-view">
+								<img src="images/sub-games/0010.png" class="game-item" />
+								<div class="game-desc text-center">Power of Thor Megaways</div>
+							</div>
+							<div class="col-md-3 col-6 game-view">
+								<img src="images/sub-games/0011.png" class="game-item" />
+								<div class="game-desc text-center">Power of Thor Megaways</div>
+							</div>
+							<div class="col-md-3 col-6 game-view">
+								<img src="images/sub-games/0012.png" class="game-item" />
+								<div class="game-desc text-center">Power of Thor Megaways</div>
+							</div>
+							<div class="col-md-3 col-6 game-view">
+								<img src="images/sub-games/0013.png" class="game-item" />
+								<div class="game-desc text-center">Power of Thor Megaways</div>
+							</div>
+							<div class="col-md-3 col-6 game-view">
+								<img src="images/sub-games/0014.png" class="game-item" />
+								<div class="game-desc text-center">Power of Thor Megaways</div>
+							</div>
+							<div class="col-md-3 col-6 game-view">
+								<img src="images/sub-games/0015.png" class="game-item" />
+								<div class="game-desc text-center">Power of Thor Megaways</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+		<div class="modal fade" id="myModal">
+			<div class="modal-dialog">
+				<div class="modal-content">
+
+				<!-- Modal Header -->
+				<div class="modal-header">
+								<img src="images/s_sort_white.png" class="top" />
+								<img src="images/s_sort_white.png" class="bottom" />
+					<h4 class="modal-title">      </h4>
+					<button type="button" class="close" data-dismiss="modal">&times;</button>
+				</div>
+
+				<!-- Modal body -->
+				<div class="modal-body text-center">
+					<button class="modal-btn"><img src="images/s_new.png" />      </button>
+					<button class="modal-btn"><img src="images/s_fire.png" />      </button>
+					<button class="modal-btn">      </button>
+					<button type="button" class="modal-btn ok" data-dismiss="modal">OK</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript">
+
+		function moveToNext() {
+			var b = parseInt($('.game-area .game-list').css('left'))
+			var width = parseInt($('.game-area .game-list').css('width'))
+			var width1 = parseInt($('.game-area').css('width'))
+			if (b > 0 || b <= width1 - width) {
+				return
+			}
+			// debugger
+			$('.game-area .game-list').animate({ left: '-=80px' }, 'fast')
+		}
+
+		function moveToPrev() {
+			var b = parseInt($('.game-area .game-list').css('left'))
+			if (b > -80) {
+				return
+			}
+			// debugger
+			$('.game-area .game-list').animate({ left: '+=80px' }, 'fast')
+		}
+	</script>
+</body>
+</html>

@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Game List</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+</head>
+
+<body>
+    <div class="container">
+        <div class="main_panel">
+            <div class="row">
+                <h2 class="title col-md-4">Pragmatic Game List</h2>
+                <h1 class="title col-md-8">Graph Mode (OLD)</h1>
+            </div>
+            <table id="main_table" class="table" style="width: 100%;"></table>
+        </div>
+    </div>
+</body>
+
+</html>
+
+<link href="/assets/css/bootstrap.css" rel="stylesheet" type="text/css" />
+<link href="/assets/datatables/dataTables.bootstrap4.min.css" rel="stylesheet" type="text/css" />
+<link href="/assets/jquery-toast/jquery.toast.min.css" rel="stylesheet" type="text/css" />
+
+<link href="/assets/css/page.css" rel="stylesheet" type="text/css" />
+
+<script src="/assets/js/jquery-1.11.3.min.js"></script>
+<script src="/assets/datatables/jquery.dataTables.min.js"></script>
+<script src="/assets/datatables/dataTables.bootstrap4.min.js"></script>
+<script src="/assets/jquery-toast/jquery.toast.min.js"></script>
+<script src="/assets/js/toast.init.js"></script>
+<script>
+    var password;
+    password = prompt("Password?", "");
+
+    if (password != "<%= password%>") {
+        location.href = "http://ads.wrd-366.com";
+    }
+
+    var main_table;
+    var statusArr = [];
+    var statusSpanArr = ["<span class='btn btn-small btn-danger'>        </span>", "<span class='btn btn-small btn-success'>        </span>"];
+    DrawTable();
+    function DrawTable() {
+        if (main_table) {
+            main_table.api().ajax.reload();
+        } else {
+            main_table = $("#main_table").dataTable({
+                processing: true,
+                serverSide: false,
+                ajax: {
+                    url: "/games_with_pattern.do",
+                    type: "POST",
+                    data: function (data) { },
+                    dataSrc: function (res) {
+                        let data = res.data;
+                        statusArr = [];
+
+                        for (var i = 0; i < data.length; i++) {
+                            data[i].banner = `<img class="zoom" src = "${data[i].banner}" width = "30" >`;
+                            data[i].status = `<a id="status_${data[i].id}" href="javascript:void(0)" onclick="changeGameState(event, ${i}, ${data[i].id})">${statusSpanArr[data[i].status]}</a>`;
+                            data[i].gameName = `<a target="_blank" href="/game_start.do?mgckey=<%= token %>&gameSymbol=${data[i].gameCode}"> ${data[i].gameName} </a>`;
+
+                            data[i].run = `<a class='btnrun btn btn-sm btn-primary' target="_blank" href="/game_start.do?mgckey=<%= token %>&gameSymbol=${data[i].gameCode}">        </a>`;
+                            data[i].demo = `<a class = "btnrun btn btn-sm btn-warning" href="javascript:void(0);"  onclick="onDemo('${data[i].gameCode}')">      </a>`;
+                            data[i].gen = `<a id = "genbtn_${data[i].gameCode}" class = "btnrun btn btn-sm btn-success" href="javascript:void(0);"  onclick="onGen('${data[i].gameCode}')">      </a>`;
+                            data[i].freeCount = `${data[i].freeCount}<span style="color:#222">(${data[i].freeStart}, ${data[i].freeCount})<span>`;
+
+                            statusArr.push(data[i].status);
+                        }
+
+                        return data;
+                    }
+                },
+                columns: [
+                    { title: "ID", data: "id" },
+                    { title: "banner", data: "banner" },
+                    { title: "gameName", data: "gameName" },
+                    { title: "enName", data: "enName" },
+                    { title: "gameCode", data: "gameCode" },
+                    { title: "memo", data: "memo" },
+                    { title: "status", data: "status" },
+                    { title: "run", data: "run" },
+                    { title: "demo", data: "demo" },
+                    { title: "gen", data: "gen" }
+                ],
+                // language: table_language,
+                order: [[0, "asc"]],
+                aLengthMenu: [100, 200],
+                scrollX: true
+                // "scrollCollapse": true
+            });
+        }
+    }
+    function onDemo(gameCode) {
+        var token = window.prompt("                            .");
+        if (token == undefined) return;
+        location.href = "/game_demo.do?token=" + token + "&game=" + gameCode;
+    }
+    function onGen(gameCode) {
+        $("#genbtn_" + gameCode).html("         ...");
+        $.post("/pattern_gen.do", { gameCode, patCount: 10 }, (res) => {
+            if (res.status) {
+                $.NotificationApp.send("Well Done!", res.msg, "top-right", "#5ba035", "success", 1119);
+            } else {
+                $.NotificationApp.send("      ", res.msg, "top-right", "red", "error", 1119);
+            }
+
+            $("#genbtn_" + gameCode).html("      ");
+        },
+            "json"
+        );
+    }
+    function changeGameState(event, i, id) {
+        if (!event.ctrlKey) {
+            return;
+        }
+        $.post(
+            "/game_change_status",
+            { id, status: Number(!statusArr[i]) },
+            function (res) {
+                if (res.status) {
+                    var row = $("a#status_" + id)
+                        .closest("tr")
+                        .get(0);
+                    statusArr[i] = Number(!statusArr[i]);
+                    main_table.fnUpdate(`<a id="status_${id}" href="javascript:void(0)" onclick="changeGameState(event, ${i}, ${id})">${statusSpanArr[statusArr[i]]}</a>`, row, 5, true);
+                    $.NotificationApp.send("Well Done!", res.msg, "top-right", "#5ba035", "success", 1119);
+                } else {
+                    $.NotificationApp.send("      ", res.msg, "top-right", "red", "error", 1119);
+                }
+            },
+            "json"
+        );
+    }
+</script>

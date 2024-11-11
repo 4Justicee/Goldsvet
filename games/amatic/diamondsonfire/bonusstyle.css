@@ -1,0 +1,65 @@
+
+#jpdiv {
+    left:0px;
+    top:0px;
+    position:absolute;
+    width:100%;
+    height:100%;
+    z-index:3000;
+    background: rgba(0, 0, 0, 0);
+    margin:0px;
+    border:0px;
+    padding:0px;
+    display: none;
+	overflow: hidden;
+}
+#jpinner
+{
+    position:absolute;
+	z-index:3000;
+    width: 800px;
+    height: 600px;
+    top:50%;
+    left:50%;
+    margin:-300px 0 0 -370px;
+	background-image: url('../jackpot/images/jackpot.png');
+	background-size: 600px;
+	background-repeat:no-repeat;
+	background-position: center center;
+}
+#jpwin
+{
+    position: absolute;
+    left: 450;
+    top: 370px;
+    color: white;
+    font-size: 45px;
+    font-family: Impact;
+}
+
+#bonusdiv {
+    left:0px;
+    top:0px;
+    position:absolute;
+    width:100%;
+    height:100%;
+    z-index:3000;
+    background: rgba(0, 0, 0, 0);
+    margin:0px;
+    border:0px;
+    padding:0px;
+    display: none;
+	overflow: hidden;
+}
+#bonusinner
+{
+    position:absolute;
+	z-index:3000;
+    width: 800px;
+    height: 600px;
+    top:50%;
+    left:50%;
+    margin:-300px 0 0 -400px;
+	overflow:hidden;
+	background-image: url('../bonus/images/bonus.png');
+}
